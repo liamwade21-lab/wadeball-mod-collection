@@ -81,14 +81,6 @@ window.MODS = [
       "Uninstalling: delete Viltrumite.dll and the Viltrumite folder from WorldBox's mods folder."
     ],
 
-    gallery: [
-      { video: "mods/viltrumite-powers/media/human.mp4",  poster: "mods/viltrumite-powers/media/human.jpg",  caption: "Human village" },
-      { video: "mods/viltrumite-powers/media/elf.mp4",    poster: "mods/viltrumite-powers/media/elf.jpg",    caption: "Elf village" },
-      { video: "mods/viltrumite-powers/media/orc.mp4",    poster: "mods/viltrumite-powers/media/orc.jpg",    caption: "Orc village" },
-      { video: "mods/viltrumite-powers/media/dwarf.mp4",  poster: "mods/viltrumite-powers/media/dwarf.jpg",  caption: "Dwarf village" },
-      { video: "mods/viltrumite-powers/media/bear.mp4",   poster: "mods/viltrumite-powers/media/bear.jpg",   caption: "Bear village" },
-      { video: "mods/viltrumite-powers/media/monkey.mp4", poster: "mods/viltrumite-powers/media/monkey.jpg", caption: "Monkey village" }
-    ],
 
     changelog: [
       { version: "1.2.0", date: "2026-10-24", notes: [
@@ -144,7 +136,7 @@ window.MODS = [
     controls: [],                    // optional [ ["Key", "What it does"] ]
     install: [],
     installNotes: [],                // optional
-    gallery: [ { image: "mods/my-next-mod/media/1.jpg", caption: "" } ],   // or { video, poster, caption }
+    gallery: [ { image: "mods/my-next-mod/media/1.jpg", caption: "" } ],   // optional; or { video, poster, caption }
     changelog: [ { version: "1.0.0", date: "YYYY-MM-DD", notes: [""] } ],
     credits: ""                      // optional
   }
