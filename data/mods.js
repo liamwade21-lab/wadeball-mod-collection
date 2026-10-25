@@ -21,8 +21,8 @@ window.MODS = [
     id: "viltrumite-powers",              // folder name in mods/ and the page address
     name: "Viltrumite Powers",
     game: "WorldBox",
-    version: "1.2.0",
-    released: "2026-10-24",
+    version: "1.3.0",
+    released: "2026-10-25",
     pitch: "Possess anyone in WorldFall and fly, punch and boom through the world like a Viltrumite.",
     accent: "#e0262b",                    // optional: colour for this mod's page and card
     unofficial: "Unofficial fan mod. Not affiliated with or endorsed by the creators of Invincible, Skybound, Image Comics, or Amazon / Prime Video. All characters belong to their owners.",
@@ -30,7 +30,7 @@ window.MODS = [
     heroVideo: "mods/viltrumite-powers/media/human.mp4",
     trailer: { video: "mods/viltrumite-powers/media/trailer.mp4", poster: "mods/viltrumite-powers/media/trailer.jpg" },
 
-    download: { url: "mods/viltrumite-powers/Viltrumite Powers 1.2.0.zip", label: "Viltrumite Powers 1.2.0.zip", size: "12.8 MB" },
+    download: { url: "mods/viltrumite-powers/Viltrumite Powers 1.3.0.zip", label: "Viltrumite Powers 1.3.0.zip", size: "12.8 MB" },
 
     requirements: [
       "WorldBox (Steam, PC)",
@@ -40,15 +40,15 @@ window.MODS = [
 
     features: [
       { title: "Flight, three gears", text: "Hover, fast flight, and supersonic flight that breaks the sound barrier with a sonic boom." },
-      { title: "Boost stacks", text: "Stack up to 5 boosts in supersonic flight: 46 to 349 tiles a second, each with its own boom." },
-      { title: "Smash through towns", text: "Buildings you hit go up like WorldBox bombs, fire and craters included. At 5 stacks: a 20-tile blast under a mushroom cloud." },
+      { title: "Boost stacks", text: "Stack up to 5 boosts in supersonic flight, 0.7 seconds each: 46 to 349 tiles a second, each with its own boom." },
+      { title: "Smash through towns", text: "Buildings you hit go up like WorldBox bombs, fire and craters included, and you keep your speed. From stack 2: a 20-tile atomic blast under a mushroom cloud, one every 4 seconds." },
       { title: "Meteor burn", text: "From stack 1 you glow with heat, from stack 2 you burn like a meteor entering the atmosphere." },
       { title: "Cratering dives", text: "Dive straight down from fast flight and leave a crater where you land." },
       { title: "Punches that launch", text: "Combos, plus a charged punch that blows up like a bomb where it lands. Bigger the longer you hold." },
       { title: "Grab and throw", text: "Grab anything up to cow size by the neck, throw it, or charge a throw that slams it into the ground." },
       { title: "Super run", text: "A 20-tile-a-second run that starts with a sonic boom and ploughs through people, buildings and trees." },
       { title: "The Omni-Man look", text: "With powers on you're drawn as Omni-Man: white suit, red cape, gloves, boots and belt. The cape sways and streams out as you fly." },
-      { title: "Invincible", text: "Nothing can hurt you while the powers are on, and a third-person camera follows you." },
+      { title: "Invincible", text: "Nothing can hurt you while the powers are on. A third-person camera follows you, and gold corners mark who you'd grab." },
       { title: "Surface trails", text: "Skim low and supersonic to tear up dust over land and spray over water." },
       { title: "Tweakable", text: "Speeds, damage, camera and shake live in viltrumite.json, re-read every time you power up." }
     ],
@@ -63,7 +63,7 @@ window.MODS = [
       ["Ctrl", "Fast flight: dive into a cratering landing (let go to pull up)"],
       ["Shift + W", "Run. Shift + W twice: super run (Space mid-run to take off)"],
       ["Left mouse", "Punch, quick clicks chain a combo. Hold and release: charged punch. While holding someone: throw"],
-      ["Q", "Grab the creature you're aiming at / let go"]
+      ["Q", "Grab the creature you're aiming at (gold corners show who) / let go"]
     ],
 
     install: [
@@ -83,6 +83,14 @@ window.MODS = [
 
 
     changelog: [
+      { version: "1.3.0", date: "2026-10-25", notes: [
+        "Target marker: gold corners frame the creature Q would grab. Can be turned off in F2 > Game > Target marker.",
+        "Boost stacks charge twice as fast (0.7 seconds), and smashing trees and buildings no longer costs a stack.",
+        "The atomic bomb goes off from stack 2 instead of 5, at most one every 4 seconds.",
+        "Fixed: the centre cross, charge bar and controls line show again.",
+        "Fixed: winding up a punch while running keeps your legs running instead of sliding.",
+        "Four new settings in viltrumite.json for stack charge time, stack cost, bomb stack and bomb cooldown."
+      ]},
       { version: "1.2.0", date: "2026-10-24", notes: [
         "The Omni-Man look: with powers on you're drawn as Omni-Man, with a cape that hangs, sways and streams out in flight.",
         "Switching powers on or off swaps the look in a flash of white and a ring of dust. Can be turned off in F2 > Game."
