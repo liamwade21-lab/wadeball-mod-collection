@@ -21,8 +21,8 @@ window.MODS = [
     id: "viltrumite-powers",              // folder name in mods/ and the page address
     name: "Viltrumite Powers",
     game: "WorldBox",
-    version: "1.3.0",
-    released: "2026-10-25",
+    version: "1.4.0",
+    released: "2026-10-26",
     pitch: "Possess anyone in WorldFall and fly, punch and boom through the world like a Viltrumite.",
     accent: "#e0262b",                    // optional: colour for this mod's page and card
     unofficial: "Unofficial fan mod. Not affiliated with or endorsed by the creators of Invincible, Skybound, Image Comics, or Amazon / Prime Video. All characters belong to their owners.",
@@ -30,12 +30,12 @@ window.MODS = [
     heroVideo: "mods/viltrumite-powers/media/human.mp4",
     trailer: { video: "mods/viltrumite-powers/media/trailer.mp4", poster: "mods/viltrumite-powers/media/trailer.jpg" },
 
-    download: { url: "mods/viltrumite-powers/Viltrumite Powers 1.3.0.zip", label: "Viltrumite Powers 1.3.0.zip", size: "12.8 MB" },
+    download: { url: "mods/viltrumite-powers/Viltrumite Powers 1.4.0.zip", label: "Viltrumite Powers 1.4.0.zip", size: "12.9 MB" },
 
     requirements: [
       "WorldBox (Steam, PC)",
       "The WorldFall mod, version 0.9.8.9, already installed and working",
-      "Single-player only"
+      "Multiplayer: everyone who wants powers needs the same version (guests can get it through WorldFall's own mod download)"
     ],
 
     features: [
@@ -50,7 +50,10 @@ window.MODS = [
       { title: "The Omni-Man look", text: "With powers on you're drawn as Omni-Man: white suit, red cape, gloves, boots and belt. The cape sways and streams out as you fly." },
       { title: "Invincible", text: "Nothing can hurt you while the powers are on. A third-person camera follows you, and gold corners mark who you'd grab." },
       { title: "Surface trails", text: "Skim low and supersonic to tear up dust over land and spray over water." },
-      { title: "Tweakable", text: "Speeds, damage, camera and shake live in viltrumite.json, re-read every time you power up." }
+      { title: "Tweakable", text: "Speeds, damage, camera and shake live in viltrumite.json, re-read every time you power up." },
+      { title: "Multiplayer", text: "Works in WorldFall multiplayer games: every player with the mod can power up, and everyone sees everyone's look, cape, poses, trails and booms." },
+      { title: "Player vs player", text: "Punch, grab and throw other players. Powered players get knocked back but never hurt. Held with powers on, Space breaks free." },
+      { title: "Host in control", text: "The host decides who gets powers (everyone, host only or nobody), everyone plays by the host's settings, and the world's damage happens in the host's world." }
     ],
 
     controls: [
@@ -63,7 +66,8 @@ window.MODS = [
       ["Ctrl", "Fast flight: dive into a cratering landing (let go to pull up)"],
       ["Shift + W", "Run. Shift + W twice: super run (Space mid-run to take off)"],
       ["Left mouse", "Punch, quick clicks chain a combo. Hold and release: charged punch. While holding someone: throw"],
-      ["Q", "Grab the creature you're aiming at (gold corners show who) / let go"]
+      ["Q", "Grab the creature or player you're aiming at (gold corners show who) / let go"],
+      ["Space (held by a player)", "Break free into a hover, with your powers on"]
     ],
 
     install: [
@@ -76,13 +80,22 @@ window.MODS = [
       "Start WorldBox, possess a person with WorldFall (G), and press T."
     ],
     installNotes: [
-      "By hand: copy Viltrumite.dll and the Viltrumite folder from the download's mods folder into worldbox_Data\\StreamingAssets\\mods.",
-      "Updating: install the new version the same way. Your viltrumite.json settings are kept.",
+      "By hand: copy Viltrumite.dll and the Viltrumite folder (just viltrumite.json) from the download's mods folder into worldbox_Data\\StreamingAssets\\mods.",
+      "Updating: install the new version the same way. Your viltrumite.json settings are kept. From 1.4.0 the sounds, animations and model are inside Viltrumite.dll, and the installer removes the old loose files.",
+      "Multiplayer: the host picks who gets powers in F2 > Game > Powers in multiplayer. Guests joining a host with the mod can get it from WorldFall's mod download (tick \"I trust this host\").",
       "Uninstalling: delete Viltrumite.dll and the Viltrumite folder from WorldBox's mods folder."
     ],
 
 
     changelog: [
+      { version: "1.4.0", date: "2026-10-26", notes: [
+        "Multiplayer: the powers work in WorldFall multiplayer games, for the host and every guest with the same version.",
+        "Everyone sees everyone's powers: the Omni-Man look, cape, flying poses, burn, trails, sonic booms and sounds.",
+        "Smashes, bombs, fires and craters happen in the host's world for everyone, and the host's game checks every guest's request.",
+        "Punch, grab and throw other players. Powered players are knocked back but never hurt; with powers on, Space breaks free.",
+        "The host chooses who gets powers: F2 > Game > Powers in multiplayer (Everyone, Host only, Nobody).",
+        "The mod is now one DLL plus its settings file, so guests can get it through WorldFall's mod download."
+      ]},
       { version: "1.3.0", date: "2026-10-25", notes: [
         "Target marker: gold corners frame the creature Q would grab. Can be turned off in F2 > Game > Target marker.",
         "Boost stacks charge twice as fast (0.7 seconds), and smashing trees and buildings no longer costs a stack.",
