@@ -181,7 +181,7 @@ window.MODS = [
       { image: "games/sandbox-engine/media/city-streets.jpg",      caption: "Alien city streets" },
       { image: "games/sandbox-engine/media/magenta-moon.jpg",      caption: "A moon in a magenta nebula" },
       { image: "games/sandbox-engine/media/red-sunset.jpg",        caption: "Red sunset on an alien world" },
-      { image: "games/sandbox-engine/media/volumetric-clouds.jpg", caption: "Volumetric clouds" },
+      { image: "games/sandbox-engine/media/nebula.jpg",            caption: "Flying through a nebula" },
       { image: "games/sandbox-engine/media/cloud-tops.jpg",        caption: "Above the cloud layer" },
       { image: "games/sandbox-engine/media/city-lights.jpg",       caption: "City lights on the night side" }
     ],
