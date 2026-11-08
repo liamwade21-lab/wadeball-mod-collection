@@ -9,8 +9,12 @@ public repo liamwade21-lab/wadeball-mod-collection; pushing to `main` publishes 
   `CATEGORIES` (home page sections: Mods, Games) and every entry in `MODS`.
 - Each entry's `category` picks its section. Files live in `mods/<id>/` or `games/<id>/`.
 - `js/site.js` builds the home page, each entry's page (`mod.html?id=<id>`) and the support page.
-- A `download.url` can be a file on the site, a full https link (shows "Get it on GitHub"),
-  or empty (shows "Download coming soon").
+- A `download.url` can be a file on the site or a .zip elsewhere (shows "Download vX"), another
+  https page (shows "Get it on GitHub"), or empty (shows "Download coming soon").
+  Optional `source` adds a "Source code" button.
+- Sandbox Engine's repo is source only. New versions: zip `target\release\spaceengine-rs.exe`
+  into `Sandbox Engine/`, publish it as a GitHub Release on liamwade21-lab/Sandbox-Engine (ask first),
+  then update version, download url/size and changelog in data/mods.js.
 
 ## Preview
 Launch config `wadeball-site` in `Desktop\.claude\launch.json` (port 8642). The browser caches

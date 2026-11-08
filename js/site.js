@@ -123,9 +123,10 @@
       ? esc(words.slice(0, -1).join(" ")) + "<br><span>" + esc(words[words.length - 1]) + "</span>"
       : "<span>" + esc(m.name) + "</span>";
 
-    // A download is a file on this site, a link elsewhere (e.g. GitHub), or not out yet (empty url)
+    // A download is a file (on this site or a .zip elsewhere, e.g. a GitHub Release),
+    // a page elsewhere (e.g. a GitHub repo), or not out yet (empty url)
     var dl = m.download || {};
-    var external = /^https?:/.test(dl.url || "");
+    var external = /^https?:/.test(dl.url || "") && !/\.zip$/i.test(dl.url);
     var dlBtn = !dl.url
       ? '<span class="btn btn-ghost" aria-disabled="true">Download coming soon</span>'
       : external
@@ -144,6 +145,7 @@
           '<p class="pitch">' + esc(m.pitch) + '</p>' +
           '<div class="hero-actions">' + dlBtn +
             (m.trailer ? '<a class="btn btn-ghost" href="#trailer">' + ICON_PLAY_SM + 'Watch the trailer</a>' : "") +
+            (m.source ? '<a class="btn btn-ghost" href="' + esc(m.source) + '" target="_blank" rel="noopener">Source code</a>' : "") +
           '</div>' +
           (m.unofficial ? '<div class="unofficial-badge">' + esc(c.badge) + '</div>' : "") +
         '</div>' +
@@ -178,7 +180,7 @@
       '<ul class="list-check">' + (m.requirements || []).map(function (r) { return '<li>' + esc(r) + '</li>'; }).join("") + '</ul>' +
       '<div class="download-box"><span class="tag tag-accent" style="justify-self:start">Latest: v' + esc(m.version) + '</span>' +
         '<div class="file">' + esc(dl.label || "") + '</div>' +
-        '<p class="muted">' + (dl.size ? esc(dl.size) + ' &middot; ' : "") + (external ? 'Free and open source' : 'Free download') + (m.released ? ' &middot; released ' + esc(fmtDate(m.released)) : "") + '</p>' +
+        '<p class="muted">' + (dl.size ? esc(dl.size) + ' &middot; ' : "") + (external || m.source ? 'Free and open source' : 'Free download') + (m.released ? ' &middot; released ' + esc(fmtDate(m.released)) : "") + '</p>' +
         dlBtn + '</div>' +
       '</div></div></section>');
 

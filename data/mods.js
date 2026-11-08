@@ -158,7 +158,9 @@ window.MODS = [
     unofficial: "Unofficial fan project. Not affiliated with or endorsed by SpaceEngine or Cosmographic Software. You need your own copy of SpaceEngine to play.",
     cover: "games/sandbox-engine/media/cover.jpg",
 
-    download: { url: "https://github.com/liamwade21-lab/Sandbox-Engine", label: "Source code on GitHub", size: "" },
+    // The playable build is a GitHub Release zip; the repo itself is source code only
+    download: { url: "https://github.com/liamwade21-lab/Sandbox-Engine/releases/download/v1.0.0/Sandbox-Engine-1.0.0-windows.zip", label: "Sandbox-Engine-1.0.0-windows.zip", size: "25.7 MB" },
+    source: "https://github.com/liamwade21-lab/Sandbox-Engine",   // optional: "Source code" button
 
     requirements: [
       "Your own copy of SpaceEngine (sold on Steam). Sandbox Engine won't run without it.",
@@ -207,6 +209,7 @@ window.MODS = [
     heroVideo: "",                   // optional
     trailer: null,                   // optional { video, poster }
     download: { url: "mods/my-next-mod/file.zip", label: "file.zip", size: "" },
+    source: "",                      // optional: link to the source code
     requirements: [],
     features: [ { title: "", text: "" } ],
     controls: [],                    // optional [ ["Key", "What it does"] ]

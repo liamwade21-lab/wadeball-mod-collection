@@ -5,8 +5,10 @@
 - Live since 2026-11-07: a Games section with Sandbox Engine 1.0.0 (cover + 9 pictures
   from Videos\1107.mp4, 6 features, requirements, changelog).
 - Sandbox Engine source is public at https://github.com/liamwade21-lab/Sandbox-Engine (pushed
-  2026-11-07, includes re/ string dumps by Liam's choice). The site's "Get it on GitHub" button
-  links there (live).
+  2026-11-07, includes re/ string dumps by Liam's choice). The repo is source only (target/ is
+  gitignored), so the playable game is GitHub Release v1.0.0: Sandbox-Engine-1.0.0-windows.zip
+  (25.7 MB, just spaceengine-rs.exe, not tested on its own). The site's Download button points
+  at that zip; a "Source code" button points at the repo.
 
 ## Waiting on Liam
 - Sandbox Engine install steps (optional; the section stays hidden until added).
