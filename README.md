@@ -2,12 +2,13 @@
 
 Plain static site: open `index.html` in a browser, or upload the whole folder to any static host.
 
-## Adding a mod
+## Adding a mod or game
 
-1. Make a folder `mods/<mod-id>/` with the mod's zip and a `media/` folder (cover image, clips, trailer).
+1. Make a folder `mods/<id>/` (or `games/<id>/`) with the zip and a `media/` folder (cover image, clips, trailer).
 2. Open `data/mods.js`, copy the template at the bottom into the `MODS` list and fill it in.
+   Set `category` to `"mods"` or `"games"`. New sections go in `CATEGORIES` at the top.
 
-That's it: the home grid gets a new card and the mod gets its own page at `mod.html?id=<mod-id>`.
+That's it: the home page gets a new card in that section, and the entry gets its own page at `mod.html?id=<id>`.
 
 ## Video tips
 

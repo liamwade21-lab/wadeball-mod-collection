@@ -4,6 +4,8 @@
 
   var SITE = window.SITE || {};
   var MODS = window.MODS || [];
+  var CATS = window.CATEGORIES || [{ id: "mods", title: "Mods", noun: "mod", badge: "Unofficial fan mod", soon: "" }];
+  function catOf(m) { return CATS.find(function (c) { return c.id === (m.category || "mods"); }) || CATS[0]; }
   var page = document.body.dataset.page;
   var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
@@ -34,7 +36,7 @@
         '<a class="brand" href="index.html">' + MARK +
           '<span class="brand-name">Wadeball<small>Mod Collection</small></span></a>' +
         '<nav class="nav" aria-label="Main">' +
-          '<a href="index.html"' + (page === "home" ? ' aria-current="page"' : "") + '>Mods</a>' +
+          CATS.map(function (c) { return '<a href="index.html#' + esc(c.id) + '">' + esc(c.title) + '</a>'; }).join("") +
           '<a href="support.html"' + (page === "support" ? ' aria-current="page"' : "") + '>Support</a>' +
         '</nav>' +
       '</div>';
@@ -50,33 +52,40 @@
       '</div></section>';
     el.innerHTML = strip +
       '<footer class="site-footer"><div class="wrap">' +
-        '<span>&copy; ' + new Date().getFullYear() + ' ' + esc(SITE.name) + '. Fan-made mods, not affiliated with any game studio.</span>' +
-        '<span><a href="index.html">All mods</a> &middot; <a href="support.html">Support</a></span>' +
+        '<span>&copy; ' + new Date().getFullYear() + ' ' + esc(SITE.name) + '. Fan-made mods and games, not affiliated with any game studio.</span>' +
+        '<span><a href="index.html">Home</a> &middot; <a href="support.html">Support</a></span>' +
       '</div></footer>';
   }
 
-  /* Home: grid of cards */
+  /* Home: one section of cards per category */
+  function card(m) {
+    var c = catOf(m);
+    return '<a class="card" href="mod.html?id=' + encodeURIComponent(m.id) + '" style="--accent:' + esc(m.accent || "") + '">' +
+      '<div class="card-media">' +
+        '<img src="' + url(m.cover) + '" alt="" loading="lazy">' +
+        (m.heroVideo ? '<video muted loop playsinline preload="none" data-src="' + url(m.heroVideo) + '"></video>' : "") +
+      '</div>' +
+      '<div class="card-body">' +
+        '<div class="card-meta"><span class="tag tag-accent">' + esc(m.label || m.game) + '</span><span class="tag">v' + esc(m.version) + '</span></div>' +
+        '<h3>' + esc(m.name) + '</h3>' +
+        '<p>' + esc(m.pitch) + '</p>' +
+        '<span class="card-cta">View ' + esc(c.noun) + ' &rarr;</span>' +
+      '</div></a>';
+  }
+
   function home() {
-    var grid = document.getElementById("mod-grid");
-    var count = document.getElementById("mod-count");
-    if (count) count.textContent = MODS.length + (MODS.length === 1 ? " mod" : " mods");
-
-    var html = MODS.map(function (m) {
-      return '<a class="card" href="mod.html?id=' + encodeURIComponent(m.id) + '" style="--accent:' + esc(m.accent || "") + '">' +
-        '<div class="card-media">' +
-          '<img src="' + url(m.cover) + '" alt="" loading="lazy">' +
-          (m.heroVideo ? '<video muted loop playsinline preload="none" data-src="' + url(m.heroVideo) + '"></video>' : "") +
-        '</div>' +
-        '<div class="card-body">' +
-          '<div class="card-meta"><span class="tag tag-accent">' + esc(m.game) + '</span><span class="tag">v' + esc(m.version) + '</span></div>' +
-          '<h3>' + esc(m.name) + '</h3>' +
-          '<p>' + esc(m.pitch) + '</p>' +
-          '<span class="card-cta">View mod &rarr;</span>' +
-        '</div></a>';
+    var grid = document.getElementById("catalog");
+    grid.innerHTML = CATS.map(function (c) {
+      var items = MODS.filter(function (m) { return catOf(m) === c; });
+      if (!items.length) return "";
+      return '<section class="catalog-section" id="' + esc(c.id) + '">' +
+        '<div class="grid-head"><h2>' + esc(c.title) + '</h2><span>' + items.length + " " + esc(c.noun) + (items.length === 1 ? "" : "s") + '</span></div>' +
+        '<div class="mod-grid">' + items.map(card).join("") +
+          (c.soon ? '<div class="card card-soon"><div><strong>More on the way</strong>' + esc(c.soon) + '</div></div>' : "") +
+        '</div></section>';
     }).join("");
-
-    html += '<div class="card card-soon"><div><strong>More on the way</strong>New mods for more games are coming.</div></div>';
-    grid.innerHTML = html;
+    var target = location.hash && document.getElementById(location.hash.slice(1));
+    if (target) target.scrollIntoView();
 
     // Hover preview on devices with a mouse
     if (reduceMotion || !window.matchMedia("(hover: hover)").matches) return;
@@ -97,10 +106,11 @@
     var m = MODS.find(function (x) { return x.id === id; });
     var main = document.getElementById("main");
     if (!m) {
-      main.innerHTML = '<div class="wrap not-found"><h1>Mod not found</h1><p><a class="btn btn-ghost" href="index.html">Back to all mods</a></p></div>';
+      main.innerHTML = '<div class="wrap not-found"><h1>Not found</h1><p><a class="btn btn-ghost" href="index.html">Back to the home page</a></p></div>';
       return;
     }
-    document.title = m.name + " for " + m.game + " | " + SITE.name;
+    var c = catOf(m);
+    document.title = (c.id === "mods" ? m.name + " for " + m.game : m.name) + " | " + SITE.name;
     if (m.accent) document.documentElement.style.setProperty("--accent", m.accent);
 
     var sections = [];
@@ -113,8 +123,14 @@
       ? esc(words.slice(0, -1).join(" ")) + "<br><span>" + esc(words[words.length - 1]) + "</span>"
       : "<span>" + esc(m.name) + "</span>";
 
+    // A download is a file on this site, a link elsewhere (e.g. GitHub), or not out yet (empty url)
     var dl = m.download || {};
-    var dlBtn = '<a class="btn btn-primary" href="' + url(dl.url) + '" download>' + ICON_DL + 'Download v' + esc(m.version) + (dl.size ? ' <small>' + esc(dl.size) + '</small>' : "") + '</a>';
+    var external = /^https?:/.test(dl.url || "");
+    var dlBtn = !dl.url
+      ? '<span class="btn btn-ghost" aria-disabled="true">Download coming soon</span>'
+      : external
+        ? '<a class="btn btn-primary" href="' + esc(dl.url) + '" target="_blank" rel="noopener">' + ICON_DL + 'Get it on GitHub</a>'
+        : '<a class="btn btn-primary" href="' + url(dl.url) + '" download>' + ICON_DL + 'Download v' + esc(m.version) + (dl.size ? ' <small>' + esc(dl.size) + '</small>' : "") + '</a>';
 
     var hero =
       '<section class="mod-hero">' +
@@ -122,14 +138,14 @@
           ? '<video ' + (reduceMotion ? "" : "autoplay ") + 'muted loop playsinline poster="' + url(m.cover) + '" src="' + url(m.heroVideo) + '"></video>'
           : '<img src="' + url(m.cover) + '" alt="">') +
         '<div class="wrap">' +
-          '<div class="card-meta"><span class="tag tag-accent">' + esc(m.game) + ' mod</span><span class="tag">Version ' + esc(m.version) + '</span>' +
+          '<div class="card-meta"><span class="tag tag-accent">' + esc(m.label || m.game + " mod") + '</span><span class="tag">Version ' + esc(m.version) + '</span>' +
             (m.released ? '<span class="tag">' + esc(fmtDate(m.released)) + '</span>' : "") + '</div>' +
           '<h1>' + title + '</h1>' +
           '<p class="pitch">' + esc(m.pitch) + '</p>' +
           '<div class="hero-actions">' + dlBtn +
             (m.trailer ? '<a class="btn btn-ghost" href="#trailer">' + ICON_PLAY_SM + 'Watch the trailer</a>' : "") +
           '</div>' +
-          (m.unofficial ? '<div class="unofficial-badge">Unofficial fan mod</div>' : "") +
+          (m.unofficial ? '<div class="unofficial-badge">' + esc(c.badge) + '</div>' : "") +
         '</div>' +
       '</section>';
 
@@ -162,7 +178,7 @@
       '<ul class="list-check">' + (m.requirements || []).map(function (r) { return '<li>' + esc(r) + '</li>'; }).join("") + '</ul>' +
       '<div class="download-box"><span class="tag tag-accent" style="justify-self:start">Latest: v' + esc(m.version) + '</span>' +
         '<div class="file">' + esc(dl.label || "") + '</div>' +
-        '<p class="muted">' + (dl.size ? esc(dl.size) + ' &middot; ' : "") + 'Free download' + (m.released ? ' &middot; released ' + esc(fmtDate(m.released)) : "") + '</p>' +
+        '<p class="muted">' + (dl.size ? esc(dl.size) + ' &middot; ' : "") + (external ? 'Free and open source' : 'Free download') + (m.released ? ' &middot; released ' + esc(fmtDate(m.released)) : "") + '</p>' +
         dlBtn + '</div>' +
       '</div></div></section>');
 

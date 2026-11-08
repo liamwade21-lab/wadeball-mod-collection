@@ -1,9 +1,9 @@
 /*
   Wadeball's Mod Collection: the one data file.
 
-  To add a mod, copy the template at the bottom of this file into the MODS list,
-  fill it in, and put its files in mods/<id>/. Nothing else needs changing:
-  the home grid and the mod's own page (mod.html?id=<id>) are built from this.
+  To add a mod or game, copy the template at the bottom of this file into the MODS list,
+  fill it in, and put its files in mods/<id>/ (or games/<id>/). Nothing else needs changing:
+  the home page sections and the entry's own page (mod.html?id=<id>) are built from this.
 */
 
 window.SITE = {
@@ -16,9 +16,16 @@ window.SITE = {
   }
 };
 
+// Sections of the home page, in order. Each entry below names one with category:.
+window.CATEGORIES = [
+  { id: "mods",  title: "Mods",  noun: "mod",  badge: "Unofficial fan mod",     soon: "New mods for more games are coming." },
+  { id: "games", title: "Games", noun: "game", badge: "Unofficial fan project", soon: "More games are on the way." }
+];
+
 window.MODS = [
   {
     id: "viltrumite-powers",              // folder name in mods/ and the page address
+    category: "mods",
     name: "Viltrumite Powers",
     game: "WorldBox",
     version: "1.4.0",
@@ -136,13 +143,63 @@ window.MODS = [
     ],
 
     credits: "Flying, punching and landing sounds and animations come from the GTA V mod \"Superman V2.2\" by JulioNIB (NIB Mods). Runs on top of the WorldFall mod for WorldBox."
+  },
+
+  {
+    id: "sandbox-engine",
+    category: "games",
+    name: "Sandbox Engine",
+    game: "SpaceEngine",                  // the game it's built on (you need to own it)
+    label: "Open-source game",            // optional: replaces the "<game> mod" tag
+    version: "1.0.0",
+    released: "2026-11-07",
+    pitch: "SpaceEngine rewritten from the ground up in Rust, with volumetric clouds, alien civilizations and mods built in.",
+    accent: "#8b6cff",
+    unofficial: "Unofficial fan project. Not affiliated with or endorsed by SpaceEngine or Cosmographic Software. You need your own copy of SpaceEngine to play.",
+    cover: "games/sandbox-engine/media/cover.jpg",
+
+    // No repo yet: fill in the GitHub link here and the button goes live
+    // (e.g. https://github.com/liamwade21-lab/sandbox-engine)
+    download: { url: "", label: "Source code and releases on GitHub", size: "" },
+
+    requirements: [
+      "Your own copy of SpaceEngine (sold on Steam). Sandbox Engine won't run without it.",
+      "A PC that can run SpaceEngine"
+    ],
+
+    features: [
+      { title: "Rewritten in Rust", text: "A ground-up rewrite of SpaceEngine in the Rust programming language." },
+      { title: "The whole universe", text: "Fly from a planet's surface out past moons, stars and nebulae to whole galaxies." },
+      { title: "Volumetric clouds", text: "Real 3D clouds and nebulae you can fly into, through and above." },
+      { title: "Alien civilizations", text: "Inhabited worlds: city lights from orbit and alien megacities down on the surface." },
+      { title: "Mods built in", text: "Comes with mods added on top of the original SpaceEngine experience." },
+      { title: "Open source", text: "The full source code is free to read, learn from, change and build on." }
+    ],
+
+    gallery: [
+      { image: "games/sandbox-engine/media/eclipse.jpg",           caption: "Eclipse over a nebula" },
+      { image: "games/sandbox-engine/media/civilized-world.jpg",   caption: "A civilized world from orbit" },
+      { image: "games/sandbox-engine/media/megacity.jpg",          caption: "Alien megacity under a gas giant" },
+      { image: "games/sandbox-engine/media/city-streets.jpg",      caption: "Alien city streets" },
+      { image: "games/sandbox-engine/media/magenta-moon.jpg",      caption: "A moon in a magenta nebula" },
+      { image: "games/sandbox-engine/media/red-sunset.jpg",        caption: "Red sunset on an alien world" },
+      { image: "games/sandbox-engine/media/volumetric-clouds.jpg", caption: "Volumetric clouds" },
+      { image: "games/sandbox-engine/media/cloud-tops.jpg",        caption: "Above the cloud layer" },
+      { image: "games/sandbox-engine/media/city-lights.jpg",       caption: "City lights on the night side" }
+    ],
+
+    changelog: [
+      { version: "1.0.0", date: "2026-11-07", notes: [ "First public release." ] }
+    ]
   }
 
-  /* Template for the next mod (copy everything between the braces, add a comma after the mod above):
+  /* Template for the next entry (copy everything between the braces, add a comma after the entry above):
   ,{
     id: "my-next-mod",
+    category: "mods",                // "mods" or "games" (see CATEGORIES above)
     name: "",
     game: "",
+    label: "",                       // optional tag text, e.g. "Open-source game"
     version: "1.0.0",
     released: "YYYY-MM-DD",
     pitch: "",

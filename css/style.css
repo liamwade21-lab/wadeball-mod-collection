@@ -74,7 +74,8 @@ a { color: inherit; }
 }
 .home-hero p { color: var(--muted); font-size: 18px; max-width: 560px; margin: 0; }
 
-/* Grid of mod cards */
+/* Grid of mod cards, one section per category */
+.catalog-section { scroll-margin-top: 70px; }
 .grid-head { display: flex; align-items: baseline; justify-content: space-between; margin: 28px 0 16px; }
 .grid-head h2 { font: 700 13px/1 var(--body); letter-spacing: .2em; text-transform: uppercase; color: var(--muted); margin: 0; }
 .grid-head span { color: var(--muted); font-size: 14px; }
