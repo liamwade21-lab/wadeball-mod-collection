@@ -158,9 +158,7 @@ window.MODS = [
     unofficial: "Unofficial fan project. Not affiliated with or endorsed by SpaceEngine or Cosmographic Software. You need your own copy of SpaceEngine to play.",
     cover: "games/sandbox-engine/media/cover.jpg",
 
-    // No repo yet: fill in the GitHub link here and the button goes live
-    // (e.g. https://github.com/liamwade21-lab/sandbox-engine)
-    download: { url: "", label: "Source code and releases on GitHub", size: "" },
+    download: { url: "https://github.com/liamwade21-lab/Sandbox-Engine", label: "Source code on GitHub", size: "" },
 
     requirements: [
       "Your own copy of SpaceEngine (sold on Steam). Sandbox Engine won't run without it.",
