@@ -191,6 +191,65 @@ window.MODS = [
     changelog: [
       { version: "1.0.0", date: "2026-11-07", notes: [ "First public release." ] }
     ]
+  },
+
+  {
+    id: "axiom-wall-e",
+    category: "mods",
+    name: "Axiom from WALL-E",
+    game: "SpaceEngine",
+    version: "1.0.0",
+    released: "2026-11-08",
+    pitch: "The Buy n Large starliner from WALL-E at its true 4,540 m scale. Build it and fly it in SpaceEngine.",
+    accent: "#9153f3",                    // the film's engine violet
+    unofficial: "Unofficial fan mod. Not affiliated with or endorsed by Disney or Pixar. WALL-E, the Axiom and Buy n Large belong to Disney/Pixar.",
+    cover: "mods/axiom-wall-e/media/cover.jpg",
+
+    download: { url: "mods/axiom-wall-e/Axiom from WALL-E 1.0.0.zip", label: "Axiom from WALL-E 1.0.0.zip", size: "3.8 MB" },
+
+    requirements: [
+      "SpaceEngine (Steam, PC), tested with version 0.991.50.2155"
+    ],
+
+    features: [
+      { title: "True scale", text: "4,540 m long, 1,203 m wide and about 2,350 m tall, the size the film gives it." },
+      { title: "Placed from the film", text: "The AXIOM lettering, windows and hull lights are placed from film stills, not repeating patterns." },
+      { title: "Lit decks", text: "Cabin decks, lounge windows and lower-hull lights glow on the dark side." },
+      { title: "The bridge", text: "The bridge glass across the top front is lit from inside, with a cockpit camera on the bridge." },
+      { title: "PBR hull", text: "Panel plating where every panel catches the light a little differently, with subtle reflections." },
+      { title: "Violet engines", text: "Twenty glowing engine nozzles in the film's violet, with SpaceEngine's engine flares and sound." },
+      { title: "Beacon lights", text: "Red and white beacons on the antenna, the keel and the stern." },
+      { title: "Heavy-liner handling", text: "Flies like a 300-billion-kilo cruise liner, with warp drive for the long trips." },
+      { title: "Light on your PC", text: "About 74,000 triangles and 6 MB of files." }
+    ],
+
+    controls: [
+      ["Mouse wheel", "Throttle, in the ship view"],
+      ["Z", "Stop the engines"]
+    ],
+
+    install: [
+      "Unzip the download: right-click the zip > Extract All.",
+      "Open SpaceEngine's folder (Steam: right-click SpaceEngine > Manage > Browse local files) and open the addons folder.",
+      "Copy the AxiomWallE folder from the download into addons.",
+      "Start SpaceEngine. In the Flight Simulator open Build, pick WALL-E > Buy n Large > Axiom, build it and take control."
+    ],
+    installNotes: [
+      "Updating: replace the AxiomWallE folder with the new one.",
+      "Uninstalling: delete the AxiomWallE folder from addons."
+    ],
+
+    gallery: [
+      { image: "mods/axiom-wall-e/media/side.jpg",   caption: "Side view at full length" },
+      { image: "mods/axiom-wall-e/media/rear.jpg",   caption: "The twin engine rings" },
+      { image: "mods/axiom-wall-e/media/bridge.jpg", caption: "The bridge windows on the top tiers" }
+    ],
+
+    changelog: [
+      { version: "1.0.0", date: "2026-11-08", notes: [ "First release." ] }
+    ],
+
+    credits: "3D base model: Florian Maurer (cuddleburrito.com, 2016). Details, textures, lights and SpaceEngine setup by Wadeball."
   }
 
   /* Template for the next entry (copy everything between the braces, add a comma after the entry above):
