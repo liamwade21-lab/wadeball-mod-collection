@@ -3,7 +3,7 @@
 ## Now (2026-11-08)
 - Live: Viltrumite Powers 1.4.0 (Mods).
 - Live since 2026-11-08: Axiom from WALL-E 1.0.0 (Mods, SpaceEngine), from Desktop\The Axiom Mod.
-  Download = that project's dist\AxiomWallE-1.0.0.zip (an AxiomWallE folder for SpaceEngineddons);
+  Download = that project's dist\AxiomWallE-1.0.0.zip (an AxiomWallE folder for SpaceEngine\addons);
   cover + 3 gallery renders from its tools/render_preview.py (our own renders, no film art).
   It's also on the Steam Workshop, but the site has no Workshop field (Liam's rule).
 - Live since 2026-11-07: a Games section with Sandbox Engine 1.0.0 (cover + 9 pictures
