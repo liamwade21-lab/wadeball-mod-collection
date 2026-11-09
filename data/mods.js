@@ -151,20 +151,21 @@ window.MODS = [
     name: "Sandbox Engine",
     game: "SpaceEngine",                  // the game it's built on (you need to own it)
     label: "Open-source game",            // optional: replaces the "<game> mod" tag
-    version: "1.0.0",
-    released: "2026-11-07",
+    version: "1.0.1",
+    released: "2026-11-09",
     pitch: "SpaceEngine rewritten from the ground up in Rust, with volumetric clouds, alien civilizations and mods built in.",
     accent: "#8b6cff",
     unofficial: "Unofficial fan project. Not affiliated with or endorsed by SpaceEngine or Cosmographic Software. You need your own copy of SpaceEngine to play.",
     cover: "games/sandbox-engine/media/cover.jpg",
 
     // The playable build is a GitHub Release zip; the repo itself is source code only
-    download: { url: "https://github.com/liamwade21-lab/Sandbox-Engine/releases/download/v1.0.0/Sandbox-Engine-1.0.0-windows.zip", label: "Sandbox-Engine-1.0.0-windows.zip", size: "25.7 MB" },
+    download: { url: "https://github.com/liamwade21-lab/Sandbox-Engine/releases/download/v1.0.1/Sandbox-Engine-1.0.1-windows.zip", label: "Sandbox-Engine-1.0.1-windows.zip", size: "72.6 MB" },
     source: "https://github.com/liamwade21-lab/Sandbox-Engine",   // optional: "Source code" button
 
     requirements: [
       "Your own copy of SpaceEngine (sold on Steam). Sandbox Engine won't run without it.",
-      "A PC that can run SpaceEngine"
+      "A Windows PC that can run SpaceEngine",
+      "Nothing else: it finds SpaceEngine through Steam by itself (or asks you once where SpaceEngine.exe is)"
     ],
 
     features: [
@@ -189,6 +190,12 @@ window.MODS = [
     ],
 
     changelog: [
+      { version: "1.0.1", date: "2026-11-09", notes: [
+        "Fixed the black universe on other people's PCs.",
+        "Everything the game needs except SpaceEngine is now built in. The first start takes a few extra seconds while it unpacks.",
+        "Finds SpaceEngine through Steam by itself, in any Steam library, and only asks for SpaceEngine.exe if it can't.",
+        "Tells you what's missing instead of showing a black screen."
+      ]},
       { version: "1.0.0", date: "2026-11-07", notes: [ "First public release." ] }
     ]
   },
