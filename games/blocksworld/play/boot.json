@@ -1,0 +1,26 @@
+{
+ "build": "da20642d10",
+ "assets": "88a4b1680f",
+ "js": "blocksworld.js",
+ "wasm": {
+  "url": "game.wasm.bin",
+  "size": 13317737
+ },
+ "packs": [
+  {
+   "url": "boot.pack.bin",
+   "size": 2739808
+  },
+  {
+   "url": "meshes.pack.bin",
+   "size": 9105091,
+   "once": true
+  }
+ ],
+ "later": [
+  {
+   "url": "textures.pack.bin",
+   "size": 9203745
+  }
+ ]
+}

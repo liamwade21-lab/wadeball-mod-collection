@@ -1,0 +1,3 @@
+# The Blocksworld web build is made by a script and must be published byte for byte:
+# no line-ending changes in any of its files.
+games/blocksworld/play/** -text

@@ -125,9 +125,13 @@
 
     // A download is a file (on this site or a .zip elsewhere, e.g. a GitHub Release),
     // a page elsewhere (e.g. a GitHub repo), or not out yet (empty url)
+    // An entry with play: { url } runs in the browser instead: its button opens the game in a new tab.
     var dl = m.download || {};
+    var play = m.play && m.play.url ? m.play : null;
     var external = /^https?:/.test(dl.url || "") && !/\.zip$/i.test(dl.url);
-    var dlBtn = !dl.url
+    var dlBtn = play
+      ? '<a class="btn btn-primary" href="' + url(play.url) + '" target="_blank" rel="noopener">' + ICON_PLAY_SM + 'Play now' + (play.size ? ' <small>' + esc(play.size) + '</small>' : "") + '</a>'
+      : !dl.url
       ? '<span class="btn btn-ghost" aria-disabled="true">Download coming soon</span>'
       : external
         ? '<a class="btn btn-primary" href="' + esc(dl.url) + '" target="_blank" rel="noopener">' + ICON_DL + 'Get it on GitHub</a>'
@@ -175,12 +179,15 @@
         }).join("") + '</div></div></section>');
     }
 
-    nav.push(["download", "Download"]);
-    sections.push('<section class="section" id="download"><div class="wrap"><h2>' + num() + 'Requirements &amp; download</h2><div class="two-col">' +
+    nav.push(["download", play ? "Play" : "Download"]);
+    sections.push('<section class="section" id="download"><div class="wrap"><h2>' + num() + (play ? 'Requirements &amp; play' : 'Requirements &amp; download') + '</h2><div class="two-col">' +
       '<ul class="list-check">' + (m.requirements || []).map(function (r) { return '<li>' + esc(r) + '</li>'; }).join("") + '</ul>' +
       '<div class="download-box"><span class="tag tag-accent" style="justify-self:start">Latest: v' + esc(m.version) + '</span>' +
-        '<div class="file">' + esc(dl.label || "") + '</div>' +
-        '<p class="muted">' + (dl.size ? esc(dl.size) + ' &middot; ' : "") + (external || m.source ? 'Free and open source' : 'Free download') + (m.released ? ' &middot; released ' + esc(fmtDate(m.released)) : "") + '</p>' +
+        '<div class="file">' + esc(play ? (play.label || "Plays in your browser") : (dl.label || "")) + '</div>' +
+        '<p class="muted">' + (play
+          ? 'Nothing to install &middot; free'
+          : (dl.size ? esc(dl.size) + ' &middot; ' : "") + (external || m.source ? 'Free and open source' : 'Free download')) +
+          (m.released ? ' &middot; released ' + esc(fmtDate(m.released)) : "") + '</p>' +
         dlBtn + '</div>' +
       '</div></div></section>');
 

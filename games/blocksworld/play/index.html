@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#232831">
+<link rel="icon" href="../../../favicon.svg" type="image/svg+xml">
+<title>Blocksworld (unofficial fan rebuild)</title>
+<style>
+  html, body {
+    margin: 0; height: 100%; overflow: hidden; background: #000; color: #fff;
+    font: 16px/1.4 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    touch-action: none; overscroll-behavior: none;
+    -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; -webkit-tap-highlight-color: transparent;
+  }
+  /* The game's picture. Always wider than tall; turned a quarter on a phone held upright (bw-loader.js). */
+  #stage { position: fixed; left: 0; top: 0; width: 100vw; height: 100vh; transform-origin: 0 0; background: #87baeb; touch-action: none; }
+  #bw-canvas { display: block; width: 100%; height: 100%; outline: none; touch-action: none; }
+
+  #loader {
+    position: fixed; inset: 0; z-index: 10; display: flex; align-items: center; justify-content: center;
+    background: radial-gradient(120% 90% at 50% 0%, #3f6fb5 0%, #27406f 45%, #171d2b 100%);
+    transition: opacity .35s ease; padding: 24px; box-sizing: border-box; text-align: center;
+  }
+  #loader.gone { opacity: 0; pointer-events: none; }
+  .card { width: min(440px, 100%); }
+  .cubes { display: flex; justify-content: center; gap: 8px; margin-bottom: 18px; }
+  .cubes i { width: 26px; height: 26px; border-radius: 5px; box-shadow: inset 0 -5px 0 rgba(0,0,0,.18), 0 3px 0 rgba(0,0,0,.25); animation: hop 1.2s ease-in-out infinite; }
+  .cubes i:nth-child(1) { background: #e8483f; }
+  .cubes i:nth-child(2) { background: #f6b93b; animation-delay: .12s; }
+  .cubes i:nth-child(3) { background: #49b85a; animation-delay: .24s; }
+  .cubes i:nth-child(4) { background: #3d8ee6; animation-delay: .36s; }
+  @keyframes hop { 0%, 60%, 100% { transform: translateY(0); } 30% { transform: translateY(-10px); } }
+  #loader.failed .cubes i, #loader.ready .cubes i { animation: none; }
+  h1 { margin: 0; font-size: 34px; letter-spacing: .5px; font-weight: 800; }
+  .sub { margin: 4px 0 22px; opacity: .75; font-size: 14px; }
+  .bar { height: 12px; border-radius: 6px; background: rgba(255,255,255,.16); overflow: hidden; }
+  #bar-fill { height: 100%; width: 0; border-radius: 6px; background: linear-gradient(90deg, #49b85a, #9be36a); transition: width .15s linear; }
+  #status { margin: 10px 0 0; font-size: 14px; opacity: .9; min-height: 20px; }
+  #note { margin: 8px 0 0; font-size: 13px; opacity: .7; min-height: 18px; }
+  #play {
+    margin-top: 18px; padding: 14px 46px; font: inherit; font-size: 20px; font-weight: 800; color: #fff; cursor: pointer;
+    background: #2f8fff; border: 0; border-radius: 12px; box-shadow: 0 5px 0 #1b5fb3;
+  }
+  #play:active { transform: translateY(3px); box-shadow: 0 2px 0 #1b5fb3; }
+  #play:disabled { opacity: .7; cursor: default; }
+  .turn { display: none; margin-top: 14px; font-size: 14px; opacity: .85; }
+  body.upright .turn { display: block; }
+  .legal { margin-top: 26px; font-size: 11.5px; opacity: .55; line-height: 1.45; }
+  #toast {
+    position: fixed; left: 50%; bottom: 18px; transform: translate(-50%, 20px); z-index: 20; max-width: 86vw;
+    background: rgba(20,24,32,.92); color: #fff; padding: 10px 16px; border-radius: 10px; font-size: 14px;
+    opacity: 0; pointer-events: none; transition: opacity .25s, transform .25s;
+  }
+  #toast.show { opacity: 1; transform: translate(-50%, 0); }
+</style>
+</head>
+<body>
+<div id="stage"><canvas id="bw-canvas" tabindex="0"></canvas></div>
+
+<div id="loader">
+  <div class="card">
+    <div class="cubes"><i></i><i></i><i></i><i></i></div>
+    <h1>Blocksworld</h1>
+    <p class="sub">Unofficial fan rebuild, running in your browser</p>
+    <div class="bar"><div id="bar-fill"></div></div>
+    <p id="status">Loading...</p>
+    <button id="play" style="display:none">Play</button>
+    <p class="turn">Turn your phone sideways to play.</p>
+    <p id="note"></p>
+    <p class="legal">A free fan project. Not affiliated with or endorsed by Linden Lab or Boldai. Blocksworld and its art, sounds and music belong to their owners. Your worlds are saved in this browser only.</p>
+  </div>
+</div>
+<div id="toast"></div>
+
+<script src="bw-loader.js"></script>
+</body>
+</html>

@@ -257,6 +257,74 @@ window.MODS = [
     ],
 
     credits: "3D base model: Florian Maurer (cuddleburrito.com, 2016). Details, textures, lights and SpaceEngine setup by Wadeball."
+  },
+
+  {
+    id: "blocksworld",
+    category: "games",
+    name: "Blocksworld",
+    game: "Blocksworld",
+    label: "Plays in your browser",
+    version: "1.0.0",
+    released: "2026-11-10",
+    pitch: "The original Blocksworld building game, rebuilt from scratch. Build, script and play your own worlds right in your browser, on a PC, phone or tablet.",
+    accent: "#2f8fff",
+    unofficial: "Unofficial fan rebuild. Not affiliated with or endorsed by Linden Lab or Boldai. Blocksworld and its art, sounds and music belong to their owners. The original game was free and has been shut down.",
+    cover: "games/blocksworld/media/cover.jpg",
+
+    // Runs in the browser: the button opens games/blocksworld/play/ in a new tab.
+    // That folder is made by "Build Web Version.bat" in the game's project (Downloads\blocksworld-rust).
+    play: { url: "games/blocksworld/play/", label: "Plays in your browser", size: "24 MB to start" },
+
+    requirements: [
+      "A current browser: Chrome, Edge, Firefox or Safari",
+      "A PC, or a phone or tablet from the last few years",
+      "About 24 MB to load before the menu shows. Sounds, music and pictures load as you play",
+      "Your worlds are saved in that browser, on that device. Clearing the browser's site data deletes them"
+    ],
+
+    features: [
+      { title: "The whole game", text: "Menu, build mode and play mode of the original Blocksworld (iOS 1.47), rebuilt in Rust from the original game's own data." },
+      { title: "Nothing to install", text: "Press Play and it opens in a new tab. It starts with a short loading bar and fetches the rest when it's needed." },
+      { title: "Build with blocks", text: "Drag blocks out of the panel, snap them together, move, turn and stretch them, paint them and give them textures." },
+      { title: "Make them do things", text: "Drop action tiles on a block to script it: wheels drive, motors turn, rockets fire, and buttons and sensors trigger it all." },
+      { title: "Play your world", text: "Press play to drive, fly and walk around what you built, with the original physics, on-screen buttons and D-pad." },
+      { title: "Your worlds are kept", text: "Worlds, their pictures and your saved models stay in your browser and are there when you come back." },
+      { title: "Phones and tablets", text: "Touch controls like the original: one finger turns the camera, two fingers zoom and slide, and the game always shows in landscape." },
+      { title: "Original sounds and music", text: "The original sound effects and music tracks, shrunk for the web." },
+      { title: "Ready-made starts", text: "Begin on empty land, sky or water, on the Starter Island, or in the Classic Demo with its monorail." }
+    ],
+
+    controls: [
+      ["Drag from the panel", "Put a block, colour, texture or action tile into the world"],
+      ["Click / tap a block", "Select it. Again: select its whole model"],
+      ["Drag a selected block", "Move it. Drop it on the panel to delete it"],
+      ["Hold a block", "Make a copy and drag it"],
+      ["Drag empty space / one finger", "Turn the camera"],
+      ["Mouse wheel / pinch", "Zoom"],
+      ["Ctrl + drag / two fingers", "Slide the camera"],
+      ["W A S D, E, Q", "Fly the camera (keyboard)"],
+      ["R, T", "Rotate and tilt the selected block (keyboard)"],
+      ["Ctrl + Z / Ctrl + Y", "Undo / redo (also the round arrows bottom left)"],
+      ["Triangle button / P", "Play the world"],
+      ["W A S D or arrows, Space, Shift", "In play: the D-pad and the R and L buttons"],
+      ["F1", "Show every key (build mode)"]
+    ],
+
+    gallery: [
+      { image: "games/blocksworld/media/monorail.jpg",        caption: "Riding the monorail in the Classic Demo" },
+      { image: "games/blocksworld/media/build-demo.jpg",      caption: "Build mode with the block panel" },
+      { image: "games/blocksworld/media/starter-island.jpg",  caption: "The Starter Island" },
+      { image: "games/blocksworld/media/place-block.jpg",     caption: "A new block with its move, turn and stretch handles and its script row" },
+      { image: "games/blocksworld/media/new-world.jpg",       caption: "Pick how a new world starts" },
+      { image: "games/blocksworld/media/phone.jpg",           caption: "Touch controls: the on-screen D-pad and buttons for phones and tablets" }
+    ],
+
+    changelog: [
+      { version: "1.0.0", date: "2026-11-10", notes: [ "First browser version." ] }
+    ],
+
+    credits: "Blocksworld was made by Boldai and Linden Lab. This rebuild is a fan project by Wadeball, written in Rust with the Bevy engine and the Rapier physics engine."
   }
 
   /* Template for the next entry (copy everything between the braces, add a comma after the entry above):
