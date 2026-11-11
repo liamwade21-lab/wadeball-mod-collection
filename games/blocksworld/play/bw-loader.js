@@ -249,6 +249,10 @@
       loadLaterPacks();
     },
     stats,
+    // frame-time measuring (src/perf.rs): on with ?debug; the newest line is kept for tests
+    perfOn: () => DEBUG,
+    perfLine(line) { window.bwfs.perfLast = line; log(line); },
+    perfLast: '',
     // for the test page / the console: what is saved in this browser
     userFiles: () => [...user.keys()],
   };
@@ -308,6 +312,27 @@
       },
       cancel: (r) => reader.cancel(r),
     });
+  }
+
+  // Test help (?debug only): how long the game is busy inside each frame, measured by the page.
+  // bwPerf() gives the numbers since its last call: frames per second, busy milliseconds per frame
+  // (average and worst), and the game's own newest line.
+  if (DEBUG) {
+    const realRaf = window.requestAnimationFrame.bind(window);
+    const m = { frames: 0, busy: 0, worst: 0, since: performance.now() };
+    window.requestAnimationFrame = (cb) => realRaf((t) => {
+      const s = performance.now();
+      try { cb(t); } finally {
+        const d = performance.now() - s;
+        m.frames++; m.busy += d; m.worst = Math.max(m.worst, d);
+      }
+    });
+    window.bwPerf = () => {
+      const now = performance.now(), secs = (now - m.since) / 1000;
+      const out = { fps: +(m.frames / secs).toFixed(1), busyMs: +(m.busy / Math.max(1, m.frames)).toFixed(1), worstMs: +m.worst.toFixed(1), game: window.bwfs.perfLast };
+      m.frames = 0; m.busy = 0; m.worst = 0; m.since = now;
+      return out;
+    };
   }
 
   const isGzip = (b) => b.length > 2 && b[0] === 0x1f && b[1] === 0x8b;

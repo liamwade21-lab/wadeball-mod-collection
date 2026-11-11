@@ -1,10 +1,10 @@
 {
- "build": "dfab620cf5",
+ "build": "36d00c988e",
  "assets": "88a4b1680f",
  "js": "blocksworld.js",
  "wasm": {
   "url": "game.wasm.bin",
-  "size": 13337672
+  "size": 13344233
  },
  "packs": [
   {

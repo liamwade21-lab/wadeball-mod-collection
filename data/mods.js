@@ -265,7 +265,7 @@ window.MODS = [
     name: "Blocksworld",
     game: "Blocksworld",
     label: "Plays in your browser",
-    version: "1.1.0",
+    version: "1.2.0",
     released: "2026-11-10",
     pitch: "The original Blocksworld building game, rebuilt from scratch. Build, script and play your own worlds right in your browser, on a PC, phone or tablet.",
     accent: "#2f8fff",
@@ -325,6 +325,11 @@ window.MODS = [
     ],
 
     changelog: [
+      { version: "1.2.0", date: "2026-11-10", notes: [
+        "Big community worlds run many times faster.",
+        "Hats, hair, glasses, beards and backpacks now stay on animated characters while they move.",
+        "The close button on world pages is bigger and easier to tap on phones."
+      ] },
       { version: "1.1.0", date: "2026-11-10", notes: [
         "Community worlds and models: the Play and Shop pages now work in the browser.",
         "Phones: the picture keeps clear of the camera island and rounded corners, and the game can be added to the Home Screen to run full screen.",

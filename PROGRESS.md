@@ -1,6 +1,9 @@
 # Progress
 
 ## Now (2026-11-10)
+- Pushed 2026-11-10 (Liam gave the go beforehand): Blocksworld 1.2.0 - big community worlds run many times
+  faster, gear stays on animated characters, a bigger close button on phones. Only the game program and the
+  page changed in `games/blocksworld/play/`; details in `Downloads\blocksworld-rust\PROGRESS.md`, "Round 3".
 - Pushed 2026-11-10 (Liam said "Publish it"): support page reworded, short and plain: the site is free, "If you want to support my
   mods and games, here's my Venmo", no pressure. The strip above the footer on the other pages
   (`js/site.js`) says the same. Keep this tone (Liam's rule): no personal details, no asking.
