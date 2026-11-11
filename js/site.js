@@ -47,7 +47,7 @@
     if (!el) return;
     var strip = page === "support" ? "" :
       '<section class="support-strip"><div class="wrap">' +
-        '<p><strong>Enjoying the mods?</strong> They\'re free. If you want to, you can help with my college tuition.</p>' +
+        '<p><strong>Enjoying the mods and games?</strong> They\'re free. If you want to support them, here\'s my Venmo.</p>' +
         '<a class="btn btn-ghost" href="support.html">Support my work</a>' +
       '</div></section>';
     el.innerHTML = strip +
