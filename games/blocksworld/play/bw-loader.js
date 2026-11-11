@@ -27,10 +27,12 @@
   const files = new Map();    // lower-case asset path -> its real spelling (the server is case-sensitive)
   const kids = new Map();     // lower-case folder -> Map(name -> 'f' | 'd')
   const user = new Map();     // 'user/<path>' -> { data: Uint8Array, t: ms }
-  const stats = { sync: 0, syncBytes: 0, fetched: 0, laterPacks: 0 };
+  const stats = { sync: 0, syncBytes: 0, fetched: 0, laterPacks: 0, community: 0 };
   const warming = new Set();  // asset files being fetched in the background (bwfs.ready)
   let laterPacks = [];        // packs fetched quietly once the menu is on screen
   let assetsV = '';
+  let community = null;       // boot.json's "community" ({ v, worlds, models }) when the site carries them
+  const gone = new Map();     // community files that could not be fetched -> when (asked again after a while)
   let idb = null;
   let saveBroken = false;
 
@@ -52,8 +54,21 @@
   }
 
   const rel = (path) => (path.startsWith('assets/') ? path.slice(7) : path === 'assets' ? '' : path);
-  const realAsset = (path) => files.get(rel(path).toLowerCase());
-  const assetUrl = (real) => 'assets/' + real.split('/').map(encodeURIComponent).join('/') + (assetsV ? '?v=' + assetsV : '');
+  // Community worlds and models (assets/community/...): thousands of small packed files next to the
+  // game, never listed in the manifest. One is fetched when the game asks for it (bwfs.ready), unpacked,
+  // handed over once and then dropped from memory again.
+  const isCommunity = (r) => r.startsWith('community/');
+  const realAsset = (path) => {
+    const r = rel(path);
+    if (!isCommunity(r)) return files.get(r.toLowerCase());
+    if (!community) return undefined;
+    const t = gone.get(r);
+    if (t && Date.now() - t < 4000) return undefined;
+    return r;
+  };
+  const assetUrl = (real) => (isCommunity(real)
+    ? real + '?v=' + community.v
+    : 'assets/' + real.split('/').map(encodeURIComponent).join('/') + (assetsV ? '?v=' + assetsV : ''));
 
   // A blocking fetch, for the moments the game asks for a file it needs right now. Binary data
   // comes through the old "x-user-defined" text trick (a blocking request may not ask for bytes).
@@ -117,6 +132,7 @@
       const key = 'assets/' + real;
       d = assets.get(key);
       if (d) return d;
+      if (isCommunity(real)) return undefined;   // packed on the server: only bwfs.ready can bring one in
       d = syncFetch(assetUrl(real));
       if (!d) return undefined;
       stats.sync++;
@@ -141,6 +157,7 @@
       }
       if (assets.has(path)) return 1;
       const r = rel(path).toLowerCase();
+      if (r === 'community' || r === 'community/index.bin') return community ? (r === 'community' ? 2 : 1) : 0;
       if (files.has(r)) return 1;
       return kids.has(r) ? 2 : 0;
     },
@@ -210,10 +227,16 @@
         all = false;
         if (warming.has(key)) continue;
         warming.add(key);
+        const missing = () => { if (isCommunity(real)) gone.set(real, Date.now()); else files.delete(real.toLowerCase()); };
         fetch(assetUrl(real))
           .then((r) => (r.ok ? r.arrayBuffer() : null))
-          .then((buf) => { if (buf) assets.set(key, new Uint8Array(buf)); else files.delete(real.toLowerCase()); })
-          .catch(() => { files.delete(real.toLowerCase()); })
+          .then((buf) => (buf ? gunzip(new Uint8Array(buf)) : null))
+          .then((d) => {
+            if (!d) return missing();
+            assets.set(key, d);
+            if (isCommunity(real)) { once.add(key); stats.community++; }
+          })
+          .catch(missing)
           .finally(() => warming.delete(key));
       }
       return all;
@@ -348,24 +371,54 @@
   const forceRotate = params.has('rotate');
   let rotated = false;
 
+  // The parts of the screen a phone covers with its camera island, rounded corners and home bar
+  // ("safe area"). The page reaches under them (so nothing is white there), but the game's picture
+  // stays clear of them: its buttons sit right at the picture's edges.
+  // Test help: ?inset=top,right,bottom,left (in px) pretends to be such a phone.
+  const probe = document.createElement('div');
+  probe.style.cssText = 'position:fixed;left:0;top:0;width:0;height:0;visibility:hidden;pointer-events:none;' +
+    'padding:env(safe-area-inset-top,0px) env(safe-area-inset-right,0px) env(safe-area-inset-bottom,0px) env(safe-area-inset-left,0px)';
+  document.body.appendChild(probe);
+  function insets() {
+    if (params.has('inset')) {
+      const v = params.get('inset').split(',').map((x) => parseFloat(x) || 0);
+      return { t: v[0] || 0, r: v[1] || 0, b: v[2] || 0, l: v[3] || 0 };
+    }
+    const cs = getComputedStyle(probe), px = (x) => Math.max(0, parseFloat(x) || 0);
+    return { t: px(cs.paddingTop), r: px(cs.paddingRight), b: px(cs.paddingBottom), l: px(cs.paddingLeft) };
+  }
+
+  // Where the game's picture is on the page: x, y of the free area's corner and its width and height.
+  let area = { x: 0, y: 0, w: 1, h: 1 };
   function layout() {
-    const w = window.innerWidth, h = window.innerHeight;
+    const w = window.innerWidth, h = window.innerHeight, i = insets();
+    area = { x: i.l, y: i.t, w: Math.max(1, w - i.l - i.r), h: Math.max(1, h - i.t - i.b) };
     rotated = forceRotate || (isTouch && h > w);
+    stage.style.left = stage.style.top = '0';
     if (rotated) {
-      stage.style.width = h + 'px';
-      stage.style.height = w + 'px';
-      stage.style.transform = 'translate(' + w + 'px,0) rotate(90deg)';
+      stage.style.width = area.h + 'px';
+      stage.style.height = area.w + 'px';
+      stage.style.transform = 'translate(' + (area.x + area.w) + 'px,' + area.y + 'px) rotate(90deg)';
     } else {
-      stage.style.width = w + 'px';
-      stage.style.height = h + 'px';
-      stage.style.transform = '';
+      stage.style.width = area.w + 'px';
+      stage.style.height = area.h + 'px';
+      stage.style.transform = 'translate(' + area.x + 'px,' + area.y + 'px)';
     }
     document.body.classList.toggle('upright', isTouch && h > w);
   }
   window.addEventListener('resize', layout);
-  window.addEventListener('orientationchange', () => setTimeout(layout, 60));
+  window.addEventListener('orientationchange', () => { setTimeout(layout, 60); setTimeout(layout, 400); });
   if (window.visualViewport) window.visualViewport.addEventListener('resize', layout);
   layout();
+  // a phone may report its covered edges a moment after the page opens (Home Screen app start)
+  setTimeout(layout, 300);
+  setTimeout(layout, 1200);
+
+  // An iPhone's Safari does not let a page hide its bars. Started from the Home Screen the game has the
+  // whole screen, so the loading screen says how to put it there (only in Safari on an iPhone or iPad).
+  const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+  const standalone = navigator.standalone === true || matchMedia('(display-mode: standalone)').matches || matchMedia('(display-mode: fullscreen)').matches;
+  if ((isIOS || params.has('iostip')) && !standalone) document.body.classList.add('ios-tip');
 
   async function goLandscape() {
     if (!isTouch || params.has('nofullscreen')) return;
@@ -391,8 +444,8 @@
   // Where a touch is on the stage, as fractions (0..1 across, 0..1 down). The game multiplies them by
   // its own picture size, so nothing depends on how this browser counts pixels.
   function stagePoint(e) {
-    const w = window.innerWidth, h = window.innerHeight;
-    return rotated ? [e.clientY / h, (w - e.clientX) / w] : [e.clientX / w, e.clientY / h];
+    const x = e.clientX - area.x, y = e.clientY - area.y;
+    return rotated ? [y / area.h, (area.w - x) / area.w] : [x / area.w, y / area.h];
   }
 
   function onPointer(kind, e) {
@@ -519,6 +572,7 @@
       return fail('The game files could not be found.', e);
     }
     assetsV = info.assets || '';
+    community = info.community && info.community.v ? info.community : null;
     const wasm = { url: info.wasm.url, size: info.wasm.size, v: info.build };
     const packs = info.packs.map((p) => ({ url: p.url, size: p.size, once: !!p.once, v: info.assets }));
     laterPacks = (info.later || []).map((p) => ({ url: p.url, v: info.assets }));

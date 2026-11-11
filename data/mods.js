@@ -265,7 +265,7 @@ window.MODS = [
     name: "Blocksworld",
     game: "Blocksworld",
     label: "Plays in your browser",
-    version: "1.0.0",
+    version: "1.1.0",
     released: "2026-11-10",
     pitch: "The original Blocksworld building game, rebuilt from scratch. Build, script and play your own worlds right in your browser, on a PC, phone or tablet.",
     accent: "#2f8fff",
@@ -280,7 +280,8 @@ window.MODS = [
       "A current browser: Chrome, Edge, Firefox or Safari",
       "A PC, or a phone or tablet from the last few years",
       "About 24 MB to load before the menu shows. Sounds, music and pictures load as you play",
-      "Your worlds are saved in that browser, on that device. Clearing the browser's site data deletes them"
+      "Your worlds are saved in that browser, on that device. Clearing the browser's site data deletes them",
+      "iPhone and iPad: for full screen, use Share > Add to Home Screen and start the game from its icon"
     ],
 
     features: [
@@ -292,7 +293,10 @@ window.MODS = [
       { title: "Your worlds are kept", text: "Worlds, their pictures and your saved models stay in your browser and are there when you come back." },
       { title: "Phones and tablets", text: "Touch controls like the original: one finger turns the camera, two fingers zoom and slide, and the game always shows in landscape." },
       { title: "Original sounds and music", text: "The original sound effects and music tracks, shrunk for the web." },
-      { title: "Ready-made starts", text: "Begin on empty land, sky or water, on the Starter Island, or in the Classic Demo with its monorail." }
+      { title: "Ready-made starts", text: "Begin on empty land, sky or water, on the Starter Island, or in the Classic Demo with its monorail." },
+      { title: "Community worlds", text: "Play the worlds players published before the servers closed: over 15,000 of them, with What's Hot, categories and search." },
+      { title: "Community models", text: "Browse over 6,000 models players shared and add them to your own collection for free." },
+      { title: "Full screen on phones", text: "Add the game to your phone's Home Screen and it opens like an app, without the browser's bars." }
     ],
 
     controls: [
@@ -321,10 +325,15 @@ window.MODS = [
     ],
 
     changelog: [
+      { version: "1.1.0", date: "2026-11-10", notes: [
+        "Community worlds and models: the Play and Shop pages now work in the browser.",
+        "Phones: the picture keeps clear of the camera island and rounded corners, and the game can be added to the Home Screen to run full screen.",
+        "The Reset Camera button sits at the bottom of the screen, where the original had it."
+      ] },
       { version: "1.0.0", date: "2026-11-10", notes: [ "First browser version." ] }
     ],
 
-    credits: "Blocksworld was made by Boldai and Linden Lab. This rebuild is a fan project by Wadeball, written in Rust with the Bevy engine and the Rapier physics engine."
+    credits: "Blocksworld was made by Boldai and Linden Lab. This rebuild is a fan project by Wadeball, written in Rust with the Bevy engine and the Rapier physics engine. The community worlds and models were made by Blocksworld's players and come from the fan-server archive."
   }
 
   /* Template for the next entry (copy everything between the braces, add a comma after the entry above):

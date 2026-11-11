@@ -6,7 +6,11 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="theme-color" content="#232831">
+<meta name="apple-mobile-web-app-title" content="Blocksworld">
+<meta name="theme-color" content="#000000">
+<!-- Started from a phone's Home Screen the game runs as its own full-screen app (no browser bars). -->
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png">
 <link rel="icon" href="../../../favicon.svg" type="image/svg+xml">
 <title>Blocksworld (unofficial fan rebuild)</title>
 <style>
@@ -23,7 +27,9 @@
   #loader {
     position: fixed; inset: 0; z-index: 10; display: flex; align-items: center; justify-content: center;
     background: radial-gradient(120% 90% at 50% 0%, #3f6fb5 0%, #27406f 45%, #171d2b 100%);
-    transition: opacity .35s ease; padding: 24px; box-sizing: border-box; text-align: center;
+    transition: opacity .35s ease; box-sizing: border-box; text-align: center; overflow: auto;
+    /* clear of a phone's camera island, rounded corners and home bar */
+    padding: max(24px, env(safe-area-inset-top, 0px)) max(24px, env(safe-area-inset-right, 0px)) max(24px, env(safe-area-inset-bottom, 0px)) max(24px, env(safe-area-inset-left, 0px));
   }
   #loader.gone { opacity: 0; pointer-events: none; }
   .card { width: min(440px, 100%); }
@@ -49,6 +55,18 @@
   #play:disabled { opacity: .7; cursor: default; }
   .turn { display: none; margin-top: 14px; font-size: 14px; opacity: .85; }
   body.upright .turn { display: block; }
+  /* Safari on an iPhone or iPad cannot hide its bars for a page: say how to get the whole screen. */
+  .fulltip { display: none; margin: 14px auto 0; padding: 9px 12px; font-size: 13px; line-height: 1.4; border-radius: 10px; background: rgba(255,255,255,.12); }
+  body.ios-tip .fulltip { display: block; }
+  /* a phone on its side is not very tall: keep the card short */
+  @media (max-height: 420px) {
+    .cubes { margin-bottom: 8px; } .cubes i { width: 18px; height: 18px; }
+    h1 { font-size: 24px; } .sub { margin: 2px 0 10px; }
+    #play { margin-top: 10px; padding: 9px 38px; font-size: 18px; }
+    .fulltip { margin-top: 8px; padding: 6px 10px; font-size: 12px; }
+    .legal { margin-top: 10px; font-size: 10.5px; }
+    .card { width: min(560px, 100%); }
+  }
   .legal { margin-top: 26px; font-size: 11.5px; opacity: .55; line-height: 1.45; }
   #toast {
     position: fixed; left: 50%; bottom: 18px; transform: translate(-50%, 20px); z-index: 20; max-width: 86vw;
@@ -70,6 +88,7 @@
     <p id="status">Loading...</p>
     <button id="play" style="display:none">Play</button>
     <p class="turn">Turn your phone sideways to play.</p>
+    <p class="fulltip"><b>For full screen:</b> tap Safari's Share button, choose "Add to Home Screen", then start Blocksworld from its new icon. Worlds you make there are saved there, separately from Safari.</p>
     <p id="note"></p>
     <p class="legal">A free fan project. Not affiliated with or endorsed by Linden Lab or Boldai. Blocksworld and its art, sounds and music belong to their owners. Your worlds are saved in this browser only.</p>
   </div>

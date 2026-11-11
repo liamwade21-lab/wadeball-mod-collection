@@ -1,10 +1,10 @@
 {
- "build": "da20642d10",
+ "build": "dfab620cf5",
  "assets": "88a4b1680f",
  "js": "blocksworld.js",
  "wasm": {
   "url": "game.wasm.bin",
-  "size": 13317737
+  "size": 13337672
  },
  "packs": [
   {
@@ -22,5 +22,10 @@
    "url": "textures.pack.bin",
    "size": 9203745
   }
- ]
+ ],
+ "community": {
+  "v": "7aa4a44d48",
+  "worlds": 15669,
+  "models": 6707
+ }
 }

@@ -1,6 +1,17 @@
 # Progress
 
 ## Now (2026-11-10)
+- Pushed 2026-11-10 (Liam said "Publish it" again): Blocksworld 1.1.0. He had tested 1.0 on his iPhone
+  and reported four things (details in `Downloads\blocksworld-rust\PROGRESS.md`, "Round 2"):
+  - Community worlds and models now work in the browser: `games/blocksworld/play/community/` holds every
+    published world (15,669) and model (6,707) from the fan-server archive, each as one small packed file
+    (145 MB, about 22,400 files), plus the list. Players' e-mail addresses are taken out.
+  - Phones: the game keeps clear of the camera island; it can be added to the Home Screen to run full
+    screen (an iPhone's Safari cannot hide its bars for a page); Reset Camera button moved to the bottom.
+  - `data/mods.js`: version 1.1.0, 12 features, a Home Screen line in the requirements, changelog, credits.
+  - The site is now about 390 MB in about 26,900 files (limit about 1,000 MB).
+  - Checked in the local preview at phone size: menu, a community world plays, a model is saved, the entry's
+    page shows 1.1.0.
 - NEW, pushed 2026-11-10 (Liam said "Publish it"): Blocksworld in the Games section
   (`mod.html?id=blocksworld`). It is the first entry that plays in the browser: its "Play now" button opens
   `games/blocksworld/play/` in a new tab. Cover + 6 pictures in `games/blocksworld/media/`
@@ -24,7 +35,7 @@
   button points at the 1.0.1 zip; "Source code" points at the repo.
 
 ## Waiting on Liam
-- Blocksworld: play-test the live game on the PC and on a real phone (list in
+- Blocksworld 1.1.0: play-test the live game on the iPhone (list in
   `Downloads\blocksworld-rust\PROGRESS.md`) and report what feels wrong.
 - Sandbox Engine install steps (optional; the section stays hidden until added).
 - Check the "Mods built in" feature wording.

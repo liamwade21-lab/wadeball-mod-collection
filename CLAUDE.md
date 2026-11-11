@@ -15,7 +15,7 @@ public repo liamwade21-lab/wadeball-mod-collection; pushing to `main` publishes 
 - An entry with `play: { url, label, size }` runs in the browser instead of being downloaded: its
   button says "Play now" and opens `url` in a new tab (Blocksworld is the first one).
 - Blocksworld (`games/blocksworld/`): `media/` holds the cover and pictures. `play/` is the game itself
-  (about 210 MB, 4,400 files) and is MADE by `Build Web Version.bat` in `Downloads\blocksworld-rust` -
+  (about 357 MB, 26,800 files) and is MADE by `Build Web Version.bat` in `Downloads\blocksworld-rust` -
   never edit files in `play/` by hand, rebuild instead (the page files live in that project's `web\`
   folder). After a rebuild, update `play.size` in data/mods.js if the start-up download changed
   (the build prints it). Its pictures are screenshots of the rebuilt game: Liam decided on 2026-11-10
@@ -24,6 +24,11 @@ public repo liamwade21-lab/wadeball-mod-collection; pushing to `main` publishes 
 - Sandbox Engine's repo is source only. New versions: zip `target\release\spaceengine-rs.exe`
   into `Sandbox Engine/`, publish it as a GitHub Release on liamwade21-lab/Sandbox-Engine (ask first),
   then update version, download url/size and changelog in data/mods.js.
+
+- `games/blocksworld/play/community/` (about 145 MB, 22,400 small files) is the game's community worlds
+  and models: every one players published on the fan server, copied from the archive on this PC by the same
+  .bat (only the public parts; e-mail addresses are taken out; nothing from the archive's players' folders).
+  They are other players' creations and show their player names, as the original game did.
 
 ## Preview
 Launch config `wadeball-site` in `Desktop\.claude\launch.json` (port 8642; a copy is in
@@ -41,8 +46,9 @@ testing are listed in `Downloads\blocksworld-rust\CLAUDE.md` ("Browser version")
 - Ask Liam before every push: the repo and site are public.
 - Size: GitHub Pages allows 1 GB per published site, GitHub refuses single files over 100 MB, and there is
   a soft limit of 100 GB of traffic a month (GitHub's "GitHub Pages limits" page, read 2026-11-10). The site
-  is about 245 MB with Blocksworld, its biggest file 13 MB. One first visit to the game downloads about
-  24 MB, so the traffic limit is roughly 4,000 first-time players a month. Every rebuild of the game that gets pushed adds its changed files
+  is about 390 MB with Blocksworld and its community worlds, its biggest file 13 MB. One first visit to the
+  game downloads about 26 MB (24 MB + the 1.5 MB community list), so the traffic limit is roughly 4,000
+  first-time players a month. Every rebuild of the game that gets pushed adds its changed files
   (about 13 MB for the game program) to the repository's history, so don't push every small rebuild.
 - Don't open or read anything in `Desktop\SpaceEngine Rust Port Version 2` (Liam's rule).
 - No official logos or art for fan projects; each keeps an "unofficial" note.
