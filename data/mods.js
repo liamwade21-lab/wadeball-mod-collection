@@ -339,6 +339,72 @@ window.MODS = [
     ],
 
     credits: "Blocksworld was made by Boldai and Linden Lab. This rebuild is a fan project by Wadeball, written in Rust with the Bevy engine and the Rapier physics engine. The community worlds and models were made by Blocksworld's players and come from the fan-server archive."
+  },
+
+  {
+    id: "final-earth-2",
+    category: "games",
+    name: "The Final Earth 2",
+    titleTail: 2,                         // big title: "The Final" / "Earth 2"
+    game: "The Final Earth 2",
+    label: "Plays in your browser",
+    version: "1.0.0",
+    released: "2026-11-11",
+    pitch: "The vertical city builder, rebuilt from scratch. Grow a colony on a tiny floating island, stack it sky-high and spread to other worlds, right in your browser on a PC, phone or tablet.",
+    accent: "#7a5cff",
+    unofficial: "Unofficial fan rebuild. Not affiliated with or endorsed by Florian van Strien. The Final Earth 2 is a game by Florian van Strien with music by Stijn Cappetijn; its art, sounds and music belong to their owners. The original game is sold on Steam.",
+    cover: "games/final-earth-2/media/cover.jpg",
+
+    // Runs in the browser: the button opens games/final-earth-2/play/ in a new tab.
+    // That folder is made by "Build Web Version.bat" in the game's project (Documents\Work\TheFinalEarth2Rust).
+    play: { url: "games/final-earth-2/play/", label: "Plays in your browser", size: "11 MB to start" },
+
+    requirements: [
+      "A current browser: Chrome, Edge, Firefox or Safari",
+      "A PC, or a phone or tablet from the last few years",
+      "About 11 MB to load before the title screen shows. The music loads while you play",
+      "Your cities are saved in that browser, on that device. Clearing the browser's site data deletes them; Export in the Game Menu saves a city as a file you can keep",
+      "iPhone and iPad: for full screen, use Share > Add to Home Screen and start the game from its icon"
+    ],
+
+    features: [
+      { title: "The whole game", text: "The scenarios and Free Play maps of The Final Earth 2 with its buildings, upgrades, policies, rockets, trains and festivals, rebuilt in Rust from the original game's own data." },
+      { title: "Nothing to install", text: "Press Play and it opens in a new tab. A short loading bar, then the title screen; the music comes in while you play." },
+      { title: "Build upward", text: "Stack houses, farms, labs and factories on a small floating island, then reach other worlds with landing pads, teleporters and bridges." },
+      { title: "A living city", text: "Every citizen has a home, a job, school years, favourite places and a mood. Follow one around or read the whole city's numbers." },
+      { title: "Your cities are kept", text: "Save slots like the original, with an autosave every two seconds. Cities stay in your browser and are there when you come back." },
+      { title: "Take a city with you", text: "Export saves a city as a file and Import loads it again, also between the browser and the Windows version of this rebuild." },
+      { title: "Phones and tablets", text: "One finger moves the view, two fingers pinch to zoom, a tap builds. Phones get the game's own phone layout with a Build button and bigger close buttons." },
+      { title: "Original sounds and music", text: "The original sound effects and the four music tracks, shrunk for the web." },
+      { title: "Seven languages", text: "English, German, Spanish, French, Portuguese, Russian and Vietnamese, picked from your browser's language and changeable in the settings." }
+    ],
+
+    controls: [
+      ["Click / tap a building button", "Pick it, then click / tap a spot to build. It stays picked for the next one"],
+      ["Drag / one finger", "Move the view"],
+      ["Mouse wheel / pinch", "Zoom"],
+      ["Click / tap a building", "Open its window"],
+      ["Right-click (PC)", "Stop building. On a phone or tablet: tap the picked building again"],
+      ["Hold a finger on a button", "Show what it does (phones and tablets)"],
+      ["Space or P", "Pause"],
+      ["S", "Change the game speed"],
+      ["M or Esc", "Game Menu: save, load, settings"]
+    ],
+
+    gallery: [
+      { image: "games/final-earth-2/media/city-day.jpg",   caption: "A city stacked high on its floating island" },
+      { image: "games/final-earth-2/media/city-dusk.jpg",  caption: "The same city at dusk, with flying saucers on the roofs" },
+      { image: "games/final-earth-2/media/scenarios.jpg",  caption: "Pick a scenario or a Free Play map" },
+      { image: "games/final-earth-2/media/upgrades.jpg",   caption: "Upgrades and policies" },
+      { image: "games/final-earth-2/media/happiness.jpg",  caption: "What makes the citizens happy" },
+      { image: "games/final-earth-2/media/phone.jpg",      caption: "On a phone: the Build bar, the outlined building spot and the building's cost" }
+    ],
+
+    changelog: [
+      { version: "1.0.0", date: "2026-11-11", notes: [ "First browser version." ] }
+    ],
+
+    credits: "The Final Earth 2 was made by Florian van Strien, with music by Stijn Cappetijn. This rebuild is a fan project by Wadeball, written in Rust with the Bevy engine."
   }
 
   /* Template for the next entry (copy everything between the braces, add a comma after the entry above):

@@ -1,0 +1,2121 @@
+|VN - Vietnamese
+change_plants|Đổi Cây
+change_plants_variant|Đổi Kiểu Cây
+|
+invalid_structure|Bạn không thể phá hủy công trình này vì nó sẽ tạo ra một tòa nhà không hợp lệ.
+destroy|Phá Hủy
+really_destroy|Bạn chắc chứ?
+destroy_this_building|Phá hủy Công trình này
+destroy_tip|Mẹo: Bạn có thể dùng Del+Click chuột trên một công trình để phá hủy nhanh.
+|
+citizen|người dân
+|
+welcome_back_teleporter_warning|Chào mừng bạn đã trở lại thành phố!\nXin hãy lưu ý rằng Máy Dịch Chuyển giờ đây đã có phí hoạt động. Bạn có thể sẽ muốn thay thế một số Máy Dịch Chuyển để giảm chi phí. Bạn cũng có thể cho dừng mạng lưới dịch chuyển tạm thời; chỉ cần [tap] lên một Máy Dịch Chuyển, rồi [tap] Tắt Tất cả Máy dịch chuyển.
+update_notice|Thông báo Cập nhật
+|
+one_day|một ngày
+n_days|[0] ngày
+one_hour|một giờ
+n_hours|[0] giờ
+and|và
+one_minute|một phút
+n_minutes|[0] phút
+|
+game_load_error|Một vài thứ đã bị lỗi khi cố gắng tải tệp cần thiết cho viễn cảnh này! Hãy kiểm tra kết nối mạng của bạn và thử lại.
+game_import_error|Tệp này không giống tệp lưu trữ cho lắm! Bạn có chắc là đã chọn đúng tệp chưa?
+game_load_save_error|Thật đáng tiếc, một số thứ đã bị lỗi khi cố gắng tải tệp lưu trữ của bạn.
+game_load_save_error_version|Xin lỗi, chúng tôi không thể tải tệp lưu trữ! Có vẻ như nó được tạo trong phiên bản mới hơn của trò chơi.
+tap_to_continue|Nhấn để tiếp tục
+save_slot_import|Bạn muốn nhập bản lưu vào ổ nào?
+|
+close|Đóng
+|
+mute_music|Tắt Nhạc
+unmute_music|Bật Nhạc
+mute_sfx|Tắt Hiệu ứng Âm thanh
+unmute_sfx|Bật Hiệu ứng Âm thanh
+full_screen|Toàn Màn Hình
+advanced_settings|Cài đặt Nâng cao
+|
+follow_me_twitter|Theo dõi tôi trên Twitter @FlorianStrien để nhận được thông báo bản cập nhật mới nhất và game mới!
+mailing_list_info|Tôi sẽ gửi bạn những thông tin và sự thật thú vị của The Final Earth 2, cộng thêm thông tin về bản ra mắt tiếp theo!
+mailing_list_header|Đăng kí mailing list!
+join_discord|Tham gia Discord!
+privacy|Quyền Riêng Tư
+wishlist_full|Thêm bản đầy đủ vào wishlist!
+upgrade_premium|Nâng cấp lên Premium!
+back_to_title|Về lại Trang chính
+|
+click_here_to_play|[Tap] vào Đây để Chơi
+played_before|Đã Từng Chơi?
+continue|Tiếp Tục
+new_city|Thành Phố Mới
+new_city_explain|Bắt đầu với viễn cành bất kỳ hoặc Chơi Tự Do
+load_city|Tải Thành Phố
+which_city_to_load|Bạn muốn tải thành phố nào?
+play_other|Chơi các trò chơi khác của tôi!
+play_more_games|Chơi thêm các trò khác
+like_us|Thích chúng tôi!
+get_premium|Mua Premium
+exit|Thoát
+import|Nhập
+save_screenshot|Lưu Ảnh chụp màn hình
+view_credits|Hiện Credit
+|
+save_slot_choice|Bạn muốn dùng ổ lưu nào?
+|
+no_saves_warning|Cảnh báo! Thật đáng tiếc, không có cách nào để lưu trong trình duyệt của bạn. Bạn vẫn có thể chơi, nhưng bản lưu sẽ bị mất khi bạn thoát trò chơi. \n\nĐiều này thường xảy ra khi tắt cookie hoặc cookie bên thứ ba. Trò chơi sử dụng một cách thức gần giống với cookie để lưu thành phố của bạn. Cookie bên thứ ba có thể yêu cầu trò chơi chạy liên tục trên miền khác thay vì trên cổng web trò chơi. \n\nHãy thử bật cookie. Sau đó, tải lại trang. Nếu không, bạn có thể Xuất thành phố từ Menu trò chơi và Nhập nó lại khi chơi.
+|
+building_prevented_strange_force|Một lực kỳ lạ đã ngăn bạn xây dựng ở đây.
+|
+resident_workers_of|Công nhân của [0]
+none|Không
+resident_workers|[0]/[1] công nhân
+quality|Chất lượng: [0]
+capacity|Sức chứa: [0]
+|
+residents_of|Hộ dân của [0]
+residents|[0]/[1] người
+no_residents|Không có người
+there_are_no_houses|Không có nơi ở!
+houses_exactly_enough|Vừa đủ nơi ở cho người dân của bạn.
+house_n_cap_remaining|Còn [0] nơi ở chưa sử dụng.
+homeless_one|Có một người vô gia cư
+homeless_n|Có [0] người vô gia cư
+|
+students|[0]/[1] học sinh
+|
+beacon_credits|Beacon đã thiết kế cùng với Hydra, người đã chiến thắng cuộc thi xây dựng đầu tiên trên Discord!
+cannot_afford_hippie_bride|Bạn không có đủ để hối lộ Hippie!
+bribe_hippies_option|... hoặc hối lộ Hippie và bỏ qua nhiệm vụ\nnày với 10,000 thức ăn
+thank_you|Cảm ơn bạn
+thank_you_ex|Cảm ơn bạn!
+current_task|Nhiệm vụ hiện tại
+peace_out|Tạm biệt nhớ!
+flower_buds|Mở Bầu hoa: \nHãy chắc rằng tất cả 6 công việc đều có công nhân.
+hippie_mission_0|Kết nối Hoa: \nXây ít nhất 2 máy dịch chuyển được bao quanh bởi Vườn Bách Thảo.
+hippie_mission_1|Bữa tiệc Hoa: \nXây 3 Nhà hàng Hoa.
+hippie_mission_2|Thiên nhiên Thật sự: \nCó ít nhất một khu rừng được bảo vệ.
+hippie_mission_3|Chung sống trong hòa bình: \nXây 20 Nhà Cộng Đồng.
+hippie_mission_4|Hữu cơ hóa: \nXây 30 Trang trai Sạch.
+hippie_mission_5|Đừng bỏ phí: \nXây 9 Nhà Xử lý Phụ phẩm.
+hippie_mission_6|Xã hội Yên bình: \nNghiên cứu Đời sống Xã hội tại Trung tâm Nghiên cứu Đời sống.
+hippie_mission_7|Làm Thành phố Hát: \nXây Trung tâm Lễ hội.
+hippie_mission|Nhiệm vụ Hippie
+|
+change_building_color|Đổi Màu
+change_variant|Đổi Kiểu
+|
+beans_grown|Đậu đã phát triển [0]%.
+cacao_left|Còn [0] ca cao chưa thu hoạch.
+chocolate_production|[0] ca cao dùng để làm [1] thanh sô-cô-la.
+|
+ignore_unhappy_citizens|Bỏ qua cách cảnh báo về chỉ số hạnh phúc.
+city_name|Tên Thành phố:
+unnamed_city|Thành phố chưa đặt tên
+give_city_name|Đặt tên cho thành phố của bạn!
+change_city_name|Đổi Tên Thành phố
+|
+computer_chip_production|[0] kim loại tinh luyện dùng để làm [1] chip máy tính.
+knowledge_gathered|Đã thu thập [0] kiến thức.
+knowledge_generated|Đã tạo [0] kiến thức.
+knowledge_production_from_machine_parts|[0] bộ phận máy dùng để nhận [1] kiến thức.
+wood_produced|Đã sản xuất [0] gỗ.
+producing_by_products_for_n_farms|Đang xử lí phụ phẩm của [0] trang trại.
+producing_by_products_for_1_farm|Đang xử lí phụ phẩm của một trang trại.
+refinded_metals_made|[0] đá dùng để làm [1] kim loại tinh luyện.
+knowledge_gathered_per_day|Đã thu thập [0] kiến thức mỗi ngày.
+knowledge_gathered_so_far|Đã thu thập [0] kiến thức cho đến bây giờ.
+wood_used_for_machine_parts|[0] gỗ dùng để làm [1] bộ phận máy.
+|
+left_plot|Ô bên trái:
+top_right_plot|Ô trên phải:
+bottom_right_plot|Ô dưới phải:
+|
+current_task_looking|Nhiệm vụ hiện tại: Tìm kiếm tàn tích.
+current_task_exploring|Nhiệm vụ hiện tại: Khám phá tàn tích.
+current_task_investigating|Nhiệm vụ hiện tại: Kiểm tra vật tìm được.
+|
+crops_grow_pct|Cây trồng đã phát triển [0]%.
+food_left_to_harvest|Còn [0] nông sản chưa thu hoạch.
+old_crops_cleaned|Dọn dẹp đất trồng [0]%.
+resources_produced|Đã sản xuất [0] tài nguyên.
+|
+current_festival|Lễ hội Hiện tại
+planned_festival|Lễ hội đã lên Kế hoạch
+preparing|Đang chuẩn bị...
+assign_workers_to_prepare|Chỉ định công nhân chuẩn bị cho lễ hội mới!
+assign_more_to_speed_up|Chỉ định thêm nhiều công nhân để tăng tốc!
+organize_a_festival|Tổ chức Lễ hội
+cant_organize|Bạn không thể tổ chức Lễ hội Âm nhạc ngay lúc này!
+music_festival|Lễ hội Âm nhạc
+music_festival_help|Một buổi tiệc khổng lồ, thú vị kéo dài một ngày: Tăng hạnh phúc cho người dân trong một tuần. Chỉ số hạnh phúc thậm chí có thể vượt quá 100.
+|
+teleported_from|Dịch chuyển từ [0] lần.
+teleported_to|Dịch chuyển đến [0] lần.
+|
+mirror|Gương
+change_interior|Đổi Nội thất
+|
+graphene_sheets_production|[0] kiến thức và [1] đá dùng để làm [2] tấm graphen.
+graphene_sheets_made|[0] đá dùng để tạo [1] tấm graphen.
+|
+hackers_done|Chúng tôi sẽ tiếp tục hack!
+hackers_gather|Tập hợp các Hacker:\nHãy chắc rằng đã có đủ 6 người làm việc.
+hacker_mission_0|Thu thập Kiến thức:\nXây 20 Phòng thí nghiệm.
+hacker_mission_1|Lan tỏa Kiến thức:\nXây 3 Thư viện.
+hacker_mission_2|Nhà Thông minh:\nXây 5 Nhà Tinker.
+hacker_mission_3|Lên đời Nhà máy:\nNghiên cứu nâng cấp Đúc Mềm tại Nhà máy Luyện kim.
+hacker_mission_4|Thử phát minh mới nhất của chúng tôi:\nXây một Quán Nhà máy Rượu.
+hacker_mission_5|Thêm vài điều cơ bản:\nSản xuất ít nhất 20 chip máy tính mỗi ngày.
+hacker_mission_6|Bữa tiệc Máy móc:\nXây 7 Hộp đêm Phế liệu.
+hacker_mission_7|Hãy vui lên nữa nào!\nXây Phòng Thoát hiểm Thí nghiệm.
+hacker_mission_8|Đánh giá quá cao Bình tưới nước rồi:\nNghiên cứu Tự động Quản lý Nước tại Đồn Điền Cây.
+hacker_mission_9|Thay đổi Cuộc chơi:\nXây hai Sảnh Trò chơi Holo.
+hacker_mission_10|Xây dựng Phát minh Tối thượng của chúng ta:\nXây Máy Chệch Hướng.
+hackers_mission|Nhiệm vụ Hacker
+|
+herb_reduction|Thảo Mộc giảm lượng thức ăn người dân tiêu thụ đi [0]/[1]%
+herb_medical_happiness|Tổng chỉ số hạnh phúc y tế
+change_herb_plants|Đổi Loại Thảo mộc
+|
+elevator_entered|Thang máy đã đến đây [0] lần.
+elevator_left|Thang máy đã rời khỏi đây [0] lần.
+|
+crops_grown|Cây trồng đã phát triển [0]%.
+food_left|Còn [0] nông sản chưa thu hoạch.
+percent_cleaned|Dọn dẹp đất trồng [0]%.
+|
+used_as_house|Được dùng như một căn nhà.
+|
+transported_from|Đã vận chuyển từ đây [0] lần.
+transported_to|Đã vận chuyển tới đây [0] lần.
+used_as_stopover|Được dùng như trạm trung chuyển [0] lần.
+change_space_ship|Đổi Tàu Vũ trụ
+|
+upgrade_basic_houses|Nâng cấp Nhà Cơ bản
+|
+manage_birth_control|Quản lý Kiểm soát Sinh sản
+|
+misdirected|Đã làm chệch hướng [0] lần.
+|
+change_exhibition|Đổi Vật Trưng bày
+change_light_show|Đổi Loại Đèn
+colorful|Đầy Màu Sắc
+fast_red|Nhanh & Đỏ
+slow_blue|Chậm & Lam
+rainbow_light|Màu Cầu Vồng
+romantic_pink|Lãng Mạn & Hồng
+change_door_color|Đổi Màu Cửa
+|
+change_machines|Đổi Loại Máy
+|
+forever_grateful|Chúng tôi sẽ mãi mãi biết ơn.
+jobs_filled_secretsociety|Cho chúng tôi người theo dõi mà chúng tôi cần:\nHãy chắc rằng tất cả 8 công việc đều có người.
+secret_society_mission_0|Cải thiện Nơi ở của Chúng tôi:\nNghiên cứu Đời sống Bí mật tại Trung tâm Nghiên cứu Đời sống.
+secret_society_mission_1|Tăng gia Sản xuất:\nSản xuất 1000 gỗ trong một ngày.
+secret_society_mission_2|Làm xanh Thành phố:\nXây 15 Vườn Bách Thảo.
+secret_society_mission_3|Trưng bày tượng:\nXây 12 Vườn Điêu Khắc.
+secret_society_mission_4|Cải thiện Giao thông:\nXây bảy Máy Dịch Chuyển.
+secret_society_mission_5|Nhà Giàu:\nXây năm Biệt Thự.
+secret_society_mission_6|Biết Thứ Che dấu:\nThu thập ít nhất 1000 kiến thức trong một ngày.
+secret_society_mission_7|Hoàn thành Dự án của Chúng tôi:\nXây Cỗ Máy.
+secret_society_mission|Nhiệm vụ Xã hội Bí mật
+|
+change_sculptures|Đổi công trình điêu khắc
+dev_message|Một Lời nhắn từ Nhà phát triển
+climate_crisis_message_1|Hãy đảm bảo rằng voi không chỉ là một bức tượng pixel trong thế giới nho nhỏ ở tương lai năm 2142. Khủng hoảng khí hậu là mối đe dọa lớn nhất đối với thiên nhiên hoang dã - và loài người.
+see_what_you_can_do|Xem Những gì Bạn Có thể Làm
+|
+change_statue|Đổi Tượng
+|
+stone_mining_boost|Gia tăng khai thác đá hiện tại: [0]%.
+stone_mining_boost_base|Đây được dựa trên số công nhân và lượng kiến thức sản xuất được trong ngày hôm qua.
+fossils_found|Số hóa thạch đã tìm thấy: [0]
+|
+stone_left|Còn [0] đá trong tảng thiên thạch này.
+waiting_for_worker_teleport|Đang đợi công nhân để bấm nút dịch chuyển...
+teleporting_meteroid|Đang dịch chuyển một thiên thạch...
+something_went_wrong_stone|Đã xảy ra sự cố khi đang cập nhật tảng đá.
+|
+teleporters_operating_cost|Chi phí hoạt động máy dịch chuyển:\n[0] kiến thức/ngày
+cant_enable_teleporters|Bạn không thể bật máy dịch chuyển vì bạn không có đủ kiến thức để máy hoạt động!
+disable_all_teleporters|Tắt Tất cả Máy Dịch Chuyển
+keep_teleporters_disabled|Giữ cho Máy Dịch Chuyển Tiếp Tục Tắt
+enable_all_teleporters|Bật Tất cả Máy Dịch Chuyển
+|
+today_production|Sản Lượng Hôm nay:
+total_production|Tổng Sản lượng:
+next_production_in_n|Sản lượng trong [0] giờ tới.
+next_production_in_1|Sản lượng trong 1 giờ tới.
+|
+train_boarded_here|Tàu đã đến đây [0] lần.
+train_alighted_here|Tàu đã rời khỏi đây [0] lần.
+change_top_half_furniture|Đổi nội thất nửa trên
+change_bottom_half_furniture|Đổi nội thất nửa dưới
+change_trains|Đổi Tàu
+|
+trees_grown|Cây đã phát triển [0]%.
+wood_left|Còn lại [0]/[1] gỗ.
+|
+workers_of|Công nhân của [0]
+no_workers|Không có công nhân
+workers|[0]/[1] công nhân
+|
+tap_near_citizen_to_follow|[Tap] gần một người dân để theo dõi họ.
+|
+tap|Nhấn
+click|Nhấn
+|
+city|Thành Phố
+file_description|[0] - [1] người dân
+|
+boost_activated|Đã kích hoạt Tăng Tốc!
+boost_activated_description|Tất cả sản lượng tài nguyên giờ đây sẽ gấp đôi trong một lúc! Ngoài ra, bạn được thưởng thêm:
+|
+birth_control|Kiểm soát Sinh sản
+greatly_discourage_children|Nghiêm cấm việc sinh sản
+pop_stabilize|Dân số sẽ gần như ổn định.
+encourage_contraception|Khuyến khích Tránh thai
+slow_pop_growth|Dân số sẽ phát triển chậm rãi.
+no_special_policy|Không có Chính sách đặc biệt
+babies_born_normal|Trẻ em sẽ được sinh ra với tỉ lệ bình thường.
+encourage_parenthood|Khuyến khích Gia tăng Dân số
+more_babies_born|Thêm nhiều trẻ em sẽ được sinh ra khi chỉ số hạnh phúc đủ cao.
+|
+you_have_enough_wood|Bạn đã đủ gỗ. Hãy xây kho đá nào!
+build|Xây
+back|Quay Lại
+management|Quản Lý
+|
+already_built|Đã Xây
+unique|Độc Nhất
+also_unlocks_new|Ngoài ra, mở khóa thêm nhiều công trình mới.
+building_a_building|Đang xây [0]
+placing_a_decoration|Đang đặt [0]
+planting_a_forest|Đang trồng [0]
+|
+build_anywhere|Xây bất cứ đâu trong một tòa nhà.
+build_mode_insert|Chế độ Xây: Chèn
+build_mode_normal_explanation|Chỉ xây ở trên mặt đất và trên cùng công trình, hoặc ở dưới tầng cao nhất. [Tap] vào công trình để biết thêm thông tin và tùy chọn.
+build_mode_normal|Chế độ Xây: Bình Thường
+build_mode_replace_explanation|Dễ dàng thay thế công trình sẵn có.
+build_mode_replace|Chế độ Xây: Thay Thế
+build_mode_multi_explanation|Kéo để xây nhiều công trình cùng loại một cách nhanh chóng.
+build_mode_multi|Chế độ Xây: Multi
+build_mode_destroy_explanation|Phá hủy công trình một cách nhanh chóng.
+build_mode_destroy|Chế độ Phá hủy
+|
+build_anywhere_pc|Khi bật chế độ này, bạn có thể xây bất cứ đâu trong một tòa nhà.
+build_mode_insert_explanation_pc|Sau khi đã chọn một công trình để xây, nhấn vào một nơi trong tòa nhà để chèn công trình mới.
+build_mode_insert_explanation_pc_b|Nhấn vào một nơi trong tòa nhà để chèn công trình mới tại đó.
+build_mode_multi_explanation_pc|Khi bật chế độ này, bạn có thể kéo để xây nhiều công trình cùng loại một cách nhanh chóng.
+build_mode_replace_explanation_pc|Khi bật chế độ này, bạn có thể dễ dàng thay thế công trình sẵn có.
+build_mode_normal_explanation_pc|Khi bật chế độ này, bạn chỉ có thể xây trên mặt đất và trên tầng cao nhất của tòa nhà. Nhấn vào một công trình để biết thêm thông tin và tùy chọn.
+exception|Ngoại lệ:
+click_rooftop_selected|nếu bạn đã chọn một công trình để xây, nhấn vào căn nhà áp mái sẽ xây một công trình ở trên nó.
+click_rooftop|nhấn vào căn nhà áp mái sẽ xây một công trình ở trên nó.
+|
+all_building_modes|Tất cả Chế độ Xây
+follow_citizen|Theo dõi Người dân
+upgrades_and_policies|Nâng cấp và Chính sách
+highlight_buildings|Đánh dấu Công trình
+ctrl_to_highlight|Mẹo: Bạn có thể giữ Ctrl trong khi để chuột ở trên nút Công trình để đánh dấu tất cả công trình cùng loại đó.
+commute_explorer_gate|Khám phá Tuyến đường sẽ cho bạn thấy thời gian đi và các tuyến di chuyển của người dân.\nNâng cấp lên premium để nhận tính năng này và nhiều thứ khác nữa! Bạn cũng có thể xem quảng cáo để mở khóa nó trong 30 phút.
+commute_explorer|Khám phá Tuyến đường
+|
+change_city_name|Đổi Tên Thành phố
+give_city_name|Đặt tên cho thành phố của bạn!
+city_name|Tên Thành Phố
+|
+main_goal|Mục Tiêu Chính
+|
+current_tasks|Nhiệm vụ Hiện tại
+click_or_space|Nhấn (Hoặc bấm phím cách)
+to_pause|để tạm dừng.
+to_unpause|để tiếp tục.
+game_paused|Đã Tạm dừng
+game_running|Đang Chạy
+normal_speed|Tốc độ Bình thường
+onepointfive_speed|Tốc độ x1.5
+double_speed|Tốc độ x2
+half_speed|Tốc độ x0.5
+threequarter_speed|Tốc độ x0.75
+change_game_speed_mobile|Nhấn để thay đổi tốc độ trò chơi.
+change_game_speed_pc|Nhấn (hoặc bấm phím S) để thay đổi tốc độ trò chơi.\nCtrl+Click để chọn tốc độ.
+keep_paused_help|Shift để giữ cho trò chơi tạm dừng.
+game_menu|Menu Game
+show_extra_info|Hiện thông tin & tùy chọn thêm.
+hide_extra_info|Ẩn thông tin & tùy chọn thêm.
+alien_ruins_find|Đã tìm thấy thứ gì đó trong phế tích ngoài hành tinh!
+population|Dân Số
+total_amount_of_citizens|Tổng số dân trong thành phố của bạn.
+is_one_child|Có một trẻ em.
+are_n_children|Có [0] trẻ em.
+tap_for_age_distribution|[Tap] để sắp xếp nhóm tuổi.
+tap_for_age_distribution_or_pop_limit|[Tap] để sắp xếp nhóm tuổi hoặc thay đổi giới hạn dân số.
+follow_hint|Mẹo: để theo dõi một người dân, Ctrl+Click lên họ.
+food_shortage_unhappiness|Không hài lòng vì thiếu thức ăn:
+food_rationing_unhappiness|Không hài lòng vì khẩu phần ăn:
+mandatory_overtime_unhappiness|Không hài lòng vì làm thêm giờ:
+new_city_enthousiasm|Thưởng thêm cho sự nhiệt tình của thành phố mới:
+happiness_explainer|Người dân hạnh phúc làm việc nhanh hơn. Họ cũng sinh nhiều trẻ em hơn.
+home_happiness|Hạnh phúc nơi ở:
+sense_of_purpose|Ý thức về mục đích (công việc/trường học):
+entertainment_happiness|Hạnh phúc giải trí:
+education_happiness|Hạnh phúc giáo dục:
+medical_happiness|Hạnh phúc y tế:
+citizens_work_at_speed|Với chỉ số hạnh phúc hiện tại, người dân sẽ làm việc với tốc độ x[0] so với bình thường.
+happiness|Hạnh phúc
+total_happiness|Tổng Hạnh phúc:
+work_speed_modifier|Tốc độ Làm việc:
+housing|Nơi Ở
+work|Công Việc
+work_tooltip|Người có công việc / tổng số lao động.\nHiện có [0] công việc.\n[Tap] để chỉ định công nhân.
+|
+food|thức ăn
+wood|gỗ
+stone|đá
+knowledge|kiến thức
+machine_parts|Bộ Phận Máy
+refined_metals|Kim loại Tinh luyện
+computer_chips|Chip Máy tính
+graphene|Graphen
+|
+operating_cost|Chi phí hoạt động của công trình [0] [1] hôm qua và [2] hôm nay.
+factory_operating_cost|Nhà máy đã sử dụng [0] [1] hôm qua và [2] hôm nay.
+citizen_production_cost|Người dân đã sản xuất [0] [1] hôm qua và [2] hôm nay.
+not_enough_food|Bạn không có đủ thức ăn! [0] thức ăn được sản xuất tiếp theo sẽ ngay lập tức bị tiêu thụ bở người dân của bạn.
+|
+wood_use|Được sử dụng để xây.
+stone_use|Được sử dụng để xây và sản xuất bộ phận máy. Còn có thể làm thành kim loại tinh luyện.
+knowledge_use|Được dùng để nghiên cứu.
+machine_parts_use|Được dùng để chế tạo máy móc và công trình hiện đại.
+refined_metals_use|Được dùng để xây công trình hiện đại và sản xuất chip máy tính.
+computer_chips_use|Được dùng để chế tạo các cỗ máy thông minh.
+graphene_use|Cực kỳ mỏng, nhưng lại là vật liệu chắc nhất từng được thử nghiệm.
+|
+see_wood_here|Gỗ của bạn sẽ được hiển thị ở đây.
+great_gather_stone|Tuyệt vời! Giờ hãy thu thập 6 gỗ và 4 đá.
+you_have_enough_stone|Bạn đã đủ đá! Hãy đưa một vài công nhân về lại việc chặt cây.
+reduce_stone_mining_priority|Giảm ưu tiên việc khai thác đá.
+increase_woodcutting_priority|Tăng ưu tiên cho việc chặt cây!
+hint_hint|Mẹo! Nếu bạn lỡ quên điều cần làm, chỉ cần nhấn vào ? ở đây.
+hint_hint_pc|Mẹo! Nếu bạn lỡ quên điều cần làm, chỉ cần rơ chuột vào ? ở đây.
+speedup_hint|Mẹo! Nếu cảm cảm thấy trò chơi đang tiến triển chậm, bạn có thể tăng tốc với nút ở đây.
+|
+climate_crisis_explainer_1|Hãy Ngăn chặn Khủng hoảng Khí hậu!
+climate_crisis_explainer_2|Như bạn đã biết, khí hậu của chúng ta đang ngày càng thay đổi do khí thải nhà kính do con người gây ra. Chúng ta chỉ còn khoảng một thập kỷ để giảm lượng khí thải một cách đáng kể nếu chúng ta muốn ngăn chặn những tác động tồi tệ nhất, có thể kể đến như lũ lụt, hạn hán và những tác hại rất lớn về mặt sức khỏe. Dưới đây là một số việc làm bạn có thể thực hiện:
+climate_crisis_explainer_3|Bầu cử!
+climate_crisis_explainer_4|Một điều rất quan trọng đó là chính phủ đặt ra luật lệ để giữ cho các công ty và người dân giảm thiểu lượng khí thải nhà kính. Vì vậy, hãy bầu cho đảng phái nhận thức được điều này mỗi khi có thể.
+climate_crisis_explainer_5|Ăn Ít Thịt hơn
+climate_crisis_explainer_6|Đã có nhiều sản phẩm thay thế thịt rất tuyệt vời, vừa ngon và vừa gây ra ít khí thải hơn. Ngoài ra, đậu và các loại hạt cũng là nguồn protein thay thế rất tốt.
+climate_crisis_explainer_7|Đừng đi Máy bay
+climate_crisis_explainer_8|Máy bay thải ra một lượng lớn khí CO2. Hạn chế đi máy bay càng ít càng tốt. Nếu bạn thích đi du lịch, tàu hỏa là một lựa chọn rất sáng suốt!
+climate_crisis_explainer_9|Học rộng, Hiểu sâu
+climate_crisis_explainer_10|Kiến thức là sức mạnh! Đọc các bài báo và xem các trang về môi trường như The Guardian Environment và Climate Reality Project.
+thanks_signoff|Xin cảm ơn,
+read_more_link|Đọc Thêm (Liên kết Ngoài)
+|
+per_building|mỗi công trình
+for_one_building|cho một công trình
+for_this_building|cho công trình này
+for_all_buildings|cho tất cả công trình
+for_n_buildings|cho [0] công trình
+remove|Gỡ Bỏ
+change_appearance_upgrade|Đổi giao diện của nâng cấp này.
+upgrades|Nâng Cấp
+upgrade_only_this|Chỉ nâng cấp công trình này.
+upgrade_afford|Nâng cấp các công trình cùng loại này nhiều nhất có thể. Hiện có [0].
+upgrade_all_explain|Nâng cấp tất cả công trình cùng loại này. Hiện có [0].
+building_modes|Chế độ Xây
+building_mode_only_this|Đặt chế độ xây cho duy nhất công trình này.
+building_mode_afford|Đặt chế độ xây cho các công trình cùng loại này nhiều nhất có thể. Hiện có [0].
+building_mode_all_explain|Đặt chế độ xây cho tất cả công trình cùng loại này. Hiện có [0].
+city_upgrades|Nâng cấp Thành phố
+city_policies|Chính sách Thành phố
+credits|Credit
+game_by|Một trò chơi được phát triển bởi Florian van Strien.
+music_by|Nhạc & SFX bởi Stijn Cappettijn.
+credits_software|Phần Mềm
+credits_software_1|Được lập trình bằng Haxe.
+credits_software_2|Kết xuất đồ họa bằng pixi.js.
+early_feedback|Feedback Ban đầu: Douwe
+thanks_for_playing|Xin cảm ơn vì đã chơi trò chơi của chúng tôi!
+localized_by|Được dịch bởi qanle
+music_by_2|với nhạc nền bởi Stijn Cappetijn
+|
+|
+|
+|
+following|Đang theo dõi [0] 
+this_citizen|người dân này
+|
+education_level_0|Không
+education_level_1|Tệ
+education_level_2|Nghèo
+education_level_3|Hạn Chế
+education_level_4|Bình Thường
+education_level_5|Tạm
+education_level_6|Tốt
+education_level_7|Rất Tốt
+education_level_8|Tuyệt 
+education_level_9|Rất tuyệt
+education_level_10|Cực tuyệt
+education_level_11|Ngoài Mong Đợi
+education_level_12|Xuất xắc
+education_level_13|Khó Tin
+education_level_14|Đẳng Cấp
+education_level_15|Phi Thường
+age_and_education|Độ tuổi: [0]\nGiáo dục: [1]
+change_home_job|Đổi Nơi ở/Công việc
+change_home_school|Đổi Nơi ở/Trường học
+citizen_passed_away|Thật đáng tiếc, [0] người đã qua đời. :(
+for_citizen|cho [0]
+following_fish|Đang theo dõi con cá
+cant_find_fish|Bạn không thể tìm thấy con cá nữa.
+customize_free_play|Tùy chỉnh Chơi Tự do
+starting_resources|Lượng Tài nguyên Khởi đầu
+normal_resources|Lượng Tài nguyên Gốc
+extra_resources|Tài nguyên nhiều hơn
+unlimited_resources|Tài nguyên Vô hạn
+starting_citizens|Số dân Khởi đầu
+buildings_research|Công Trình & Nghiên Cứu
+standard_unlocks|Phần Mở khóa Gốc
+most_unlocks|Mở khóa Hầu hết
+|
+last_saved|Đã lưu lần cuối [0] giây trước.
+temp_save|Cảnh báo: lưu tạm thời!
+use_save_slot|Bạn muốn lưu trong ổ nào?
+use_save_slot_2|Bạn muốn tải ổ nào?
+save_command|Lưu...
+load_command|Tải...
+which_city_load|Bạn muốn tải thành phố nào?
+export|Xuất
+import_command|Nhập...
+new_city|Thành Phố Mới
+next_scenario|Viễn cảnh Kế tiếp
+restart_scenario|Đặt lại Viễn cảnh
+restart_scenario_question|Đặt lại Viễn cảnh?
+sure_restart|Bạn có chắc là sẽ đặt lại viễn cảnh về lại ban đầu?
+restart|Đặt Lại
+undo_restart|Hoàn tác Đặt lại
+|
+no_upgrades|Không có nâng cấp sẵn có.
+auto_upgrade|Tự động Nâng cấp
+upgrade_all_labs|Nâng cấp tất cả phòng thí nghiệm với nâng cấp thích hợp với công trình kế nó.
+|
+housing_information|Thông tin Nơi ở
+|
+start_scenario|Bắt đầu Viễn cảnh
+free_play|Chơi Tự do
+unlock_all|Mở khóa Tất cả
+welcome_back|Chảo mừng Trở lại!
+import_city|Nhập Thành phố
+got_export|Có tệp lưu bên ngoài?
+|
+best_time|Thời gian tốt nhất: [0]d [1]h [2]m
+|
+to_research|để nghiên cứu
+|
+music_volume|Âm lượng Nhạc
+sound_effect_volume|Âm lượng Hiệu ứng Âm thanh
+hide_boost_button|Ẩn nút Tăng Tốc
+color_blind_mode|Chế độ mù màu cho\nKhám phá Tuyến đường
+enable_unlimited_resources|Bật Tài nguyên Vô hạn
+disable_unlimited_resources|Tắt Tài nguyên Vô hạn
+play_unlimited|Bạn có muốn chơi với tài nguyên vô hạn cho bản lưu này?
+stop_play_unlimited|Bạn có muốn chơi với chế độ tài nguyên bình thường? Bạn vẫn có thể bật lại chế độ tài nguyên vô hạn.
+yes|Vâng
+unlimited|Vô hạn
+visit_store|Tham quan Cửa hàng
+pathfinding_thread_limit|Giới hạn Tìm đường dẫn:
+pathfinding_thread_limit_explain|Tìm đường dẫn được sử dụng để tính toán lối di chuyển cho người dân. Nếu tất cả lối đi đều bị nghẽn, người dân có thể đứng yên và chờ cho đến khi hết tắt đường. Tăng chỉ số này sẽ cải thiện sự mô phỏng ở các thành phố lớn. Giá trị được đề xuất = Số lõi vật lí trong bộ xử lí - 1. Giá trị cao hơn có thể giảm FPS.\nNếu bạn không biết tất cả điều này có nghĩa là gì, thì không sao đâu! Chỉ cần đặt ở chế độ mặc định.
+reset_pathfinding_limit|Nhấn để đặt lại giới hạn tìm đường dẫn về mặc định.
+have_or_want_code|Đang có hoặc muốn Code Bí Mật?
+have_code|Đang có một Code Bí Mật?
+input_code|Nhập Code Bí Mật
+mailing_list_help_2|Tôi sẽ gửi bạn thông tin và sự thật thú vị của The Final Earth 2, cộng với thông tin về bản phát hành trong tương lai!\n\nVà thêm nữa, để đáp lại niềm quan tâm của bạn, bạn sẽ nhận được một code bí mật để mở khóa thêm nhiều tùy chọn để trang trí!
+|
+pop_by_age|Dân số theo Nhóm tuổi
+citizens_and_children|Hiện có [0] người dân, trong đó có [1] trẻ em.
+citizens_by_age_explain|Số lượng người dân của mỗi nhóm tuổi sẽ được hiển thị dưới đây.
+one_citizen_age|Một người dân [0] tuổi.
+n_citizens_age|[0] người dân [1] tuổi.
+one_citizen_age_oldest|Một người dân [0] tuổi. Già nhất là [1] tuổi.
+n_citizens_age_oldest|[0] người dân [1] tuổi. Già nhất là [2] tuổi.
+one_citizen_age_upper_range|Một người dân [0] tuổi hoặc lớn hơn.
+n_citizens_age_upper_range|[0] người dân [1] tuổi hoặc lớn hơn.
+one_citizen_age_range|Một người dân đang ở độ tuổi giữa [0] và [1].
+n_citizens_age_range|[0] người dân đang ở độ tuổi giữa [1] và [2].
+pop_limit|Giới hạn Dân số:
+reset_pop_limit|[Tap] để đặt lại giới hạn dân số về mặc định.
+pop_limit_hint|Dân số sẽ không tăng lên một khi bạn đạt đến giới hạn này. Hãy lưu ý rằng tăng giới hạnh dân số 
+|
+upgrade_basic_houses_hint|Chất lượng của Nhà Cơ bản không thể nâng cấp lên 100. Thay vào đó, bạn có thể nhanh chóng nâng cấp chúng lên các loại nhà khác tại đây.\nĐầu tiên, hãy chọn loại nhà bạn muốn nâng cấp lên:
+upgrade_to_x|Nâng cấp lên [0]
+no_basic_houses|Hiện không có nhà cơ bản.
+confirm|Chấp Nhận
+no_undo|Hãy lưu ý rằng việc này không thể hoàn tác.
+upgrade_basic_for|Nâng cấp [0] trong số [1] nhà cơ bản cho:
+upgraded_houses|Thành công! Đã nâng cấp [0] căn nhà.
+choose_save_slot|Chọn Ổ Lưu
+load_a_game|Tải Bản Lưu
+empty|(trống)
+overwrite|(đè lên)
+really_overwrite|Thật sự đè lên ổ [0]?
+slot_n|Ổ [0]
+|
+secret_code|Code Bí mật
+secret_code_use|Bạn có thể dùng code bí mật để mở khóa các tùy chọn trang trí thú vị.
+secret_code_acquire|Đăng kí mailing list của tôi, và tôi sẽ gửi cho bạn một code ngay lập tức như một lời cảm ơn với niềm quan tâm của bạn! Tôi cũng sẽ cập nhật cho bạn về trò chơi này và bản phát hành trong tương lai.
+sample_code_1|Ngoài ra, bạn có thể thử code sau như một phần thưởng cho sự tò mò của mình:
+sample_code_2|Bạn có thể thử code sau như một phần thưởng cho sự tò mò của mình:
+secret_code_activated|Code Bí mật đã Kích hoạt!
+secret_code_1|Bạn giờ đã có thể đổi màu đèn trong các hộp đêm!
+secret_code_2|Cảm ơn bạn rất nhiều vì đã đăng kí mailing list của tôi! Các tùy chọn cây và hoa mới giờ đã mở khóa.
+secret_code_3|Bạn giờ đã có thể chọn giữa các tàu không gian cho Bệ Đáp.
+enter_a_secret_code|Nhập Code Bí mật
+enter_secret_code|Nhập Code Bí mật
+secret_code_incorrect|Thật đáng tiếc, mã code này không đúng!
+citizen_name_stats|Có [0] người dân của bạn có cùng [1] tên riêng. Phổ biến nhất là [2], bị trùng [3] lần.
+landing_pads_stats|Tổng cộng, bệ đáp của bạn đã được dùng [0] lần, bao gồm [1] lần được sử dụng như trạm trung chuyển.
+landing_pads_air|Hiện tại, có [0] tàu vũ trụ trên không, chứa [1] người.
+hyper_elevators_stats|Thang máy siêu tốc đã được dùng [0] lần.
+train_station_stats|Nhà ga của bạn đã được dùng [0] lần.
+teleporter_stats|Máy dịch chuyển đã được dùng [0] lần.
+stats_info|Được rồi, đây là một số số liệu thống kê về thành phố của bạn!
+building_stats|Hiện có [0] công trình. Tòa nhà cao nhất cao [1] tầng.
+|
+one|Một
+max|Tối Đa
+all|Tất Cả
+|
+assign_workers|Chỉ định Công nhân
+set_priority_jobs_mobi|Nhấn để đặt số công việc ưu tiên thành số lượng công nhân hiện tại.
+set_priority_jobs_desktop|Nhấn để đặt số công việc ưu tiên thành số lượng công nhân hiện tại. Shift+Click chuột để đặt lại về 0. Ctrl+Click chuột để đặt về tối đa.
+no_work_buildings|Hiện chưa có công trình có việc làm!
+|
+highlighting|Đang đánh dấu [0]
+select_any|Chọn Bất Kỳ
+|
+today|Hôm nay
+yesterday|Hôm qua
+n_days_ago|[0] ngày trước
+production|Sản lượng
+usage|Lượng tiêu thụ
+|
+store|Cửa Hàng
+store_description|Mở khóa tính năng mới, hoặc gỡ quảng cáo. Tôi rất cảm kích vì sự giúp đỡ của bạn!
+already_has_premium|Bạn đã có phiên bản premium rồi, cảm ơn bạn rất nhiều!
+premium_upgrade|Nâng cấp lên Phiên bản Premium
+get_premium_edition|Mua Phiên bản Premium
+premium_advantage_1|Công trình mới: Nhà Ga và Thủy Cung!
+premium_advantage_2|Khám phá Tuyến đường để xem người dân đi lại
+premium_advantage_3|Tùy chọn chế độ sáng tạo cho chế độ chơi tự do
+premium_advantage_4|Gỡ tất cả quảng cáo & Tăng Tốc với không quảng cáo
+premium_advantage_5|Nhiều hơn nữa trong tương lai!
+removed_ads_already|Bạn đã gỡ quảng cáo rồi, cảm ơn bạn rất nhiều!
+remove_ads|Gỡ Quảng Cáo
+remove_ads_1|Gỡ tất cả quảng cáo bắt buộc
+remove_ads_2|Tăng Tốc với không quảng cáo
+store_not_available|Cửa hàng hiện không có sẵn. Xin vui lòng thử lại sau!
+purchase_failed|Đã xảy ra lỗi khi cố gắng giao dịch. Vui lòng kiểm tra kết nối internet của bạn và thử lại sau.
+purchase_processing|Giao dịch hiện đang được xử lý. Nếu bạn cần trợ giúp với cuộc giao dịch này, bạn có thể liên hệ với tôi tại info@florianvanstrien.nl
+purchased|Đã mua
+not_available|n/a
+|
+selected_x|Đã chọn: [0]
+deselect|Bỏ chọn
+no_info_for_building|Không có thông tin cho công trình này
+no_average_yet|Chưa có trung bình
+average_travel_time|Trung bình: [0] phút
+collapse_info|Thu gọn Thông tin
+show_info|Hiện Thông tin
+check_commute_time|Xem người dân mất bao lâu để đi lại, dựa trên sáng hôm qua. [Tap] vào một tòa nhà cho các tuyến đường.
+data_available_time|Mất khoảng một ngày trước khi dữ liệu có sẵn và chính xác.
+just_created_save|Xin lưu ý: bạn chỉ vừa tạo thành phố này.
+just_loaded_save|Xin lưu ý: bạn chỉ vừa tải thành phố này.
+|
+thanks_very_much|Cảm ơn bạn rất nhiều!
+premium_activated|Các nội dung premium đã được kích hoạt. Ngoài ra, hãy chắc rằng kiểm tra Tùy chọn Nâng cao trong Menu trò chơi để thấy các tùy chọn mới.
+remove_ads_activated|Bạn sẽ không còn thấy quảng cáo bắt buộc nữa, và có thể Tăng Tốc với không quảng cáo. Ngoài ra, bạn có thể gỡ bỏ nút Tăng Tốc trong Tùy chọn Nâng cao.
+premium_upgrade_activated|Các nội dung premium đã được kích hoạt.
+ad_failed_to_load|Xin lỗi, tải quảng cáo thất bại! Xin thử lại sau.
+watch_ad_temp_unlock|Xem quảng cáo để mở khóa tạm thời
+mod_resource_not_loaded|Không thể tải tài nguyên mod.
+technical_details|Chi tiết kỹ thuật:
+|
+first_house_cheaper|Căn nhà đầu tiên luôn rẻ hơn vì bạn có thể dùng một vài phế liệu từ con tàu của bạn.
+change_pop_limit|[Tap] lên bộ đếm dân số để đổi giới hạn này.
+pop_limit_reached|Đã đạt đến giới hạn dân số!
+|
+claim_within_n_s|Nhận trong [0]s.
+2x_boost|X2 thời gian tăng tốc!
+3x_boost|X3 thời gian tăng tốc!
+double_bonus_boost|Gấp đôi tài nguyên thưởng thêm!
+triple_bonus_boost|Gấp ba tài nguyên thưởng thêm!
+2x_boost_claimed|Bạn đã nhận thành công tăng tốc đặc biệt. Tăng tốc này sẽ kéo dài gấp đôi thời gian!
+3x_boost_claimed|Bạn đã nhận thành công tăng tốc đặc biệt. Tăng tốc này sẽ kéo dài gấp ba thời gian!
+double_bonus_boost_claimed|Bạn đã nhận thành công gia tăng đặc biệt. Tài nguyên thưởng thêm ở trên đã gấp đôi!
+triple_bonus_boost_claimed|Bạn đã nhận thành công gia tăng đặc biệt. Tài nguyên thưởng thêm ở trên đã gấp ba!
+boost_failed|Xin lỗi, không thể tải Tăng Tốc! Xin thử lại sau.
+boost|Tăng tốc
+boost_active|Tăng tốc kích hoạt
+boost_active_description|Tất cả sản xuất tài nguyên giờ sẽ gấp đôi!
+boost_use_case|Gấp đôi sản xuất tài nguyên trong một lúc bằng cách xem một quảng cáo!
+boost_earn_extra_reward|Ngoài ra, nhận thưởng tài nguyên ngẫu nhiên ngay lập tức!
+|
+rationing_halves_this|Giảm một nửa tỉ lệ này.
+food_description_1|Người dân của bạn cần ăn!
+food_description_2|Người lớn tiêu thụ khoảng một thức ăn trong một ngày, trẻ em tiêu thụ 1/2 thức ăn.
+food_description_3|Thảo mộc làm giảm [0]/[1]%.
+food_description_4|Hiện tại, [0] thức ăn được tiêu thụ hằng ngày.
+|
+night_clubs|Hộp Đêm
+pubs_restaurants|Quán Rượu & Nhà Hàng
+art|Nghệ Thuật
+nature|Thiên Nhiên
+gaming|Trò chơi điện tử
+libraries|Thư Viện
+|
+citizens_unhappy|Người dân của bạn đang cực kỳ bất bình! Họ sẽ làm việc chậm hơn khi họ không hài lòng, vì vậy việc giải quyết vấn đề của họ nên được ưu tiên.
+more_happiness_info|[Tap] vào nút Hạnh phúc phía dưới gần bên phải để biết thêm thông tin.
+citizens_unhappy_title|Người dân của bạn đang không hài lòng!
+|
+operating_cost|Chi phí hoạt động/ngày:
+festival_doing|Đang có một lễ hội ngay lúc này!
+music_festival_boost|Gia tăng Lễ hội Âm nhạc
+music_festival_planned|Bạn đã chuẩn bị một lễ hội âm nhạc tuyệt vời!
+music_festival_doing|Người dân của bạn đang giải trí với Lễ hội Âm nhạc tuyệt vời!
+alien_ruins|Phế tích Ngoài hành tinh
+|
+alien_ruins_find_1a|Mọc Um Tùm
+alien_ruins_find_1b|Đá To
+alien_ruins_find_1c|Sỏi Nhỏ
+alien_ruins_find_1d|Tủ lạnh Ngoài hành tinh
+alien_ruins_find_1e|Đá Cam
+alien_ruins_find_2a|Gỗ Tím
+alien_ruins_find_2b|Cột Khổng Lồ
+alien_ruins_find_2c|Thiết bị Bíp bíp
+alien_ruins_find_2d|Đồ Hộp
+alien_ruins_find_2e|Nấm
+alien_ruins_find_3a|Hộp Dây
+alien_ruins_find_3b|Đống Gỗ
+alien_ruins_find_3c|Cửa Đá Lớn
+alien_ruins_find_3d|Bụi cây quả mọng 
+alien_ruins_find_3e|Bánh Răng
+alien_ruins_find_4a|Tranh đá về Trồng trọt
+alien_ruins_find_4b|Bản thiết kế Nhà Người ngoài hành tinh
+alien_ruins_find_4c|Thông tin Nhà máy Ngoài hành tinh
+alien_ruins_find_4d|Não Người Ngoài hành tinh
+alien_ruins_find_4e|Thiết Bị Lạ
+|
+alien_ruins_description_1a|Người thám hiểm đã chặt một vài khúc rễ và nhận được 20 gỗ.
+alien_ruins_description_1b|Người thám hiểm đã tìm thấy một tảng đá to chứa 25 đá.
+alien_ruins_description_1c|Người thám hiểm đã suýt vấp phải một đống sỏi khổng lồ. Họ đã thu thập nó cho 22 đá.
+alien_ruins_description_1d|Người thám hiểm đã tìm thấy tủ lạnh ngoài hành tinh có 12 thức ăn ở trong nó. Rồi họ đã tháo rời nó cho 5 bộ phận máy.
+alien_ruins_description_1e|Người thám hiểm đã để mắt đến những hòn đá cam. Thu được 35 đá.
+|
+alien_ruins_description_2a|Người thám hiểm đã tìm thấy hòm tiếp tế bị che giấu chứa 40 gỗ tím.
+alien_ruins_description_2b|Người thám hiểm đã phá đi một trụ đá khổng lồ ngán đường họ. Thu được 35 đá.
+alien_ruins_description_2c|Người thám hiểm đã tháo dỡ một thiết bị liên tục kêu bíp bíp và nhận 20 bộ phận máy.
+alien_ruins_description_2d|Người thám hiểm đã tìm thấy một chồng lon chứa cây phát quang rất ngọt. Cái cây này hóa ra lại khá bổ dưỡng, nên người dân của bạn có thêm 42 thức ăn.
+alien_ruins_description_2e|Người thám hiểm đã tìm thấy một vài cây nấm khá đáng nghi. Một cách rất cẩn thận, họ ăn thử. Bất ngờ thay, chúng thật ra rất ngon và bạn nhận được 55 thức ăn.
+|
+alien_ruins_description_3a|Người thám hiểm đã tìm thấy một cái hộp chứa đầy dây thép. Nhận được 10 gỗ từ cái hộp và 5 bộ phận máy từ đống dây.
+alien_ruins_description_3b|Người thám hiểm đã tìm thấy một cây cột khá to với 17 gỗ.
+alien_ruins_description_3c|Người thám hiểm đã phá đi một cánh cửa đá lớn và nhận được 15 đá.
+alien_ruins_description_3d|Người thám hiểm đã tìm thấy một vài bụi berry chứa 22 thức ăn.
+alien_ruins_description_3e|Người thám hiểm đã tìm thấy một chồng bánh răng. Nhận được 7 bộ phận máy.
+|
+alien_ruins_description_4a|Người thám hiểm đã tìm thấy một vài bức tranh được vẽ trên đá về kĩ thuật trồng trọt hiện đại hơn. Nông dân giờ sẽ thu thêm 5 thức ăn cho mỗi đợt thu hoạch.
+alien_ruins_description_4b|Người thám hiểm đã tìm thấy một bản vẽ để xây nhà ngoài hành tinh.
+alien_ruins_description_4c|Người thám hiểm đã tìm thấy một cuốn sách chứa thông tin về nhà máy ngoài hành tinh. Với kiến thức này, Nhà máy bộ phận máy hoạt động nhanh hơn 10%.
+alien_ruins_description_4d|Người thám hiểm đã tìm thấy một lọ thủy tinh chứa não người ngoài hành tinh. Với kiến thức từ cấu trúc não, nhà nghiên cứu trong phòng thí nghiệm đã hiểu về bộ não con người tốt hơn và có thể nhận kiến thức nhanh hơn 5%.
+alien_ruins_description_4e|Người thám hiểm đã tìm thấy một thiết bị nhỏ, có thể liên quan đến những thế giới không thể tiếp cận.
+|
+n_pct_explored|Đã khám phá [0]%.
+findings|Vật đã tìm thấy
+exploration_nothing_found|Người thám hiểm chưa tìm thấy bất cứ vật nào!
+move_ruins_howto|[Tap] vào đất trống trong một thế giới để di chuyển phế tích ngoài hành tinh.
+move|Di chuyển
+|
+language|Ngôn Ngữ
+this_language_name|Tiếng Việt
+|
+forest|Rừng
+pine_forest|Rừng Thông
+forest_management|Quản lý Rừng
+forest_management_only_this|Chỉ đặt chế độ quản lý cho khu rừng này.
+forest_management_all|Đặt chế độ quản lý cho tất cả khu rừng
+forest_management_question_1|Tiều phu phải làm gì với tất cả khu rừng?
+forest_management_question_2|Tiều phu phải làm gì với khu rừng này?
+forest_regrow|Chặt đi và Trồng lại
+forest_regrow_description_1|Chặt nó đi, rồi để nó mọc lại.
+forest_regrow_description_2|Chặt nó đi, rồi để nó mọc lại.
+forest_protect|Bảo vệ
+forest_protect_description_1|Không chặt.
+forest_protect_description_2|Không chặt.
+forest_uproot|Chặt đi và Nhổ bỏ rễ
+forest_uproot_description_1|Chặt đi để tạo không gian trống.
+forest_uproot_description_2|Chặt đi để tạo không gian trống.
+forest_instant_uproot|Nhổ bỏ rễ
+forest_instant_uproot_description|Lập tức phá hủy khu rừng này.
+prioritized|Đã ưu tiên
+prioritize|Ưu tiên
+prioritize_description_1|Tiều phu sẽ chặt khu rừng này trước. [Tap] để hủy bỏ.
+prioritize_description_2|Khi được ưu tiên, tiều phu sẽ chặt khu rừng này trước.
+really_uproot|Thật sự Nhổ bỏ?
+|
+pct_grown|Đã phát triển [0]%.
+pct_left|[0]/[1]% [2] còn lại.
+|
+rock|Đá
+rock_mining|Khai thác Đá
+set_management_rock|Chỉ đặt chế độ quản lý cho mỏ đá này.
+set_management_all_rocks|Đặt chế độ quản lý cho tất cả mỏ đá
+rock_management_question_1|Thợ mỏ phải làm gì với tất cả mỏ đá?
+rock_management_question_2|Thợ mỏ phải làm gì với mỏ đá này?
+rock_management_mine|Khai thác
+rock_management_mine_description_1|Khai thác.
+rock_management_mine_description_2|Khai thác đá
+rock_management_protect_description_1|Không khai thác đá; giữ như đồ trang trí.
+rock_management_protect_description_2|Không khai thác đá; giữ như đồ trang trí.
+rock_prioritized_description|Thợ mỏ sẽ khai thác mỏ đá này trước. [Tap] để hủy bỏ.
+rock_prioritized_description_2|Khi được ưu tiên, thợ mỏ sẽ khai thác mỏ đá này trước.
+|
+buildinginfo.json/NormalHouse.name|Căn nhà
+buildinginfo.json/NormalHouse.description|Người dân của bạn sẽ chắc chắn cảm kích nếu có một nơi che nắng che mưa.
+buildinginfo.json/AlienHouse.name|Nhà Ngoài hành tinh
+buildinginfo.json/AlienHouse.description|Năm người có thể sống tại căn nhà kỳ lạ đầy những thứ công nghệ thế giới khác.
+buildinginfo.json/ModernRusticHome.name|Nhà Mộc mạc Hiện đại
+buildinginfo.json/ModernRusticHome.description|Căn nhà trông mộc mạc này làm mọi người nghĩ đến Trái đất. Chất lượng căn nhà tăng 15 nếu có ít nhất ba ngôi nhà cùng loại khác hoặc công viên bên cạnh nó.
+buildinginfo.json/ModernRusticHome.tooltipBottomIconInfo_0|Phạm vi được ảnh hưởng 
+buildinginfo.json/ComfortableHouse.name|Nhà Gỗ
+buildinginfo.json/ComfortableHouse.description|Nó không xa hoa lắm, nhưng vẫn khá thoải mái.
+buildinginfo.json/MechanicalHouse.name|Nhà Cơ khí
+buildinginfo.json/MechanicalHouse.description|Máy móc và việc sưởi ấm của căn nhà này cần một Nhà máy Bộ phận Máy để hoạt động. Chất lượng căn nhà tăng 50 nếu có một cái gần nó.
+buildinginfo.json/MechanicalHouse.showUnlockHint|Xây ít nhất ba Nhà máy Bộ phận Máy để mở khóa!
+buildinginfo.json/MechanicalHouse.tooltipBottomIconInfo_0|Phạm vi được ảnh hưởng 
+buildinginfo.json/SpaciousHouse.name|Nhà Rộng rãi
+buildinginfo.json/SpaciousHouse.description|Một căn nhà hiện đại với rất nhiều không gian.
+buildinginfo.json/CuttingEdgeHome.name|Nhà Cắt Cạnh
+buildinginfo.json/CuttingEdgeHome.description|Một căn nhà rất tân tiến được lấp đầy với công nghệ.
+buildinginfo.json/CuttingEdgeHome.showUnlockHint|Xây Trung tâm Nghiên cứu Đời sống để mở khóa!
+buildinginfo.json/ParkPod.name|Nhà Kén
+buildinginfo.json/ParkPod.description|Một căn nhà lơ lửng giữa khu vườn.
+buildinginfo.json/TinkerersHome.name|Nhà Tinker
+buildinginfo.json/TinkerersHome.description|Căn nhà này được thiết kế cho nhà phát minh và người chế tạo. Người sinh sống tại đây sẽ nhận được sự giáo dục thêm.
+buildinginfo.json/FarmHouse.name|Nhà Cộng đồng
+buildinginfo.json/FarmHouse.description|Căn nhà này mang lại ý thức mãnh liệt về cộng đồng. Cung cấp một số lượng nhỏ thức ăn, gỗ hoặc đá cho mỗi người sinh sống tại đây. Hầu hết các nâng cấp không áp dụng được với việc sản xuất này.
+buildinginfo.json/BlossomHut.name|Lều Hoa nở
+buildinginfo.json/BlossomHut.description|Người sinh sống tại căn lều này sẽ rất yêu thiên nhiên.
+buildinginfo.json/BlossomHut.showUnlockHint|Xây mười nhà hàng hoa nở để mở khóa!
+buildinginfo.json/FuturisticHome.name|Nhà Tương lai
+buildinginfo.json/FuturisticHome.description|Người sinh sống tại đây sẽ tự động nhận được sự chăm sóc y tế và giáo dục.
+buildinginfo.json/Villa.name|Biệt Thự
+buildinginfo.json/Villa.description|Một biệt thự xa hoa, hiện đại với một máy dịch chuyển cá nhân.
+buildinginfo.json/FlowerPenthouse.name|Nhà Hoa Áp mái
+buildinginfo.json/FlowerPenthouse.description|Một căn nhà hoang phí nằm trên tầng cao nhất. Nó còn đi kèm theo mới một máy dịch chuyển cá nhân.
+buildinginfo.json/LandingSite.name|Bệ Đáp
+buildinginfo.json/LandingSite.description|Bệ đáp hoạt động như một trạm xe buýt trong không gian. Mọi người có thể bắt phi thuyền từ đây tới bệ đáp khác. Chỉ có thể đặt ở mặt đất hoặc tầng cao nhất.
+buildinginfo.json/LandedExplorationShip.name|Tàu Thám hiểm
+buildinginfo.json/LandedExplorationShip.description|Sống trong tàu thám hiểm có thể không thoải mái lắm, nhưng nó chắc chắn rất thú vị! Chỉ có thể đặt ở mặt đất hoặc tầng cao nhất.
+buildinginfo.json/HyperElevator.name|Thang máy Siêu tốc
+buildinginfo.json/HyperElevator.description|Cho phép người dân đi lên trên hoặc xuống dưới tầng khác trong hàng dọc một cách nhanh chóng. Có thể có các căn nhà khác ở giữa hai thang máy.
+buildinginfo.json/HyperElevator.showUnlockHint|Có ít nhất 200 người dân để mở khóa!
+buildinginfo.json/TrainStation.name|Nhà Ga
+buildinginfo.json/TrainStation.description|Cho phép người dân đi ngang đến nhà ga khác. Có thể có các căn nhà khác ở giữa chúng. Mỗi nhà ga đi kèm với một tàu hỏa.
+buildinginfo.json/Teleporter.name|Máy Dịch Chuyển
+buildinginfo.json/Teleporter.description|Phương tiện đi lại nhanh nhất. Cho phép người dân đi đến máy dịch chuyển khác ngay lập tức.
+buildinginfo.json/WoodcuttingCentre.name|Xưởng khai thác gỗ
+buildinginfo.json/WoodcuttingCentre.description|Tiều phu bỏ lại vật liệu ở đây, rồi đến khu rừng gần nhất để đốn gỗ.
+buildinginfo.json/StoneMine.name|Kho Đá
+buildinginfo.json/StoneMine.description|Thợ mỏ bỏ lại vật liệu ở đây, rồi đến mỏ đá gần nhất để khai thác đá.
+buildinginfo.json/IndoorFarm.name|Trang trại Trong nhà
+buildinginfo.json/IndoorFarm.description|Cây có thể được trồng ở đây để sản xuất thức ăn.
+buildinginfo.json/ExplorationCentre.name|Trung tâm Thám hiểm
+buildinginfo.json/ExplorationCentre.description|Thám hiểm phế tích ngoài hành tinh để nhận kiến thức, tài nguyên và thứ đặc biệt. Khi tất cả phế tích đều được khám phá, công nhân sẽ kiểm tra vật tìm được để nhận thêm kiến thức.
+buildinginfo.json/MachinePartsFactory.name|Nhà máy Bộ phận Máy
+buildinginfo.json/MachinePartsFactory.description|Sản xuất bộ phận máy từ đá. Ba đá dùng để làm một bộ phận máy.
+buildinginfo.json/Laboratory.name|Phòng Thí Nghiệm
+buildinginfo.json/Laboratory.description|Nhà khoa học sẽ thu thập kiến thức ở đây. Ngoài ra, còn có nâng cấp để thúc đẩy trang trại và đồn điền cây gần kề.
+buildinginfo.json/Laboratory.tooltipBottomIconInfo_0|Phạm vi ảnh hưởng
+buildinginfo.json/TreePlantation.name|Đồn Điền Cây
+buildinginfo.json/TreePlantation.description|Cây ở đây được phát triển trong môi trường tốt nhất và mọc nhanh hơn so với cây bên ngoài. Công nhân từ Xưởng khai thác gỗ sẽ giúp chặt nó xuống.
+buildinginfo.json/StoneTeleporter.name|Máy Dịch chuyển Đá
+buildinginfo.json/StoneTeleporter.description|Dịch chuyển thiên thạch đến thành phố của bạn. Thợ mỏ từ Kho Đá sẽ giúp khai thác chúng.
+buildinginfo.json/RefinedMetalFactory.name|Nhà máy Luyện Kim
+buildinginfo.json/RefinedMetalFactory.description|Sản xuất kim loại tinh luyện từ đá. Năm đá dùng để làm một kim loại tinh luyện.
+buildinginfo.json/ComputerChipFactory.name|Nhà máy Chip Vi tính
+buildinginfo.json/ComputerChipFactory.description|Sản Xuất chip máy tính từ kim loại tinh luyện. Bảy kim loại tinh luyện dùng để làm một chip máy tính.!unlocks
+buildinginfo.json/EcoFarm.name|Trang trại Sạch
+buildinginfo.json/EcoFarm.description|Cung cấp thức ăn ổn định. Ngoài ra, còn tạo một lượng nhỏ chỉ số hạnh phúc từ môi trường thiên nhiên.
+buildinginfo.json/EcoFarm.showUnlockHint|Xây Trang trại Thử nghiệm và mười Vườn Bách Thảo để mở khóa!
+buildinginfo.json/FarmByProductProcessor.name|Nhà Xử lý Phụ phẩm
+buildinginfo.json/FarmByProductProcessor.description|Sản xuất gỗ cho mỗi trang trại kề nó. Mỗi trang trại chỉ thải đủ phụ phẩm cho một Nhà Xử lý Phụ phẩm.
+buildinginfo.json/FarmByProductProcessor.tooltipBottomIconInfo_0|Phạm vi Xử lý
+buildinginfo.json/ExperimentationLab.name|Phòng Thực Nghiệm
+buildinginfo.json/ExperimentationLab.description|Nhà khoa học thí nghiệm các bộ phận máy ở đây. Bạn sẽ nhận năm kiến thức với mỗi bộ phận máy được sử dụng. Việc sản xuất kiến thức này nhanh hơn phòng nghiên cứu bình thường. \nCác Nhà máy Luyện Kim ở trên và dưới công trình này sẽ hoạt động nhanh hơn và sử dụng ít đá hơn 10%.
+buildinginfo.json/ExperimentationLab.showUnlockHint|Xây 12 Nhà cơ khí, 10 Nhà máy luyện kim và 3 Nhà máy chip vi tính để mở khóa!
+buildinginfo.json/ExperimentationLab.tooltipBottomIconInfo_0|Phạm vi ảnh hưởng
+buildinginfo.json/GrapheneLab.name|Phòng Thí Nghiệm Graphen
+buildinginfo.json/GrapheneLab.description|Phòng thí nghiệm này nghiên cứu sản lượng và ứng dụng của graphen. Công nhân sẽ thu thập kiến thức. Và sẽ chậm rãi sản xuất graphen với hai đá cho mỗi tấm.
+buildinginfo.json/GrapheneFactory.name|Nhà máy Graphen
+buildinginfo.json/GrapheneFactory.description|Nhà máy này sản xuất graphen. Để làm một tấm graphen, cần 10 kiến thức và một đá. Nếu nhà máy được đặt bên phải máy dịch chuyển đá, không cần sử dụng đá.
+buildinginfo.json/GrapheneFactory.tooltipBottomIconInfo_0|
+|
+|
+|
+|
+|
+|
+buildinginfo.json/School.name|Trường Học
+buildinginfo.json/School.description|Giáo dục trẻ em, nâng cao hiệu suất làm việc sau này.
+buildinginfo.json/Library.name|Thư Viện
+buildinginfo.json/Library.description|Cải thiện trình độ giáo dục cho người đến đọc trong mọi độ tuổi.
+buildinginfo.json/HerbGarden.name|Vườn Thảo Mộc
+buildinginfo.json/HerbGarden.description|Thảo mộc và các cây gia vị được trồng ở đây. Làm thức ăn ngon hơn, giảm lượng thức ăn tiêu thụ. Ngoài ra, còn có hiệu quả cộng thêm phụ thuộc vào từng loại thảo mộc.
+buildinginfo.json/HerbGarden.showUnlockHint|Xây hai Nhà hàng để mở khóa!
+buildinginfo.json/MedicalClinic.name|Trạm Y Tế
+buildinginfo.json/MedicalClinic.description|Giúp mọi người sống lâu hơn và tốt hơn.
+buildinginfo.json/MedicalClinic.showUnlockHint|Xây một Nhà máy Luyện Kim để mở khóa!
+buildinginfo.json/Pub.name|Quán Rượu
+buildinginfo.json/Pub.description|Một nơi tuyệt vời để mọi người tụ tập với nhau.
+buildinginfo.json/Restaurant.name|Nhà Hàng
+buildinginfo.json/Restaurant.description|Một nơi ấm cúng với đồ ăn ngon.
+buildinginfo.json/Restaurant.showUnlockHint|Xây ít nhất năm Quán Rượu để mở khóa!
+buildinginfo.json/FactoryPub.name|Quán Nhà máy Rượu
+buildinginfo.json/FactoryPub.description|Một quán rượu quyến rũ nho nhỏ gấp đôi năng suất hệt như Nhà máy luyện kim.\nTuy nhiên, Nhà máy Rượu không thể được gia tăng bởi Phòng Thực Nghiệm.
+buildinginfo.json/BlossomRestaurant.name|Nhà hàng Hoa nở
+buildinginfo.json/BlossomRestaurant.description|Ăn tối dưới cây đang trổ hoa xinh đẹp! Nếu bạn xây nhiều nhà hàng chồng lên nhau, mọi người có thể ngồi trên những cành cây.
+buildinginfo.json/Park.name|Công Viên
+buildinginfo.json/Park.description|Một nơi thích hợp để thư giãn
+buildinginfo.json/BotanicalGardens.name|Vườn Bách Thảo
+buildinginfo.json/BotanicalGardens.description|Một khu vườn tuyệt đẹp chứa đầy những loài cây lạ lùng.
+buildinginfo.json/BotanicalGardens.showUnlockHint|Xây ít nhất mười Công Viên và năm Phòng Thí Nghiệm để mở khóa!
+buildinginfo.json/Aquarium.name|Thủy Cung
+buildinginfo.json/Aquarium.description|Làm thành phố của bạn hơi tanh mùi cá và đem lại sự giải trí khi hòa mình vào thiên nhiên.
+buildinginfo.json/Aquarium.showUnlockHint|Xây ít nhất 12 Vườn thảo mộc để mở khóa!
+buildinginfo.json/NightClub.name|Hộp Đêm
+buildinginfo.json/NightClub.description|Một vài người sẽ có một khoảng thời gian rất vui vẻ trong buổi tối này.
+buildinginfo.json/ScrapyardNightClub.name|Hộp đêm Phế liệu
+buildinginfo.json/ScrapyardNightClub.description|Một hộp đêm chứa đầy những máy phát quang kỳ lạ.
+buildinginfo.json/ModernArtMuseum.name|Bảo tàng Tranh Hiện đại
+buildinginfo.json/ModernArtMuseum.description|Tranh trừu tượng bởi các họa sĩ đang nổi.
+buildinginfo.json/ModernArtMuseum.showUnlockHint|Xây Nhà máy Luyện Kim để mở khóa!
+buildinginfo.json/StatueGarden.name|Vườn Điêu Khắc
+buildinginfo.json/StatueGarden.description|Một khu vườn đầy tính nghệ thuật.
+|
+|
+|
+buildinginfo.json/Arcade.name|Arcade
+buildinginfo.json/Arcade.description|Vui chơi với cả gia đình.
+buildinginfo.json/Arcade.showUnlockHint|Xây Nhà máy Chip Vi Tính để mở khóa!
+buildinginfo.json/HoloGameHall.name|Sảnh Trò chơi Holo
+buildinginfo.json/HoloGameHall.description|Đem trò chơi đến với tương lai!
+buildinginfo.json/Workshop.name|Phân Xưởng
+buildinginfo.json/Workshop.description|Làm tất cả nhà máy bộ phận máy trong thành phố của bạn hoạt động nhanh hơn. Ngoài ra, công nhân có thể thu thập kiến thức hoặc sản xuất bộ phận máy từ gỗ.
+buildinginfo.json/ResearchBot.name|Tàu Nghiên Cứu
+buildinginfo.json/ResearchBot.description|Một nhà nghiên cứu có thể thu thập kiến thức trên con tàu nho nhỏ này. Không thể có công trình hoặc thế giới ở trên nó.
+buildinginfo.json/ExperimentalFarm.name|Trang trại Thử nghiệm
+buildinginfo.json/ExperimentalFarm.description|Thức ăn được sản xuất ở đây. Ngoài ra, tăng nhẹ tốc độ phát triển của cây trồng trong Trang trại trong nhà.
+buildinginfo.json/Observatory.name|Đài Thiên Văn
+buildinginfo.json/Observatory.description|Thu thập kiến thức. Chỉ có thể đặt ở trên mặt đất hoặc ở tầng cao nhất.
+buildinginfo.json/ArtColony.name|Nhà Nghệ Thuật
+buildinginfo.json/ArtColony.description|Một căn nhà đầy sự sáng tạo. Tạo chỉ số hạnh phúc nghệ thuật.
+buildinginfo.json/ArtColony.showUnlockHint|Xây ít nhất ba Bảo tàng Tranh Hiện đại để mở khóa!
+buildinginfo.json/CityHall.name|Tòa Thị Chính
+buildinginfo.json/CityHall.description|Cho phép bạn thi hành chính sách thành phố và đổi tên thành phố của bạn.
+buildinginfo.json/StoneResearchCenter.name|Trung tâm Nghiên cứu Khai thác
+buildinginfo.json/StoneResearchCenter.description|Tăng sản lượng đá dựa trên sản lượng kiến thức và số lượng công nhân của bạn.
+buildinginfo.json/StoneResearchCenter.showUnlockHint|Xây ít nhất 15 Kho Đá và 3 Máy Dịch chuyển Đá để mở khóa!
+buildinginfo.json/ComputerResearchCenter.name|Trung tâm Nghiên cứu Vi tính
+buildinginfo.json/ComputerResearchCenter.description|Sản xuất kiến thức và cho phép bạn nghiên cứu và xây Nhà máy Chip Vi Tính.
+buildinginfo.json/ComputerResearchCenter.showUnlockHint|Xây ít nhất năm Phòng Thí Nghiệm và một Nhà máy Luyện Kim để mở khóa!
+buildinginfo.json/LivingResearchCenter.name|Trung tâm Nghiên cứu Đời sống
+buildinginfo.json/LivingResearchCenter.description|Có thể nghiên cứu các nâng cấp cho nhà tại đây. Ngoài ra, cho thêm hai nơi ở và sản xuất kiến thức.
+buildinginfo.json/LivingResearchCenter.showUnlockHint|Có ít nhất 200 người dân có nơi ở để mở khóa!
+buildinginfo.json/HackerHQ.name|Trụ Sở Hacker
+buildinginfo.json/HackerHQ.description|Các hacker phần cứng này thật ra là những người rất tốt và hữu ích.\nHọ dành hầu hết thời gian trong ngày quanh máy tính và đồ điện tử. Một vài phát minh của họ còn hữu ích hơn những cái khác.
+buildinginfo.json/HackerHQ.showUnlockHint|Xây ít nhất ba Arcade để mở khóa!
+buildinginfo.json/AlienDecryptor.name|Máy Giải mã 
+buildinginfo.json/AlienDecryptor.description|Một máy vi tính được lắp ráp để chuyên giải mã bí mật của người ngoài hành tinh.
+buildinginfo.json/EscapeRoom.name|Lab Escape Room
+buildinginfo.json/EscapeRoom.description|Một escape room mang phong cách của phòng thí nghiệm đầy thử thách, tạo chỉ số hạnh phúc trò chơi điện tử. Phòng còn có cả laze!
+buildinginfo.json/Misdirector.name|Máy Chệch Hướng
+buildinginfo.json/Misdirector.description|Mỗi khi ai đó dùng máy dịch chuyển, họ có thể được đưa đến đây với một tỉ lệ rất thấp. Điều này sẽ gây bối rối cho họ trong một khoảng thời gian ngắn. Phát minh này không hoàn toàn vô dụng: bạn sẽ nhận được kiến thức cho mỗi lần. Ngoài ra, Máy Chệch Hướng còn giảm một nửa chi phí hoạt động của máy dịch chuyển.
+buildinginfo.json/TheContraption.name|Máy Kỳ Lạ
+buildinginfo.json/TheContraption.description|.
+buildinginfo.json/SecretSocietyHouse.name|Chìa khóa Xã hội Bí mật
+buildinginfo.json/SecretSocietyHouse.description|Chìa khóa Xã hội Bí mật yêu cầu một nơi ở. Nó có thể giao cho bạn nhiệm vụ mà bạn sẽ được vinh danh khi hoàn thành nó.
+buildinginfo.json/TheMachine.name|Cỗ Máy
+buildinginfo.json/TheMachine.description|Giúp thành viên của Chìa khóa Xã hội Bí mật bất tử. Ngoài ra, còn sản xuất tài nguyên ngẫu nhiên mỗi ngày.
+buildinginfo.json/BlossomHippieHQ.name|Trung tâm Hippie Hoa nở
+buildinginfo.json/BlossomHippieHQ.description|Những hippie rất thích hoa, hòa bình và nhạc. Họ có một vài nhiệm vụ cho bạn nếu bạn không ngại.
+buildinginfo.json/BlossomHippieHQ.showUnlockHint|Xây ít nhất 20 Vườn Bách Thảo được xếp chồng thành một hàng lên nhau để mở khóa!
+buildinginfo.json/FestivalHQ.name|Trung tâm Lễ hội
+buildinginfo.json/FestivalHQ.description|Tổ chức những lễ hội thú vị để người dân của bạn được giải trí!
+buildinginfo.json/Supercomputer.name|Siêu Máy Tính
+buildinginfo.json/Supercomputer.description|Sản xuất kiến thức dựa trên số lượng nhân viên phòng thí nghiệm tại thành phố của bạn. Ngoài ra, cho phép bạn nghiên cứu một số nâng cấp cho thành phố.
+buildinginfo.json/RocketLaunchPlatform.name|Bệ Phóng Tên lửa
+buildinginfo.json/RocketLaunchPlatform.description|
+buildinginfo.json/TreeHuggerBase.name|Nhà Ôm Cây
+buildinginfo.json/TreeHuggerBase.description|Ai mà lại không ôm cái cây này chứ?
+buildinginfo.json/FossilMuseum.name|Bảo tàng Hóa thạch Không gian
+buildinginfo.json/FossilMuseum.description|Hóa thạch được tìm thấy bởi Máy Dò Hóa thạch sẽ được trưng bày tại đây. Cải thiện trình độ giáo dục cho người đến tham quan. Công nhân sản xuất kiến thức dựa trên số lượng hóa thạch bạn tìm thấy.
+buildinginfo.json/StatueOfHappiness.name|Tượng Hạnh Phúc
+buildinginfo.json/StatueOfHappiness.description|Phần thưởng của người dân khi chỉ số hạnh phúc đạt 100!
+buildinginfo.json/StatueOfTheKey.name|Tượng Chìa Khóa
+buildinginfo.json/StatueOfTheKey.description|Món quà sinh nhật lần thứ 500 của thành viên Chìa khóa Xã hội Bí mật!
+buildinginfo.json/Beacon.name|Đèn Hiệu
+buildinginfo.json/Beacon.description|Phần thưởng của người dân vì đã làm cho họ cực kỳ hạnh phúc trong một thời gian!
+buildinginfo.json/Beacon.showUnlockHint|Duy trì :D Hoặc có chỉ số hạnh phúc cao hơn trong vòng ít nhất 14 ngày để mở khóa!
+buildinginfo.json/ShadyHome.name|Căn nhà Mờ ám
+buildinginfo.json/ShadyHome.description|Công trình không rõ
+buildinginfo.json/UnknownBuilding.name|
+buildinginfo.json/UnknownBuilding.description|???
+|
+buildingUpgradesInfo.json/Flowers.name|Hoa
+buildingUpgradesInfo.json/Flowers.description|Hoa giúp người dân hạnh phúc hơn. Chất lượng căn nhà tăng 5.
+buildingUpgradesInfo.json/MachinePartsFactoryEfficiency.name|Tái chế Sắt Vụn
+buildingUpgradesInfo.json/MachinePartsFactoryEfficiency.description|Giảm số đá dùng để làm một bộ phận máy từ ba xuống hai. 
+buildingUpgradesInfo.json/FactoryDisabled.name|Ngừng Hoạt động
+buildingUpgradesInfo.json/FactoryDisabled.description|Nhà máy sẽ hoàn toàn tạm ngưng.
+buildingUpgradesInfo.json/StoneUsingFactoryDisabled.name|Ngừng Hoạt động
+buildingUpgradesInfo.json/StoneUsingFactoryDisabled.description|Nhà máy sẽ hoàn toàn tạm ngưng và sẽ không sử dụng đá.
+buildingUpgradesInfo.json/RefinedStoneUsingFactoryDisabled.name|Ngừng Hoạt động
+buildingUpgradesInfo.json/RefinedStoneUsingFactoryDisabled.description|Nhà máy sẽ hoàn toàn tạm ngưng và sẽ không sử dụng kim loại tinh luyện.
+buildingUpgradesInfo.json/MachinePartsFactoryTurbo.name|Turbo Boost
+buildingUpgradesInfo.json/MachinePartsFactoryTurbo.description|Nhà máy sẽ hoạt động nhanh gấp hai lần, nhưng sẽ tốn thêm hai đá cho mỗi bộ phận máy.
+buildingUpgradesInfo.json/RefinedMetalsFactoryHack.name|Đúc Mềm
+buildingUpgradesInfo.json/RefinedMetalsFactoryHack.description|Nhà máy sẽ hoạt động nhanh hơn 50%, nhưng sẽ tốn thêm một đá cho mỗi kim loại tinh luyện.
+buildingUpgradesInfo.json/FactoryWorking.name|Cho Hoạt động
+buildingUpgradesInfo.json/FactoryWorking.description|Nhà máy sẽ hoạt động bình thường.
+buildingUpgradesInfo.json/LabWorking.name|Cho Hoạt động
+buildingUpgradesInfo.json/LabWorking.description|Phòng thí nghiệm sẽ hoạt động bình thường.
+buildingUpgradesInfo.json/LabDisabled.name|Ngừng Hoạt động
+buildingUpgradesInfo.json/LabDisabled.description|Phòng thí nghiệm sẽ không sử dụng bộ phận máy hay sản xuất kiến thức. Công trình vẫn có thể gia tăng Nhà máy Luyện Kim.
+buildingUpgradesInfo.json/LiteratureReviews.name|Đánh giá Văn học
+buildingUpgradesInfo.json/LiteratureReviews.description|Phòng thí nghiệm sẽ không sử dụng bộ phận máy, nhưng sản lượng kiến thức sẽ giảm đi một nửa. Công trình vẫn có thể gia tăng Nhà máy Luyện Kim.
+buildingUpgradesInfo.json/FarmingResearch.name|Kỹ thuật Nhân giống Di truyền
+buildingUpgradesInfo.json/FarmingResearch.description|Trang trại liền kề sản xuất thêm 10 nông sản mỗi đợt.
+buildingUpgradesInfo.json/TreePlantationResearch.name|Khí Thúc Trưởng
+buildingUpgradesInfo.json/TreePlantationResearch.description|Cây trong đồn điền sẽ phát triển nhanh hơn 20%.
+buildingUpgradesInfo.json/BetterPickaxes.name|Cuốc Tốt Hơn
+buildingUpgradesInfo.json/BetterPickaxes.description|Sử dụng cuốc tốt hơn sẽ tăng tốc độ đào lên 20%.
+buildingUpgradesInfo.json/AIMining.name|AI hỗ trợ Khai thác Đá
+buildingUpgradesInfo.json/AIMining.description|Sử dụng hệ thống máy vi tính để tăng tốc độ đào lên 30%.
+buildingUpgradesInfo.json/DieShrink.name|Die Shrink
+buildingUpgradesInfo.json/DieShrink.description|Nhà máy sẽ hoạt động nhanh hơn 50% và giảm 2 kim loại tinh luyện cần cho mỗi chip máy tính.
+buildingUpgradesInfo.json/BetterLightShow.name|Đèn Tốt Hơn
+buildingUpgradesInfo.json/BetterLightShow.description|Sức chứa giải trí của căn nhà sẽ tăng gấp đôi.
+buildingUpgradesInfo.json/MedicalEducation.name|Cải Thiện Giáo dục Y tế
+buildingUpgradesInfo.json/MedicalEducation.description|Chất lượng căn nhà sẽ tăng bằng với 25% chỉ số hạnh phúc giáo dục.
+buildingUpgradesInfo.json/AIAssistedDiagnosis.name|Chuẩn đoán bằng Máy tính
+buildingUpgradesInfo.json/AIAssistedDiagnosis.description|Chất lượng căn nhà tăng lên 25 và sức chứa tăng gấp đôi.
+buildingUpgradesInfo.json/StoneTeleporterRemote.name|Điều khiển Từ xa
+buildingUpgradesInfo.json/StoneTeleporterRemote.description|Công nhân của Máy Dịch chuyển Đá có thể dịch chuyển đá kể cả khi họ ở nơi khác. Nghĩa là họ có thể phụ giúp khai thác đá.
+buildingUpgradesInfo.json/BiggerTV.name|Tivi lớn hơn
+buildingUpgradesInfo.json/BiggerTV.description|Chất lượng căn nhà tăng lên 5. Sức chứa tăng 1.
+buildingUpgradesInfo.json/ModernHomePlant.name|Cây lọc Không khí
+buildingUpgradesInfo.json/ModernHomePlant.description|Một loại cây được trồng để làm sạch không khí. Chất lượng căn nhà tăng 10 và giúp người ở đây sống lâu hơn.
+buildingUpgradesInfo.json/HeatedBed.name|Giường Sưởi
+buildingUpgradesInfo.json/HeatedBed.description|Chất lượng căn nhà tăng 20.
+buildingUpgradesInfo.json/SmartChairs.name|Ghế Thông Minh
+buildingUpgradesInfo.json/SmartChairs.description|Chất lượng căn nhà tăng 10.
+buildingUpgradesInfo.json/ModernConveniences.name|Tiện ích Hiện đại
+buildingUpgradesInfo.json/ModernConveniences.description|Chất lượng căn nhà tăng 15.
+buildingUpgradesInfo.json/WorkshopKnowledge.name|Dự án Thú cưng
+buildingUpgradesInfo.json/WorkshopKnowledge.description|Thu thập kiến thức.
+buildingUpgradesInfo.json/WorkshopMachineParts.name|Chế tạo Bộ Phận Máy.
+buildingUpgradesInfo.json/WorkshopMachineParts.description|Tạo bộ phận máy từ gỗ.
+buildingUpgradesInfo.json/StarDatabase.name|Cơ sở Dữ liệu về Sao
+buildingUpgradesInfo.json/StarDatabase.description|Công trình này sản xuất thêm 50% kiến thức. Nếu Bản đồ Vũ trụ Chính xác đã được nghiên cứu, công trình sẽ sản xuất thêm 500% kiến thức.
+buildingUpgradesInfo.json/SofterBeds.name|Giường Cực kỳ Mềm mại
+buildingUpgradesInfo.json/SofterBeds.description|Chất lượng căn nhà tăng 10.
+buildingUpgradesInfo.json/BoardGameCollection.name|Bộ sưu tập Board Game
+buildingUpgradesInfo.json/BoardGameCollection.description|Chất lượng căn nhà tăng 15.
+buildingUpgradesInfo.json/SmartLights.name|Đèn Thông Minh
+buildingUpgradesInfo.json/SmartLights.description|Chất lượng căn nhà tăng 15.
+buildingUpgradesInfo.json/LivingComputer.name|Máy Tính Sống
+buildingUpgradesInfo.json/LivingComputer.description|Chất lượng căn nhà tăng 20.
+buildingUpgradesInfo.json/BetterTools.name|Dụng cụ Tốt hơn
+buildingUpgradesInfo.json/BetterTools.description|Chất lượng căn nhà tăng 20.
+buildingUpgradesInfo.json/MisdirectorNormal.name|Bật
+buildingUpgradesInfo.json/MisdirectorNormal.description|Máy Chệch Hướng không thể dự đoán trước được.
+buildingUpgradesInfo.json/MisdirectorAlways.name|Ép Xung
+buildingUpgradesInfo.json/MisdirectorAlways.description|Mọi cố gắng dịch chuyển đều sẽ đưa mọi người đến đây. Hoàn hảo để dừng các hoạt động dư thừa.\nKiến thức từ mỗi máy chệch hướng sẽ giảm 90% vì bị quá tải.
+buildingUpgradesInfo.json/MisdirectorMostlyDisabled.name|Hầu hết đều tắt
+buildingUpgradesInfo.json/MisdirectorMostlyDisabled.description|Có một nút TẮT. Nó hoạt động trong hầu hết các trường hợp.
+buildingUpgradesInfo.json/MisdirectorDisabled.name|Tắt
+buildingUpgradesInfo.json/MisdirectorDisabled.description|Chỉ với một chút công sức, Máy Chệch Hướng có thể được điều khiển như ý muốn.
+buildingUpgradesInfo.json/IndoorPond.name|Hồ Trong Nhà
+buildingUpgradesInfo.json/IndoorPond.description|Chất lượng căn nhà tăng 15.
+buildingUpgradesInfo.json/CHProduceStone.name|Đá
+buildingUpgradesInfo.json/CHProduceStone.description|Cung cấp đá.
+buildingUpgradesInfo.json/CHProduceWood.name|Cây
+buildingUpgradesInfo.json/CHProduceWood.description|Cung cấp gỗ.
+buildingUpgradesInfo.json/CHProduceFood.name|Cây Trồng
+buildingUpgradesInfo.json/CHProduceFood.description|Cung cấp thức ăn
+buildingUpgradesInfo.json/PickaxeTech.name|Giấy Bình duyệt Bộ phận Cuốc
+buildingUpgradesInfo.json/PickaxeTech.description|Các gia tăng của việc sản xuất đá được tăng lên và chia tỉ lệ nhanh hơn trong việc sản xuất kiến thức.
+buildingUpgradesInfo.json/FossilScanner.name|Máy Dò Hóa thạch
+buildingUpgradesInfo.json/FossilScanner.description|Mỗi khi máy dịch chuyển đá dịch chuyển một tảng thiên thạch, có cơ hội nhỏ để tìm thấy hóa thạch. Khi đó, bạn sẽ nhận được 10000 kiến thức.
+buildingUpgradesInfo.json/UltimateScrewdriver.name|Tua vít Siêu hiện đại
+buildingUpgradesInfo.json/UltimateScrewdriver.description|Bạn sẽ nhận thêm hai kiến thức cho mỗi bộ phận máy được sử dụng.
+buildingUpgradesInfo.json/AutomaticWaterManagement.name|Tự động Quản lý Nước
+buildingUpgradesInfo.json/AutomaticWaterManagement.description|Tốc độ phát triển thụ động của cây sẽ tăng gấp ba lần.
+buildingUpgradesInfo.json/CulinaryHerbs.name|Thảo mộc Ẩm thực
+buildingUpgradesInfo.json/CulinaryHerbs.description|Tăng sức chứa của nhà hàng ở bên phải và trái khu vườn.
+buildingUpgradesInfo.json/MedicalHerbs.name|Dược Liệu
+buildingUpgradesInfo.json/MedicalHerbs.description|Cung cấp chỉ số hạnh phúc y tế. Nhưng Vườn Thảo Mộc tổng cộng không thể cung cấp vượt mức 20% chỉ số hạnh phúc y tế.
+buildingUpgradesInfo.json/ComfortableCouch.name|Ghế Sofa Thoải mái
+buildingUpgradesInfo.json/ComfortableCouch.description|Chất lượng căn nhà tăng 15.
+buildingUpgradesInfo.json/SmartSpeaker.name|Loa khá Thông minh
+buildingUpgradesInfo.json/SmartSpeaker.description|Chất lượng căn nhà tăng 10.
+|
+buildableWorldResourcesInfo.json/Forest.name|Rừng
+buildableWorldResourcesInfo.json/Forest.description|Trồng các cây con để chúng lớn thành một khu rừng.
+buildableWorldResourcesInfo.json/PineForest.name|Rừng Thông
+buildableWorldResourcesInfo.json/PineForest.description|Trồng các cây con để chúng lớn thành một khu rừng thông.
+buildableWorldResourcesInfo.json/Rock.name|Đá
+buildableWorldResourcesInfo.json/Rock.description|Đặt một khu đá để trang trí. Nó có thể được khai thác, trừ khi bạn bảo vệ nó.
+buildableWorldResourcesInfo.json/Boulder.name|Tảng Đá
+buildableWorldResourcesInfo.json/Boulder.description|Đặt một tảng đá để trang trí. Nó có thể được khai thác, trừ khi bạn bảo vệ nó.
+|
+categories/Houses.name|Nhà Ở
+categories/Production.name|Sản Xuất
+categories/Services.name|Dịch Vụ
+categories/Entertainment.name|Giải Trí
+categories/Transportation.name|Phương Tiện Giao Thông
+categories/Unique Buildings.name|Công Trình Độc Nhất
+categories/Decoration & Nature.name|Trang Trí & Thiên Nhiên
+|
+categories/Houses.description|Xây nhà để người dân của bạn có nơi ở.
+categories/Production.description|Xây các công trình sản xuất để có thêm tài nguyên.
+categories/Services.description|Dịch vụ giúp con người, cải thiện đời sống của họ.
+categories/Entertainment.description|Xây các khu giải trí cho người đân của bạn được vui chơi.
+categories/Transportation.description|Xây phương tiện giao thông để người dân của bạn di chuyển giữa các thế giới một cách nhanh chóng.
+categories/Unique Buildings.description|Các công trình độc nhất chỉ có thể xây một lần.
+categories/Decoration & Nature.description|Trang trí mặt đất, và trồng rừng.
+|
+cityUpgradesInfo.json/UniverseMapping.name|Bản đồ Vũ trụ Chính xác
+cityUpgradesInfo.json/UniverseMapping.description|Máy Dịch chuyển Đá dịch chuyển thiên thạch lớn hơn.
+cityUpgradesInfo.json/OptimizedChipLayouts.name|Tối ưu hóa Đầu vào Chip
+cityUpgradesInfo.json/OptimizedChipLayouts.description|Nhà máy Chip Vi tính hoạt động nhanh hơn 33%.
+cityUpgradesInfo.json/MedicalMachineLearning.name|Máy Học hỏi Y tế
+cityUpgradesInfo.json/MedicalMachineLearning.description|Giúp người dân của bạn sống lâu hơn.
+cityUpgradesInfo.json/WoodenLiving.name|Đời sống Chất gỗ
+cityUpgradesInfo.json/WoodenLiving.description|Chất lượng của tất cả Nhà Gỗ tăng 10.
+cityUpgradesInfo.json/SpaciousLiving.name|Đời sống Không gian
+cityUpgradesInfo.json/SpaciousLiving.description|Chất lượng của tất cả Nhà Rộng Rãi tăng 15.
+cityUpgradesInfo.json/SlimyLiving.name|Đời sống Chất nhờn
+cityUpgradesInfo.json/SlimyLiving.description|Chất lượng của tất cả Nhà Ngoài Hành tinh tăng 25. Ngoài ra, mở khóa nâng cấp cho nó.
+cityUpgradesInfo.json/SecretiveLiving.name|Đời sống Bí mật
+cityUpgradesInfo.json/SecretiveLiving.description|Chất lượng của các căn nhà Chìa khóa Xã hội Bí mật tăng 25.
+cityUpgradesInfo.json/MechanicalLiving.name|Đời sống Cơ khí
+cityUpgradesInfo.json/MechanicalLiving.description|Tăng sức chứa của tất cả Nhà Cơ khí và Nhà Tinker lên một.
+cityUpgradesInfo.json/SuperSpaciousLiving.name|Đời sống Xã hội
+cityUpgradesInfo.json/SuperSpaciousLiving.description|Tăng sức chứa của tất cả Nhà Rộng Rãi lên một.
+cityUpgradesInfo.json/BirthControl.name|Kiểm soát Sinh sản
+cityUpgradesInfo.json/BirthControl.description|Cho phép bạn tăng hoặc giảm sự phát triển dân số.
+cityUpgradesInfo.json/BuildingRecycling.name|Tái chế Công trình
+cityUpgradesInfo.json/BuildingRecycling.description|Khi bạn phá hủy một công trình, bạn nhận lại một nửa phí xây dựng.
+cityUpgradesInfo.json/BuildingRecycling2.name|Phá dỡ Thông minh (Hiện tại: Tái chế Công trình)
+cityUpgradesInfo.json/BuildingRecycling2.description|Khi bạn phá hủy một công trình, bạn nhận lại 75% phí xây dựng (hiện tại 50%).
+cityUpgradesInfo.json/BuildingRecycling3.name|Công trình Bền vững (Hiện tại: Phá dỡ Thông minh)
+cityUpgradesInfo.json/BuildingRecycling3.description|Khi bạn phá hủy một công trình, bạn nhận lại 90% phí xây dựng (hiện tại 75%).
+cityUpgradesInfo.json/ChipBinning.name|Thùng Đựng Chip 
+cityUpgradesInfo.json/ChipBinning.description|Nhà máy Chi Vi tính hoạt động nhanh hơn 20%.
+|
+decorationsInfo.json/spr_grass.name|Cỏ Cao
+decorationsInfo.json/spr_flowers.name|Cỏ Cao với Hoa
+decorationsInfo.json/spr_decoration_rocks.name|Đá Nhỏ
+decorationsInfo.json/spr_removedecoration.name|Dỡ bỏ Trang trí
+decorationsInfo.json/spr_removedecoration.description|Dỡ bỏ tất cả trang trí trên mặt đất thế giới.
+|
+stories.json/theLostShip.name|Một Khởi đầu Mới
+stories.json/theLostShip.description|Trái Đất giờ đây đã trở thành một vùng đất khô cằn. Bạn đã xây một tàu vũ trụ, nhưng lượng thức ăn đã gần hết. Một thế giới nho nhỏ là hi vọng cuối cùng của bạn.
+stories.json/multipleWorlds.name|Một Liên Thành phố
+stories.json/multipleWorlds.description|Khi một thế giới trở nên quá nhỏ, bạn quyết định xây dựng một thành phố xuyên qua các thế giới.
+stories.json/computerization.name|Điện Toán Hóa
+stories.json/computerization.description|Sử dụng máy tính để hiện đại hóa thành phố.
+stories.json/hackersandaliens.name|Công nghệ Hack Ngoài hành tinh
+stories.json/hackersandaliens.description|Bạn đã phát hiện một số ảnh hưởng của người ngoài hành tinh trên căn cứ mới nhất của bạn.
+stories.json/FreePlayMegaWorld.name|Chơi Tự Do - Rộng Lớn
+stories.json/FreePlayMegaWorld.description|Xây thành phố trong mơ của bạn trên thế giới rộng lớn này!
+stories.json/FreePlayManyWorldsRandom.name|Chơi Tự Do - Đảo Ngẫu Nhiên
+stories.json/FreePlayManyWorldsRandom.description|Xây dựng một thành phố phức tạp trên thế giới hoàn toàn ngẫu nhiên này.
+stories.json/FreePlayEmptyCanvas.name|Chơi Tự Do - Trống
+stories.json/FreePlayEmptyCanvas.description|Một thế giới khổng lồ, trống rỗng này để bạn có thể lấp đầy với mong muốn của chính bạn, cộng thêm một vài thế giới nhỏ chứa đầy tài nguyên.
+stories.json/FreePlayDivided.name|Chơi Tự Do - Phân Chia
+stories.json/FreePlayDivided.description|Để ý khoảng trống! Nó phân chia rừng và đá.
+stories.json/FreePlayRandomMiniWorlds.name|Chơi Tự Do - Thế giới Nhỏ Ngẫu nhiên
+stories.json/FreePlayRandomMiniWorlds.description|Vô số thế giới nhỏ bé này, được đặt hoàn toàn ngẫu nhiên trong không gian.
+stories.json/FreePlayRandomMiniWorldsAndEmptyCanvas.name|Chơi Tự Do - Giga
+stories.json/FreePlayRandomMiniWorldsAndEmptyCanvas.description|Rất nhiều thế giới nhỏ, cộng thêm thế giới khổng lồ, trống rỗng!
+stories.json/FreePlayManyWorlds.name|Chơi Tự Do - Đảo Cổ Điển
+stories.json/FreePlayManyWorlds.description|Xây dựng một thành phố phức tạp trên thế giới này.
+|
+FreePlay.FreePlayStart.text|Chào mừng đến với Viễn cảnh Chơi Tự do!\nMột vài người dân đã ở đây. Những người khác sẽ đến trong thời gian tới.
+FreePlay.FreePlayStart.planning.afterDoneMessage|Tất cả người từ tàu của bạn đã đến. Tất nhiên, dân số của bạn có thể tăng nhờ vào việc sinh sản.
+|
+theLostShip.json/Start.text|Giờ là năm 2142, Trái Đất đã trở thành một vùng đất khô cằn. Thuộc địa hóa thế giới nhỏ bé này là hy vọng duy nhất của nhân loại.\n\nĐầu tiên, bạn sẽ cần một vài vật liệu xây dựng. Hãy xây Xưởng khai thác gỗ.
+theLostShip.json/Start.quickText|Xây một Xưởng khai thác gỗ.
+theLostShip.json/BuildStoneMine.text|Làm tốt lắm! Giờ hãy thu thập một số gỗ và xây Kho Đá.
+theLostShip.json/BuildStoneMine.quickText|Xây một Kho Đá.
+theLostShip.json/GatherWoodAndStone.text|Hay lắm! Hiện giờ, chưa có người nào khai thác đá cả, vì mọi người đã có công việc tại Xưởng khai thác gỗ. Hãy chỉ định lại một vài người.
+theLostShip.json/GatherWoodAndStone.quickText|Thu thập 6 gỗ và 4 đá. Bạn sẽ cần chỉ định lại một số công nhân.
+theLostShip.json/BuildIndoorFarmAndHouse.text|Bạn đã dùng tàu vũ trụ để đến được đây. Một vài người bạn của bạn vẫn còn trên đó. Bạn nên chuẩn bị nơi ở và lượng thức ăn ổn định.\n\nĐể làm được điều này, hãy xây một căn nhà và một Trang trại Trong nhà.[nonmobi] Xin lưu ý rằng công trình có thể chồng lên nhau.
+theLostShip.json/BuildIndoorFarmAndHouse.quickText|Xây một căn nhà và Trang trại Trong nhà.
+theLostShip.json/SpawnMorePeople.text|Làm tốt lắm! Một vài người sẽ đến đây sớm thôi.\nViệc tìm hiểu thêm về thế giới này có thể rất có ích. Đặc biệt, những phế tích ngoài hành tinh trông khá thú vị. Hãy xây một Trung tâm Thám hiểm để tìm hiểu tất cả về chúng và có thể nhận được một lượng tài nguyên hữu ích.[mobi]\nNếu bạn cảm thấy trò chơi tiến triển quá chậm, bạn có thể tăng tốc độ bằng nút Tốc độ Trò chơi ở gần phía dưới bên phải.
+theLostShip.json/SpawnMorePeople.quickText|Xây một Trung tâm Thám hiểm.
+theLostShip.json/NowArrivingRegularly.text|Người mới giờ sẽ đến đây thường xuyên. Hãy đảm bảo luôn có đủ thức ăn và nơi ở. Ngoài ra, có thể có trẻ em được sinh ra từ giờ. Bạn có thể xây một Trường Học cho họ nếu bạn muốn.[n]\nĐể tiếp tục phát triển thành phố của bạn, bạn sẽ cần rất nhiều đá, vậy nên hãy xây thêm một Kho Đá nào.
+theLostShip.json/NowArrivingRegularly.quickText|Xây Kho Đá thứ hai.
+theLostShip.json/StoneMineUpgrade.text|[c]Thợ mỏ của bạn đã có dụng cụ tốt hơn nhờ vào nâng cấp Cuốc Tốt Hơn. Làm tốt lắm![/][n]Thợ mỏ của bạn hiện đang khai thác với trang bị kém chất lượng. Cuốc tốt hơn sẽ cải thiện tốc độ khai thác của họ. Nâng cấp ít nhất một lần trong Kho Đá của bạn. Để làm được,[nonmobi]nhấn[mobi]nhấn[/] vào Kho Đá, và chọn nâng cấp Cuốc Tốt Hơn.
+theLostShip.json/StoneMineUpgrade.quickText|Nâng cấp một Kho Đá với Cuốc Tốt Hơn.
+theLostShip.json/Happiness.text|Giờ bạn đã có một tổ chức khá tốt, đã đến lúc tập trung vào hạnh phúc của người dân một lát. Không phải nó không có lợi ích nào cả, người dân hạnh phúc sẽ làm việc nhanh hơn. Để làm họ hạnh phúc, hãy xây Quán Rượu và đảm bảo có ít nhất 10 thức ăn.
+theLostShip.json/Happiness.quickText|Xây một Quán Rượu và có ít nhất 10 thức ăn.
+theLostShip.json/BuildMachinePartsFactory.text|Làm tốt lắm! Hãy chắc rằng có người làm việc trong Quán Rượu hoặc nó sẽ không có hiệu quả.\nThành phố sẽ cần máy móc. [c]May mắn thay, bạn đã đoán trước và đã xây một Nhà máy Bộ phận Máy.[/c][n]Hãy xây Nhà máy Bộ phận Máy để có thể tạo ra chúng.[/n]
+theLostShip.json/BuildMachinePartsFactory.quickText|Xây một Nhà máy Bộ phận Máy.
+theLostShip.json/GetMinHappiness.text|Nhà máy Bộ phận Máy sử dụng rất nhiều đá nên hãy chắc rằng bạn đã có đủ! Nếu bạn cần đá cho việc khác, cứ tắt nó đi một thời gian.[n]\nThật tuyệt vời khi thấy những khuôn mặt hạnh phúc, phải không? Hãy chắc rằng chỉ số hạnh phúc của thành phố luôn trên 52. Chỉ cần [nnonmobi]nhấn[nmobi]nhấn[n] vào nút hạnh phúc trên thành phố nếu bạn muốn thấy lĩnh vực nào có thể được cải thiện.[/n]
+theLostShip.json/GetMinHappiness.quickText|Đưa chỉ số hạnh phúc của thành phố lên 52.
+theLostShip.json/BuildStoneTeleporter.text|Lượng đá trên hành tinh này khá hạn chế. May mắn thay, bạn đã nghĩ ra cách để khắc phục vấn đề này: Máy Dịch chuyển Đá có thể dịch chuyển thiên thạch từ vũ trụ. Hãy nghiên cứu và xây một cái. Bạn có thể sẽ muốn xây một vài Phòng Thí Nghiệm để có thêm kiến thức.
+theLostShip.json/BuildStoneTeleporter.quickText|Xây một Máy Dịch chuyển Đá.
+theLostShip.json/BuildObservatory.text|Hay lắm! Bạn sẽ không bao giờ hết đá nữa rồi.\nDân số đang phát triển rất nhanh, và thể giới này khá nhỏ. Tìm các thế giới khác để thuộc địa hóa có lẽ là một ý kiến hay, nên hãy xây một Đài Thiên Văn.
+theLostShip.json/BuildObservatory.quickText|Xây một Đài Thiên Văn.
+theLostShip.json/Win.title|Hoàn thành Viễn cảnh!
+theLostShip.json/Win.text|Làm tốt lắm! Các nhà khoa học giờ sẽ tìm kiếm thế giới khác để thuộc địa hóa. Bạn có thể chơi viễn cảnh kế tiếp để xem họ đã tìm được gì.\nNếu bạn muốn tiếp tục phát triển thành phố này, bạn vẫn có thể đến viễn cảnh tiếp theo từ menu sau này.
+|
+multipleWorlds.json/Start.text|Sau khi xây dựng Đài Thiên Văn, các nhà khoa học đã tìm thấy một nơi có vẻ hứa hẹn. Bạn đã quyết định đi đến đó. Tuy nhiên, các nhà khoa học đã không nhìn kỹ, vì thế giới mà họ nghĩ là một thế giới lớn thật ra là nhiều thế giới nhỏ. Mặc dù vậy, đây vẫn là một nơi thích hợp để xây một thành phố.\nĐể bắt đầu, hãy xây một Xưởng khai thác gỗ, một Kho Đá, một Trang trại Trong nhà và một căn nhà.
+multipleWorlds.json/Start.quickText|Xây một Xưởng khai thác gỗ, một Kho Đá, một Trang trại Trong nhà và một căn nhà.
+multipleWorlds.json/MorePeople.text|Một sự khởi đầu tốt! Bạn đã mời một vài người từ thành phố trước đó của bạn. Họ sẽ đến trong các ngày tới.\nNgười dân của bạn có vẻ không vui lắm. Hãy xây một quán rượu để khích lệ họ một chút.
+multipleWorlds.json/MorePeople.quickText|Xây một Quán Rượu.
+multipleWorlds.json/GoBuildMPF.text|Quán Rượu đã làm người dân của bạn vui lên một chút! Để tiếp tục công việc, Bạn sẽ cần bộ phận máy, nên hãy xây Nhà máy Bộ phận Máy nào.
+multipleWorlds.json/GoBuildMPF.quickText|Xây một Nhà máy Bộ phận Máy.
+multipleWorlds.json/MachinePartsFactoryBuilt.text|Nhà máy Bộ phận Máy rất hữu ích, nhưng hiện giờ nó không hiệu quả lắm. Hãy nâng cấp nó để nó có thể tái chế sắt vụn. Điều này sẽ làm giảm lượng đá cần dùng.
+multipleWorlds.json/MachinePartsFactoryBuilt.quickText|Nâng cấp Nhà máy Bộ phận Máy để nó có thể tái chế sắt vụn.
+multipleWorlds.json/GoToOtherWorlds.text|[c] Bạn đã xây một vài Bệ Đáp để kết nối giữa các thế giới. Làm tốt lắm![/][n]Tuyệt vời! Giờ đã đến lúc để kết nối các thế giới. Cách dễ nhất đó chính là xây các Bệ Đáp. Hãy xây 2 Bệ Đáp: một ở thế giới hiện tại và một ở thế giới đã phát triển.[/]
+multipleWorlds.json/GoToOtherWorlds.quickText|Kết nối thế giới hiện tại với thế giới khác bằng các Bệ Đáp.
+multipleWorlds.json/GoToOtherWorldsDone.text|[c]Bạn đã xây Trang trại Thử nghiệm! Làm tốt lắm![/][n]Giờ thành phố của bạn đã có thêm không gian, nó chắc chắn sẽ phát triển với tốc độ kinh hoàng. Bạn sẽ sớm có thêm nhiều miệng ăn hơn nữa. Để làm mọi việc dễ hơn, hãy xây một Trang trại Thử nghiệm.[/]
+multipleWorlds.json/GoToOtherWorldsDone.quickText|Xây một Trang trại Thử nghiệm.
+multipleWorlds.json/GoBuildRefinedMetalFactory.text|[c]Bạn đã xây nhà máy Luyện Kim! Làm tốt lắm![/][n]Để xây một vài loại công trình hiện đại hơn thì đá chắc chắn không thể. Bạn phải cần tinh luyện nó trước. Hãy xây Nhà máy Luyện kim để làm được điều này.[/]
+multipleWorlds.json/GoBuildRefinedMetalFactory.quickText|Xây một Nhà máy luyện Kim.
+multipleWorlds.json/GetHighHappiness.text|[c]Chà, tôi ấn tượng đấy! Bạn đã có chỉ số hạnh phúc đủ để vượt qua mục tiêu này.[/][n]Kim loại tinh luyện khá tốt, nhưng được thấy người dân hạnh phúc còn tốt hơn. Nên hãy dùng một ít kim loại tinh luyện để tăng sự hạnh phúc của người dân của bạn. Đưa nó lên hơn 80.[/]
+multipleWorlds.json/GetHighHappiness.quickText|Đưa chỉ số hạnh phúc lên hơn 80. Điều này không bao gồm tăng tạm thời.
+multipleWorlds.json/Win.title|Hoàn thành Viễn cảnh!
+multipleWorlds.json/Win.text|Người dân của bạn giờ đang rất hạnh phúc, và họ sẽ không muốn sống bất cứ nơi nào khác ngoài đây. Làm tốt lắm!\n\nBạn có thể chơi viễn cảnh tiếp theo, hoặc tiếp tục phát triển thành phố của bạn nếu bạn muốn. Cảm ơn vì đã chơi!
+|
+hackersandaliens.json/Start.text|Nhân loại đang thuộc địa hóa vũ trụ một cách chậm rãi. Đây là căn cứ mới nhất. Nó vẫn còn khá nhỏ, nhưng người mới sẽ đến đây sớm thôi.\nBạn không muốn họ vô gia cư đâu, phải chứ? Để tránh việc này, xây nhà cho đến khi bạn có đủ chỗ ở cho 15 người.
+hackersandaliens.json/Start.quickText|Xây nhà cho đến khi bạn có đủ chỗ ở cho 15 người.
+|
+hackersandaliens.json/ExploreAlienRuins.quickText|Khám phá Phế tích Ngoài hành tinh trên thế giới này.
+hackersandaliens.json/ExploreAlienRuins2.text|Làm tốt lắm!\nNhững phế tích ở đây khác với cái mà bạn từng thấy trước đây. Hãy khám phá chúng để tìm hiểu thêm nữa.\n\nNgoài ra, nơi đây có một thứ ánh sáng kỳ lạ. Hãy xây tàu nghiên cứu để điều tra việc này trong khi bạn khám phá phế tích.
+hackersandaliens.json/ExploreAlienRuins2.quickText|Xây Tàu Nghiên Cứu và khám phá Phế tích Ngoài hành tinh trên thế giới này.
+hackersandaliens.json/InTheMeantime2.text|Giờ bạn đã xây tàu vũ trụ, đã đến lúc thực hiện một vài cuộc nghiên cứu! Hãy chắc rằng một công nhân đã được chỉ định để nghiên cứu trong tàu vũ trụ và chờ khi họ khám phá ra một chút.
+hackersandaliens.json/InTheMeantime2.quickText|Chỉ định một công nhân để nghiên cứu trong tàu vũ trụ và chờ kết quả.
+hackersandaliens.json/InTheMeantime3.text|Công nhân trong Tàu Nghiên Cứu đã phát hiện một lực kỳ lạ ngăn họ đến gần thế giới phát sáng. Điều này cũng có nghĩa là bạn không thể xây trên chúng. Có thể Phế tích Ngoài hành tinh có thể giúp?
+hackersandaliens.json/InTheMeantime3.quickText|Khám phá Phế tích Ngoài hành tinh trên thế giới này.
+hackersandaliens.json/BuildRefinedMetalsFactory.text|Trong khi khám phá phế tích, người thám hiểm đã tìm thấy một Thiết Bị Nhỏ. Bạn nghĩ nó có khả năng can thiệp vào những thế giới không thể tiếp cận.\nTuy nhiên, không một ai sử dụng được nó. Có thể một vài chiếc máy tính có thể giúp? Để xây nó, bạn sẽ cần kim loại tinh luyện. Xây Nhà máy Luyện kim để sản xuất chúng.
+hackersandaliens.json/BuildRefinedMetalsFactory.quickText|Xây một Nhà máy Luyện kim.
+hackersandaliens.json/BuildComputerResearchCenter.text|Nhà máy Luyện kim của bạn nhìn có vẻ ổn!\nChế tạo máy tính thật ra là một việc rất phức tạp. Vì vậy, bạn sẽ cần xây Trung tâm Nghiên cứu Máy tính trước.
+hackersandaliens.json/BuildComputerResearchCenter.quickText|Xây Trung tâm Nghiên cứu Máy tính.
+hackersandaliens.json/BuildComputerChipFactory.text|Làm tốt lắm! Giờ bạn chỉ cần một vài con chip máy tính để có thể làm máy tính. Hãy xây một Nhà máy Chip Vi tính và làm năm con chip máy tính.
+hackersandaliens.json/BuildComputerChipFactory.quickText|Xây một Nhà máy Chip Vi tính và làm năm con chip máy tính.
+hackersandaliens.json/BuildArcades.text|Bạn đã chế tạo một chiếc máy tính và cắm nó với thiết bị ngoài hành tinh... nhưng có một chút vấn đề. Tất cả dữ liệu đều bị mã hóa!\nCó thể các hacker có thể giúp. Tuy nhiên, trước khi họ đến đây, họ yêu cầu bạn phải xây ba Arcade.
+hackersandaliens.json/BuildArcades.quickText|Xây ba Arcade.
+hackersandaliens.json/BuildHackers.text|Các Hacker giờ đây đã thỏa mãn với thành phố của bạn. Giờ hãy xây Trụ Sở Hacker!
+hackersandaliens.json/BuildHackers.quickText|Xây một Trụ Sở Hacker.
+hackersandaliens.json/CompleteHackerMissions.text|Các Hacker đã xem qua dữ liệu mã hóa, nhưng họ cần thêm một số kinh nghiệm để có thể bẻ khóa nó. Hãy hoàn thành một vài nhiệm vụ mà họ đưa ra!
+hackersandaliens.json/CompleteHackerMissions.quickText|Hoàn thành một vài nhiệm vụ Hacker.
+hackersandaliens.json/BuildDecryptBuilding.text|Các Hacker nghĩ giờ họ đã có thể bẻ khóa, nhưng họ cần một cái máy tính chuyên dụng trước. Hãy xây Máy Giải Mã cho họ!
+hackersandaliens.json/BuildDecryptBuilding.quickText|Xây Máy Giải Mã.
+hackersandaliens.json/Wait.text|Làm tốt lắm! Việc duy nhất cần làm nữa là chờ Máy Giải Mã hoàn tất công việc của mình. Điều này sẽ mất không quá một ngày.
+hackersandaliens.json/Wait.quickText|Cho Máy Giải Mã hoàn tất công việc của mình.
+hackersandaliens.json/Win.title|Hoàn thành Viễn cảnh!
+hackersandaliens.json/Win.text|Máy Giải Mã đã thành công, và giờ các Hacker đã có thể gỡ bỏ bức tường vô hình ở các thế giới. Bạn giờ đã có thể tiếp tục xây dựng thành phố tuyệt vời của bạn! Ngoài ra, bạn có thể chơi viễn cảnh Chơi Tự Do. Cảm ơn bạn rất nhiều vì đã chơi!
+|
+priority|Ưu tiên
+no_destroy_allowed|Người dân của bạn không muốn phá hủy công trình lúc này!
+previous_city_arrived|Tất cả người từ thành phố trước đã đến đây. Tất nhiên, dân số của bạn vẫn có thể tăng qua việc sinh sản.
+moved_here_arrived|Những người muốn đến đây đã tới nơi. Tất nhiên, dân số của bạn vẫn có thể tăng qua việc sinh sản.
+|
+decorationsInfo.json/spr_decoration_keycity.name|Cỏ Khô
+decorationsInfo.json/spr_flowers_keycity.name|Cỏ khô với Hoa
+secret_society_forbidden|Chìa khóa không muốn nó.
+citizens_unhappy_key|Chìa khóa cần người dân của bạn ít nhất được hạnh phúc vừa phải, nếu không họ sẽ chậm chạp và vô dụng. Bạn được khuyên nên giải quyết những vấn đề của họ, tuy bình thường.
+slanted_roofs|Mái Nghiêng
+buildinginfo.json/ColoredBlock.name|Khối Màu
+buildinginfo.json/ColoredBlock.description|Một công trình được sơn một màu duy nhất cho mục đích trang trí, hoặc để giữ chỗ.
+colored_blocks|Khối Màu
+stone_warning|Cảnh báo! Không còn đá trên các thế giới có thể đến! Hãy thử xây một máy dịch chuyển đá. Nếu cần thiết, hãy sản xuất một vài chip máy tính tại phân xưởng trước.
+mines_warning|Cảnh báo! Bạn có vẻ như có nhiều máy dịch chuyển đá hơn kho đá. Máy dịch chuyển đá không sản xuất đá. Bạn cần các kho đá để thật sự khai thác thiên thạch.
+buildinginfo.json/RooftopDecoration.name|Mái Nghiêng
+buildinginfo.json/RooftopDecoration.description|Một mái nghiêng đẹp dành cho mục đích trang trí.
+slanted_rooftops|Chóp Mái 
+buildinginfo.json/RooftopDecoration2.name|Chóp Mái
+buildinginfo.json/RooftopDecoration2.description|Phần đỉnh của mái nghiêng.
+buildableWorldResourcesInfo.json/BranchyForest.name|Rừng Nhánh Cây
+buildableWorldResourcesInfo.json/BranchyForest.description|Trồng cây con để phát triển thành một khu rừng có nhiều nhánh cây.
+invite_people|Mời Người dân
+invite_people_description|Để mời thêm [0] người đến thành phố của bạn, bạn phải có đủ nơi ở cho họ và phải trả:
+invite_people_done|Không còn người nào muốn đến thành phố của bạn nữa.
+invite_not_enough_houses|Không đủ nơi ở để mời thêm người.
+cant_afford|Bạn không thể trả nó!
+invite_people_success|Bạn đã mời [0] người! Họ sẽ đến sớm thôi.
+|
+glory_of_the_key|Vinh quang của Chìa khóa
+luxury_housing|Nơi ở Sang trọng
+high_end_restaurants|Nhà hàng Cao cấp
+sculptures|Tượng Điêu Khắc
+buildinginfo.json/LuxuryRestaurant.name|Nhà hàng Cao cấp
+buildinginfo.json/LuxuryRestaurant.description|Một nhà hàng được đánh giá cao với những món ăn độc nhất và bầu không khí sang trọng.
+buildinginfo.json/HouseOfTheKeyFriends.name|Người bạn của Chìa khóa
+buildinginfo.json/HouseOfTheKeyFriends.description|Một ngôi nhà cho bạn bè của các Chìa khóa Xã hội Bí mật. Chừng nào Cỗ máy vẫn còn tồn tại, người sống trong ngôi nhà này sẽ bất tử.
+get_premium_to_unlock|Cần Premium để mở khóa!
+|
+stories.json/cityofthekey.name|Thành phố của Chìa khóa
+stories.json/cityofthekey.description|Chìa khóa Xã hội Bí mật đã hào phóng mời bạn quản lý thành phố rực rỡ của họ.
+cityofthekey.json/Start.text|Chúng tôi, Chìa khóa Xã hội Bí mật, hi vọng và mong đợi bạn biết ơn vì đã được đến thành phố xinh đẹp của chúng tôi. Chúng tôi muốn xây một thành phố chứng tỏ sự vĩ đại của chúng tôi, nhưng đã quá mệt mỏi sau công việc kinh doanh hằng ngày - chúng tôi hi vọng bạn có thể giúp.
+cityofthekey.json/Start.quickText|Chờ nhiệm vụ đầu tiên của bạn.
+cityofthekey.json/InvitePeople.text|Hiện nay, các thành phố rất cạnh tranh với nhau. người dân không chỉ chuyển đến thành phố khác miễn phí, ngay cả Thành Phố của Chìa khóa cũng như thế. Họ muốn thức ăn như một phần thưởng cho việc di chuyển, và ai biết được rằng trong tương lai họ muốn gì. Chúng tôi nghĩ điều này quá vô lý, nhưng nó là vậy. Hãy mời thêm một vài người dân.
+cityofthekey.json/InvitePeople.quickText|Mời một vài người dân bằng cách sử dụng Tùy chọn quản lý
+cityofthekey.json/ImproveEconomy.text|Bạn có thể mời người dân mới mỗi khi bạn muốn.\n\nChúng tôi cảm thấy vẫn còn chỗ có thể cải thiện trong bộ phận sản xuất. Chúng tôi muốn bạn sản xuất ít nhất 100 thức ăn, 100 đá và 50 kiến thức mỗi ngày. Một ý kiến không tồi đó là thỉnh thoảng tắt những máy dịch chuyển, nó có vẻ hao tốn khá nhiều kiến thức.
+cityofthekey.json/ImproveEconomy.quickText|Sản xuất ít nhất 100 thức ăn, 100 đá và 50 kiến thức mỗi ngày.
+cityofthekey.json/BuildSculptures.text|Người dân tại thành phố này, một cách đúng đắn, quan tâm đến Vinh vang của Chìa khóa. Xây năm vườn điêu khắc để nâng cao sự vĩ đại của chúng ta, và nâng chỉ số hạnh phúc lên thêm.
+cityofthekey.json/BuildSculptures.quickText|Xây năm vườn điêu khắc.
+cityofthekey.json/HaveEnoughPeople.text|[c]Chúng tôi rất hài lòng khi thấy thành phố đã thành công phát triển dân số lên 300 người.[/][n]Chúng tôi rất muốn thấy thành phố của mình phát triển dân số lên 300 người. Bạn có thể mời một vài người.
+cityofthekey.json/HaveEnoughPeople.quickText|Có ít nhất 300 người dân trong thành phố của bạn. Bạn có thể sử dụng tính năng mời người khác.
+cityofthekey.json/GatherKnowledge.text|Thành phố của ta nên thu thập tất cả kiến thức trong vũ trụ. Để bắt đầu, thu thập ít nhất 150 kiến thức trong một ngày.
+cityofthekey.json/GatherKnowledge.quickText|Thu thập ít nhất 150 kiến thức trong một ngày.
+cityofthekey.json/BuildLuxuryRestaurants.text|Đã đến lúc có thêm sự vinh vang và xa xỉ. Hãy xây một nhà hàng cao cấp để cải thiện Vinh vang Chìa khóa.
+cityofthekey.json/BuildLuxuryRestaurants.quickText|Xây một nhà hàng cao cấp.
+cityofthekey.json/BuildTeleporters.text|Một hệ thống giao thông tốt là rất quan trọng. [c][/]Chúng tôi rất hài lòng khi thấy bạn đã hiểu và xây một vài máy dịch chuyển.[/][n]Nên có ít nhất năm máy dịch chuyển trong thành phố của ta.
+cityofthekey.json/BuildTeleporters.quickText|Có ít nhất năm máy dịch chuyển trong thành phố của bạn.
+cityofthekey.json/ImproveOurHousing.text|Thật tốt khi quan tâm đến người dân của chúng ta, nhưng sau cùng chúng tôi vẫn là người quan trọng nhất. Nhà của chúng ta khá ổn, nhưng nó có thể tốt hơn. Nghiên cứu Đời sống Bí mật trong Trung tâm Nghiên cứu Đời sống.
+cityofthekey.json/ImproveOurHousing.quickText|Nghiên cứu Đời sống Bí mật trong Trung tâm Nghiên cứu Đời sống.
+cityofthekey.json/BuildLuxuryHousing.text|Giờ nhà của chúng ta đã tốt hơn, đã đến lúc để xây một vài ngôi nhà tuyệt vời cho người mà chúng tôi thích. Xây ba biệt thự. Điều này cũng tăng Vinh vang Chìa khóa.
+cityofthekey.json/BuildLuxuryHousing.quickText|Xây ba biệt thự.
+cityofthekey.json/FinalGlory.text|Chìa khóa nên được vinh vang mãi mãi. [c]Chúng tôi rất hài lòng khi thấy điều đó thật sự là vậy.[/][n]Nâng Vinh vang Chìa khóa lên 100.
+cityofthekey.json/FinalGlory.quickText|Nâng Vinh vang Chìa khóa lên 100. Bạn có thể kiểm tra nó trong mục chỉ số hạnh phúc.
+cityofthekey.json/GatherKnowledge2.text|Chúng tôi đã nói từ trước, nhưng chúng tôi muốn nhấn mạnh rằng kiến thức rất quan trọng với chúng tôi. Vì vậy, hãy thu thập ít nhất 750 kiến thức trong một ngày.
+cityofthekey.json/GatherKnowledge2.quickText|Thu thập ít nhất 750 kiến thức trong một ngày.
+cityofthekey.json/BuildTheMachine.text|Giờ ta đã có đủ lượng kiến thức, đã đến lúc thực hiện kế hoạch bí mật của chúng tôi. Hãy xây Cỗ máy.
+cityofthekey.json/BuildTheMachine.quickText|Xây dựng Cỗ máy.
+cityofthekey.json/Win.title|Hoàn thành Viễn cảnh!
+cityofthekey.json/Win.text|Chúng tôi khá hài lòng với việc làm của bạn. Vì vậy, giờ bạn có thể xây một căn nhà cho Người bạn của Chìa khóa,người mà sẽ bất tử như chúng tôi.
+|
+gdpr_description_1|Cảm ơn bạn vì đã chơi The Final Earth 2! Các công ty đối tác có thể thu thập một vài dữ liệu về bạn để có thể cải thiện trò chơi, để xử lí các giao dịch của bạn và để hiện quảng cáo. Tôi luôn cố để hạn chế điều này hết sức có thể.
+more_info|Thông tin thêm
+gdpr_description_2|Để hỗ trợ trò chơi, bạn có thể đồng ý hiện các quảng cáo cá nhân. Điều này sẽ sử dụng một số dữ liệu về hoạt động của bạn trong trò chơi và một số ứng dụng khác để hiện những quảng cáo tốt hơn.
+gdpr_option_accept|Chấp nhận
+gdpr_option_reject|Không chấp nhận
+changes_apply_on_reload|Thay đổi này sẽ được áp dụng vào lần khởi động tới.
+task_complete|Nhiệm vụ hoàn thành!
+please_wait|Vui lòng chờ...
+|
+tip|Mẹo
+|
+floating_platform|Sàn Nổi
+floating_platform_cannot_destroy|Bạn không thể phá huỷ một sàn nổi đang chống đỡ công trình.
+floating_platform_description|Bạn có thể xây công trình trên sàn vững chắc này.
+stories.json/FreePlayMiniWorld.name|Chơi Tự Do - Thế giới Nhỏ
+stories.json/FreePlayMiniWorld.description|Thế giới này tuy nhỏ, nhưng nó có một vài công nghệ tân tiến.
+domeroofs|Mái Vòm
+buildinginfo.json/RooftopDecoration3.name|Mái Vòm
+buildinginfo.json/RooftopDecoration3.description|Mái vòm có thể đặt trên nóc tòa nhà.
+buildinginfo.json/TreePlantationDome.name|Đồn cây Mái vòm
+buildinginfo.json/TreePlantationDome.description|Bởi có điều kiện ánh sáng thích hợp, cây trong đồn có thể phát triển nhanh hơn so với đồn điền thông thường.
+premium_advantage_2|Khám phá Tuyến đường để hiển thị đường đi của người dân
+premium_advantage_3|Tùy chọn chế độ Sáng tạo cho Chơi tự do
+premium_advantage_4|Gỡ bỏ mọi quảng cáo & Tăng Tốc với không quảng cáo
+premium_advantage_5|Sẽ có nhiều hơn trong tương lai!
+|
+resume|Tạm dừng
+tap_anywhere|Nhấn bất kì
+|
+build_mode_destroyleavinghole_explanation|Phá hủy một công trình, để lại một khoảng trống thay vì dịch công trình bên trên xuống.
+build_mode_destroyleavinghole|Phá hủy, để lại khoảng trống
+invalid_structure_2|Bạn không thể phá hủy công trình này vì để lại một khoảng trống sẽ tạo một kiến trúc không hợp lệ.
+roof_bottoms|Chân Mái nghiêng
+buildinginfo.json/RooftopDecoration4.name|Chân Mái nghiêng
+buildinginfo.json/RooftopDecoration4.description|Mảnh dưới cùng cho 2 Mái Nghiêng.
+save_screenshot_failed|Thật đáng tiếc, chúng tôi không thể lưu ảnh chụp màn hình của bạn. Thành phố của bạn đã quá lớn để có thể chụp lại.
+bridge_is_potential|Không thể đặt cây cầu.
+|
+premium_advantage_6|Khoáng sản mới: Graphen!
+premium_advantage_1|10+ công trình mới, bao gồm Nhà ga và Thủy cung!
+premium_advantage_7|Sàn nổi và cầu để xây nên nhiều thành phố sáng tạo hơn nữa!
+|
+citizens_unhappy_food|Người dân của bạn không đủ thức ăn! Họ sẽ rất không hài lòng và hiệu quả làm việc sẽ giảm. Hãy thử xây thêm trang trại, chỉ định thêm người làm việc tại trang trại hoặc xây trang trại gần nơi ở để giảm thời gian di chuyển.
+limited_per_citizens|Giới hạn: 1 cho mỗi [0] người dân.
+buildinginfo.json/SpecializedMedicalClinic.name|Phòng Khám Chuyên
+buildinginfo.json/SpecializedMedicalClinic.description|Chuyên chữa trị các căn bệnh phức tạp. Cải thiện chỉ số hạnh phúc y tế và kéo dài tuổi thọ người dân.
+|
+build_mode_multi_replace_explanation|Kéo để xây hoặc thay thế công trình một cách nhanh chóng.
+build_mode_multi_replace|Chế độ xây: Thay thế Multi
+bridgesInfo.json/Bridge.name|Cầu đường
+bridgesInfo.json/Bridge.description|Cây cầu bộ nối hai công trình với khoảng cách tối đa là ba ô. Tàu vũ trụ có thể đi xuyên qua cây cầu này.
+bridgesInfo.json/ReinforcedBridge.name|Cầu tăng cường
+bridgesInfo.json/ReinforcedBridge.description|Cây cầu bộ nối hai công trình với khoảng cách tối đa là bảy ô. Tàu vũ trụ có thể đi xuyên qua cây cầu này.
+buildinginfo.json/TechMuseum.name|Bảo tàng Khoa học
+buildinginfo.json/TechMuseum.description|Bảo tàng dành cho khoa học và công nghệ. Cải thiện chỉ số hạnh phúc nghệ thuật và giáo dục thêm cho khánh tham quan.
+|
+decorationsInfo.json/spr_snowman.name|Người tuyết
+decorationsInfo.json/spr_lanterns.name|Đèn trang trí
+buildingUpgradesInfo.json/MiniChristmasTree.name|Cây giáng sinh nhỏ
+buildingUpgradesInfo.json/MiniChristmasTree.description|Cây giáng sinh làm cho căn nhà trở nên ấm áp hơn.
+buildinginfo.json/ChristmasTree.name|Cây giáng sinh
+buildinginfo.json/ChristmasTree.description|Cây giáng sinh lớn cho cả thành phố tận hưởng.
+buildinginfo.json/ChristmasMarket.name|Chợ giáng sinh
+buildinginfo.json/ChristmasMarket.description|Lễ hội chợ với nhiều đồ ăn thức uống vừa ngon vừa ấm bụng.
+buildableWorldResourcesInfo.json/ForestSnow.name|Rừng tuyết
+buildableWorldResourcesInfo.json/ForestSnow.description|Khu rừng được bao phủ bởi tuyết.
+stories.json/snowWorld.name|Vùng đất mùa đông
+stories.json/snowWorld.description|Xây lên một cung điện mùa đông trong một thế giới phủ đầy tuyết.
+buildinginfo.json/ChristmasTree.showUnlockHint|Đạt ít nhất 60 hạnh phúc để mở khóa.
+snowWorld.json/Start.text|Chào mừng bạn đến với thế giới phủ đầy tuyết này! Đây là nơi tuyệt vời để ăn mừng những ngày lễ. Nhưng trước hết, hãy xây một căn cứ nhỏ với ít nhất ba ngôi nhà, hai trang trại trong nhà, một kho đá và một xưởng khai thác gỗ.
+snowWorld.json/Start.quickText|Xây ba ngôi nhà, hai trang trại trong nhà, một kho đá và một xưởng khai thác gỗ.
+snowWorld.json/ChristmasTreesInHouses.text|Đây đúng là một căn cứ tốt, nhưng những ngôi nhà dường như chưa có không khí lễ hội. Hãy thêm một cây giáng sinh nhỏ cho mỗi căn để thêm phần ấm cúng nào.
+snowWorld.json/ChristmasTreesInHouses.quickText|Thêm Cây giáng sinh nhỏ cho ít nhất ba ngôn nhà.
+snowWorld.json/ChristmasMarket.text|Tốt hơn rồi! Một khu chợ giáng sinh có thể giúp người dân trải nghiệm đồ ăn thức uống truyền thống, như Lebkuchen hay rượu vang nóng. Xây 3 Chợ giáng sinh.
+snowWorld.json/ChristmasMarket.quickText|Xây ba khu Chợ giáng sinh.
+snowWorld.json/ChristmasTree.text|Ta đã có một vài cây giáng sinh nhỏ, nhưng sẽ rất tuyệt nếu có một cây lớn đặt giữa trung tâm để ăn mừng. Đạt 65 hạnh phúc, sau đó xây một Cây giáng sinh cho cả thành phố.
+snowWorld.json/ChristmasTree.quickText|Đạt 65 hạnh phúc, sau đó xây một Cây giáng sinh cho cả thành phố.
+snowWorld.json/Win.text|Bạn đã xây lên một nơi tuyệt vời để ăn mừng lễ hội và người dân của bạn đang tận hưởng từng giay phúc này! Nếu bạn muốn, bạn có thể tiếp tục chơi và cải thiện thành phố hơn nữa.\n\n Cảm ơn bạn đã chơi và chúc bạn có một ngày lễ vui vẻ, hệt như người dân của bạn vậy! - Florian
+|
+buildinginfo.json/Loft.name|Căn hộ Gác xép
+buildinginfo.json/Loft.description|Một căn hộ có tầng thượng, trần nhà cao và rất nhiều đèn, phù hợp cho các họa sĩ. Tạo một lượng nhỏ chỉ số hạnh phúc nghệ thuật.
+buildingUpgradesInfo.json/SoundProofing.name|Tường cách âm
+buildingUpgradesInfo.json/SoundProofing.description|Chất lượng căn nhà tăng 12.
+|
+policiesInfo.json/FoodRationing.name|Giảm khẩu phần ăn
+policiesInfo.json/FoodRationing.description|Người dân của bạn sẽ tiêu thụ một nửa thức ăn so với ban đầu. Tuy nhiên, chỉ số hạnh phúc giảm một phần ba nếu chỉ số trên 10.
+policiesInfo.json/SmallerClasses.name|Giảm kích thước các lớp học
+policiesInfo.json/SmallerClasses.description|Trường học giáo dục tốt hơn 15%, nhưng sức chứa giảm một phần ba.
+policiesInfo.json/MandatoryOvertime.name|Bắt buộc làm thêm giờ
+policiesInfo.json/MandatoryOvertime.description|Người dân của bạn làm thêm hai giờ mỗi ngày. Chỉ số hạnh phúc sẽ giảm từ từ khi chính sách được áp dụng. Khi được hủy bỏ, chỉ số hạnh phúc sẽ quay trở lại dần trong một ngày.
+
+restore_purchases|Khôi phục các giao dịch mua
+restoring_purchases|Đang khôi phục các giao dịch mua ...
+
+following_frog|Theo dõi ếch khổng lồ
+cant_find_frog|Con ếch khổng lồ đã biến mất.
+total_extra_years|Tổng số năm bổ sung đã cho: [0]
+
+reduce_ui_size|Giảm kích thước giao diện người dùng:
+
+buildinginfo.json/UnderwaterHouse.name|Ngôi nhà dưới nước
+buildinginfo.json/WizardHatCafe.name|Quán cà phê Wizard Hat
+buildinginfo.json/WizardHatCafe.description|Một quán cà phê trên sân thượng có thể là kỳ diệu. Có vẻ như thỉnh thoảng đẻ ra những con ếch khổng lồ.
+buildinginfo.json/LandingSiteTunnel.name|Đệm hạ cánh trong nhà
+buildinginfo.json/LandingSiteTunnel.description|Một bệ hạ cánh có thể được tích hợp vào một tòa nhà. Nó cũng có thể được kết nối với các đường hầm tàu ​​không gian.
+buildinginfo.json/SpaceShipTunnel.name|Đường hầm tàu ​​vũ trụ
+buildinginfo.json/SpaceShipTunnel.description|Tàu vũ trụ có thể đi qua đường hầm này.
+bridgesInfo.json/BotanicalBridge.name|Cầu công viên
+bridgesInfo.json/BotanicalBridge.description|Một cây cầu được gia cố có thể kết nối các công viên hoặc vườn bách thảo một cách độc đáo. Có thể rộng tới bảy không gian.
+buildinginfo.json/AlienFarm.name|Trang trại người ngoài hành tinh
+buildinginfo.json/AlienFarm.description|Một trang trại trồng những loại cây màu tím kỳ lạ. Sản xuất nhiều thức ăn hơn cho mỗi ngôi nhà ngoài hành tinh liền kề. Không bị ảnh hưởng bởi công nghệ phòng thí nghiệm.
+cityUpgradesInfo.json/EcoFarmUpgrade.name|nuôi trồng thủy sản
+cityUpgradesInfo.json/EcoFarmUpgrade.description|Trang trại sinh thái sản xuất nhiều thực phẩm hơn.
+buildinginfo.json/BotanicalGardensDome.name|Vườn bách thảo mái vòm
+buildinginfo.json/BotanicalGardensDome.description|Một mái nhà phong cách cho khu vườn thực vật của bạn.
+
+build_rocket|Xây dựng tên lửa
+rocket_description|Tên lửa chỉ có thể được sử dụng một lần.
+rocket_launch_cant_destroy_while_executing|Bạn không thể phá hủy bệ phóng tên lửa khi đang thực hiện nhiệm vụ.
+
+rocket_reward_nothing|Tên lửa của bạn đã trở về an toàn, nhưng họ không tìm thấy điều gì đặc biệt trong nhiệm vụ của mình.
+rocket_reward_fossils|Những người thợ mỏ của bạn đã tìm thấy một hóa thạch! Họ cũng thu thập [0] đá.
+rocket_reward_stone|Những người thợ mỏ của bạn đã thu thập [0] đá.
+rocket_reward_refinedmetals|Những người thợ mỏ của bạn đã tìm thấy một số tinh thể sáng bóng có thể được sử dụng làm [0] kim loại tinh luyện.
+rocketFuel|Nhiên liệu tên lửa
+rocketFuel_use|Được sử dụng cho các nhiệm vụ tên lửa.
+buildingUpgradesInfo.json/FactoryUsingWood.name|Sử dụng gỗ
+buildingUpgradesInfo.json/FactoryUsingWood.description|Nhà máy sẽ sử dụng gỗ để làm nhiên liệu cho tên lửa.
+buildingUpgradesInfo.json/FactoryUsingFood.name|Sử dụng thức ăn
+buildingUpgradesInfo.json/FactoryUsingFood.description|Nhà máy sẽ sử dụng thực phẩm để làm nhiên liệu cho tên lửa.
+rocket_fuel_made|[0] thực phẩm / gỗ được sử dụng để làm [1] nhiên liệu tên lửa.
+buildinginfo.json/RocketFuelFactory.name|Nhà máy nhiên liệu tên lửa
+buildinginfo.json/RocketFuelFactory.description|Làm nhiên liệu tên lửa từ gỗ hoặc thực phẩm. Một tài nguyên được sử dụng để sản xuất một đơn vị nhiên liệu tên lửa.
+buildinginfo.json/GlassPiece.name|Cửa sổ trang trí
+buildinginfo.json/GlassPiece.description|Một cửa sổ cho mục đích trang trí hoặc như một trình giữ chỗ.
+fuel_cost|Sử dụng [0] nhiên liệu tên lửa.
+mission_warning_too_little_fuel|Bạn cần đủ nhiên liệu cho tên lửa!
+mission_warning_too_small_crew|Bạn cần chọn bốn thành viên phi hành đoàn để bắt đầu một nhiệm vụ!
+mission_warning_already_started|Bạn đã thực hiện nhiệm vụ này!
+mission_warning_no_crew_found|Chúng tôi không thể tìm thấy công nhân phù hợp cho phi hành đoàn này, hoặc họ không thể tiếp cận tên lửa!
+mission_complete|Nhiệm vụ tên lửa của bạn đã trở lại!
+rocket_unlock_AlienFarm|Những người thám hiểm của bạn đã tìm thấy một bản thiết kế để xây dựng một trang trại của người ngoài hành tinh, cùng với một số hạt giống lạ mà bạn có thể trồng ở đó.
+rocket_unlock_WizardHatCafe|Những người thám hiểm của bạn đã tìm thấy một hành tinh có một tòa nhà hình chiếc mũ kỳ lạ. Bây giờ bạn có thể xây dựng nó.
+rocket_unlock_RocketFuelFactoryEfficiency|Các kỹ sư của bạn đã nghĩ ra một cách để sản xuất nhiên liệu tên lửa hiệu quả hơn, mà hiện bạn có thể nghiên cứu tại các nhà máy sản xuất nhiên liệu tên lửa.
+rocket_unlock_UnderwaterHouse|Các nhà thám hiểm của bạn đã khám phá ra một hành tinh được bao phủ hoàn toàn bởi các đại dương. Họ đã nhìn thấy những ngôi nhà dưới nước, và khám phá ra cách xây dựng chúng.
+buildinginfo.json/OldestTreeIntheUniverse.name|Cây cổ nhất trong vũ trụ
+buildinginfo.json/OldestTreeIntheUniverse.description|Làm cho những công dân đến thăm nó sống lâu hơn.
+rocket_unlock_OldestTreeIntheUniverse|Các nhà sinh vật học của bạn đã tìm thấy một cái cây trông rất cổ. Họ cho rằng nó có thể là cây cổ nhất trong vũ trụ.
+buildingUpgradesInfo.json/RocketFuelFactoryEfficiency.name|Kỹ thuật trao đổi chất
+buildingUpgradesInfo.json/RocketFuelFactoryEfficiency.description|Nhiên liệu tên lửa được sản xuất nhanh hơn và sử dụng một nửa tài nguyên.
+buildingUpgradesInfo.json/RefinedMetalFactoryEfficiency.name|Đường cong nhiệt độ được tối ưu hóa
+buildingUpgradesInfo.json/RefinedMetalFactoryEfficiency.description|Nhà máy hoạt động nhanh hơn và sử dụng ít hơn một viên đá trên một đơn vị kim loại tinh chế được sản xuất.
+rocket_unlock_RefinedMetalFactoryEfficiency|Bạn đã tìm thấy một thế giới được bao phủ bởi máy móc. Các kỹ sư của bạn đã khám phá ra một cách để cải thiện các nhà máy sản xuất kim loại đã qua tinh chế.
+
+unlimited_resources_disables_achievements|Lưu ý: Thành tích bị vô hiệu hóa trong các lần lưu đã từng sử dụng tài nguyên không giới hạn.
+steam_workshop|xưởng hơi nước
+get_mods|Nhận bản sửa đổi
+open_workshop|Mở Workshop để nhận mod
+manage_mods|Quản lý các chế độ đã cài đặt
+manage_mods_explain|Các chế độ được kích hoạt tự động. Bạn có thể hủy kích hoạt chúng tại đây.
+create_mods|Tải lên các bản mod của bạn
+new_mod_workshop|Tạo Mod mới
+load_more|Tải thêm
+manage_mod|Quản lý Mod:
+untitled_mod|Mod không có tiêu đề
+open_workshop_for_mod|Mở Workshop để tùy chỉnh trang mod của bạn và thay đổi các cài đặt khác
+upload_mod_content|Tải lên nội dung bản mod
+upload_mod_content_explainer|Tạo một thư mục trong <tt> %localappdata% \ the-final-earth-2 \ User Data \ Default \ mods </tt> để phát triển mod của bạn. Sau đó, chọn thư mục bên dưới và nhấp vào Tải lên để tải lên bản mod của bạn.
+no_mods_found_refresh|Không tìm thấy mod - nhấp để làm mới
+choose_subdirectory|Chọn thư mục
+upload|Tải lên
+please_choose_subdirectory|Vui lòng chọn một thư mục.
+
+buildinginfo.json/TrainRail.name|Đường sắt tốc độ cao
+buildinginfo.json/TrainRail.description|Xe lửa có thể đi rất nhanh ở đây.
+buildinginfo.json/TrainRail.showUnlockHint|Xây dựng mười ga xe lửa để mở khóa!
+change_dome_variant|Thay đổi biến thể mái vòm
+
+minimum_wait_between_trains|Thời gian chờ tối thiểu giữa các chuyến khởi hành:
+reset_minimum_wait_between_trains|Đặt lại thời gian chờ tối thiểu giữa các chuyến khởi hành.
+find_homeless|Tìm người vô gia cư
+
+capacity|[0] công suất
+entertainment_window_explain|Điều này cho thấy khả năng giải trí của bạn theo loại.
+total|Tổng cộng
+|
+rocket_unlock_OtherworldlyZoo|Bạn đã khám phá một hành tinh tươi tốt. Những người thám hiểm của bạn đã mang theo một số thực vật và sinh vật, vì vậy bây giờ bạn có thể xây dựng Sở thú Thế giới khác.
+mission_in_progress|Nhiệm vụ đang thực hiện ...
+prepare_mission|Bây giờ bạn có thể chuẩn bị một nhiệm vụ.
+choose_destination|Chọn điểm đến
+nearby_space|Không gian lân cận
+nearby_space_explain|Chi phí nhiên liệu thấp hơn và thời gian hành trình ngắn hơn. \ N [0]% đã khám phá
+distant_space|Khoảng cách xa
+distant_space_explain|Tiềm năng cho những phát hiện kỳ ​​lạ hơn, nhưng mất nhiều thời gian hơn và chi phí nhiên liệu cao hơn. \ N [0]% đã khám phá
+buildinginfo.json/OtherworldlyZoo.name|Sở thú Otherworldly
+buildinginfo.json/OtherworldlyZoo.description|Một sở thú với các loài động thực vật ở thế giới khác.
+everything_found|(Mọi thứ được tìm thấy)
+rocket_unlock_GrapheneFactoryImprovement|Các kỹ sư của bạn đã nghiên cứu một thế giới được bao phủ bởi một lớp graphene. Với một số nghiên cứu sâu hơn, họ có thể làm cho các nhà máy sản xuất graphene hoạt động nhanh hơn.
+rocket_unlock_RocketMissionSupercomputerUpgrade|Bạn đã thấy một thế giới là một siêu máy tính khổng lồ bị bỏ rơi. Các kỹ sư của bạn đã sử dụng một số công nghệ của nó để làm cho siêu máy tính của riêng bạn tạo ra nhiều kiến ​​thức hơn.
+mission_completed_nothing_found|Nhiệm vụ của bạn đã trở lại thành công, nhưng tiếc là bạn không tìm thấy gì đặc biệt.
+rocket_unlock_RocketTeleporterCostReductionFromWorld|Bạn đã hạ cánh trên một thế giới hóa ra là một mê cung của những người dịch chuyển tức thời. Sau khi hoàn thành, các kỹ sư của bạn đã cố gắng làm cho các máy dịch chuyển tức thời của riêng bạn chạy hiệu quả hơn.
+following_animal|Theo dõi sinh vật
+cant_find_animal|Bạn không thể tìm thấy sinh vật nữa.
+buildinginfo.json/AlienNightClub.name|Câu lạc bộ đêm người ngoài hành tinh
+buildinginfo.json/AlienNightClub.description|Mọi người thích khiêu vũ với bầu không khí ngoài hành tinh.
+buildingUpgradesInfo.json/GrapheneFactoryImprovement.name|Cải thiện độ chính xác
+buildingUpgradesInfo.json/GrapheneFactoryImprovement.description|Nhà máy hoạt động nhanh hơn 50%.
+rocket_unlock_RocketMissionRocketFuelFactoryUpgrade|Trong một thế giới rừng rậm, bạn đã tìm thấy một số vi khuẩn tạo ra nhiên liệu từ rác thải. Các nhà sinh vật học của bạn đã sử dụng kiến ​​thức này để làm cho các nhà máy sản xuất nhiên liệu tên lửa của bạn hoạt động nhanh hơn.
+choose_crew|Chọn phi hành đoàn
+choose_crew_explain|Bốn thành viên phi hành đoàn phù hợp với tên lửa. Bạn có thể chọn công nhân từ các tòa nhà nhất định. Chọn chúng một cách khôn ngoan để ảnh hưởng đến những gì bạn có thể tìm thấy.
+rocket_explorer_explain|Tìm dấu hiệu của nền văn minh
+rocket_engineer_explain|Tìm công nghệ
+rocket_botanical_explain|Tìm thực vật hoặc động vật
+rocket_navigator_explain|Giảm thời lượng và sử dụng nhiên liệu
+rocket_miner_explain|Thu thập tài nguyên và hóa thạch
+start_mission|Bắt đầu sứ mệnh!
+|
+center_on_work|Chế độ xem trung tâm nơi làm việc
+center_on_school|Xem trung tâm về trường học
+center_on_house|Chế độ xem trung tâm trên nhà
+|
+rocket_unlock_RocketMissionCheaperRockets|Những người thám hiểm của bạn đã tìm thấy một xác tên lửa. Họ đã nghiên cứu nó và tìm ra cách chế tạo tên lửa bằng cách sử dụng ít vật liệu hơn.
+|
+file_description_colony|[0] & [1] người khác - [2] công dân
+stories.json/RocketExploreRockLand.name|Thế giới nhạc rock
+switch_city_menu|Chuyển sang một thành phố được liên kết
+switch_city|Chuyển thành phố
+rocket_other_planet_explain|Gửi tài nguyên hoặc công dân.
+rocket_other_planet_explain_more|Một phi hành đoàn gồm bốn nhà thám hiểm sẽ đồng hành cùng con tàu trong nhiệm vụ này. Nó sẽ sử dụng [0] nhiên liệu tên lửa.
+rocket_other_planet_ask|Bạn muốn gửi gì?
+dont_have_materials|Bạn không có đủ tài liệu cho việc đó.
+mission_warning_no_citizens_to_send_found|Chúng tôi không thể tìm thấy đủ công dân để gửi đến thành phố khác!
+mission_gathering|Tập hợp phi hành đoàn ...
+mission_gathering_2|Tập hợp công dân ...
+rocket_other_city_tutorial|Bây giờ bạn có thể chuyển sang thành phố đã khám phá của mình! Sau khi bạn đã truy cập nó một lần, bạn có thể gửi tài nguyên và công dân bằng tên lửa.
+rocket_unlock_RocketSubCityRockWorld|Những người thám hiểm của bạn đã tìm thấy một thế giới mới đầy đá. Nó có vẻ hơi cằn cỗi, nhưng nó cũng có thể ở được. Bây giờ bạn có thể thuộc địa hóa nó.
+rocket_unlock_RocketSubCityStrangeForests|Những người thám hiểm của bạn đã tìm thấy một nhóm các thế giới cây cối có thể sinh sống được mà bạn hiện có thể thuộc địa.
+citizen_left|[0] đã rời thành phố.
+stories.json/RocketExploreStrangeForests.name|Thế giới trong rừng
+buildableWorldResourcesInfo.json/RedForest.name|Rừng đỏ
+buildableWorldResourcesInfo.json/RedForest.description|Trồng những cây non sẽ phát triển thành rừng đỏ.
+buildableWorldResourcesInfo.json/PurpleForest.name|rừng tím
+buildableWorldResourcesInfo.json/PurpleForest.description|Trồng những cây non sẽ phát triển thành một khu rừng tím ở thế giới khác.
+limitedBuilding|Giới hạn: [0]
+|
+buildinginfo.json/RocketLaunchPlatform.description|Chế tạo tên lửa để khám phá không gian.
+allow_zooming_out_further|Cho phép thu nhỏ hơn nữa
+rocket_unlock_AlienNightClub|Những người thám hiểm của bạn đã tìm thấy một hộp đêm bị bỏ hoang. Đèn vẫn hoạt động. Họ đã lấy một số phần của nó và ghi lại nó một cách cẩn thận, vì vậy bây giờ bạn có thể xây dựng lại nó.
+|
+explorers|Người thám hiểm
+engineers|Kỹ sư
+biologists|Nhà sinh vật học
+navigators|Hoa tiêu
+miners|Thợ mỏ
+buildinginfo.json/UnderwaterHouse.description|Sống giữa các loài cá!
+buildinginfo.json/Mansion.name|Dinh thự
+buildinginfo.json/Mansion.description|Một ngôi nhà lớn, sang trọng với một máy dịch chuyển riêng. Nó cải thiện trình độ học vấn của cư dân, và làm cho họ sống lâu hơn một chút. Chất lượng nhà ở được tăng thêm 25 nếu được kết nối với một dinh thự khác.
+buildinginfo.json/RooftopPark.name|Công viên trên sân thượng
+buildinginfo.json/RooftopPark.description|Những mái nhà xanh có thể trông thực sự đẹp và mang đến cho người dân của bạn nhiều không gian hơn để trải nghiệm thiên nhiên.
+buildinginfo.json/FeatherAlliance.name|Tiền đồn Feather Alliance
+buildinginfo.json/FeatherAlliance.description|Liên minh Feather có một mục tiêu đơn giản: khám phá mọi thứ họ có thể về vũ trụ. Họ sẽ đánh giá cao sự giúp đỡ của bạn.
+|
+redwoodtree_credits|Kết cấu và khái niệm bởi Luk XD 99
+build_redwood_wait|Bạn có thể làm cho cây gỗ đỏ này phát triển sau [0] giờ.
+build_redwood_wait_1|Bạn có thể làm cho cây gỗ đỏ này phát triển trong một giờ.
+buildinginfo.json/RedwoodTree.name|Cây gỗ đỏ
+buildinginfo.json/RedwoodTree.description|Một cây có thể phát triển rất cao. Nó chỉ có thể được xây dựng trên mặt đất. Bạn có thể làm cho nó phát triển một lần sau mỗi 24 giờ.
+buildinginfo.json/RedwoodTreeHouse.name|Redwood Tree House
+buildinginfo.json/RedwoodTree.showUnlockHint|Xây dựng 40 Ngôi nhà Cộng đồng để mở khóa!
+build_redwood_house|Xây dựng nhà trên cây
+build_redwood_house_description|Xây dựng một ngôi nhà trên cây ở đây. Nó có thể chứa hai người.
+build_redwood|Làm cho gỗ đỏ phát triển
+build_redwood_description|Làm cho cây gỗ đỏ này phát triển cao hơn. Bạn có thể làm điều này một lần sau mỗi 24 giờ.
+redwoodtree_cannot_destroy_because_house_limits|Bạn không thể phá hủy cây gỗ đỏ này, vì điều đó sẽ dẫn đến việc đặt một ngôi nhà trên cây ở vị trí không chính xác.
+add_grass|Thêm cỏ
+remove_grass|Nhổ cỏ
+remove_redwood_house|Xóa nhà trên cây
+|
+buildingUpgradesInfo.json/TheMachineUpgrade.name|Điều chỉnh máy
+buildingUpgradesInfo.json/TheMachineUpgrade.description|Máy tạo ra nhiều vật liệu hơn 50% và đôi khi nó cũng sản xuất graphene và nhiên liệu tên lửa. Nếu nó từng bị phá hủy, các thành viên của Secret Society of the Key sẽ sống sót lâu hơn. Các thành viên của Feather Alliance sống lâu hơn.
+|
+jobs_filled_featheralliance|Tập hợp những con chim: Đảm bảo tất cả 7 công việc được lấp đầy.
+feather_alliance_mission_0|Tạo ra tương lai nhanh chóng: \nSản xuất ít nhất 100 graphene mỗi ngày.
+feather_alliance_mission_1|Khám phá Vùng lân cận: \nSử dụng tên lửa để khám phá hoàn toàn không gian lân cận.
+feather_alliance_mission_2|Trở về nhà sẽ cảm thấy dễ chịu: \nXây dựng mười công viên trên sân thượng.
+feather_alliance_mission_3|Trợ giúp Đồng minh của chúng tôi: \nTìm kiếm Điều chỉnh Máy.
+feather_alliance_mission_4|Nhìn xa hơn tận cùng mũi của bạn: \nKhám phá hoàn toàn không gian xa xôi.
+feather_alliance_mission_5|Cuộc phiêu lưu của riêng chúng ta: \nGửi tên lửa trong Chuyến đi của Feather Alliance.
+feather_alliance_mission_6|Bây giờ chúng tôi cần một chút nghỉ ngơi: \nXây dựng hai biệt thự.
+feather_alliance_mission_7|Mang kiến ​​thức của chúng ta lại với nhau: \nXây dựng Thư viện giữa các thiên hà.
+feather_alliance_mission|Nhiệm vụ liên minh lông vũ
+feather_alliance_done|Chúng tôi sẽ tiếp tục khám phá!
+|
+feather_mission|Chuyến đi của Feather Alliance
+feather_mission_explain|Liên minh Feather muốn thực hiện một chuyến đi dài ngày để khám phá vũ trụ.
+feather_result|Feather Alliance đã hoàn thành chuyến đi của họ một cách thành công! Trong số những khám phá khác, họ đã tìm thấy một nhóm thế giới mới có thể điều chỉnh được.
+|
+buildinginfo.json/IntergalacticLibrary.name|Thư viện giữa các thiên hà
+buildinginfo.json/IntergalacticLibrary.description|Thư viện lớn này giáo dục rất nhiều cho du khách. Người lao động sản xuất tri thức dựa trên tổng số công dân ở các thành phố liên kết. Cũng cho phép bạn nghiên cứu nâng cấp thành phố.
+cityUpgradesInfo.json/LibraryAllowDuplicates.name|Metropolis
+cityUpgradesInfo.json/LibraryAllowDuplicates.description|Cho phép bạn xây dựng các tòa nhà độc đáo sau đây lần thứ hai: Xưởng, Trang trại thí nghiệm, Đài quan sát, Thuộc địa nghệ thuật, Trung tâm nghiên cứu máy tính, Trung tâm nghiên cứu cuộc sống, Phòng thoát phòng thí nghiệm và Siêu máy tính. Nâng cấp thành phố của họ vẫn chỉ khả dụng một lần.
+cityUpgradesInfo.json/ConnectedMachines.name|Máy được kết nối
+cityUpgradesInfo.json/ConnectedMachines.description|Sản lượng của Máy được tăng lên 50% đối với mỗi Máy ở một thành phố liên kết.
+cityUpgradesInfo.json/GeneEditing.name|Chỉnh sửa gen
+cityUpgradesInfo.json/GeneEditing.description|Cho phép bạn trồng cỏ và rừng màu tím và đỏ từ Wooded Worlds và những bông hoa màu xanh lam từ Bridge Worlds.
+decorationsInfo.json/spr_purplegrass.name|Cỏ tím
+decorationsInfo.json/spr_redgrass.name|Cỏ đỏ
+decorationsInfo.json/spr_flowers_blue.name|Cỏ cao với hoa màu xanh
+|
+stories.json/RocketExploreFeather.name|Bridge Worlds
+bridgesInfo.json/WoodenBridge.name|Cây cầu gỗ
+bridgesInfo.json/WoodenBridge.description|Cây cầu gỗ này nối hai tòa nhà cách nhau nhiều nhất ba gian. Các tàu không gian từ Landing Pads có thể đi xuyên qua nó.
+|
+stories.json/rocketLaunch.name|Cảng vũ trụ
+stories.json/rocketLaunch.description|Dường như có rất nhiều không gian để khám phá, vì vậy bạn bắt đầu chế tạo một tên lửa.
+rocketLaunch.json/Start.text|Còn rất nhiều không gian để khám phá. Việc chế tạo một tên lửa sẽ khiến điều đó trở nên dễ dàng hơn rất nhiều. Thế giới đá xám này trông giống như một địa điểm hoàn hảo để sử dụng làm địa điểm khởi động. \n\n Ở đây đã có một thuộc địa nhỏ, nhưng bạn sẽ muốn mở rộng nó. Bạn có thể mời thêm công dân như mong muốn. Ngoài ra, hãy làm cho những người này hạnh phúc hơn một chút. Tăng mức độ hạnh phúc của họ lên 75 tuổi.
+rocketLaunch.json/Start.quickText|Mang lại hạnh phúc trên 75. Điều này không bao gồm tăng tạm thời.
+rocketLaunch.json/BuildBridges.text|Công dân của bạn cảm thấy hạnh phúc hơn nhiều bây giờ! [c] Bạn đã xây được một số cây cầu rồi, tuyệt vời! [/] [n] Sẽ rất hữu ích nếu mọi người có thể đi bộ dễ dàng hơn giữa các tòa tháp hoặc thậm chí cả thế giới. Xây dựng ba cây cầu để biến điều đó thành hiện thực. [/]
+rocketLaunch.json/BuildBridges.quickText|Xây dựng ba cây cầu.
+rocketLaunch.json/MakeComputerChips1.text|Việc xây dựng và điều hướng một tên lửa sẽ thực sự khó khăn nếu không có máy tính. Do đó, bạn sẽ cần một số chip máy tính. Hãy xây dựng một trung tâm nghiên cứu máy tính và sau đó là một nhà máy sản xuất chip máy tính.
+rocketLaunch.json/MakeComputerChips1.quickText|Xây dựng một trung tâm nghiên cứu máy tính và sau đó là một nhà máy sản xuất chip máy tính.
+rocketLaunch.json/MakeComputerChips.text|Chỉ một vài chip máy tính sẽ không đủ. Bạn sẽ cần một nguồn cung cấp ổn định. Hãy sản xuất ít nhất 30 một ngày.
+rocketLaunch.json/MakeComputerChips.quickText|Sản xuất ít nhất 30 chip máy tính trong một ngày.
+rocketLaunch.json/BuildSuperComputer.text|Chế tạo một tên lửa không phải là một nhiệm vụ dễ dàng, vì vậy bạn sẽ cần rất nhiều kiến ​​thức. Một siêu máy tính có thể giúp thu thập kiến ​​thức, vì vậy hãy xây dựng một siêu máy tính. Tuy nhiên, nó không rẻ, vì vậy hãy đảm bảo bạn mời đủ công dân và họ có phương tiện đi lại tốt để họ không mất quá nhiều thời gian đi lại để làm việc.
+rocketLaunch.json/BuildSuperComputer.quickText|Xây dựng Siêu máy tính.
+rocketLaunch.json/MakeGraphene.text|Bây giờ bạn đang thu thập kiến ​​thức một cách nhanh chóng, đã đến lúc xem xét một tài liệu mới. Graphene là một vật liệu cực kỳ mỏng và nhẹ, nhưng mạnh mẽ. Điều đó khiến nó trở thành vật liệu tuyệt vời để sử dụng trong việc chế tạo tên lửa. Tuy nhiên, bạn sẽ cần phải thử nghiệm một chút trước khi có thể sử dụng tài liệu đúng cách. Hãy xây dựng mộtphòng thí nghiệm graphene để làm điều đó và bắt đầu tạo ra những tấm graphene đầu tiên của bạn.
+rocketLaunch.json/MakeGraphene.quickText|Xây dựng một phòng thí nghiệm graphene.
+rocketLaunch.json/MakeGrapheneBuilding.text|Graphene có nhiều công dụng hơn là chỉ xây dựng tên lửa. Ví dụ: các bệ nổi có thể được sử dụng để mở rộng các khoảng trống trong thành phố hoặc cầu nối của bạn. Hãy xây dựng một cái.
+rocketLaunch.json/MakeGrapheneBuilding.quickText|Xây dựng một nền tảng nổi.
+rocketLaunch.json/MakeGraphene2.text|Phòng thí nghiệm graphene là một cách tốt để tạo ra graphene, nhưng nó khá chậm. Nhà máy graphene sử dụng kiến ​​thức để vận hành, nhưng nó hoạt động nhanh hơn nhiều. Hãy xây dựng một cái.
+rocketLaunch.json/MakeGraphene2.quickText|Xây dựng nhà máy sản xuất graphene.
+rocketLaunch.json/MakeRocketLaunch.text|Bạn sẽ cần một nơi để phóng tên lửa của mình, vì vậy hãy xây dựng một bệ phóng tên lửa.
+rocketLaunch.json/MakeRocketLaunch.quickText|Xây dựng bệ phóng tên lửa.
+rocketLaunch.json/MakeFuelFactories.text|Tên lửa sẽ cần nhiên liệu, hoặc nó sẽ chỉ nằm trên mặt đất. Bạn có thể sử dụng thực phẩm hoặc gỗ để làm nhiên liệu sinh học. Xây dựng ít nhất ba nhà máy sản xuất nhiên liệu tên lửa để bắt đầu sản xuất một số.
+rocketLaunch.json/MakeFuelFactories.quickText|Xây dựng ba nhà máy sản xuất nhiên liệu tên lửa.
+rocketLaunch.json/MakeRocket.text|Bây giờ nhiên liệu tên lửa của bạn đang được sản xuất đều đặn, bạn thực sự có thể chế tạo tên lửa đầu tiên của mình!
+rocketLaunch.json/MakeRocket.quickText|Chế tạo tên lửa.
+rocketLaunch.json/LaunchRocket.text|Bây giờ, cuối cùng đã đến lúc ra mắt! Phóng tên lửa vào không gian gần đó với một số nhà thám hiểm trong đó.
+rocketLaunch.json/LaunchRocket.quickText|Phóng tên lửa vào không gian gần đó với ít nhất một nhà thám hiểm trong đó.
+rocketLaunch.json/Win.text|Nhiệm vụ tên lửa của bạn đã thành công và bạn đã tìm thấy một thế giới khác để xây dựng! Bạn đã làm rất tốt! Bây giờ bạn có thể tiếp tục xây dựng một xã hội giữa các thiên hà trên nhiều thành phố. Bạn cũng có thể khởi động nhiều nhiệm vụ tên lửa hơn để khám phá nhiều hơn nữa!
+
+entertainment_information_multiple_wg_with_citizens|Không phải mọi công dân đều có thể tiếp cận tất cả các tòa nhà giải trí vào lúc này! Điều này có thể ảnh hưởng đến hạnh phúc giải trí của bạn.
+
+choose_color|Chọn màu
+delete_save|Xóa Lưu
+cant_delete_curr|Bạn không thể xóa tệp lưu mà bạn hiện đang phát!
+deleted_save|Bạn đã xóa tệp lưu này.
+duplicate_building|tòa nhà trùng lặp
+color_code|Mã màu...
+color_code_enter|Nhập mã màu, chẳng hạn như #FF00FF.
+color_not_parsed|Chúng tôi không thể phân tích cú pháp màu đó.
+
+buildingUpgradesInfo.json/CensusData.name|dữ liệu điều tra dân số
+buildingUpgradesInfo.json/CensusData.description|Công nhân sản xuất một lượng nhỏ kiến thức dựa trên số lượng công dân.
+buildingUpgradesInfo.json/NightMayor.name|thị trưởng đêm
+buildingUpgradesInfo.json/NightMayor.description|Câu lạc bộ đêm có thêm 2 sức chứa cho mỗi nhân viên ở đây.
+
+really_delete|Thực sự xóa khe [0]?
+
+sidequest_complete|Hoàn thành:
+citizen_gratefulness_bonus|tri ân công dân
+
+school_sidequest_title|Phụ huynh yêu cầu nhà trường
+school_sidequest_description|Phụ huynh ở thành phố của bạn đang lo lắng vì con cái của họ không thể đến trường. Họ sẽ đánh giá cao nếu bạn xây dựng thêm một số trường học hoặc đảm bảo có đủ giáo viên.
+school_sidequest_finish_description|Tất cả trẻ em trong thành phố bây giờ có thể đi học! Công dân của bạn biết ơn, vì vậy hạnh phúc của họ tạm thời tăng lên.
+school_sidequest_quickDescription|Đảm bảo tất cả trẻ em đều được đến trường.
+
+carrotjuice_sidequests_title|Máy ép cà rốt
+carrotjuice_sidequests_description|Một nhóm công dân của bạn mơ ước điều hành một quán nước ép cà rốt. Họ chỉ cần một quán rượu và một vài vật liệu. Nâng cấp bất kỳ quán rượu nào nếu bạn muốn thực hiện điều ước của họ.
+carrotjuice_sidequests_finish_description|Công dân của bạn rất hào hứng với thanh nước ép cà rốt mới! Hạnh phúc của họ tạm thời tăng lên.
+carrotjuice_sidequests_quickDescription|Nâng cấp quán rượu thành quán nước ép cà rốt.
+buildinginfo.json/CarrotJuiceBar.name|Nước ép cà rốt thanh
+build_CarrotJuiceBar|Nâng cấp quán rượu này thành quán nước ép cà rốt và khiến công dân của bạn hài lòng!
+
+specialartworks_sidequest_title|họa sĩ
+specialartworks_sidequest_description|Một trong những công dân của bạn, [0], đã vẽ một số bức tranh trong thời gian rảnh rỗi. Họ muốn thể hiện nghệ thuật của họ trong viện bảo tàng. Nếu bạn muốn cho phép điều này, hãy chọn một bảo tàng mà họ có thể sử dụng.
+specialartworks_sidequest_finish_description|[0] rất vui khi bạn thể hiện tác phẩm của họ!
+specialartworks_sidequest_quickDescription|Chọn một bảo tàng nghệ thuật hiện đại để trưng bày nghệ thuật theo [0].
+show_art_by|Hiển thị nghệ thuật của [0]
+showing_art_by|Hiển thị nghệ thuật của [0]
+specialartworksdelayedreward_description|[0] bây giờ là một họa sĩ nổi tiếng. Công dân của bạn rất vui vì bạn đã xây dựng bảo tàng của họ. Hạnh phúc của họ tạm thời tăng lên.
+
+buildinginfo.json/ThievesDen.name|Trộm Den
+thievesden_sidequest_info|Có vẻ như những tên trộm này đã ăn cắp một số tài nguyên của bạn! Họ có [0] thức ăn và [1] đá. Bạn có muốn làm bất cứ điều gì về nó?
+
+waldo_found|Bạn đã tìm thấy Waldo! Bạn đã kiếm được [0] kiến thức.
+only_show_unupgraded|Ẩn các bản nâng cấp đã hoàn thành
+
+credits_additional_sprites|Sprite bổ sung: LukXD99
+disable_clouds_background|Ẩn Mây
+disable_planets_background|Ẩn hành tinh nền
+
+buildinginfo.json/GhostlyPark.name|Khu vườn ma quái
+buildinginfo.json/GhostlyPark.description|Creepy, nhưng cũng khá trang trí.
+buildinginfo.json/HorrorGameHall.name|Sảnh trò chơi kinh dị
+buildinginfo.json/HorrorGameHall.description|Một trò chơi điện tử có thể bị ma ám chỉ cung cấp các trò chơi kinh dị.
+buildingUpgradesInfo.json/Pumpkin.name|Quả bí ngô
+buildingUpgradesInfo.json/Pumpkin.description|Một quả bí ngô được chạm khắc mang đến cho cư dân tinh thần Halloween.
+change_decoration|thay đổi trang trí
+buildinginfo.json/HauntedLaboratory.name|phòng thí nghiệm ma ám
+buildinginfo.json/HauntedLaboratory.description|Một phòng thí nghiệm kỳ lạ, kỳ lạ. Càng có nhiều Phòng thí nghiệm ma ám, mỗi phòng càng tạo ra nhiều kiến thức. Tuy nhiên, mỗi cái cũng làm tăng khả năng tất cả chúng đều gặp trục trặc và có tác động tiêu cực đến thành phố của bạn.
+malfunctioned_haunted_labs|Phòng thí nghiệm ma ám bị trục trặc
+current_haunt_boost|Tốc độ thu thập kiến thức hiện tại: [0]%
+current_haunt_risk|Rủi ro trục trặc hiện tại: [0]x
+haunted_effect_education|tất cả công dân bị mất một số giáo dục.
+haunted_effect_unhappy|công dân của bạn ít hạnh phúc hơn trong một thời gian.
+haunted_effect_unhappy_extreme|công dân của bạn ít hạnh phúc hơn trong một thời gian ngắn.
+haunted_effect_knowledge|bạn đã mất [0] kiến thức.
+haunted_effect_dieage|công dân hiện tại của bạn sống ngắn hơn tới một năm.
+haunted_effect_rot|[0] thức ăn ôi thiu.
+currently_working_properly|Phòng thí nghiệm ma ám của bạn hiện đang hoạt động bình thường.
+currently_malfunctioning_hl|phòng thí nghiệm ma ám của bạn đã bị trục trặc! Điều này sẽ mất một thời gian để sửa chữa. Nó cũng có tác động tiêu cực sau:
+halloween|Halloween
+
+favorite_citizen|Yêu thích
+unfavorite_citizen|Xóa mục ưa thích
+favorite_citizen_limit_50|Bạn có thể có tối đa 50 công dân yêu thích.
+favorite_citizens|Công dân yêu thích
+no_favorite_citizens|Bạn hiện không có công dân yêu thích nào.
+favorite_citizens_passed|Những công dân yêu thích sau đây đã qua đời:
+secret_code_4|Bây giờ bạn có thể có giới hạn dân số không giới hạn.
+
+buildinginfo.json/SportPark.name|công viên thể hình
+buildinginfo.json/SportPark.description|Công dân của bạn có thể thực hiện một số bài tập ở đây, giúp họ sống lâu hơn. Hiệu ứng này được tăng lên nếu có công viên bên cạnh.
+buildinginfo.json/OtherworldlyGardens.name|Khu vườn thế giới khác
+buildinginfo.json/OtherworldlyGardens.description|Một vườn thú ở thế giới khác với những loài thực vật có thể phát triển cao như bạn mong muốn.
+change_equipment|Đổi trang bị
+
+buildinginfo.json/OtherworldlyGardensDome.name|Vườn thế giới mái vòm
+buildinginfo.json/OtherworldlyGardensDome.description|Một mái nhà phong cách cho khu vườn thế giới khác của bạn.
+rocket_unlock_OtherworldlyGardens|Những nhà thám hiểm của bạn đã quay trở lại hành tinh tươi tốt mà họ đã đến thăm trước đây. Họ đã mang theo nhiều thực vật và sinh vật hơn, vì vậy giờ đây bạn có thể xây dựng Khu vườn của Thế giới khác.
+
+get_premium_for_unlimited|Nhận Premium để mở khóa tài nguyên không giới hạn!
+
+homes_sidequest_title|Công dân của bạn muốn có nhà!
+homes_sidequest_description|Không có đủ nhà cho tất cả công dân của bạn. Điều này làm cho họ không hài lòng, và do đó làm việc chậm hơn. Nó sẽ là một ý tưởng tốt để xây dựng thêm một số ngôi nhà.
+homes_sidequest_finish_description|Giờ ai cũng có nhà! Công dân của bạn biết ơn, vì vậy hạnh phúc của họ tạm thời tăng lên.
+homes_sidequest_quickDescription|Đảm bảo mọi người dân đều có nhà ở.
+
+or_watch_ad_limited|Hoặc xem quảng cáo để dùng thử tòa nhà cao cấp này miễn phí và xây dựng tới [0] trong thành phố này.
+watch_ad|Xem quảng cáo để xây dựng đến [0]
+ad_watch_limited_exceeded|Bạn đã xây dựng số lượng tối đa hiện tại của tòa nhà cao cấp này. Mua Premium để loại bỏ hoàn toàn giới hạn này hoặc xem quảng cáo để xây dựng thêm.
+watch_ad_more|Xem quảng cáo để xây dựng thêm [0]
+premium_trial|Bản dùng thử cao cấp
+get_premium_or_ad_to_unlock|Nhận Premium để mở khóa này! Tôi thực sự đánh giá cao sự hỗ trợ của bạn! Ngoài ra, hãy xem quảng cáo để dùng thử miễn phí.
+
+alien_ruins_exploration_update|Cập nhật khám phá tàn tích ngoài hành tinh
+
+buildinginfo.json/CustomHouse.name|nhà tùy chỉnh
+exterior|ngoại thất
+merge_horizontally|Hợp nhất theo chiều ngang
+color|Màu sắc
+windows_color|màu cửa sổ
+interior_top|nội thất hàng đầu
+interior_bottom|Đáy nội thất
+basic_properties|Các tính chất cơ bản
+residents_no|Cư dân
+bonuses|tiền thưởng
+bonus|Thưởng
+unlock_later|Bạn sẽ mở khóa tùy chọn này sau.
+choose_bonuses|Chọn tối đa hai phần thưởng:
+choose_bonus_one|Tùy chọn, chọn một phần thưởng:
+choose_bonus_n|Chọn tối đa [0] tiền thưởng:
+bonus_residents_longer|Cư dân sống lâu hơn
+bonus_residents_edu|Cư dân được giáo dục
+bonus_residents_healthcare|Cư dân được chăm sóc sức khỏe
+bonus_private_teleporter|Có dịch chuyển riêng
+bonus_nature_happiness|Tạo ra hạnh phúc tự nhiên
+bonus_art_happiness|Tạo ra hạnh phúc nghệ thuật
+bonus_gaming_happiness|Tạo niềm vui khi chơi game
+material_use|Sử dụng tài nguyên
+material_use_mods|Chọn tối đa hai công cụ sửa đổi:
+material_use_food|Thích Dùng Thực Phẩm
+material_use_wood|Thích Sử Dụng Gỗ
+material_use_stone|Thích Sử Dụng Đá
+material_use_machineparts|Thích sử dụng các bộ phận của máy
+material_use_refinedmetals|Thích sử dụng kim loại tinh chế
+material_use_computerchips|Thích sử dụng chip máy tính
+get_premium_to_unlock_material_use|Nhận Premium để tùy chỉnh việc sử dụng tài nguyên.
+get_premium_to_unlock_more_bonuses|Nhận Premium và nghiên cứu graphene để mở khóa nhiều phần thưởng hơn và tùy chọn để chọn nhiều phần thưởng.
+unlock_later_quality|Bạn sẽ mở khóa các phẩm chất trên [0] sau.
+unlock_later_residents|Bạn sẽ mở khóa hơn [0] cư dân sau này.
+renovate|đổi mới
+upgrade_custom_houses|Nâng cấp nhà tùy chỉnh
+upgrade_custom_houses_to_100|Dễ dàng nâng cấp tất cả các ngôi nhà tùy chỉnh của bạn lên chất lượng 100.
+upgrade_custom_houses_already_100|Tất cả các ngôi nhà tùy chỉnh của bạn đã có chất lượng 100.
+upgrade_confirm_text|Nâng cấp [0] nhà cho:
+
+buildinginfo.json/PioneersHut.name|Túp lều tiên phong
+buildinginfo.json/PioneersHut.description|Có bốn công dân và mang đến cho bạn những phần thưởng giúp ích cho sự phát triển ban đầu của thành phố của bạn.
+pioneershut_morebonuses|Bạn sẽ mở khóa thêm tiền thưởng sau này!
+pioneershut_inspirationalMeeting.name|cuộc họp truyền cảm hứng
+pioneershut_inspirationalMeeting.description|Nắm được 3 kiến thức.
+pioneershut_motivationalMeeting.name|cuộc họp động lực
+pioneershut_motivationalMeeting.description|Tăng hạnh phúc cho công dân của bạn trong một ngày, để họ làm việc nhanh hơn.
+movivational_meeting_bonus|Phần thưởng cuộc họp tạo động lực
+pioneershut_quicklyBuiltHouses.name|Nhà xây nhanh
+pioneershut_quicklyBuiltHouses.description|Nhà cơ bản tốn ít gỗ và đá hơn 1 lần.
+pioneershut_comfortableHouses.name|nhà tiện nghi
+pioneershut_comfortableHouses.description|Nhà cơ bản có chất lượng +5.
+pioneers_upgrade_applied|Đã áp dụng tiền thưởng!
+pioneers_upgrade_later|Một phần thưởng khác sẽ sớm có sẵn.
+pioneershut_efficientExploration.name|thăm dò hiệu quả
+pioneershut_efficientExploration.description|Khám phá tàn tích của người ngoài hành tinh nhanh hơn một chút.
+pioneershut_carefulExploration.name|thăm dò cẩn thận
+pioneershut_carefulExploration.description|Khám phá tàn tích của người ngoài hành tinh chậm hơn một chút. Bạn nhận được 1 gỗ hoặc đá mỗi khi khám phá được một phần trăm tàn tích.
+careful_ruins_stone_wood|Khám phá cẩn thận: các nhà thám hiểm của bạn đã tìm thấy [0] đá và [1] gỗ trong khi khám phá.
+pioneershut_emergencySupplies.name|Đồ tiếp tế khẩn cấp
+pioneershut_emergencySupplies.description|Nếu thức ăn của bạn hết, công dân của bạn sẽ nhanh chóng cảm thấy buồn hơn.
+pioneershut_schoolRedesign.name|thiết kế lại trường học
+pioneershut_schoolRedesign.description|Xây dựng trường học tốn ít hơn 10 cây gỗ.
+permanent_bonus_effects|Hiệu ứng tiền thưởng vĩnh viễn
+pioneershut_meditation.name|Thiền
+pioneershut_meditation.description|Thu được 1 kiến thức mỗi ngày.
+pioneershut_overwork.name|làm việc quá sức
+pioneershut_overwork.description|Ngay lập tức nhận được 1 viên đá cho mỗi công nhân khai thác đá.
+pioneershut_knowledgeSharing.name|Chia sẻ kiến ​​thức
+pioneershut_knowledgeSharing.description|Trang Trại Thực Nghiệm cũng góp nhặt một số kiến thức.
+pioneershut_recyclingDrive.name|ổ đĩa tái chế
+pioneershut_recyclingDrive.description|Nâng cấp nhà xưởng rẻ hơn 25%.
+pioneershut_shadowDay.name|ngày bóng tối
+pioneershut_shadowDay.description|Bất cứ khi nào bạn theo dõi một công dân làm công việc mà bạn chưa từng làm trước đây, bạn sẽ nhận được một phần thưởng kiến thức nhỏ.
+pioneershut_collectBranches.name|Chi nhánh thu thập
+pioneershut_collectBranches.description|Kiếm gỗ từ từ bất cứ khi nào bạn có ít hơn 20 gỗ.
+pioneers_bonus_citizenfollow|Bạn đang theo dõi một công dân đang làm công việc mà bạn chưa từng theo dõi trước đây! Bạn đạt được [0] kiến thức.
+pioneershut_forestry.name|lâm nghiệp
+pioneershut_forestry.description|Rừng mọc lại nhanh hơn.
+pioneershut_standardization.name|tiêu chuẩn hóa
+pioneershut_standardization.description|Bản nâng cấp Better Pickaxes miễn phí và được nghiên cứu tự động cho từng mỏ đá.
+pioneershut_sportyCity.name|Thành phố thể thao
+pioneershut_sportyCity.description|Mở khóa Công viên Thể hình.
+pioneershut_naturalCity.name|Thành phố tự nhiên
+pioneershut_naturalCity.description|Mở khóa Công viên Pond.
+pioneershut_productiveCity.name|thành phố năng suất
+pioneershut_productiveCity.description|Mở khóa Nhà máy lọc dầu quá nhiệt.
+pioneershut_partyCity.name|Phô ăn chơi
+pioneershut_partyCity.description|Mở khóa Ngôi nhà tiệc tùng.
+final_bonus|Chọn một phần thưởng cuối cùng:
+choose_bonus|Chọn một phần thưởng:
+buildinginfo.json/PondPark.name|công viên ao
+buildinginfo.json/PondPark.description|Một cái ao nông với thực vật.
+buildingUpgradesInfo.json/PioneersHutUpgrade.name|Xác thực hiện đại
+buildingUpgradesInfo.json/PioneersHutUpgrade.description|Cải thiện chất lượng nhà ở lên 40.
+buildinginfo.json/SuperheatedRefinery.tooltipBottomIconInfo_0|Tăng trưởng từ các nhà máy sản xuất linh kiện máy
+pioneershut_inspirationalMeeting2.name|Cuộc họp thực sự truyền cảm hứng
+pioneershut_inspirationalMeeting2.description|Đạt được 500 kiến thức.
+pioneershut_motivationalMeeting2.name|Cuộc họp thực sự tạo động lực
+pioneershut_motivationalMeeting2.description|Tăng hạnh phúc cho công dân của bạn trong một tuần để họ làm việc nhanh hơn.
+
+theLostShip.json/PioneersHut.text|Bạn đã đưa một số người bạn tốt nhất và thông minh nhất của mình xuống tàu trước. Với những công cụ phù hợp, chúng có thể giúp ích rất nhiều trong việc phát triển thế giới này. Để tranh thủ sự giúp đỡ của họ, hãy xây dựng túp lều của những người tiên phong.
+theLostShip.json/PioneersHut.quickText|Xây dựng túp lều của những người tiên phong.
+buildinginfo.json/SuperheatedRefinery.name|Nhà máy lọc quá nhiệt
+buildinginfo.json/SuperheatedRefinery.description|Sản xuất kim loại tinh chế từ đá. Nếu được bao quanh bởi các nhà máy sản xuất linh kiện máy móc, quá trình sản xuất này còn nhanh hơn một nhà máy luyện kim. Nếu không, nó chậm hơn.
+buildinginfo.json/PartyHouse.name|nhà tiệc tùng
+buildinginfo.json/PartyHouse.description|Ngôi nhà này với câu lạc bộ đêm tích hợp không bao giờ ngủ.
+buildingUpgradesInfo.json/BetterCouches.name|Đi văng tốt hơn
+buildingUpgradesInfo.json/BetterCouches.description|Cải thiện chất lượng nhà ở lên 20.
+buildingUpgradesInfo.json/EnhancedAudio.name|Âm thanh nâng cao
+buildingUpgradesInfo.json/EnhancedAudio.description|Cải thiện chất lượng nhà ở lên 15 và tăng khả năng giải trí.
+|
+unlock_more_bonuses_later|Sau này, bạn sẽ mở khóa được nhiều phần thưởng hơn và tùy chọn chọn nhiều phần thưởng.
+low_quality_more_residents|Tăng giới hạn khi chất lượng thấp.
+|
+mission_warning_no_crew_found_doesnt_exist|Bạn không có đủ công nhân thuộc (các) loại đội đã chọn! Vui lòng thay đổi phi hành đoàn của bạn, xây dựng thêm các tòa nhà kiểu này hoặc phân công lại một số công nhân của bạn.
+building_prevented_would_block_world|Bạn không thể đặt nó ở đó, vì điều đó sẽ khiến thế giới không thể tiếp cận được!
+|
+explain_increase_happiness|Giải thích cách cải thiện hạnh phúc
+explain_increase_happiness_short|Mẹo cải thiện hạnh phúc
+explainer_home_happiness_enough|Để cải thiện hạnh phúc gia đình của bạn, hãy đảm bảo rằng mọi người đều có một ngôi nhà. Bạn cũng có thể thử xây dựng những ngôi nhà chất lượng cao hơn hoặc nâng cấp chúng.
+explainer_home_happiness|Hạnh phúc trong gia đình được quyết định bởi chất lượng của những ngôi nhà mà mọi người đang sống. Để cải thiện điều này, bạn có thể xây những ngôi nhà chất lượng cao hơn và nâng cấp chúng.
+explainer_home_happiness_basic|Nhà cơ bản không thể được nâng cấp. Thay vào đó, bạn có thể chuyển đổi tất cả chúng từ Trung tâm Nghiên cứu Cuộc sống.
+explainer_sense_of_purpose|Để nâng cao ý thức về mục đích của mọi người, hãy đảm bảo xây dựng đủ công việc và trường học cho mọi người, đồng thời đảm bảo mỗi trường đều có một giáo viên.
+explainer_entertainment_happiness|Để nâng cao niềm vui giải trí, hãy xây dựng đủ các công trình giải trí từng loại và đảm bảo các công trình giải trí có việc làm đều có công nhân.
+explainer_education_happiness|Để nâng cao niềm hạnh phúc trong giáo dục, hãy đảm bảo xây đủ trường học cho con bạn và đảm bảo mỗi trường đều có một giáo viên.
+explainer_medical_happiness|Để cải thiện sự hài lòng về y tế, hãy xây dựng thêm bệnh viện và đảm bảo lấp đầy công việc cho họ hoặc nâng cấp bệnh viện của bạn.
+explainer_medical_happiness_2|Để cải thiện sự hài lòng về y tế, hãy nâng cấp bệnh viện của bạn để nâng cao chất lượng.
+explainer_food_happiness|Hiện tại, bạn không có đủ thức ăn! Điều này làm cho công dân của bạn rất không hài lòng. Đảm bảo thành phố của bạn có đủ trang trại và mỗi trang trại có đủ công nhân.
+explainer_food_happiness_2|Bạn có thể chỉ định thêm công nhân cho trang trại của mình trong cửa sổ Chỉ định công nhân!
+explainer_policy_unhappiness|Hiện tại, mức độ hạnh phúc của công dân bạn đang bị giảm sút do chính sách Làm thêm giờ bắt buộc từ Tòa thị chính của bạn. Hãy hủy bỏ chính sách này để từ từ cải thiện hạnh phúc trở lại.
+explainer_no_happiness_explainer|Hiện tại, chúng tôi không có bất kỳ mẹo nào để cải thiện mức độ hạnh phúc của công dân bạn. Vui lòng kiểm tra lại sau!
+explainer_happiness_multiple_grous|Cảnh báo: một số công dân có thể bị mắc kẹt trên một thế giới không thể truy cập hoặc nền tảng nổi. Điều này có nghĩa là họ có thể không có quyền truy cập vào tất cả các tòa nhà của bạn, điều này có thể làm giảm mức độ hạnh phúc của họ.
+entertainment_information_no_citizens|Cảnh báo: hiện tại một số công dân không thể truy cập tất cả các hoạt động giải trí của bạn. Đảm bảo rằng công dân không bị mắc kẹt trên một thế giới không thể tiếp cận hoặc nền tảng nổi.
+|
+buildinginfo.json/BlossomDome.name|Nhà hàng Hoa Mái Vòm
+buildinginfo.json/BlossomDome.description|Vương miện hoa trên các tòa nhà hoa của bạn!
+buildinginfo.json/BlossomDome.showUnlockHint|Xây dựng 25 nhà hàng hoa hoặc túp lều hoa để mở khóa!
+build_secret_society_library|Xây dựng thư viện bí mật
+build_secret_society_library_description|Biến thư viện này thành Thư viện bí mật. Nó sẽ chỉ được sử dụng bởi Secret Society of Key. Nó sẽ tăng sản lượng tài nguyên của Máy một cách chậm rãi theo thời gian.
+buildinginfo.json/LibraryOfTheKey.name|Thư viện bí mật
+secret_library_title|Thư viện bí mật
+secret_library_description|Secret Society of Key vẫn biết ơn vì bạn đã tạo ra Cỗ máy. Họ mong muốn nâng cao hơn nữa kiến ​​thức của mình. Họ nghĩ rằng bạn sẽ rất vinh dự khi nâng cấp Thư viện thành Thư viện bí mật cho họ.
+secret_library_finish_description|The Key rất vui vì bạn đã xây dựng thư viện của họ. Sản lượng của The Machine sẽ tăng dần theo thời gian.
+secret_library_quickDescription|Nâng cấp Thư viện thành Thư viện bí mật.
+hacker_school_title|Trường học hacker
+machine_resource_output_mult|Tăng tốc máy: [0]%
+pub_claimed_secret_society|Quán rượu này đã được Secret Society of the Key xác nhận quyền sở hữu.
+hacker_school_description|Hackers of the Bolt muốn đào tạo thêm một số hacker. Hãy xây dựng một Trường dạy Hacker nếu bạn muốn biến điều này thành hiện thực.
+hacker_school_finish_description|Hacker of the Bolt rất vui với ngôi trường mới của họ! Sau khi một số công dân đã được nó giáo dục, bạn có thể nhận thấy một số phát minh nhỏ mới xuất hiện trong thành phố của mình.
+hacker_school_quickDescription|Xây dựng một trường học Hacker.
+buildinginfo.json/HackerSchool.name|Trường học hacker
+buildinginfo.json/HackerSchool.description|Ngôi trường này cung cấp một nền giáo dục tuyệt vời. Sinh viên tốt nghiệp đôi khi sẽ tạo ra những phát minh nhỏ.
+hacker|Tin tặc
+hacker_school_invention|Phát minh của hacker
+invention_no_longer_exists|Phát minh này đã bị hỏng.
+mining_robot|Robot khai thác
+stone_mined_amount|[0] khai thác đá
+durability|Độ bền: [0] thêm giờ
+mech_dancer|Vũ công cơ khí
+mech_animal|Động vật cơ khí
+inventions_currently_in_city|[0] những phát minh của hacker hiện có ở thành phố này
+graduates|[0] sinh viên tốt nghiệp
+woodcutting_robot|Robot khắc gỗ
+wood_cut_amount|[0] gỗ được thu thập
+policiesInfo.json/HippieLifestyle.name|Một Với ​​Thiên Nhiên
+policiesInfo.json/HippieLifestyle.description|Công dân của bạn không cần việc làm hay trường học để có được hạnh phúc có mục đích. Thay vào đó, giải trí tự nhiên quan trọng hơn nhiều đối với họ và họ cần năng lực gấp ba lần bình thường.
+one_with_nature_happiness|Một Với ​​Thiên Nhiên Hạnh Phúc
+explainer_happiness_key|Để nâng cao Vinh quang của Chìa khóa, hãy xây dựng thêm biệt thự, căn hộ penthouse, vườn điêu khắc và nhà hàng sang trọng.
+explainer_one_with_nature_happiness|Để cải thiện hạnh phúc One With Nature, hãy xây dựng một số lượng lớn các tòa nhà giải trí Nature.
+|
+hippie_mission_rocket|Chuyến đi của những người hippies nở hoa
+hippie_mission_rocket_explain|Nhóm Blossom Hippies muốn thực hiện một chuyến du hành để tìm kiếm một số loài hoa quý hiếm ngoài hành tinh.
+hippierocketmission_sidequest_title|Thu thập hoa quý hiếm
+hippierocketmission_sidequest_description|Blossom Hippies từ lâu đã nghe những câu chuyện về một số loài hoa ngoài hành tinh quý hiếm mà họ muốn có trong thành phố của bạn. Họ muốn sử dụng tên lửa để cố gắng tìm kiếm chúng.
+hippierocketmission_sidequest_quickDescription|Gửi một tên lửa trong chuyến đi Blossom Hippies.
+hippierareplants_sidequest_title|Trồng hoa quý hiếm
+hippierareplants_sidequest_description|Nhóm Blossom Hippies đã hoàn thành chuyến đi của mình và tìm thấy thành công những bông hoa ngoài hành tinh mà họ đang tìm kiếm! Họ sẽ rất vui nếu bạn có thể trồng chúng cho họ trong Vườn thú Thế giới khác.
+hippierareplants_sidequest_finish_description|Blossom Hippies muốn cảm ơn bạn vì đã trồng hoa cho họ. Như một phần thưởng, họ có thể dạy công dân của bạn hòa nhập với thiên nhiên trong Tòa thị chính.
+hippierareplants_sidequest_quickDescription|Nâng cấp Vườn thú ở thế giới khác thành Vườn thú hoa ngoài hành tinh.
+buildinginfo.json/RarePlantsPark.name|Vườn thú hoa ngoài hành tinh
+build_RarePlantsPark|Hãy để Blossom Hippies trồng những loài hoa ngoài hành tinh quý hiếm của họ ở đây.
+
+encourage_creativity|Khuyến khích Sự Sáng Tạo
+find_invention|Tìm Bất Kỳ Phát Minh Nào
+knowledge_gathering_robot|Robot Thu Thập Kiến Thức
+game_load_save_error|Xin lỗi, đã có lỗi xảy ra khi cố gắng tải tệp lưu đó!
+
+pick_color|Chọn Màu
+tap_in_city_to_pick_color|[Tap] trong thành phố của bạn để chọn một màu
+all_time_total_production|Tổng Sản Lượng Tất Cả Thời Gian:
+screenshot_size_limit|Đáng tiếc, thành phố của bạn quá lớn để vừa hoàn toàn trong một ảnh chụp màn hình. Một phần có thể đã bị cắt.
+tip_full_city_screenshot|Dễ dàng tạo và chia sẻ một ảnh chụp toàn bộ thành phố của bạn.
+
+buildinginfo.json/PondPod.name|Nhà Lều Ao
+buildinginfo.json/PondPod.description|Một ngôi nhà trên ao cạn.
+buildinginfo.json/HauntedHovel.name|Nhà Ma Ám
+
+stories.json/hippiecommune.name|Cộng Đồng Hippie
+stories.json/hippiecommune.description|Các Hippie Blossom muốn xây dựng một cộng đồng đầy hòa bình và tình yêu, nhưng họ cần bạn giúp quản lý nó.
+hippie_forbidden|Các hippie sẽ thấy điều đó thật chán.
+hippie_forest_nocut|Các hippie không thích chặt phá rừng.
+hippie_forest_move|[Tap] vào một chỗ trống trên thế giới để di chuyển khu rừng này.
+hippie_forest_nocut_exception|Vì có rất nhiều rừng trong thành phố này, bạn có thể hối lộ các hippie để nhổ tận gốc khu rừng này.
+hippie_forest_nocut_exception_button|Nhổ khu rừng này với 1000 thức ăn
+hippie_try_disable_onewithnature|Các hippie luôn hòa mình với thiên nhiên.
+hippiecommune.json/Start.text|[faction=hippies]Chúng tôi là Hippie Blossom và chúng tôi muốn xây dựng một cộng đồng trên những thế giới tươi đẹp này. Chúng tôi rất muốn có sự giúp đỡ của bạn để đảm bảo cộng đồng hoạt động tốt và mọi người đều hạnh phúc.\n\nChúng tôi không muốn chặt những khu rừng xinh đẹp ở đây, nên thay vào đó hãy xây dựng một đồn điền cây để thu thập gỗ. Hãy xây dựng một trang trại sinh thái và một mỏ đá.
+hippiecommune.json/Start.quickText|Xây dựng một đồn điền cây, một trang trại sinh thái và một mỏ đá.
+hippiecommune.json/EcoFarmUpgrade.text|[faction=hippies]Sẽ mất một thời gian để sản xuất mẻ gỗ đầu tiên tại đồn điền cây. Hiện tại, chúng ta có thể cắt tỉa cây tại các trang trại sinh thái để tạo ra một lượng gỗ nhỏ. Hãy nghiên cứu điều này tại một Trang Trại Sinh Thái.
+hippiecommune.json/EcoFarmUpgrade.quickText|Nghiên cứu "Sản Xuất Thức Ăn và Một Chút Gỗ" tại một trang trại sinh thái.
+hippiecommune.json/Pioneers.text|[faction=hippies]Những người tiên phong thông minh có thể giúp cộng đồng này nở rộ. Hãy xây dựng một Nhà Tiên Phong.
+hippiecommune.json/Pioneers.quickText|Xây dựng một Nhà Tiên Phong.
+hippiecommune.json/Houses.text|[faction=hippies][c]Cảm ơn bạn đã xây dựng đủ nhà cho tất cả cộng sản.[/][n]Cộng đồng sẽ chẳng là gì nếu không có đủ chỗ để ở. Hãy xây dựng đủ nhà cho mọi người.[/]
+hippiecommune.json/Houses.quickText|Xây dựng đủ nhà cho tất cả công dân.
+hippiecommune.json/HippieSchool.text|[faction=hippies]Chúng tôi rất muốn giáo dục con em mình một cách thật phong cách. Một Trường Hoa sẽ là nơi hoàn hảo để làm điều đó, vì vậy hãy xây dựng một ngôi.
+hippiecommune.json/HippieSchool.quickText|Xây dựng một Trường Hoa.
+hippiecommune.json/GrowTheCity.text|[faction=hippies]Khi chúng tôi xây dựng một cộng đồng tuyệt vời, chắc chắn sẽ có nhiều người từ các thành phố khác đến. Bạn cũng có thể mời thêm cư dân.[n] Hãy phát triển cộng đồng đến khi có 100 cư dân.[/]
+hippiecommune.json/GrowTheCity.quickText|Đạt ít nhất 100 cư dân.
+hippiecommune.json/Volunteers.text|[faction=hippies]Không phải ai cũng hài lòng với việc làm cùng một công việc mỗi ngày. Thay vào đó, hãy xây dựng ba Trung Tâm Tình Nguyện để những người này có được tự do mà họ xứng đáng.
+hippiecommune.json/Volunteers.quickText|Xây dựng ba Trung Tâm Tình Nguyện.
+hippiecommune.json/LabsNextToEcoFarms.text|[faction=hippies]Các Trang Trại Sinh Thái khá chậm trong việc sản xuất thức ăn, trừ khi chúng được bao quanh bởi các Phòng Thí Nghiệm nâng cấp.[c]May mắn thay, bạn đã xây dựng một số![/][n] Hãy xây dựng ba Phòng Thí Nghiệm bên cạnh các Trang Trại Sinh Thái và nghiên cứu Kỹ Thuật Di Truyền Cây Trồng trong đó.[/]
+hippiecommune.json/LabsNextToEcoFarms.quickText|Xây dựng ba Phòng Thí Nghiệm bên cạnh Trang Trại Sinh Thái và nghiên cứu Kỹ Thuật Di Truyền Cây Trồng trong đó.
+hippiecommune.json/RefinedMetals.text|[faction=hippies]Cộng đồng đang phát triển rất tốt![c] Thậm chí đã có một nhà máy kim loại tinh chế rồi.[/][n] Hãy xây dựng một nhà máy kim loại tinh chế để phát triển thêm nữa.[/]
+hippiecommune.json/RefinedMetals.quickText|Xây dựng một Nhà Máy Kim Loại Tinh Chế.
+hippiecommune.json/OneWithNature.text|[faction=hippies]Chúng tôi yêu thiên nhiên, vì vậy cần phải có thật nhiều trong cộng đồng.[c] May mắn thay, đã có rồi![/][n] Hãy nâng mức hạnh phúc "Hòa Với Thiên Nhiên" lên 100 bằng cách xây dựng ba lần dung lượng của các tòa nhà giải trí thiên nhiên thông thường.[/]
+hippiecommune.json/OneWithNature.quickText|Đạt mức hạnh phúc "Hòa Với Thiên Nhiên" lên 100 bằng cách xây dựng ba lần dung lượng của các tòa nhà giải trí thiên nhiên thông thường.
+hippiecommune.json/BuildCommunityHouses.text|[faction=hippies]Chúng tôi đang thiết kế một ngôi nhà đặc biệt phù hợp với cộng đồng này. Hãy nghiên cứu Ngôi Nhà Cộng Đồng và xây dựng bảy ngôi nhà như vậy.
+hippiecommune.json/BuildCommunityHouses.quickText|Xây dựng bảy Ngôi Nhà Cộng Đồng.
+hippiecommune.json/BuildBlossomRestaurants.text|[faction=hippies]Thành phố này có thể cần thêm một chút nở hoa. Hãy xây dựng một Nhà Hàng Blossom.
+hippiecommune.json/BuildBlossomRestaurants.quickText|Xây dựng một Nhà Hàng Blossom.
+hippiecommune.json/ChooseYourFaction.text|Hãy lựa chọn cẩn thận: [faction=key]Bạn đang xây dựng một thành phố đẹp, nhưng chúng tôi nghĩ nó hơi quá lý tưởng. Chúng tôi có thể giúp đưa nó trở lại thực tế. Chúng tôi nghĩ rằng sẽ là một ý tưởng tuyệt vời nếu bạn xây dựng Hội Bí Mật của Chìa Khóa. [faction=hippies]Chúng tôi nghĩ việc giao cộng đồng tuyệt vời này cho hội bí mật là một ý tưởng rất tồi. Nó sẽ phản bội tất cả các lý tưởng của chúng tôi. Hãy đảm bảo quyền kiểm soát của chúng ta bằng cách xây dựng một Tòa Hội Cộng Đồng.
+hippiecommune.json/ChooseYourFaction.quickText|Xây dựng Hội Bí Mật của Chìa Khóa (phản bội các hippie) hoặc Tòa Hội Cộng Đồng.
+hippiecommune.json/BuildFarmByProductProcessors.text|[faction=hippies]Cảm ơn bạn! Chúng ta đã đảm bảo rằng Hội Bí Mật của Chìa Khóa không thể kiểm soát thành phố này, ngay cả khi họ đến đây trong tương lai. Hiện tại, chúng tôi đang thu thập gỗ bằng cách chặt cây trong các đồn điền. Chúng tôi đã tìm ra cách tốt hơn. Hãy xây dựng ba Máy Xử Lý Sản Phẩm Phụ của Trang Trại.
+hippiecommune.json/BuildFarmByProductProcessors.quickText|Xây dựng ba Máy Xử Lý Sản Phẩm Phụ của Trang Trại.
+hippiecommune.json/SuperSpaciousLiving.text|[faction=hippies]Cộng đồng này có thể chào đón nhiều người hơn nữa. Hãy nghiên cứu "Sống Tập Thể" tại Trung Tâm Nghiên Cứu Sống Tập Thể.
+hippiecommune.json/SuperSpaciousLiving.quickText|Nghiên cứu "Sống Tập Thể" tại Trung Tâm Nghiên Cứu Sống Tập Thể.
+hippiecommune.json/BuildFestivalHQ.text|[faction=hippies]Chúng tôi cảm thấy rằng mọi người nên tụ tập với nhau nhiều hơn. Hãy xây dựng một Trụ Sở Lễ Hội để đạt được điều này.
+hippiecommune.json/BuildFestivalHQ.quickText|Xây dựng Trụ Sở Lễ Hội.
+hippiecommune.json/OrganizeAFestival.text|[faction=hippies]Bây giờ hãy tổ chức một lễ hội tại Trụ Sở Lễ Hội mới!
+hippiecommune.json/OrganizeAFestival.quickText|Tổ chức một lễ hội.
+hippiecommune.json/Win.title|Hoàn Thành Kịch Bản!
+hippiecommune.json/Win.text|Chúng tôi muốn cảm ơn bạn vì đã xây dựng một cộng đồng đẹp nơi chúng tôi - những hippie - cảm thấy như ở nhà! Tất nhiên, bạn có thể tiếp tục làm cho nó đẹp hơn nữa.
+hippiecommune.json/UpscaleRestaurants.text|[faction=key]Chúng tôi rất vui vì bạn đã quyết định lựa chọn đúng và trao quyền kiểm soát thành phố này cho chúng tôi. Chúng tôi đã loại bỏ một số chính sách hippie bất khả thi. Ngoài ra, vinh quang của chúng tôi bây giờ sẽ quan trọng đối với hạnh phúc của thành phố này.\nBây giờ, chúng tôi muốn ngồi lại và tận hưởng một chút xa hoa đúng nghĩa. Hãy xây dựng ba nhà hàng cao cấp cho chúng tôi.
+hippiecommune.json/UpscaleRestaurants.quickText|Xây dựng ba nhà hàng cao cấp.
+hippiecommune.json/CompleteSecretSocietyTasks.text|[faction=key]Bây giờ, chúng tôi có một số nhiệm vụ để biến nơi này thành căn cứ chính của Chìa Khóa. Đó là vinh dự để bạn hoàn thành chúng.
+hippiecommune.json/CompleteSecretSocietyTasks.quickText|Hoàn thành tất cả các nhiệm vụ của Hội Bí Mật của Chìa Khóa.
+hippiecommune.json/KeyGlory.text|[faction=key]Chúng tôi đánh giá cao việc bạn đã xây dựng Máy. [c]Chúng tôi vui mừng thấy Chìa Khóa trở nên vinh quang ở thành phố này.[/][u]Bây giờ, hãy làm cho thành phố này trở nên huy hoàng nhất có thể, để chúng tôi có thể sống mãi trong phong cách. Nâng cấp "Vinh Quang của Chìa Khóa" lên 100.[/]
+hippiecommune.json/KeyGlory.quickText|Nâng cấp "Vinh Quang của Chìa Khóa" lên 100.
+hippiecommune.json/WinKey.title|Hoàn Thành Kịch Bản!
+hippiecommune.json/WinKey.text|[faction=key]Chúng tôi muốn cảm ơn bạn vì đã xây dựng một thành phố huy hoàng. Đó là một ý tưởng tuyệt vời khi giao quyền kiểm soát nó cho chúng tôi. Bạn giờ có thể xây dựng một ngôi nhà cho Những Người Bạn của Chìa Khóa, những người sẽ sống mãi như chúng tôi.
+|
+buildinginfo.json/HippieSchool.name|Trường Hoa
+buildinginfo.json/HippieSchool.description|Giáo dục trẻ em và tạo ra một số giải trí thiên nhiên.
+alien_ruins_description_1a_h|Các nhà thám hiểm của bạn đã tìm thấy một số rễ cây kỳ lạ. Họ đã nghiên cứu các mẫu phức tạp của chúng để thu thập được 20 kiến thức.
+buildinginfo.json/VolunteersCenter.name|Trung Tâm Tình Nguyện
+buildinginfo.json/VolunteersCenter.description|Tình nguyện viên giúp chặt gỗ, khai thác, làm nông hoặc thu thập kiến thức, tùy theo họ thích làm gì. Họ thường rất có động lực, vì vậy có thể làm việc nhanh hơn.
+volunteers_center_explain_extra|Tình nguyện viên có thể làm việc tại các mỏ đá, máy dịch chuyển đá, đồn điền cây, trang trại sinh thái, công viên và vườn thực vật.
+food_gathered|[0] thức ăn đã thu thập
+buildingUpgradesInfo.json/BetterVolunteersTools.name|Dụng Cụ Chất Lượng Cao
+buildingUpgradesInfo.json/BetterVolunteersTools.description|Cải thiện tốc độ khai thác và chặt gỗ thêm 20%.
+buildingUpgradesInfo.json/EcoFarmNormal.name|Tập Trung Vào Sản Xuất Thực Phẩm
+buildingUpgradesInfo.json/EcoFarmNormal.description|Sản xuất lượng thức ăn bình thường.
+buildingUpgradesInfo.json/EcoFarmPruning.name|Sản Xuất Thức Ăn và Một Chút Gỗ
+buildingUpgradesInfo.json/EcoFarmPruning.description|Sản xuất ít thức ăn hơn, nhưng cũng sản xuất một lượng gỗ nhỏ bằng cách cắt tỉa cây.
+buildingUpgradesInfo.json/CozyFlowers.name|Hoa Ấm Cúng
+buildingUpgradesInfo.json/CozyFlowers.description|Cải thiện chất lượng nhà ở thêm 10%.
+buildingUpgradesInfo.json/MoodLighting.name|Ánh Sáng Tâm Trạng
+buildingUpgradesInfo.json/MoodLighting.description|Cải thiện chất lượng nhà ở thêm 20%.
+cityUpgradesInfo.json/CozyLiving.name|Cuộc Sống Ấm Cúng
+cityUpgradesInfo.json/CozyLiving.description|Cải thiện chất lượng nhà của tất cả Ngôi Nhà Ấm Cúng thêm 10%, và mở khóa một nâng cấp mới cho chúng.
+buildinginfo.json/CozyHouse.name|Ngôi Nhà Ấm Cúng
+buildinginfo.json/CozyHouse.description|Một ngôi nhà đá đơn giản với nội thất ấm cúng.
+buildinginfo.json/CommuneHall.name|Tòa Hội Cộng Đồng
+buildinginfo.json/CommuneHall.description|Một nơi để mọi người tụ tập, ăn uống và thảo luận về các vấn đề liên quan đến cộng đồng này. Cung cấp giải trí quán rượu và tạo ra kiến thức.
+food_consumed_knowledge_generated|[0] kiến thức đã tạo ra và [1] thức ăn đã tiêu thụ.
+buildingUpgradesInfo.json/FreeThinkers.name|Người Tư Duy Tự Do
+buildingUpgradesInfo.json/FreeThinkers.description|Sản xuất kiến thức.
+buildingUpgradesInfo.json/WellFedThinkers.name|Người Tư Duy No Đầy
+buildingUpgradesInfo.json/WellFedThinkers.description|Sản xuất nhiều kiến thức hơn, và tiêu thụ một ít thức ăn.
+
+pioneershut_hippieSchoolRedesign.name|Thiết Kế Lại Trường Hippie
+pioneershut_hippieSchoolRedesign.description|Xây dựng trường hoa tốn ít hơn 10 gỗ.
+pioneershut_communalHousing.name|Nhà Ở Tập Thể
+pioneershut_communalHousing.description|Nhà Tùy Chỉnh với ít nhất năm cư dân tốn ít hơn 10% chi phí để xây dựng.
+
+faction_hippies|Hippie Blossom
+faction_key|Hội Bí Mật của Chìa Khóa
+
+hippies_betrayed|Bạn đã phản bội chúng tôi vì Hội Bí Mật của Chìa Khóa. Chúng tôi sẽ không bao giờ tha thứ cho bạn, ngay cả khi là một triệu thức ăn!
+hippies_bribe_betrayed|Hối Lộ Hippie
+hippies_bribe_betrayed_explain|Cho phép bạn xây dựng Trụ Sở Lễ Hội, nghiên cứu Sống Tập Thể, sử dụng chính sách Hòa Với Thiên Nhiên, và xây dựng Trụ Sở Hippie trong các thành phố liên kết.
+hippie_betrayed_try_enable_onewithnature|Bạn đã phản bội các hippie, vì vậy bạn không thể hòa hợp với thiên nhiên! Bạn có thể hối lộ các hippie tại Trụ Sở của họ.
+cant_build_rocket|Bạn không thể xây dựng một tên lửa ngay bây giờ.
+
+feather_result_begin|Liên minh Lông vũ đã trở về từ chuyến đi của họ!  
+feather_result_secondary|Họ đã tìm thấy một số loài thực vật mới cho vườn thú kỳ ảo của bạn.  
+feather_result_tertiary|Họ đã tận hưởng việc thăm quan một số hành tinh đầy màu sắc. Điều này đã truyền cảm hứng cho họ sơn lại các nền tảng nổi của bạn với những màu sắc mới.  
+feather_result_none|Họ thực sự thích thú khi được khám phá thêm nhiều vùng đất trong vũ trụ.  
+feather_result_statue|Họ đã thiết kế một bức tượng để kỷ niệm tất cả các chuyến du hành của họ qua vũ trụ.
+buildinginfo.json/StatueOfTheFeather.name|Tượng Liên minh Lông vũ
+buildinginfo.json/StatueOfTheFeather.description|Liên minh Lông vũ đã thiết kế bức tượng này để kỷ niệm tất cả các chuyến du hành của họ qua vũ trụ! 
+|
+subscribe_youtube|Đăng ký kênh YouTube của tôi để nhận video vui nhộn và tin tức mới nhất về các trò chơi của tôi!
+|
+education|Giáo dục
+children|Trẻ em
+adults|Người lớn
+education_children_and_adults|[0] người lớn và [1] trẻ em
+|
+boosted_by_one_lab|Được tăng cường bởi một phòng thí nghiệm.
+boosted_by_n_labs|Được tăng cường bởi [0] phòng thí nghiệm.
+boosted_by_one_alien_house|Được tăng cường bởi một ngôi nhà người ngoài hành tinh.
+boosted_by_n_alien_houses|Được tăng cường bởi [0] ngôi nhà người ngoài hành tinh.
+boosted_by_one_experimentation_lab|Được tăng cường bởi một phòng thí nghiệm thí nghiệm.
+boosted_by_n_experimentation_labs|Được tăng cường bởi [0] phòng thí nghiệm thí nghiệm.
+boosted_by_one_machine_parts_factory|Được tăng cường bởi một nhà máy sản xuất linh kiện máy móc.
+boosted_by_n_machine_parts_factories|Được tăng cường bởi [0] nhà máy sản xuất linh kiện máy móc.
+connected_to_rock_teleporter|Sử dụng máy truyền tống đá.
+not_connected_to_rock_teleporter|Không sử dụng máy truyền tống đá.
+|
+spread_color_to_connected_buildings|Phân phối màu sắc cho các tòa nhà kết nối.
+spread_color_to_connected_floating_platforms|Phân phối màu sắc cho các nền tảng nổi kết nối.
+randomize_all|Ngẫu nhiên hóa tất cả
+tuned_by_hackers|Trò chơi này đã được tinh chỉnh bởi các Hacker của Bolt.
+get_premium_for_more_scenarios|Nâng cấp lên Premium để có thêm nhiều kịch bản!
+rocket_unlock_nearspacespeedboost|Các nhà điều hướng của bạn đã làm việc trên bản đồ của họ, vì vậy các nhiệm vụ tương lai đến không gian gần sẽ nhanh hơn một chút và tiêu tốn ít nhiên liệu hơn.
+rocket_unlock_distantspacespeedboost|Các nhà điều hướng của bạn đã cải thiện bản đồ của họ, vì vậy các nhiệm vụ tương lai đến không gian xa sẽ nhanh hơn một chút và tiêu tốn ít nhiên liệu hơn.
+rocket_navigator_gain_knowledge|Các nhà điều hướng của bạn đã cải thiện hiểu biết về không gian, vì vậy bạn đã thu được [0] kiến thức.
+|
+stories.json/FreePlayNanoWorld.name|Chơi tự do - Thế giới Nano
+stories.json/FreePlayNanoWorld.description|Bạn có thể tạo ra một thành phố thịnh vượng trên thế giới cực kỳ nhỏ bé này không?
+alien_ruins_find_4f|Cornucopia ngoại hành tinh
+alien_ruins_description_4f|Những nhà thám hiểm của bạn đã tìm thấy một chiếc sừng dồi dào của người ngoài hành tinh gắn vào tường. Nó tràn ngập một loại cây phát triển nhanh với những quả mọng ngọt. Có vẻ như không thể trồng loại cây này bên ngoài chiếc sừng, nhưng một nhà thám hiểm có thể thu hoạch một ít thức ăn, gỗ và kiến thức từ nó mỗi ngày.
+cornocopia_retrieved_times|Chiếc sừng đã được thu hoạch [0] lần, cho [1] thức ăn, [2] gỗ và [3] kiến thức tổng cộng.
+stories.json/RocketExploreRockLandNano.name|Thế giới Nano Đá
+stories.json/RocketExploreStrangeForestsNano.name|Thế giới Nano Rừng
+stories.json/RocketExploreFeather.name|Thế giới Nano Cầu
+|
+buildinginfo.json/HauntedHovel.description|Ngôi nhà này bị ma ám và khiến công dân của bạn sống ngắn hơn.
+buildingUpgradesInfo.json/ParanormalKnowledge.name|Kiến thức siêu nhiên
+buildingUpgradesInfo.json/ParanormalKnowledge.description|Cư dân kiếm thêm giáo dục. Cải thiện chất lượng nhà ở thêm 15. Vì mỗi Ngôi nhà ma ám bị ma ám theo cách hơi khác nhau, chi phí kiến thức áp dụng cho từng tòa nhà.
+cityUpgradesInfo.json/HorrorGamesTraining.name|Huấn luyện Trò chơi Kinh dị
+cityUpgradesInfo.json/HorrorGamesTraining.description|Cải thiện chất lượng nhà ở của tất cả Ngôi nhà ma ám thêm 15.
+buildingUpgradesInfo.json/HauntedHovelUpgrade.name|Máy dò ma
+buildingUpgradesInfo.json/HauntedHovelUpgrade.description|Cải thiện chất lượng nhà ở thêm 20.
+cityUpgradesInfo.json/EcoFarmUpgrade2.name|Phân tích đất thông minh
+cityUpgradesInfo.json/EcoFarmUpgrade2.description|Nông trại sinh thái sản xuất nhiều thực phẩm hơn và trồng cây nhanh hơn một chút.
+|
+graphene_production|Sản xuất graphene:
+materials_produced_consumed|[0] sản xuất và [1] sử dụng
+materials_produced|[0] sản xuất
+|
+secret_code_acquire_new|Hãy tham gia Discord của tôi để thảo luận về trò chơi này và các trò chơi khác của tôi! Bạn cũng có thể tìm thấy mã bí mật trong kênh #faq.
+cityUpgradesInfo.json/BuildingRecycling3.namefinish|Công trình Bền vững
+cityUpgradesInfo.json/BuildingRecycling3.descriptionfinish|Khi bạn phá hủy một công trình, bạn nhận lại 90% phí xây dựng.
+
+premium_notifier_1|Hy vọng bạn đang thích The Final Earth 2! Muốn có thêm nữa không?
+premium_notifier_2|Khám phá những thế giới mới bằng tên lửa!
+premium_notifier_3|Xây dựng tàu hỏa, nền tảng bay và bãi đáp trong nhà!
+premium_notifier_4|Khám phá thêm nhiều tòa nhà và nhiệm vụ!
+premium_notifier_5|Mở khóa chế độ sandbox để có tài nguyên vô hạn!
+premium_advantage_8|Câu chuyện mới và các kịch bản chơi tự do
+premium_notifier_header|Hãy xem phiên bản mở rộng!
+not_right_now|Không phải bây giờ

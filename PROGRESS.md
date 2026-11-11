@@ -1,6 +1,21 @@
 # Progress
 
-## Now (2026-11-10)
+## Now (2026-11-11)
+- NEW, pushed 2026-11-11 (Liam said "Publish it"): The Final Earth 2 1.0.0 in the Games section
+  (`mod.html?id=final-earth-2`), the second entry that plays in the browser. "Play now" opens
+  `games/final-earth-2/play/` in a new tab.
+- Files added / changed: `games/final-earth-2/media/` (cover + 6 pictures),
+  `games/final-earth-2/play/` (19 MB, 22 files, made by `Build Web Version.bat` in
+  `Documents\Work\TheFinalEarth2Rust`), the entry in `data/mods.js` (version 1.0.0, 9 features,
+  controls, the unofficial note), one line in `.gitattributes`, and `js/site.js` (new optional
+  `titleTail` for the big title's second line).
+- Checked in the local preview: the home page card, the entry's page (Play now, 9 features, 6
+  pictures, no broken pictures), the game starts, a city survives a page reload, sound, and touch at
+  phone size. Details: `Documents\Work\TheFinalEarth2Rust\PROGRESS.md`, "Browser version".
+- The whole site is about 410 MB now (was 390 MB; limit about 1,000 MB).
+- Every later push still needs Liam's OK first.
+
+## Earlier (2026-11-10)
 - Pushed 2026-11-10 (Liam gave the go beforehand): Blocksworld 1.2.0 - big community worlds run many times
   faster, gear stays on animated characters, a bigger close button on phones. Only the game program and the
   page changed in `games/blocksworld/play/`; details in `Downloads\blocksworld-rust\PROGRESS.md`, "Round 3".
@@ -41,6 +56,8 @@
   button points at the 1.0.1 zip; "Source code" points at the repo.
 
 ## Waiting on Liam
+- The Final Earth 2 1.0.0: play-test the live game on the iPhone (list in
+  `Documents\Work\TheFinalEarth2Rust\PROGRESS.md`, "Browser version") and report what feels wrong.
 - Blocksworld 1.1.0: play-test the live game on the iPhone (list in
   `Downloads\blocksworld-rust\PROGRESS.md`) and report what feels wrong.
 - Sandbox Engine install steps (optional; the section stays hidden until added).

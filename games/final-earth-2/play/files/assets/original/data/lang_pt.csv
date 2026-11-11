@@ -1,0 +1,2098 @@
+|"PT - Brasil   ""Editores, leiam! Por favor caso usem tradutor marquem as células que traduziram em ciano (azul claro). Deixem comentários caso tenham dúvidas e marquem a célula em amarelo. Significado de cada cor: Ciano: Traduzido por tradutor. Vermelho: Falta tradução. Amarelo: Precisa de revisão (verificar mais tarde). Laranja: Falta o nome de um substântivo, voltar mais tarde quando for definido ou discutido."
+change_plants|Mudança de Plantas
+change_plants_variant|Variante de Mudança de Plantas
+|
+invalid_structure|Você não pode destruir este prédio, pois isso resultaria em uma estrutura inválida.
+destroy|Destrua
+really_destroy|Realmente Destruir?
+destroy_this_building|Destrua este edifício
+destroy_tip|Dica: você também pode Excluir+Clique nos edifícios para destruí-los rapidamente.
+|
+citizen|cidadão
+|
+welcome_back_teleporter_warning|Bem-vindo de volta à sua cidade!\nPor favor note que os teletransportadores agora têm um custo operacional. Você pode querer substituir alguns teletransportadores para reduzir este custo. Você pode desativar temporariamente sua rede de teletransportadores se necessário; basta [tap] em qualquer teletransportador, depois [tap] Desativar todos os teletransportadores.
+update_notice|Nota de Atualização
+|
+one_day|um dia
+n_days|[0] dias
+one_hour|uma hora
+n_hours|[0] horas
+and|e
+one_minute|um minuto
+n_minutes|[0] minutos
+|
+game_load_error|Algo deu errado ao tentar carregar o conteúdo necessário para esse cenário! Por favor, verifique sua conexão de internet e tente novamente.
+game_import_error|Esse arquivo não parece ser um arquivo salvo! Você tem certeza de ter selecionado o arquivo certo?
+game_load_save_error|Infelizmente, algo deu errado ao tentar carregar o seu arquivo de gravação.
+game_load_save_error_version|Desculpe, nós não conseguimos carregar aquele arquivo de salvamento! Parece ter sido criado com uma versão mais recente do jogo.
+tap_to_continue|Toque para continuar
+save_slot_import|Para qual slot de economia você gostaria de importar?
+|
+close|Fechar
+|
+mute_music|Música mudo
+unmute_music|Música sem nitidez
+mute_sfx|Efeitos Sonoros do Mudo
+unmute_sfx|Efeitos Sonoros Não Silenciosos
+full_screen|Tela Cheia
+advanced_settings|Configurações avançadas
+|
+follow_me_twitter|Siga-me @FlorianStrien no Twitter e receba as últimas notícias sobre atualizações e novos jogos!
+mailing_list_info|Eu enviarei a você notícias e fatos legais do The Final Earth 2, além de informações sobre meus futuros lançamentos!
+mailing_list_header|Inscreva-se na minha lista de discussão!
+join_discord|Junte-se à minha Discord!
+privacy|Privacidade
+wishlist_full|Wishlist Versão completa!
+upgrade_premium|Atualização para Premium!
+back_to_title|Voltar ao título
+|
+click_here_to_play|[Tap] Aqui para Jogar
+played_before|Jogado antes?
+continue|Continuar
+new_city|Nova Cidade
+new_city_explain|Comece com qualquer cenário ou jogo grátis.
+load_city|Cidade de Carga
+which_city_to_load|Qual cidade você gostaria de carregar?
+play_other|Jogue Meus Outros Jogos!
+play_more_games|Jogue Mais Jogos
+like_us|Como nós!
+get_premium|Obtenha Premium
+exit|Saída
+import|Importar
+save_screenshot|Salvar imagem de tela
+view_credits|Ver Créditos
+|
+save_slot_choice|Qual slot de economia você gostaria de usar?
+|
+no_saves_warning|Atenção! Infelizmente, nenhum método de salvamento funcional foi encontrado em seu navegador. Você ainda pode jogar, mas qualquer salvamento será perdido quando você sair do jogo.\n\nIsso normalmente é causado pela desativação de cookies ou cookies de terceiros. Este jogo usa um método similar aos cookies para salvar suas cidades. Cookies de terceiros podem ser necessários, uma vez que o jogo está frequentemente rodando em outro domínio que não o portal de jogos web.\n\nPor favor, tente ativar os cookies. Então, recarregue a página. Caso contrário, você ainda pode Exportar suas cidades do Menu do Jogo e importá-las novamente mais tarde.
+|
+building_prevented_strange_force|Uma força estranha impede que você construa lá.
+|
+resident_workers_of|Trabalhadores residentes de [0]
+none|Nenhum
+resident_workers|[0]/[1] trabalhadores residentes
+quality|Qualidade: [0]
+capacity|Capacidade: [0]
+|
+residents_of|Moradores de [0]
+residents|[0]/[1] residentes
+no_residents|Sem Residentes
+there_are_no_houses|Não há casas!
+houses_exactly_enough|Há exatamente casas suficientes para seus cidadãos.
+house_n_cap_remaining|Há [0] casa com capacidade restante.
+homeless_one|Há uma pessoa sem-teto.
+homeless_n|Há [0] desabrigados.
+|
+students|[0]/[1] estudantes
+|
+beacon_credits|O Beacon foi projetado em conjunto com Lazuli, que ganhou o primeiro concurso de construção no Discord!
+cannot_afford_hippie_bride|Você não pode se dar ao luxo de subornar os Hippies agora!
+bribe_hippies_option|... ou subornar os Hippies e pular esta\ntarefa para 10.000 alimentos
+thank_you|Obrigado
+thank_you_ex|Obrigado!
+|
+peace_out|Paz para fora!
+flower_buds|Abra os botões de flor:\nCertifique-se de que todas as 6 vagas estão preenchidas.
+hippie_mission_0|Flower Link:\nBuild pelo menos dois teletransportadores cada um cercado pelo Jardim Botânico.
+hippie_mission_1|Jantar Florido:\nBuild três Blossom Restaurantes.
+hippie_mission_2|Natureza real:\nDisponha pelo menos uma floresta protegida.
+hippie_mission_3|Juntos em Harmonia:\nBuild vinte Casas de Comunidade.
+hippie_mission_4|Organicize:\nBuild trinta Eco Farms.
+hippie_mission_5|Don't Waste:\nBuild nine Farm By-Product Processors (Não desperdice:\nBuild nove Fazendas Processadoras de Sub-produtos).
+hippie_mission_6|Peaceful Society:\nPesquisa Societal Living in the Living Research Center.
+hippie_mission_7|Make the City Sing:\nBuild the Festival HQ.
+hippie_mission|Missão Hippie
+|
+change_building_color|Mudar a cor do edifício
+change_variant|Mudar Variante
+|
+beans_grown|Feijão [0]% cultivado.
+cacao_left|[0] cacau deixado para a colheita.
+chocolate_production|[0] feijão de cacau usado para fazer [1] barras de chocolate.
+|
+ignore_unhappy_citizens|Ignorar os avisos aos cidadãos infelizes
+city_name|Nome da cidade:
+unnamed_city|Cidade sem nome
+give_city_name|Dê um nome à sua cidade!
+change_city_name|Mude o nome da cidade
+|
+computer_chip_production|[0] unidades de metais refinados usadas para fazer [1] chips de computador.
+knowledge_gathered|[0] conhecimento reunido.
+knowledge_generated|[0] conhecimento gerado.
+knowledge_production_from_machine_parts|[0] peças de máquinas usadas para ganhar [1] conhecimento.
+wood_produced|[0] madeira produzida.
+producing_by_products_for_n_farms|Subprodutos de processamento para [0] fazendas.
+producing_by_products_for_1_farm|Processamento de sub-produtos para uma fazenda.
+refinded_metals_made|Pedra usada para fazer [0] unidades de metais refinados.
+knowledge_gathered_per_day|[0] conhecimento reunido por dia.
+knowledge_gathered_so_far|[0] conhecimento acumulado até o momento.
+wood_used_for_machine_parts|[0] madeira usada para fazer [1] peças de máquinas.
+|
+left_plot|Lote à esquerda:
+top_right_plot|Lote superior direito:
+bottom_right_plot|Lote inferior direito:
+|
+current_task_looking|Tarefa atual: procurar por ruínas.
+current_task_exploring|Tarefa atual: explorar ruínas.
+current_task_investigating|Tarefa atual: pesquisar descobertas.
+|
+crops_grow_pct|Cultivos [0]% cultivados.
+food_left_to_harvest|[0] alimentos deixados para colher.
+old_crops_cleaned|Culturas antigas [0]% limpas.
+resources_produced|[0] recursos produzidos.
+|
+current_festival|Festival atual
+planned_festival|Festival Planejado
+preparing|Preparando...
+assign_workers_to_prepare|Designar trabalhadores para se prepararem para um novo festival!
+assign_more_to_speed_up|Designe mais trabalhadores para acelerar isso!
+organize_a_festival|Organize um Festival
+cant_organize|Você não pode organizar um Festival de Música agora mesmo!
+music_festival|Festival de Música
+music_festival_help|Uma festa enorme e fantástica que dura um dia. Impulsiona a felicidade de seus cidadãos por uma semana. Isto pode até fazer com que ultrapasse os 100.
+|
+teleported_from|Teleportado de [0] vezes.
+teleported_to|Teleportado para [0] vezes.
+|
+mirror|Espelho
+change_interior|Mudar Interior
+|
+graphene_sheets_production|[0] conhecimento e [1] pedra usada para fazer [2] folhas de grafeno.
+graphene_sheets_made|[0] pedra usada para criar [1] folhas de grafeno.
+|
+hackers_done|Nós continuaremos a invadir!
+hackers_gather|Reúna os Hackers:\nCertifique-se de que todos os 6 trabalhos estão preenchidos.
+hacker_mission_0|Colete o Conhecimento:\nBuild twenty Labs.
+hacker_mission_1|Espalhe o Conhecimento:\nBuild três Bibliotecas.
+hacker_mission_2|Abrigar os Smart:\nBuild cinco Tinkerers' Houses.
+hacker_mission_3|Factory Hack:\nPesquisar a atualização do Firmware Modding em uma Fábrica de Metais Refinados.
+hacker_mission_4|Tente nossa última invenção:\nBuild a Factory Pub.
+hacker_mission_5|Mais do básico:\nProduzir pelo menos 20 chips de computador em um dia.
+hacker_mission_6|Festa Mecânica:\nBuild sete Scrapyard Nightclubs.
+hacker_mission_7|Vamos nos divertir ainda mais!\nBuild the Lab Escape Room.
+hacker_mission_8|As latas de irrigação estão supervalorizadas:\nPesquisar o gerenciamento automático da água em uma plantação de árvores.
+hacker_mission_9|Mude o Jogo:\nBuild dois Salões de Jogos Holo.
+hacker_mission_10|Construa nossa Última Invenção:\nBuild the Misdirector.
+hackers_mission|Missão dos Hackers
+|
+herb_reduction|As ervas reduzem o consumo de alimentos de seus cidadãos em [0]/[1]%.
+herb_medical_happiness|A felicidade médica total dos jardins de ervas: [0]/20%
+change_herb_plants|Mudança de plantas herbáceas
+|
+elevator_entered|O elevador entrou aqui [0] vezes.
+elevator_left|Elevador saiu aqui [0] vezes.
+|
+crops_grown|Cultivos [0]% de crescimento.
+food_left|[0] alimentos deixados para colher.
+percent_cleaned|Culturas antigas [0]% limpas.
+|
+used_as_house|Usado como uma casa.
+|
+transported_from|Transportado de [0] vezes.
+transported_to|Transportado para [0] vezes.
+used_as_stopover|Usado como uma parada [0] vezes.
+change_space_ship|Troca de navio espacial
+|
+upgrade_basic_houses|Atualização de Casas Básicas
+|
+manage_birth_control|Gerenciar o controle de natalidade
+|
+misdirected|Mal direcionado [0] vezes.
+|
+change_exhibition|Mudança de Exposição
+change_light_show|Mudar o show de luzes
+colorful|Colorido
+fast_red|Rápido & Vermelho
+slow_blue|Lento & Azul
+rainbow_light|Luz Arco-íris
+romantic_pink|Romântico & Rosa
+change_door_color|Mudar a cor da porta
+|
+change_machines|Máquinas de Troca
+|
+forever_grateful|Nós seremos eternamente gratos.
+jobs_filled_secretsociety|Dê-nos os seguidores que precisamos:\nCertifique-se de que todos os 8 empregos estão preenchidos.
+secret_society_mission_0|Melhore Nossa Casa:\nPesquisa Viver em Segredo no Centro de Pesquisa Viva.
+secret_society_mission_1|Aumentar a Produção:\nProduzir 1000 madeiras em um dia.
+secret_society_mission_2|Tornar a Cidade Verde:\nBuild 50 Botanical Gardens.
+secret_society_mission_3|Exibir as Estátuas:\nBuild doze Jardins Escultóricos.
+secret_society_mission_4|Melhorar o Transporte:\nBuild sete Teletransportadores.
+secret_society_mission_5|Casa dos Ricos:\nBuild cinco Villas.
+secret_society_mission_6|Conhecer o Escondido:\nGanhar pelo menos 1000 Conhecimentos em um dia.
+secret_society_mission_7|Terminar Nosso Projeto:\nBuild the Machine.
+secret_society_mission|Missão da Sociedade Secreta
+|
+change_sculptures|Esculturas de Mudança
+dev_message|Uma Mensagem do Desenvolvedor
+climate_crisis_message_1|Vamos garantir que os elefantes não sejam apenas estátuas pixelizadas em mundos minúsculos em 2142. A crise climática é a ameaça mais importante que a vida selvagem - e os seres humanos enfrentam.
+see_what_you_can_do|Veja o que você pode fazer
+|
+change_statue|Mudança de estátua
+|
+stone_mining_boost|Impulso atual na mineração de pedras: [0]%
+stone_mining_boost_base|Isto é baseado no número de trabalhadores e na produção de conhecimento de ontem.
+fossils_found|Fósseis encontrados: [0]
+|
+stone_left|[0] pedra deixada neste meteoróide.
+waiting_for_worker_teleport|Esperando que um trabalhador pressione o botão de teletransporte.
+teleporting_meteroid|Teleportando um meteoróide...
+something_went_wrong_stone|Algo deu errado ao atualizar o duende de pedra.
+|
+teleporters_operating_cost|Custo operacional dos teleportadores:\n[0] conhecimento/dia
+cant_enable_teleporters|Você não pode habilitar teletransportadores agora, pois você não tem conhecimento suficiente para os custos operacionais!
+disable_all_teleporters|Desabilite todos os teletransportadores
+keep_teleporters_disabled|Mantenha os Teletransportadores Deficientes
+enable_all_teleporters|Habilitar todos os teleportadores
+|
+today_production|A Produção de hoje:
+total_production|Produção total:
+next_production_in_n|Próxima produção em [0] horas.
+next_production_in_1|Próxima produção em [0] horas.
+|
+train_boarded_here|O trem embarcou aqui [0] vezes.
+train_alighted_here|Trem avistado aqui [0] vezes.
+change_top_half_furniture|Mude a metade superior do móvel
+change_bottom_half_furniture|Mude a metade inferior dos móveis
+change_trains|Mudança de Trens
+|
+trees_grown|Árvores [0]% cultivadas.
+wood_left|[0]/[1] madeira restante.
+|
+workers_of|Trabalhadores de [0]
+no_workers|Sem trabalhadores
+workers|[0]/[1] trabalhadores
+|
+tap_near_citizen_to_follow|[Tap] perto de um cidadão para segui-los.
+|
+tap|toque
+click|clique
+|
+city|Cidade
+file_description|[0] - [1] cidadãos
+|
+boost_activated|Boost Activated!
+boost_activated_description|Toda a produção de recursos agora é dobrada por um tempo! Além disso, você recebeu a seguinte recompensa de bônus:
+|
+birth_control|Controle de Nascimento
+greatly_discourage_children|Desincentiva muito a criança
+pop_stabilize|A população se estabilizará aproximadamente.
+encourage_contraception|Incentivar a Contracepção
+slow_pop_growth|A população vai crescer lentamente.
+no_special_policy|Nenhuma política especial
+babies_born_normal|Os bebês nascerão no ritmo normal.
+encourage_parenthood|Encorajar a paternidade
+more_babies_born|Mais bebês nascerão, desde que a felicidade seja alta o suficiente.
+|
+you_have_enough_wood|Você tem madeira suficiente. Vamos construir a mina de pedra!
+build|Construa
+back|Voltar
+management|Administração
+|
+already_built|Já Construído
+unique|Exclusivo
+also_unlocks_new|Também desbloqueia novas construções.
+building_a_building|Edifício [0]
+placing_a_decoration|Colocando [0]
+planting_a_forest|Plantio [0]
+|
+build_anywhere|Construa em qualquer lugar em uma torre.
+build_mode_insert|Modo de construção: Insira
+build_mode_normal_explanation|Construa somente no chão e em cima dos edifícios, ou logo abaixo dos telhados dos edifícios. [Tap] em um edifício para informações e opções.
+build_mode_normal|Modo de construção: Normal
+build_mode_replace_explanation|Substituir facilmente edifícios existentes.
+build_mode_replace|Modo de construção: Substitua
+build_mode_multi_explanation|Arraste para construir rapidamente vários edifícios do mesmo tipo.
+build_mode_multi|Modo de construção: Multi
+build_mode_destroy_explanation|Destrua rapidamente os edifícios.
+build_mode_destroy|Modo Destruir
+|
+build_anywhere_pc|Com este modo de construção ativo, você pode construir em qualquer lugar em uma torre.
+build_mode_insert_explanation_pc|Depois de ter selecionado um edifício para construir, clique em um edifício para inserir um novo edifício lá.
+build_mode_insert_explanation_pc_b|Clique em um edifício para inserir um novo edifício lá.
+build_mode_multi_explanation_pc|Com este modo de construção ativo, você pode arrastar para construir rapidamente vários edifícios do mesmo tipo.
+build_mode_replace_explanation_pc|Com este modo de construção ativo, você pode facilmente substituir construções existentes.
+build_mode_normal_explanation_pc|Com este modo de construção ativo, você só pode construir no chão e no topo das construções. Clique em um edifício para informações e opções.
+exception|Exceção:
+click_rooftop_selected|se você tiver um tipo de edifício selecionado, clicando em um edifício no telhado, você construirá um edifício lá.
+click_rooftop|Clicando em um telhado de um edifício, você construirá um edifício lá.
+|
+all_building_modes|Todos os Modos de Construção
+follow_citizen|Siga o Cidadão
+upgrades_and_policies|Upgrades e Políticas
+highlight_buildings|Edifícios em Destaque
+ctrl_to_highlight|Dica: você também pode segurar a Ctrl enquanto paira sobre um botão de construção para destacar todas as construções desse tipo.
+commute_explorer_gate|O Commute Explorer mostra o tempo de viagem e as rotas do cidadão.\nApanhe este recurso e muito mais com a versão premium! Alternativamente, veja um pequeno anúncio para desbloqueá-lo durante os próximos 30 minutos.
+commute_explorer|Explorador de ComutaÃ§Ã£o
+|
+change_city_name|Mudar o nome da cidade
+give_city_name|Dê um nome à sua cidade!
+city_name|Nome da cidade
+|
+main_goal|Objetivo Principal
+|
+|
+click_or_space|Clique (ou pressione Espaço)
+to_pause|para fazer uma pausa.
+to_unpause|para retomar.
+game_paused|Jogo Pausado
+game_running|Jogo em Execução
+normal_speed|Velocidade Normal
+onepointfive_speed|1.5x Velocidade
+double_speed|Dupla Velocidade
+half_speed|Meia velocidade
+threequarter_speed|0.75x Velocidade
+change_game_speed_mobile|Toque para mudar a velocidade do jogo.
+change_game_speed_pc|Clique (ou pressione S) para mudar a velocidade do jogo.\nCtrl+Click para selecionar uma velocidade avançada.
+keep_paused_help|Shift para manter o jogo em pausa.
+game_menu|Menu do Jogo
+show_extra_info|Mostrar informações e opções extras sobre a cidade.
+hide_extra_info|Ocultar informações & opções extras da cidade.
+alien_ruins_find|Suas ruínas alienígenas encontraram algo!
+population|População
+total_amount_of_citizens|A quantidade total de cidadãos em sua cidade.
+is_one_child|Há uma criança.
+are_n_children|Há [0] crianças.
+tap_for_age_distribution|[Tap] para a distribuição etária.
+tap_for_age_distribution_or_pop_limit|[Tap] para a distribuição por idade ou para mudar o limite de população.
+follow_hint|Dica: para seguir um cidadão, Ctrl+Clique neles.
+food_shortage_unhappiness|Falta de alimentos infelicidade:
+food_rationing_unhappiness|Racionamento alimentar da infelicidade:
+mandatory_overtime_unhappiness|Horas extras obrigatórias para a infelicidade:
+new_city_enthousiasm|Bônus do novo entusiasmo da cidade:
+happiness_explainer|Cidadãos felizes trabalham mais rápido. Eles também recebem mais crianças.
+home_happiness|Felicidade doméstica:
+sense_of_purpose|Sentido de propósito (trabalho/escola):
+entertainment_happiness|Felicidade do entretenimento:
+education_happiness|Felicidade na educação:
+medical_happiness|Felicidade médica:
+citizens_work_at_speed|Com a felicidade atual, os cidadãos trabalham a [0]x sua velocidade normal.
+happiness|Felicidade
+total_happiness|Felicidade Total:
+work_speed_modifier|Modificador de Velocidade de Trabalho:
+housing|Alojamento:
+work|Trabalho
+work_tooltip|Pessoas com um emprego / força de trabalho total.\nExistem [0] empregos.\n[Tap] para designar trabalhadores.
+|
+food|alimentação
+wood|madeira
+stone|pedra
+knowledge|conhecimento
+machine_parts|Peças de Máquinas
+refined_metals|Metais Refinados
+computer_chips|Chips de Computador
+graphene|Graphene
+|
+operating_cost|Os edifícios em operação custaram [0] [1] ontem e [2] hoje até agora.
+factory_operating_cost|Suas fábricas usaram [0] [1] ontem e [2] hoje até o momento.
+citizen_production_cost|Seus cidadãos produziram [0] [1] ontem e [2] hoje até o momento.
+not_enough_food|Vocês não têm comida suficiente! O próximo [0] alimento que você produzir será comido instantaneamente por cidadãos famintos.
+|
+wood_use|Usado para construir.
+stone_use|Usado para construir e criar peças de máquinas. Também pode ser purificado para metais refinados.
+knowledge_use|Usado para pesquisa.
+machine_parts_use|Usado para construir máquinas e prédios avançados.
+refined_metals_use|Usado para criar prédios avançados e chips de computador.
+computer_chips_use|Usado para criar máquinas inteligentes.
+graphene_use|Extremamente fino, porém o material mais forte já testado.
+|
+see_wood_here|Veja a sua madeira aqui.
+great_gather_stone|Ótimo! Agora, vamos juntar 6 madeiras e 4 pedras.
+you_have_enough_stone|Você tem pedra suficiente por enquanto! Vamos colocar alguns trabalhadores de volta no corte da madeira.
+reduce_stone_mining_priority|Reduza a prioridade da mineração de pedra.
+increase_woodcutting_priority|Aumente a prioridade do corte da madeira!
+hint_hint|Dica! Se você alguma vez esquecer o que fazer, basta bater no ? aqui.
+hint_hint_pc|Dica! Se você alguma vez esquecer o que fazer, apenas flutue sobre o ? aqui.
+speedup_hint|Dica! Se você alguma vez achar que o jogo está indo muito devagar, você pode acelerá-lo com o botão aqui.
+|
+climate_crisis_explainer_1|Vamos parar a Crise Climática!
+climate_crisis_explainer_2|Como você provavelmente sabe, nosso clima está mudando por causa das emissões de gases de efeito estufa causadas pelos humanos. Nós só temos cerca de uma década para reduzir drasticamente as emissões se quisermos evitar os piores efeitos, que poderiam incluir inundações, secas e grandes riscos à saúde. Aqui estão apenas algumas ações que você pode tomar:
+climate_crisis_explainer_3|Vote!
+climate_crisis_explainer_4|É muito importante que os governos criem leis que ajudem as empresas e as pessoas a reduzir as emissões de gases de efeito estufa. Portanto, por favor, vote em um partido sensato sempre que você puder.
+climate_crisis_explainer_5|Coma menos carne
+climate_crisis_explainer_6|Existem alternativas incríveis de carne, que têm ótimo sabor e causam muito menos emissões nocivas. Além disso, feijões ou castanhas podem ser uma boa fonte alternativa de proteína.
+climate_crisis_explainer_7|Não Voe
+climate_crisis_explainer_8|Voar causa uma enorme quantidade de emissão de CO2. Fique no chão sempre que puder. Se você gosta de viajar, pegar o trem é uma ótima e divertida opção!
+climate_crisis_explainer_9|Seja Informado
+climate_crisis_explainer_10|Conhecimento é poder! Leia notícias e fatos sobre o clima em sites como o The Guardian Environment e o Climate Reality Project.
+thanks_signoff|Obrigado,
+read_more_link|Leia mais (Link externo)
+|
+per_building|por edifício
+for_one_building|para um prédio
+for_this_building|para este prédio
+for_all_buildings|para todos os edifícios
+for_n_buildings|para [0] edifícios
+remove|Remover
+change_appearance_upgrade|Mude a aparência desta atualização.
+upgrades|Atualizações
+upgrade_only_this|Atualize somente este prédio.
+upgrade_afford|Atualize o máximo de edifícios deste tipo que você puder pagar. Existem [0].
+upgrade_all_explain|Faça o upgrade de todos os edifícios deste tipo. Existem [0].
+building_modes|Modos de construção
+building_mode_only_this|Defina o modo de construção somente deste edifício.
+building_mode_afford|Defina o modo de construção de tantas construções deste tipo quantas você puder pagar. Existem [0].
+building_mode_all_explain|Defina o modo de construção de todos os edifícios deste tipo. Há [0].
+city_upgrades|Upgrades de Cidade
+city_policies|Políticas da cidade
+credits|Créditos
+game_by|Um jogo de Florian van Strien.
+music_by|Música & SFX de Stijn Cappetijn.
+credits_software|Software
+credits_software_1|Construído com Haxe.
+credits_software_2|Prestado com pixi.js.
+early_feedback|Retorno antecipado: Douwe
+thanks_for_playing|Muito obrigado por jogar!
+localized_by|Traduzido por DeepL
+music_by_2|com música de Stijn Cappetijn
+|
+current_tasks|Tarefas atuais
+current_task|Tarefa atual
+|
+following|A seguir [0]
+this_citizen|este cidadão
+|
+education_level_0|Nenhum
+education_level_1|Pobre
+education_level_2|Fraco
+education_level_3|Limitado
+education_level_4|Moderado
+education_level_5|Feira
+education_level_6|Bom
+education_level_7|Muito Bom
+education_level_8|Ótimo
+education_level_9|Superior
+education_level_10|Excelente
+education_level_11|Excepcional
+education_level_12|Incrível
+education_level_13|Incrível
+education_level_14|Classe Mundial
+education_level_15|Fenômeno
+age_and_education|Idade: [0]\nEducação: [1]
+change_home_job|Mudar Home/Job
+change_home_school|Mudança de Casa/Escola
+citizen_passed_away|Infelizmente, [0] faleceu :(
+for_citizen|para [0]
+following_fish|Peixes seguintes
+cant_find_fish|Você não consegue mais encontrar o peixe.
+customize_free_play|Personalize o Jogo Livre
+starting_resources|Recursos iniciais
+normal_resources|Recursos Normais
+extra_resources|Recursos Extras
+unlimited_resources|Recursos Ilimitados
+starting_citizens|Cidadãos iniciantes
+buildings_research|Edifícios & Pesquisa
+standard_unlocks|Padrão Desbloqueia
+most_unlocks|A maioria desbloqueia
+|
+last_saved|Última vez economizada [0] segundos atrás.
+temp_save|Atenção: salvamento temporário!
+use_save_slot|Para qual slot de salvamento você gostaria de salvar?
+use_save_slot_2|Qual slot de salvamento você gostaria de usar?
+save_command|Salvar...
+load_command|Carregar...
+which_city_load|Em qual cidade você gostaria de carregar?
+export|Exportar
+import_command|Importar...
+new_city|Nova Cidade
+next_scenario|Próximo Cenário
+restart_scenario|Cenário de Reinício
+restart_scenario_question|Cenário de reinício?
+sure_restart|Você tem certeza de que gostaria de reiniciar o cenário desde o início?
+restart|Reinicie
+undo_restart|Desfazer Reiniciar
+|
+no_upgrades|Não há upgrades disponíveis.
+auto_upgrade|Atualização automática
+upgrade_all_labs|Atualize todos os laboratórios com a(s) atualização(ões) relevante(s) para seus edifícios adjacentes.
+|
+housing_information|Informações sobre a moradia
+|
+start_scenario|Cenário de início
+free_play|Jogo Livre
+unlock_all|Desbloquear tudo
+welcome_back|Bem-vindo de volta!
+import_city|Cidade de Importação
+got_export|Você tem um arquivo salvo exportado?
+|
+best_time|O melhor momento: [0]d [1]h [2]m
+|
+to_research|para pesquisar
+|
+music_volume|Volume de Música
+sound_effect_volume|Volume do Efeito Sonoro
+hide_boost_button|Botão Hide Boost (Esconder Botão de Impulso)
+color_blind_mode|Modo às cegas para o explorador de cegos
+enable_unlimited_resources|Habilitar Recursos Ilimitados
+disable_unlimited_resources|Desabilitar Recursos Ilimitados
+play_unlimited|Você quer jogar com recursos ilimitados para este arquivo salvo?
+stop_play_unlimited|Você quer brincar com contra-indicações normais de recursos? Você sempre pode reativar recursos ilimitados mais tarde.
+yes|Sim
+unlimited|Ilimitado
+visit_store|Visite a Loja
+pathfinding_thread_limit|Limite de Rosca de Busca de Caminhos:
+pathfinding_thread_limit_explain|Linhas de busca de caminhos são usadas para calcular caminhos de movimento para os cidadãos. Se todos os fios de busca de caminhos estiverem ocupados, os cidadãos podem ficar parados e esperar até que um deles esteja disponível. Aumentar isto irá melhorar a simulação nas grandes cidades. O valor recomendado é o número de núcleos físicos do seu processador menos um. Valores mais altos podem ter um impacto negativo na taxa de quadros.\nSe você não sabe o que tudo isso significa, eu entendo completamente! Apenas mantenha isto no padrão.
+reset_pathfinding_limit|Clique para redefinir o limite do thread de busca de caminho para o padrão.
+have_or_want_code|Tem ou quer um Código Secreto?
+have_code|Tem um Código Secreto?
+input_code|Insira um Código Secreto
+mailing_list_help_2|Vou enviar a você as notícias e fatos do The Final Earth 2, mais informações sobre meus futuros lançamentos!\n\nPlus, como um pequeno gesto de agradecimento, você receberá um código secreto para destravar algumas boas opções cosméticas imediatamente!
+|
+pop_by_age|População por Idade
+citizens_and_children|Existem [0] cidadãos, dos quais [1] crianças.
+citizens_by_age_explain|A quantidade de cidadãos de cada idade é mostrada abaixo.
+one_citizen_age|Um cidadão tem [0] anos de idade.
+n_citizens_age|[0] cidadãos têm [1] anos de idade.
+one_citizen_age_oldest|Um cidadão tem [0] anos de idade. O mais velho tem [1] anos de idade.
+n_citizens_age_oldest|[0] cidadãos têm [1] anos de idade. O mais velho tem [2] anos de idade.
+one_citizen_age_upper_range|Um cidadão tem [0] anos de idade ou mais.
+n_citizens_age_upper_range|[0] cidadãos têm [1] ou mais velhos.
+one_citizen_age_range|Um cidadão tem entre [0] e [1] anos de idade.
+n_citizens_age_range|[0] cidadãos têm entre [1] e [2] anos de idade.
+pop_limit|Limite Populacional:
+reset_pop_limit|[Tap] para redefinir o limite de população para o padrão.
+pop_limit_hint|Sua população não vai mais crescer quando você atingir este limite. Por favor, note que aumentar isto pode resultar em uma baixa taxa de quadros e/ou em um grande atraso!
+|
+upgrade_basic_houses_hint|As casas básicas não podem ser melhoradas para 100 qualidade. Ao invés disso, você pode rapidamente atualizar todas elas para outro tipo aqui.\n\nFirst, selecione um tipo para o qual você pode atualizar:
+upgrade_to_x|Atualização para [0]
+no_basic_houses|Não há casas básicas.
+confirm|Confirme
+no_undo|Por favor, note que isto não pode ser desfeito.
+upgrade_basic_for|Atualização [0] de [1] casas básicas para:
+upgraded_houses|Sucesso! Casas [0] atualizadas.
+choose_save_slot|Escolha Salvar Slot
+load_a_game|Carregar um jogo
+empty|(vazio)
+overwrite|(sobrescrever)
+really_overwrite|Realmente sobrescrever o espaço [0]?
+slot_n|Ranhura [0]?
+|
+secret_code|Código secreto
+secret_code_use|Você pode usar códigos secretos para desbloquear opções cosméticas legais.
+secret_code_acquire|Assine minha lista de discussão, e eu lhe enviarei um código imediatamente como um pequeno gesto de agradecimento! Eu também vou atualizar você sobre este jogo e futuros lançamentos.
+sample_code_1|Além disso, você pode tentar o seguinte código como uma recompensa pela sua curiosidade:
+sample_code_2|Você pode tentar o seguinte código como uma recompensa por sua curiosidade:
+secret_code_activated|Código Secreto Ativado!
+secret_code_1|Agora você pode mudar o show de luzes das casas noturnas!
+secret_code_2|Muito obrigado por ter se inscrito na minha lista de discussão! Novas opções de plantas e flores foram agora desbloqueadas.
+secret_code_3|Agora você pode escolher entre várias naves espaciais para os Landing Pads.
+enter_a_secret_code|Digite um código secreto
+enter_secret_code|Digite o código secreto
+secret_code_incorrect|Infelizmente, esse código não está correto!
+citizen_name_stats|Seus [0] cidadãos compartilham [1] nomes únicos. O mais comum é [2], que ocorre [3] vezes.
+landing_pads_stats|No total, suas pistas de pouso foram usadas [0] vezes, incluindo [1] vezes como escala.
+landing_pads_air|Neste momento, há [0] naves espaciais no ar, contendo [1] pessoas.
+hyper_elevators_stats|Seus hiperespilhadores foram usados [0] vezes.
+train_station_stats|Suas estações de trem foram usadas [0] vezes.
+teleporter_stats|Seus teletransportadores foram usados [0] vezes.
+stats_info|Muito bem, aqui estão algumas estatísticas sobre sua cidade!
+building_stats|Existem [0] edifícios. A torre mais alta é [1] edifícios altos.
+|
+one|Um
+max|Max
+all|Todos
+|
+assign_workers|Atribuir Trabalhadores
+set_priority_jobs_mobi|Toque para definir o número de empregos prioritários para o número atual de trabalhadores.
+set_priority_jobs_desktop|Clique para definir o número de empregos prioritários para o número atual de trabalhadores. Shift+Click para definir como 0. Ctrl+Click para definir como máximo.
+no_work_buildings|Ainda não há prédios com trabalho!
+|
+highlighting|Destacando [0].
+select_any|Selecione Qualquer
+|
+today|Hoje
+yesterday|ontem
+n_days_ago|[0] dias atrás
+production|Produção
+usage|Uso
+|
+store|Loja
+store_description|Desbloqueie recursos extras, ou simplesmente remova os anúncios. Eu realmente agradeço o seu apoio!
+already_has_premium|Você já tem a edição premium, obrigado!
+premium_upgrade|Atualização para a Edição Premium
+get_premium_edition|Obtenha a Edição Premium
+premium_advantage_2|Comute Explorer para ver as viagens dos cidadãos
+premium_advantage_3|Opções de modo criativo para jogo livre
+premium_advantage_4|Remover todos os anúncios & Boost sem um anúncio
+premium_advantage_5|Mais no futuro!
+removed_ads_already|Você já removeu os anúncios, obrigado!
+remove_ads|Remover Anúncios
+remove_ads_1|Remover todos os anúncios forçados
+remove_ads_2|Impulso sem assistir a um anúncio
+store_not_available|A loja não está disponível no momento. Por favor, tente novamente mais tarde!
+purchase_failed|Alguma coisa deu errado ao tentar comprar isto. Por favor, verifique sua conexão de internet e tente novamente mais tarde.
+purchase_processing|Esta compra está sendo processada no momento. Se você precisar de ajuda com esta compra, você pode me contatar em info@florianvanstrien.nl
+purchased|Comprado em
+not_available|n/d
+|
+selected_x|Selecionado: [0]
+deselect|Deselecione
+no_info_for_building|Nenhuma informação para este edifício
+no_average_yet|Sem média ainda
+average_travel_time|Média: [0] minutos
+collapse_info|Informações sobre o colapso
+show_info|Mostrar Informações
+check_commute_time|Veja quanto tempo os cidadãos gastam em seu trajeto, com base na manhã passada. [Tap] em um prédio para rotas.
+data_available_time|Leva cerca de um dia até que os dados estejam disponíveis e precisos.
+just_created_save|Por favor, note: você acabou de criar esta cidade.
+just_loaded_save|Por favor, note: você acabou de carregar esta salvaguarda.
+|
+thanks_very_much|Muito obrigado!
+premium_activated|O conteúdo premium agora foi ativado. Além disso, não deixe de conferir as Configurações Avançadas no menu do jogo para algumas novas opções.
+remove_ads_activated|Você não verá mais anúncios não-recompensados, e pode aumentar sem assistir a um anúncio. Alternativamente, você pode remover o botão de reforço das Configurações Avançadas.
+premium_upgrade_activated|O conteúdo premium agora foi ativado.
+ad_failed_to_load|Desculpe, o anúncio falhou em carregar! Por favor, tente novamente mais tarde.
+watch_ad_temp_unlock|Assista ao anúncio para desbloquear temporariamente
+mod_resource_not_loaded|Um recurso mod não poderia ser carregado.
+technical_details|Detalhes técnicos:
+|
+first_house_cheaper|A primeira casa é mais barata, pois você pode usar algum material de sucata do seu navio.
+change_pop_limit|[Tap] no contador de população para mudar este limite.
+pop_limit_reached|Limite de população atingido!
+|
+claim_within_n_s|Reclamação dentro de [0]s.
+2x_boost|2x duração do impulso!
+3x_boost|3x duração do impulso!
+double_bonus_boost|Duplo bônus de recursos!
+triple_bonus_boost|Recursos de bônus triplo!
+2x_boost_claimed|Você reivindicou com sucesso um reforço especial. Este bônus durará o dobro da duração!
+3x_boost_claimed|Você solicitou um bônus especial com sucesso. Este bônus vai durar três vezes mais!
+double_bonus_boost_claimed|Você pediu um bônus especial com sucesso. A recompensa de recursos bônus acima foi dobrada!
+triple_bonus_boost_claimed|Você solicitou com sucesso um reforço especial. A recompensa do recurso de bônus acima foi triplicada!
+boost_failed|Desculpe, o Boost falhou em carregar! Por favor, tente novamente mais tarde.
+boost|Boost
+boost_active|Boost Ativo
+boost_active_description|Toda a produção de recursos agora é dobrada!
+boost_use_case|Dobre sua produção de recursos por um tempo assistindo a um pequeno anúncio!
+boost_earn_extra_reward|Além disso, receba instantaneamente uma recompensa extra aleatória de recursos!
+|
+rationing_halves_this|O racionamento reduz isso pela metade.
+food_description_1|Seus cidadãos precisam comer!
+food_description_2|Adultos comem cerca de uma comida por dia, crianças comem 1/2 comida.
+food_description_3|As ervas reduzem isso em [0]/[1]%.
+food_description_4|Atualmente, [0] alimentos estão sendo consumidos a cada dia.
+|
+night_clubs|Clubes noturnos
+pubs_restaurants|Pubs & Restaurantes
+art|Arte
+nature|Natureza
+gaming|Jogos
+libraries|Bibliotecas
+|
+citizens_unhappy|Seus cidadãos estão muito infelizes! Eles trabalham muito mais devagar enquanto estão infelizes, então é uma boa idéia resolver seus problemas.
+more_happiness_info|[Tap] no botão Felicidade perto do canto inferior direito para mais informações.
+citizens_unhappy_title|Seus cidadãos estão infelizes!
+|
+operating_cost_pd|Custo operacional/dia:
+festival_doing|Agora fazendo um festival!
+music_festival_boost|Impulso do Festival de Música
+music_festival_planned|Você planejou um Festival de Música incrível!
+music_festival_doing|Agora entretenha seus cidadãos com um grande Festival de Música!
+alien_ruins|Ruínas Alienígenas
+|
+alien_ruins_find_1a|Sobrecrescimento
+alien_ruins_find_1b|Grande Rocha
+alien_ruins_find_1c|Pequenos seixos
+alien_ruins_find_1d|Frigorífico Alienígena
+alien_ruins_find_1e|Rochas Laranjas
+alien_ruins_find_2a|Madeira Púrpura
+alien_ruins_find_2b|Pilar Enorme
+alien_ruins_find_2c|Dispositivo Bip
+alien_ruins_find_2d|Alimentos enlatados
+alien_ruins_find_2e|Cogumelos
+alien_ruins_find_3a|Caixa com Fios
+alien_ruins_find_3b|Pilha de madeira
+alien_ruins_find_3c|Porta de Pedra Grande
+alien_ruins_find_3d|Arbustos de bagas
+alien_ruins_find_3e|Engrenagens
+alien_ruins_find_4a|Pinturas de rochas ornamentais
+alien_ruins_find_4b|Projeto de Hospedagem de Alienígenas
+alien_ruins_find_4c|Informações sobre fábricas alienígenas
+alien_ruins_find_4d|Cérebro Alienígena
+alien_ruins_find_4e|Dispositivo Estranho
+|
+alien_ruins_description_1a|Seus exploradores cortaram algumas raízes para 20 madeiras.
+alien_ruins_description_1b|Seus exploradores encontraram uma grande rocha contendo 25 pedras.
+alien_ruins_description_1c|Seus exploradores quase tropeçaram em um enorme monte de pedregulhos pequenos. Eles as juntaram para 22 pedras.
+alien_ruins_description_1d|Seus exploradores encontraram um refrigerador alienígena com 12 alimentos dentro. Eles então o desmontaram para 5 peças de máquinas.
+alien_ruins_description_1e|Seus exploradores colocaram os olhos em algumas pedras cor de laranja. Eles são bons para 35 pedras.
+|
+alien_ruins_description_2a|Seus exploradores encontraram um suprimento escondido de 40 estranhas madeiras roxas.
+alien_ruins_description_2b|Seus exploradores cortaram um enorme pilar que ficou no seu caminho. Ela continha 35 pedras.
+alien_ruins_description_2c|Seus exploradores desmontaram um estranho dispositivo de apito e ganharam 20 peças de máquinas.
+alien_ruins_description_2d|Seus exploradores encontraram uma pilha de latas com plantas luminosas de sabor doce dentro. As plantas se revelaram bastante nutritivas, então seus cidadãos podem comê-las por 42 alimentos.
+alien_ruins_description_2e|Seus exploradores encontraram alguns cogumelos suspeitos. Com muito cuidado, eles provaram um pouco. Para surpresa de todos, eles realmente sabem muito bem e você conseguiu 55 alimentos.
+|
+alien_ruins_description_3a|Seus exploradores encontraram uma caixa de madeira cheia de arames. A caixa era feita de 10 madeiras e os arames funcionam como 5 peças de máquina.
+alien_ruins_description_3b|Seus exploradores encontraram uma grande pilha com 17 peças de madeira.
+alien_ruins_description_3c|Seus exploradores cortaram uma grande porta de pedra e ganharam 15 pedras.
+alien_ruins_description_3d|Seus exploradores encontraram alguns arbustos de bagas contendo 22 alimentos.
+alien_ruins_description_3e|Seus exploradores encontraram uma pilha de engrenagens. Eles trabalham como sete peças de máquinas.
+|
+alien_ruins_description_4a|Seus exploradores encontraram algumas pinturas em uma pedra de uma maneira melhor de cultivar. Os fazendeiros agora recebem mais 5 alimentos a cada colheita.
+alien_ruins_description_4b|Seus exploradores encontraram um plano para construir uma casa alienígena.
+alien_ruins_description_4c|Seus exploradores encontraram um livro contendo informações sobre fábricas alienígenas. Com este conhecimento, as fábricas de peças de máquinas agora trabalham 10% mais rápido.
+alien_ruins_description_4d|Seus exploradores encontraram um cérebro alienígena perfeitamente preservado em um frasco. Com o conhecimento sobre sua estrutura, pesquisadores em laboratórios entendem melhor o cérebro humano e podem reunir conhecimento 5% mais rápido.
+alien_ruins_description_4e|Seus exploradores encontraram um pequeno dispositivo, que pode ter algo a ver com os mundos inacessíveis.
+|
+n_pct_explored|[0]% explorado.
+findings|Descobertas
+exploration_nothing_found|Seus exploradores ainda não encontraram nada aqui!
+move_ruins_howto|[Tap] em um espaço vazio em um mundo para mover estas ruínas alienígenas.
+move|Mova
+|
+language|Idioma
+this_language_name|Inglês
+|
+forest|Floresta
+pine_forest|Pinhal
+forest_management|Manejo Florestal
+forest_management_only_this|Apenas defina o modo de manejo para esta floresta.
+forest_management_all|Defina o modo de manejo para todas as florestas
+forest_management_question_1|O que os lenhadores devem fazer com todas as florestas?
+forest_management_question_2|O que os lenhadores devem fazer com essa floresta?
+forest_regrow|Cortar e Recortar
+forest_regrow_description_1|Corte-os e depois deixe-os crescer de novo.
+forest_regrow_description_2|Corte-os e depois deixe-os crescer de novo.
+forest_protect|Proteja
+forest_protect_description_1|Não os reduza.
+forest_protect_description_2|Não os corte.
+forest_uproot|Cortar e Uproot
+forest_uproot_description_1|Corte-os para dar lugar a outras coisas.
+forest_uproot_description_2|Corte-os para dar espaço para outras coisas.
+forest_instant_uproot|Uproot
+forest_instant_uproot_description|Destrua instantaneamente esta floresta.
+prioritized|Priorizado
+prioritize|Priorizar
+prioritize_description_1|Os lenhadores cortarão essa floresta primeiro. [Bater] para desativar.
+prioritize_description_2|Quando priorizados, os lenhadores cortarão esta floresta primeiro.
+really_uproot|Realmente Uproot?
+|
+pct_grown|[0]% cresceu.
+pct_left|[0]/[1] restante [2].
+|
+rock|Pedra
+rock_mining|Mineração de Rochas
+set_management_rock|Somente configure o modo de gerenciamento para esta rocha.
+set_management_all_rocks|Defina o modo de gerenciamento para todas as rochas
+rock_management_question_1|O que os mineiros devem fazer com todas as rochas?
+rock_management_question_2|O que os mineiros devem fazer com esta rocha?
+rock_management_mine|Mina
+rock_management_mine_description_1|Minere-os.
+rock_management_mine_description_2|Minem a rocha.
+rock_management_protect_description_1|Não mine as rochas; guarde-as como decoração.
+rock_management_protect_description_2|Não minere as pedras; guarde-as como decoração.
+rock_prioritized_description|Os mineiros de pedra vão minerar esta rocha primeiro. [Tap] para desativar.
+rock_prioritized_description_2|Quando priorizados, os mineiros de pedra irão minerar esta rocha primeiro.
+|
+buildinginfo.json/NormalHouse.name|Casa
+buildinginfo.json/NormalHouse.description|Seus cidadãos certamente irão apreciar um teto acima de suas cabeças.
+buildinginfo.json/AlienHouse.name|Casa para Alienígenas
+buildinginfo.json/AlienHouse.description|Cinco pessoas podem viver nesta estranha casa cheia de tecnologia do outro mundo.
+buildinginfo.json/ModernRusticHome.name|Lar Rústico Moderno
+buildinginfo.json/ModernRusticHome.description|Esta casa de aparência rústica faz as pessoas pensarem na Terra. A qualidade da habitação é aumentada em 15 se houver pelo menos três outras casas rústicas modernas ou parques próximos a ela.
+buildinginfo.json/ModernRusticHome.tooltipBottomIconInfo_0|Controle do aumento da qualidade
+buildinginfo.json/ComfortableHouse.name|Casa de madeira
+buildinginfo.json/ComfortableHouse.description|Não é exatamente luxuoso, mas ainda assim bastante confortável.
+buildinginfo.json/MechanicalHouse.name|Casa Mecânica
+buildinginfo.json/MechanicalHouse.description|A mecânica e o aquecimento desta casa precisam de uma Fábrica de Peças de Máquinas para funcionar. A qualidade da carcaça é aumentada em 50 se houver uma próxima a ela.
+buildinginfo.json/MechanicalHouse.showUnlockHint|Construa pelo menos três Fábricas de Peças de Máquinas para desbloquear!
+buildinginfo.json/MechanicalHouse.tooltipBottomIconInfo_0|Faixa para verificação do aumento de qualidade
+buildinginfo.json/SpaciousHouse.name|Casa Espaçosa
+buildinginfo.json/SpaciousHouse.description|Uma casa moderna com muito espaço.
+buildinginfo.json/CuttingEdgeHome.name|Casa de Corte-Edge
+buildinginfo.json/CuttingEdgeHome.description|Uma casa hipermoderna cheia de tecnologia.
+buildinginfo.json/CuttingEdgeHome.showUnlockHint|Construa o Centro de Pesquisa Viva para desbloquear!
+buildinginfo.json/ParkPod.name|Parque Pod
+buildinginfo.json/ParkPod.description|Uma casa no meio de um parque.
+buildinginfo.json/TinkerersHome.name|A casa dos funileiros
+buildinginfo.json/TinkerersHome.description|Esta casa é projetada para fabricantes e inventores. Os residentes ganham educação extra.
+buildinginfo.json/FarmHouse.name|Casa da Comunidade
+buildinginfo.json/FarmHouse.description|Esta casa dá um forte senso de comunidade. Produz uma pequena quantidade de comida, madeira ou pedra para cada morador. A maioria das melhorias não se aplica a esta produção.
+buildinginfo.json/BlossomHut.name|Blossum Hut
+buildinginfo.json/BlossomHut.description|Os moradores desta cabana vão realmente florescer!
+buildinginfo.json/BlossomHut.showUnlockHint|Construa dez restaurantes floridos para desabrochar!
+buildinginfo.json/FuturisticHome.name|Casa Futurista
+buildinginfo.json/FuturisticHome.description|Os residentes ganham automaticamente saúde e alguma educação.
+buildinginfo.json/Villa.name|Villa
+buildinginfo.json/Villa.description|Uma luxuosa e moderna vila completa com um teletransportador privado.
+buildinginfo.json/FlowerPenthouse.name|Penthouse Flower
+buildinginfo.json/FlowerPenthouse.description|Uma casa luxuosa no telhado. Faz com que os moradores vivam mais tempo. Ela também vem com um teletransportador particular.
+buildinginfo.json/LandingSite.name|Almofada de pouso
+buildinginfo.json/LandingSite.description|A plataforma de pouso funciona como uma parada de ônibus no espaço. As pessoas podem levar uma nave espacial daqui para outros patamares de pouso. Só pode ser colocada no chão ou em um telhado.
+buildinginfo.json/LandedExplorationShip.name|Nave de Exploração Aterrissada
+buildinginfo.json/LandedExplorationShip.description|Viver neste navio de exploração pode não ser muito confortável, mas certamente é muito aventureiro! Só pode ser colocado no chão ou em um telhado.
+buildinginfo.json/HyperElevator.name|Hiper Elevador
+buildinginfo.json/HyperElevator.description|Permite aos cidadãos ir rapidamente aos elevadores acima e abaixo no mesmo edifício contíguo. Pode haver outros edifícios entre os elevadores.
+buildinginfo.json/HyperElevator.showUnlockHint|Tenha pelo menos 200 cidadãos para desbloquear!
+buildinginfo.json/TrainStation.name|Estação de trem
+buildinginfo.json/TrainStation.description|Permite que os cidadãos viajem horizontalmente para outras estações ferroviárias. Pode haver outras construções entre elas. Cada estação de trem vem com um trem.
+buildinginfo.json/Teleporter.name|Teleporter
+buildinginfo.json/Teleporter.description|A forma mais rápida de transporte. Permite aos cidadãos irem instantaneamente a outros teletransportadores.
+buildinginfo.json/WoodcuttingCentre.name|Centro de corte de madeira
+buildinginfo.json/WoodcuttingCentre.description|Os lenhadores recuperam seus materiais aqui e depois vão para a floresta mais próxima para cortar madeira.
+buildinginfo.json/StoneMine.name|Mina de Pedra
+buildinginfo.json/StoneMine.description|Os mineiros de pedra recuperam seus materiais aqui e depois vão até a rocha mais próxima da pedra minada.
+buildinginfo.json/IndoorFarm.name|Fazenda Indoor
+buildinginfo.json/IndoorFarm.description|As culturas podem ser cultivadas aqui para produzir alimentos.
+buildinginfo.json/ExplorationCentre.name|Centro de Exploração
+buildinginfo.json/ExplorationCentre.description|Explore ruínas alienígenas para ganhar conhecimento, recursos e bônus especiais. Quando todas as ruínas tiverem sido exploradas, os trabalhadores investigarão suas descobertas para ganhar mais conhecimento.
+buildinginfo.json/MachinePartsFactory.name|Fábrica de peças de máquinas
+buildinginfo.json/MachinePartsFactory.description|Produz peças de máquinas a partir de pedra. Três pedras são necessárias para fazer uma peça de máquina.
+buildinginfo.json/Laboratory.name|Laboratório
+buildinginfo.json/Laboratory.description|Os cientistas reúnem o conhecimento aqui. Também tem atualizações que impulsionam as fazendas e plantações de árvores adjacentes.
+buildinginfo.json/Laboratory.tooltipBottomIconInfo_0|Faixa de expansão para atualizações
+buildinginfo.json/TreePlantation.name|Plantação de árvores
+buildinginfo.json/TreePlantation.description|Estas árvores são mantidas em um ambiente ideal e crescem novamente mais rápido do que as árvores na superfície do mundo. Os lenhadores de um Centro de Corte de Madeira podem ajudar a derrubá-las.
+buildinginfo.json/StoneTeleporter.name|Teleportador de Pedras
+buildinginfo.json/StoneTeleporter.description|Teleporte meteoroides para sua cidade. Os mineiros das Minas de Pedra podem, então, colher pedra deles.
+buildinginfo.json/RefinedMetalFactory.name|Fábrica de Metais Refinados
+buildinginfo.json/RefinedMetalFactory.description|Produz metais refinados a partir da pedra. Cinco pedras são necessárias para fazer uma unidade de metal refinado.
+buildinginfo.json/ComputerChipFactory.name|Fábrica de Chip de Computador
+buildinginfo.json/ComputerChipFactory.description|Produz chips de computador a partir de metais refinados. Sete unidades de metais refinados são necessárias para fazer um chip de computador.!unlocks
+buildinginfo.json/EcoFarm.name|Fazenda ecológica
+buildinginfo.json/EcoFarm.description|Produz alimentos de forma sustentável. Também gera uma pequena quantidade de felicidade no entretenimento da natureza.
+buildinginfo.json/EcoFarm.showUnlockHint|Construa uma Fazenda Experimental e dez Jardins Botânicos para desbloquear!
+buildinginfo.json/FarmByProductProcessor.name|Processador de Sub-produtos da Fazenda
+buildinginfo.json/FarmByProductProcessor.description|Produz madeira para cada fazenda adjacente. Cada fazenda produz apenas subprodutos suficientes para um Processador de Subprodutos.
+buildinginfo.json/FarmByProductProcessor.tooltipBottomIconInfo_0|Faixa de processamento
+buildinginfo.json/ExperimentationLab.name|Laboratório de Experimentação
+buildinginfo.json/ExperimentationLab.description|Aqui os cientistas fazem experiências com peças de máquinas. Você ganha cinco conhecimentos para cada peça de máquina usada. Esta produção de conhecimento é mais rápida do que com laboratórios normais.\nFábricas de metal refinadas acima e abaixo deste edifício trabalham mais rápido e usam 10% menos pedra por unidade de metal refinado.
+buildinginfo.json/ExperimentationLab.showUnlockHint|Construa doze casas mecânicas, dez fábricas de metais refinados e três fábricas de chips de computador para desbloquear!
+buildinginfo.json/ExperimentationLab.tooltipBottomIconInfo_0|Alcance do Boost
+buildinginfo.json/GrapheneLab.name|Laboratório Graphene
+buildinginfo.json/GrapheneLab.description|Este laboratório pesquisa a produção e as aplicações do grafeno. Os trabalhadores reúnem conhecimento. Eles também produzem lentamente grafeno para duas pedras por folha.
+buildinginfo.json/GrapheneFactory.name|Fábrica de grafeno
+buildinginfo.json/GrapheneFactory.description|Esta fábrica faz grafeno. Para fazer uma folha de grafeno, 10 conhecimentos e uma pedra é usada. Se o prédio for colocado à direita de um teleportador de pedra, nenhuma pedra é usada.
+buildinginfo.json/GrapheneFactory.tooltipBottomIconInfo_0|Uso do teletransportador de rochas
+buildinginfo.json/School.name|Escola
+buildinginfo.json/School.description|Educa as crianças, melhorando o quão eficazes elas serão em alguns trabalhos mais tarde.
+buildinginfo.json/Library.name|Biblioteca
+buildinginfo.json/Library.description|Melhora a educação dos visitantes de todas as idades.
+buildinginfo.json/HerbGarden.name|Jardim de Ervas
+buildinginfo.json/HerbGarden.description|Ervas e especiarias são cultivadas aqui. Elas tornam os alimentos mais saborosos, reduzindo a quantidade de alimentos que as pessoas precisam. Também tem um efeito extra, dependendo do tipo de erva.
+buildinginfo.json/HerbGarden.showUnlockHint|Construa dois restaurantes para destravar!
+buildinginfo.json/MedicalClinic.name|Clínica Médica
+buildinginfo.json/MedicalClinic.description|Ajuda as pessoas a viverem mais e melhor.
+buildinginfo.json/MedicalClinic.showUnlockHint|Construa uma Fábrica de Metais Refinados para desbloquear!
+buildinginfo.json/Pub.name|Pub
+buildinginfo.json/Pub.description|Um ótimo lugar para as pessoas se reunirem.
+buildinginfo.json/Restaurant.name|Restaurante
+buildinginfo.json/Restaurant.description|Um lugar aconchegante com boa comida.
+buildinginfo.json/Restaurant.showUnlockHint|Construa pelo menos cinco Pubs para destravar!
+buildinginfo.json/FactoryPub.name|Pub de Fábrica
+buildinginfo.json/FactoryPub.description|Um pequeno pub encantador que se dobra como uma refinada fábrica de metais.\nNão pode ser impulsionado pelos Laboratórios de Experimentação, no entanto.
+buildinginfo.json/BlossomRestaurant.name|Restaurante Blossom
+buildinginfo.json/BlossomRestaurant.description|Jante sob a linda flor da árvore! Se você construir vários restaurantes em cima uns dos outros, as pessoas podem sentar em galhos de árvores.
+buildinginfo.json/Park.name|Estacione
+buildinginfo.json/Park.description|Um bom lugar para relaxar.
+buildinginfo.json/BotanicalGardens.name|Jardim Botânico
+buildinginfo.json/BotanicalGardens.description|Um belo jardim cheio de plantas exóticas.
+buildinginfo.json/BotanicalGardens.showUnlockHint|Construa pelo menos dez Parques e cinco Laboratórios para desbloquear!
+buildinginfo.json/Aquarium.name|Aquário
+buildinginfo.json/Aquarium.description|Torna a sua cidade um pouco mais pesada e proporciona entretenimento à natureza.
+buildinginfo.json/Aquarium.showUnlockHint|Construa pelo menos doze jardins de ervas para destravar!
+buildinginfo.json/NightClub.name|Boate
+buildinginfo.json/NightClub.description|Algumas pessoas vão se divertir muito nesta boate.
+buildinginfo.json/ScrapyardNightClub.name|Boate Scrapyard
+buildinginfo.json/ScrapyardNightClub.description|Uma casa noturna cheia de máquinas luminosas estranhas.
+buildinginfo.json/ModernArtMuseum.name|Museu de Arte Moderna
+buildinginfo.json/ModernArtMuseum.description|Arte abstrata dos próximos artistas.
+buildinginfo.json/ModernArtMuseum.showUnlockHint|Construa uma Fábrica de Metais Refinados para desbloquear!
+buildinginfo.json/StatueGarden.name|Jardim de Esculturas
+buildinginfo.json/StatueGarden.description|Um jardim cheio de arte.
+buildinginfo.json/Arcade.name|Arcada
+buildinginfo.json/Arcade.description|Jogos divertidos para toda a família.
+buildinginfo.json/Arcade.showUnlockHint|Construa uma Fábrica de Chip de Computador para desbloquear!
+buildinginfo.json/HoloGameHall.name|Salão de Jogos Holo
+buildinginfo.json/HoloGameHall.description|Traga os jogos para o futuro!
+buildinginfo.json/Workshop.name|Workshop
+buildinginfo.json/Workshop.description|Faz com que todas as fábricas de peças de máquinas em sua cidade trabalhem mais rápido. Além disso, os trabalhadores podem reunir conhecimentos ou produzir peças de máquinas a partir da madeira.
+buildinginfo.json/ResearchBot.name|Artesanato de Pesquisa
+buildinginfo.json/ResearchBot.description|Um pesquisador pode reunir conhecimentos desta pequena espaçonave. Não pode haver nenhum prédio ou mundo diretamente acima disso.
+buildinginfo.json/ExperimentalFarm.name|Fazenda Experimental
+buildinginfo.json/ExperimentalFarm.description|Os alimentos são produzidos aqui. Também aumenta ligeiramente a velocidade de crescimento das culturas em fazendas de interior.
+buildinginfo.json/Observatory.name|Observatório
+buildinginfo.json/Observatory.description|Produz conhecimento. Só pode ser colocado no chão ou em um telhado.
+buildinginfo.json/ArtColony.name|Colônia de Arte
+buildinginfo.json/ArtColony.description|Uma casa cheia de criatividade. Gera a felicidade do entretenimento artístico.
+buildinginfo.json/ArtColony.showUnlockHint|Construa pelo menos três Museus de Arte Moderna para desbloquear!
+buildinginfo.json/CityHall.name|Prefeitura Municipal
+buildinginfo.json/CityHall.description|Permite que você implemente políticas municipais e mude o nome da sua cidade.
+buildinginfo.json/StoneResearchCenter.name|Centro de Pesquisa de Mineração
+buildinginfo.json/StoneResearchCenter.description|Aumenta a produção de pedra com base em sua produção de conhecimento e no número de trabalhadores.
+buildinginfo.json/StoneResearchCenter.showUnlockHint|Constrói pelo menos 15 Minas de Pedra e três Teletransportadores de Pedra para desbloquear!
+buildinginfo.json/ComputerResearchCenter.name|Centro de Pesquisa em Computação
+buildinginfo.json/ComputerResearchCenter.description|Produz conhecimento e permite que você pesquise e construa fábricas de chips de computador.
+buildinginfo.json/ComputerResearchCenter.showUnlockHint|Construa pelo menos cinco Laboratórios e uma Fábrica de Metais Refinados para desbloquear!
+buildinginfo.json/LivingResearchCenter.name|Centro de Pesquisa Viva
+buildinginfo.json/LivingResearchCenter.description|Upgrades para casas podem ser pesquisadas aqui. Também abriga duas pessoas e produz conhecimento.
+buildinginfo.json/LivingResearchCenter.showUnlockHint|Tenha pelo menos 200 cidadãos com casas para desbloquear!
+buildinginfo.json/HackerHQ.name|Hackers da Sede do Bolt
+buildinginfo.json/HackerHQ.description|Estes hackers de hardware são realmente muito simpáticos e prestativos.\nPassam a maior parte de seus dias mexendo com computadores e eletrônicos. Algumas de suas invenções são mais úteis do que outras.
+buildinginfo.json/HackerHQ.showUnlockHint|Construa pelo menos três Arcades para desbloquear!
+buildinginfo.json/AlienDecryptor.name|Decriptor Alienígena
+buildinginfo.json/AlienDecryptor.description|Um computador especializado construído para decifrar segredos alienígenas.
+buildinginfo.json/EscapeRoom.name|Sala de Fuga do Laboratório
+buildinginfo.json/EscapeRoom.description|Uma desafiadora sala de escape temática de laboratório, que gera felicidade no entretenimento dos jogos. Ela também tem lasers!
+buildinginfo.json/Misdirector.name|Misdirector
+buildinginfo.json/Misdirector.description|Sempre que alguém usa um teletransportador, há uma pequena chance de que seja trazido para cá. Isto irá confundi-los por um curto período de tempo. Mas esta invenção não é completamente inútil: você ganhará algum conhecimento a cada vez. Além disso, o Misdirector reduz pela metade o custo operacional dos teletransportadores.
+buildinginfo.json/TheContraption.name|O Empreendimento
+buildinginfo.json/TheContraption.description|.
+buildinginfo.json/SecretSocietyHouse.name|Sociedade Secreta da Chave
+buildinginfo.json/SecretSocietyHouse.description|A Sociedade Secreta da Chave solicita um local de residência. Ela pode então lhe dar tarefas que você ficaria honrado em completar.
+buildinginfo.json/TheMachine.name|A Máquina
+buildinginfo.json/TheMachine.description|Faz os membros da Sociedade Secreta da Chave viverem para sempre. Também produz recursos aleatórios todos os dias.
+buildinginfo.json/BlossomHippieHQ.name|Blossom Hippies Center
+buildinginfo.json/BlossomHippieHQ.description|Estes hippies adoram flores, paz e música. Eles têm algumas tarefas para você, se você não se importa.
+buildinginfo.json/BlossomHippieHQ.showUnlockHint|Construa uma pilha de Botanical Gardens com pelo menos vinte edifícios de altura para destravar!
+buildinginfo.json/FestivalHQ.name|Sede do Festival
+buildinginfo.json/FestivalHQ.description|Organize festivais incríveis para entreter seus cidadãos!
+buildinginfo.json/Supercomputer.name|Supercomputador
+buildinginfo.json/Supercomputer.description|Produz conhecimento baseado na quantidade de funcionários de laboratório em sua cidade. Também permite que você pesquise algumas atualizações da cidade.
+buildinginfo.json/RocketLaunchPlatform.name|Plataforma de lançamento de foguetes
+
+buildinginfo.json/TreeHuggerBase.name|Base de Abraçador de Árvores
+buildinginfo.json/TreeHuggerBase.description|Quem não abraçaria esta árvore?
+buildinginfo.json/FossilMuseum.name|Museu dos Fósseis do Espaço
+buildinginfo.json/FossilMuseum.description|Os fósseis encontrados pelo Detector de Fósseis são exibidos aqui. Melhora a educação dos visitantes. Os trabalhadores produzem conhecimento baseado no número de fósseis que você encontrou.
+buildinginfo.json/StatueOfHappiness.name|Estátua da Felicidade
+buildinginfo.json/StatueOfHappiness.description|A recompensa de seus cidadãos por alcançarem 100 de felicidade!
+buildinginfo.json/StatueOfTheKey.name|Estátua da Chave
+buildinginfo.json/StatueOfTheKey.description|O presente de aniversário de um membro da Sociedade Secreta da Chave que atingiu a respeitável idade de 500 anos!
+buildinginfo.json/Beacon.name|O Farol
+buildinginfo.json/Beacon.description|A recompensa de seus cidadãos por mantê-los realmente felizes por um tempo!
+buildinginfo.json/Beacon.showUnlockHint|Mantenha :D ou melhor felicidade por pelo menos quatorze dias para desbloquear!
+buildinginfo.json/ShadyHome.name|Casa sombria
+buildinginfo.json/ShadyHome.description|
+buildinginfo.json/UnknownBuilding.name|Edifício Desconhecido
+buildinginfo.json/UnknownBuilding.description|???
+|
+buildingUpgradesInfo.json/Flowers.name|Flores
+buildingUpgradesInfo.json/Flowers.description|As flores melhoram a felicidade dos residentes. Melhora a qualidade da habitação em 5.
+buildingUpgradesInfo.json/MachinePartsFactoryEfficiency.name|Reciclagem de sucata metálica
+buildingUpgradesInfo.json/MachinePartsFactoryEfficiency.description|Duas pedras são agora usadas para fazer uma peça de máquina ao invés de três.
+buildingUpgradesInfo.json/FactoryDisabled.name|Desabilitar Fábrica
+buildingUpgradesInfo.json/FactoryDisabled.description|A fábrica vai interromper totalmente a produção.
+buildingUpgradesInfo.json/StoneUsingFactoryDisabled.name|Desativar Fábrica
+buildingUpgradesInfo.json/StoneUsingFactoryDisabled.description|A fábrica interromperá totalmente a produção e não usará nenhuma pedra.
+buildingUpgradesInfo.json/RefinedStoneUsingFactoryDisabled.name|Desativar Fábrica
+buildingUpgradesInfo.json/RefinedStoneUsingFactoryDisabled.description|A fábrica interromperá totalmente a produção e não utilizará nenhum metal refinado.
+buildingUpgradesInfo.json/MachinePartsFactoryTurbo.name|Turbo Boost
+buildingUpgradesInfo.json/MachinePartsFactoryTurbo.description|A fábrica trabalhará duas vezes mais rápido, mas também usará mais duas pedras por peça de máquina.
+buildingUpgradesInfo.json/RefinedMetalsFactoryHack.name|Modificação de Firmware
+buildingUpgradesInfo.json/RefinedMetalsFactoryHack.description|A fábrica trabalhará 50% mais rápido, mas também utilizará mais uma pedra por unidade de metal refinado produzido.
+buildingUpgradesInfo.json/FactoryWorking.name|Habilitar Fábrica
+buildingUpgradesInfo.json/FactoryWorking.description|A fábrica vai funcionar normalmente.
+buildingUpgradesInfo.json/LabWorking.name|Habilitar laboratório
+buildingUpgradesInfo.json/LabWorking.description|O laboratório vai funcionar normalmente.
+buildingUpgradesInfo.json/LabDisabled.name|Desabilitar o laboratório
+buildingUpgradesInfo.json/LabDisabled.description|O laboratório não usará nenhuma peça de máquina nem produzirá conhecimento. Ele ainda pode impulsionar fábricas de metais refinados.
+buildingUpgradesInfo.json/LiteratureReviews.name|Revisões de Literatura
+buildingUpgradesInfo.json/LiteratureReviews.description|O laboratório não utilizará nenhuma peça de máquina, mas seu conhecimento é reduzido pela metade. Ele ainda pode impulsionar as Fábricas de Metal Refinado.
+buildingUpgradesInfo.json/FarmingResearch.name|Engenharia Genética de Cultivos
+buildingUpgradesInfo.json/FarmingResearch.description|As plantações de fazendas adjacentes produzem mais 7 alimentos por colheita.
+buildingUpgradesInfo.json/TreePlantationResearch.name|Gás de Crescimento de Árvores
+buildingUpgradesInfo.json/TreePlantationResearch.description|As árvores nas plantações de árvores adjacentes crescem 20% mais rápido.
+buildingUpgradesInfo.json/BetterPickaxes.name|Melhores Picaretagens
+buildingUpgradesInfo.json/BetterPickaxes.description|Use melhores picareta para melhorar a velocidade da mineração em 20%.
+buildingUpgradesInfo.json/AIMining.name|Mineração com AI-assistência
+buildingUpgradesInfo.json/AIMining.description|Use um sistema de computador para melhorar a velocidade da mineração em 30%.
+buildingUpgradesInfo.json/DieShrink.name|Die Shrink
+buildingUpgradesInfo.json/DieShrink.description|A fábrica trabalhará 50% mais rápido e usará menos duas unidades de metais refinados por chip de computador.
+buildingUpgradesInfo.json/BetterLightShow.name|Melhor Show de Luz
+buildingUpgradesInfo.json/BetterLightShow.description|A capacidade de entretenimento do prédio será duplicada.
+buildingUpgradesInfo.json/MedicalEducation.name|Melhoria da Educação Médica
+buildingUpgradesInfo.json/MedicalEducation.description|A qualidade deste edifício será aumentada em 25% da felicidade da educação.
+buildingUpgradesInfo.json/AIAssistedDiagnosis.name|Diagnóstico Assistido por Computador
+buildingUpgradesInfo.json/AIAssistedDiagnosis.description|A qualidade deste edifício será aumentada em 25 e sua capacidade será duplicada.
+buildingUpgradesInfo.json/StoneTeleporterRemote.name|Controle Remoto
+buildingUpgradesInfo.json/StoneTeleporterRemote.description|O trabalhador do teleportador de pedra pode teleportar pedra mesmo que eles estejam em outro lugar. Isto permite que eles também ajudem a mina de pedra.
+buildingUpgradesInfo.json/BiggerTV.name|TV de maior porte
+buildingUpgradesInfo.json/BiggerTV.description|Melhora a qualidade da habitação em 5. Adiciona capacidade para um residente.
+buildingUpgradesInfo.json/ModernHomePlant.name|Planta de limpeza de ar
+buildingUpgradesInfo.json/ModernHomePlant.description|Uma planta que tem sido cultivada para ser extremamente boa na limpeza do ar. Melhora a qualidade da habitação em 10 e faz com que os residentes vivam mais tempo.
+buildingUpgradesInfo.json/HeatedBed.name|Cama Aquecida
+buildingUpgradesInfo.json/HeatedBed.description|Melhora a qualidade da habitação em 20.
+buildingUpgradesInfo.json/SmartChairs.name|Cadeiras Inteligentes
+buildingUpgradesInfo.json/SmartChairs.description|Melhora a qualidade da habitação em 10.
+buildingUpgradesInfo.json/ModernConveniences.name|Conveniências modernas
+buildingUpgradesInfo.json/ModernConveniences.description|Melhora a qualidade da habitação em 15.
+buildingUpgradesInfo.json/WorkshopKnowledge.name|Projetos de animais de estimação
+buildingUpgradesInfo.json/WorkshopKnowledge.description|Reúna conhecimento.
+buildingUpgradesInfo.json/WorkshopMachineParts.name|Peças de Máquinas Artesanais
+buildingUpgradesInfo.json/WorkshopMachineParts.description|Criar peças de máquinas a partir da madeira.
+buildingUpgradesInfo.json/StarDatabase.name|Banco de Dados Star
+buildingUpgradesInfo.json/StarDatabase.description|Este prédio produz 50% mais conhecimento. Se a atualização do Mapeamento Preciso do Universo do Supercomputador foi pesquisada, ela produz 500% a mais de conhecimento.
+buildingUpgradesInfo.json/SofterBeds.name|Camas Extremamente Macias
+buildingUpgradesInfo.json/SofterBeds.description|Melhora a qualidade da habitação em 10.
+buildingUpgradesInfo.json/BoardGameCollection.name|Coleção de jogos de tabuleiro
+buildingUpgradesInfo.json/BoardGameCollection.description|Melhora a qualidade da habitação em 15.
+buildingUpgradesInfo.json/SmartLights.name|Luzes Inteligentes
+buildingUpgradesInfo.json/SmartLights.description|Melhora a qualidade da habitação em 15.
+buildingUpgradesInfo.json/LivingComputer.name|Computador Vivo
+buildingUpgradesInfo.json/LivingComputer.description|Melhora a qualidade da habitação em 20.
+buildingUpgradesInfo.json/BetterTools.name|Melhores ferramentas
+buildingUpgradesInfo.json/BetterTools.description|Melhora a qualidade da habitação em 20.
+buildingUpgradesInfo.json/MisdirectorNormal.name|Habilite
+buildingUpgradesInfo.json/MisdirectorNormal.description|O Misdirector é previsivelmente imprevisível.
+buildingUpgradesInfo.json/MisdirectorAlways.name|Overclock
+buildingUpgradesInfo.json/MisdirectorAlways.description|Qualquer tentativa de teleportação trará pessoas para cá. Perfeito para parar o excesso de produtividade.\nO ganho de conhecimento por má direção é reduzido em 90% porque o dispositivo está sobrecarregado.
+buildingUpgradesInfo.json/MisdirectorMostlyDisabled.name|Principalmente Desativar
+buildingUpgradesInfo.json/MisdirectorMostlyDisabled.description|Há um botão OFF (Desligar). Funciona em sua maioria.
+buildingUpgradesInfo.json/MisdirectorDisabled.name|Desabilite
+buildingUpgradesInfo.json/MisdirectorDisabled.description|Com algum esforço, o Misdirector pode ser domado.
+buildingUpgradesInfo.json/IndoorPond.name|Lago Interno
+buildingUpgradesInfo.json/IndoorPond.description|Melhora a qualidade da habitação em 15.
+buildingUpgradesInfo.json/CHProduceStone.name|Rock
+buildingUpgradesInfo.json/CHProduceStone.description|Produzir pedra.
+buildingUpgradesInfo.json/CHProduceWood.name|Árvore
+buildingUpgradesInfo.json/CHProduceWood.description|Produzir madeira.
+buildingUpgradesInfo.json/CHProduceFood.name|Cultivos
+buildingUpgradesInfo.json/CHProduceFood.description|Produzir alimentos.
+buildingUpgradesInfo.json/PickaxeTech.name|Papéis de peças de Picareta Revisados por Pares
+buildingUpgradesInfo.json/PickaxeTech.description|O impulso para a produção de pedra é aumentado e escalonado mais rapidamente com a produção de conhecimento.
+buildingUpgradesInfo.json/FossilScanner.name|Detector de Fóssil
+buildingUpgradesInfo.json/FossilScanner.description|Sempre que um teletransportador de rocha teleporta um meteoróide, há uma pequena chance de que um fóssil seja detectado nele. Quando isso acontece, você ganha 10.000 conhecimentos.
+buildingUpgradesInfo.json/UltimateScrewdriver.name|Chave de fenda Ultra-High-Tech
+buildingUpgradesInfo.json/UltimateScrewdriver.description|Você ganha mais dois conhecimentos para cada peça de máquina usada.
+buildingUpgradesInfo.json/AutomaticWaterManagement.name|Gerenciamento automático de água
+buildingUpgradesInfo.json/AutomaticWaterManagement.description|A velocidade de crescimento passivo dessas árvores é triplicada.
+buildingUpgradesInfo.json/CulinaryHerbs.name|Ervas Culinárias
+buildingUpgradesInfo.json/CulinaryHerbs.description|Aumenta a capacidade dos restaurantes à esquerda e à direita do jardim.
+buildingUpgradesInfo.json/MedicalHerbs.name|Ervas Medicinais
+buildingUpgradesInfo.json/MedicalHerbs.description|Melhora a felicidade médica. Os jardins de ervas não podem fornecer mais de 20% da felicidade médica no total.
+buildingUpgradesInfo.json/ComfortableCouch.name|Sofá Confortável
+buildingUpgradesInfo.json/ComfortableCouch.description|Melhora a qualidade da habitação em 15.
+buildingUpgradesInfo.json/SmartSpeaker.name|Alguma Inteligência no Falante
+buildingUpgradesInfo.json/SmartSpeaker.description|Melhora a qualidade da habitação em 10.
+|
+buildableWorldResourcesInfo.json/Forest.name|Floresta
+buildableWorldResourcesInfo.json/Forest.description|Plante árvores jovens que crescerão em uma floresta.
+buildableWorldResourcesInfo.json/PineForest.name|Pinhal
+buildableWorldResourcesInfo.json/PineForest.description|Plante árvores jovens que crescerão em uma floresta de pinheiros.
+buildableWorldResourcesInfo.json/Rock.name|Pedra
+buildableWorldResourcesInfo.json/Rock.description|Coloque uma pedra em um mundo para decoração. Ela pode ser minerada, a menos que você a proteja.
+buildableWorldResourcesInfo.json/Boulder.name|Pedregulho
+buildableWorldResourcesInfo.json/Boulder.description|Coloque um pedregulho em um mundo para decoração. Ela pode ser minerada, a menos que você a proteja.
+|
+categories/Houses.name|Casas
+categories/Production.name|Produção
+categories/Services.name|Serviços
+categories/Entertainment.name|Entretenimento
+categories/Transportation.name|Transporte
+categories/Unique Buildings.name|Edifícios exclusivos
+categories/Decoration & Nature.name|Decoração & Natureza
+|
+categories/Houses.description|Construa casas para que seus cidadãos possam viver.
+categories/Production.description|Construa edifícios de produção para obter mais recursos.
+categories/Services.description|Os serviços ajudam as pessoas, melhorando suas vidas.
+categories/Entertainment.description|Construa entretenimento para manter seus cidadãos felizes.
+categories/Transportation.description|Construa transporte para deixar os cidadãos se moverem rapidamente e entre mundos.
+categories/Unique Buildings.description|Apenas um desses prédios especiais pode ser construído.
+categories/Decoration & Nature.description|Coloque a decoração no chão e plante florestas.
+|
+cityUpgradesInfo.json/UniverseMapping.name|Mapeamento Preciso do Universo
+cityUpgradesInfo.json/UniverseMapping.description|Teletransportadores de Pedras teleportam meteoroides maiores.
+cityUpgradesInfo.json/OptimizedChipLayouts.name|Layouts de Chip Otimizados
+cityUpgradesInfo.json/OptimizedChipLayouts.description|Fábricas de chips de computador trabalham 33% mais rápido.
+cityUpgradesInfo.json/MedicalMachineLearning.name|Aprendizagem da Máquina Médica
+cityUpgradesInfo.json/MedicalMachineLearning.description|Faz seus cidadãos viverem mais tempo.
+cityUpgradesInfo.json/WoodenLiving.name|Vida em madeira
+cityUpgradesInfo.json/WoodenLiving.description|Melhora a qualidade da casa de todas as casas de madeira em 10.
+cityUpgradesInfo.json/SpaciousLiving.name|Vida Espaçosa
+cityUpgradesInfo.json/SpaciousLiving.description|Melhora a qualidade da casa de todas as Casas Espaçosas em 15.
+cityUpgradesInfo.json/SlimyLiving.name|Vida Slimy
+cityUpgradesInfo.json/SlimyLiving.description|Melhora a qualidade da casa de todas as Casas Alienígenas em 25. Também desbloqueia uma atualização do prédio para eles.
+cityUpgradesInfo.json/SecretiveLiving.name|Vida Secreta
+cityUpgradesInfo.json/SecretiveLiving.description|Melhora a qualidade da casa da Sociedade Secreta da Chave em 25.
+cityUpgradesInfo.json/MechanicalLiving.name|Vida Mecânica
+cityUpgradesInfo.json/MechanicalLiving.description|Adiciona capacidade para mais um residente em todas as casas mecânicas e Tinkerers' Houses.
+cityUpgradesInfo.json/SuperSpaciousLiving.name|Vida Societária
+cityUpgradesInfo.json/SuperSpaciousLiving.description|Adiciona capacidade para mais um residente em todas as Casas Espaçosas.
+cityUpgradesInfo.json/BirthControl.name|Controle de Nascimento
+cityUpgradesInfo.json/BirthControl.description|Permite que você diminua ou aumente o crescimento populacional.
+cityUpgradesInfo.json/BuildingRecycling.name|Reciclagem de Edifícios
+cityUpgradesInfo.json/BuildingRecycling.description|Quando você destrói um edifício, você recupera metade do seu custo.
+cityUpgradesInfo.json/BuildingRecycling2.name|Smart Demolition (Atualmente: Building Recycling)
+cityUpgradesInfo.json/BuildingRecycling2.description|Quando você destrói um edifício, você recebe de volta 75% de seu custo (atualmente 50%).
+cityUpgradesInfo.json/BuildingRecycling3.name|Construção Sustentável (Atualmente: Demolição Inteligente)
+cityUpgradesInfo.json/BuildingRecycling3.description|Quando você destrói um edifício, você recupera 90% do seu custo (atualmente 75%).
+cityUpgradesInfo.json/ChipBinning.name|Cozimento do chip
+cityUpgradesInfo.json/ChipBinning.description|Fábricas de chips de computador trabalham 20% mais rápido.
+|
+decorationsInfo.json/spr_grass.name|Alta gramatura
+decorationsInfo.json/spr_flowers.name|Capim Alto com Flores
+decorationsInfo.json/spr_decoration_rocks.name|Rochas Pequenas
+decorationsInfo.json/spr_removedecoration.name|Remover Decoração
+decorationsInfo.json/spr_removedecoration.description|Limpe qualquer decoração de uma superfície do mundo.
+|
+stories.json/theLostShip.name|Um Novo Começo
+stories.json/theLostShip.description|A Terra é um terreno baldio. Você construiu uma nave espacial, mas agora a comida está acabando. Um mundo minúsculo é sua única esperança.
+stories.json/multipleWorlds.name|Uma Cidade Intermundo
+stories.json/multipleWorlds.description|Quando um mundo se revela muito pequeno, você decide construir uma cidade que atravessa mundos.
+|
+|
+stories.json/hackersandaliens.name|Hacking Alien Tech
+stories.json/hackersandaliens.description|Você descobre algumas influências alienígenas em seu mais novo posto avançado.
+stories.json/FreePlayMegaWorld.name|Jogo Livre - Mega World
+stories.json/FreePlayMegaWorld.description|Construa a cidade dos seus sonhos neste enorme mundo!
+stories.json/FreePlayManyWorldsRandom.name|Jogo Livre - Arquipélago Aleatório
+stories.json/FreePlayManyWorldsRandom.description|Construa uma cidade complexa neste grupo aleatório de mundos.
+stories.json/FreePlayEmptyCanvas.name|Jogo Livre - Tela Vazia
+stories.json/FreePlayEmptyCanvas.description|Um mundo enorme e árido que você pode fornecer ao seu desejo, mais alguns pequenos mundos cheios de recursos.
+stories.json/FreePlayDivided.name|Jogo Livre - Dividido
+stories.json/FreePlayDivided.description|Cuidado com a lacuna! Ele separa florestas e rochas.
+stories.json/FreePlayRandomMiniWorlds.name|Jogo Livre - Mini Mundos Aleatórios
+stories.json/FreePlayRandomMiniWorlds.description|Inúmeros mundos minúsculos, colocados aleatoriamente no espaço.
+stories.json/FreePlayRandomMiniWorldsAndEmptyCanvas.name|Jogo Livre - Giga
+stories.json/FreePlayRandomMiniWorldsAndEmptyCanvas.description|Muitos mini-mundos minúsculos, mais um enorme, em sua maioria vazio!
+stories.json/FreePlayManyWorlds.name|Jogo Livre - Archipelago Classic
+stories.json/FreePlayManyWorlds.description|Construa uma cidade complexa neste grupo de mundos.
+|
+FreePlay.FreePlayStart.text|Bem-vindo a este Cenário de Jogo Livre!\nAlguns cidadãos já estão aqui. Alguns mais chegarão nos próximos dias.
+FreePlay.FreePlayStart.planning.afterDoneMessage|Todas as pessoas do seu navio já chegaram. É claro, sua população ainda pode crescer através de seus descendentes.
+|
+theLostShip.json/Start.text|São 2142, e a terra é um terreno baldio. Colonizar este pequeno mundo é a única esperança da humanidade.\n\nPrimeiro, você vai precisar de mais alguns materiais de construção. Vamos construir um centro de corte de madeira.
+theLostShip.json/Start.quickText|Construa um centro de corte de madeira.
+theLostShip.json/BuildStoneMine.text|Bom trabalho! Agora, pegue um pouco de madeira e construa uma mina de pedra.
+theLostShip.json/BuildStoneMine.quickText|Construa uma mina de pedra.
+theLostShip.json/GatherWoodAndStone.text|Bom trabalho! Agora mesmo, ninguém vai recolher pedra, pois todos já têm um trabalho no centro de corte de madeira. Vamos recolocar alguns desses trabalhadores.
+theLostShip.json/GatherWoodAndStone.quickText|Reúna 6 madeira e 4 pedras. Você precisará re-designar alguns trabalhadores.
+theLostShip.json/BuildIndoorFarmAndHouse.text|Você usou uma nave espacial para chegar aqui. Alguns de seus amigos ainda estão nela. Você vai querer dar a eles um lugar para viver. Um suprimento constante de comida também seria bom.\n\nPara atingir estes objetivos, vamos construir uma casa e uma fazenda coberta.[nonmobi] Por favor, note que as construções podem ser empilhadas.
+theLostShip.json/BuildIndoorFarmAndHouse.quickText|Construir uma casa e uma fazenda coberta.
+theLostShip.json/SpawnMorePeople.text|Bom trabalho! Mais algumas pessoas chegarão em breve.\nPode ser útil aprender um pouco mais sobre este mundo. Em particular, as ruínas alienígenas parecem bastante interessantes. Vamos construir um centro de exploração para aprender tudo sobre elas e talvez conseguir alguns recursos úteis também.
+theLostShip.json/SpawnMorePeople.quickText|Construa um centro de exploração.
+theLostShip.json/NowArrivingRegularly.text|Novas pessoas agora começarão a chegar regularmente. Certifique-se de mantê-las alimentadas e alojadas. Além disso, crianças podem nascer a partir de agora. Você pode construir uma escola para elas se quiser.[n]\nPara construir sua cidade, você precisará de muitas pedras, então vamos construir mais uma mina de pedra.
+theLostShip.json/NowArrivingRegularly.quickText|Construa uma segunda mina de pedra.
+theLostShip.json/StoneMineUpgrade.text|[c]Seus mineiros de pedra têm bons equipamentos graças à atualização do Better Pickaxes. Ótimo trabalho![/][n]Seus mineiros de pedra estão atualmente trabalhando com equipamentos de mineração de baixa qualidade. Melhores picaretas melhorariam sua velocidade de mineração. Atualize pelo menos uma de suas minas de pedra. Para fazer isso, [nonmobi] clique em [mobi] tap[/] na mina de pedra, depois na atualização de Picareta Melhores.
+theLostShip.json/StoneMineUpgrade.quickText|Faça o upgrade de uma mina de pedra com melhores picareta.
+theLostShip.json/Happiness.text|Agora que você tem uma economia muito boa, é hora de se concentrar no bem-estar de seus cidadãos por um pouco. Não que não haja nenhuma vantagem econômica para isso, pois cidadãos felizes trabalham mais rápido. Para fazê-los mais felizes, vamos construir um pub. Além disso, certifique-se de ter pelo menos 10 alimentos.
+theLostShip.json/Happiness.quickText|Construa um pub e tenha pelo menos 10 alimentos.
+theLostShip.json/BuildMachinePartsFactory.text|Ótimo trabalho! Certifique-se de que há realmente alguém trabalhando no pub ou não terá nenhum efeito.\nA cidade vai precisar de máquinas. [c]Felizmente, você olhou à frente e já construiu uma fábrica de peças de máquinas.[/c][n]Vamos construir uma fábrica de peças de máquinas para poder construí-las.[/n]
+theLostShip.json/BuildMachinePartsFactory.quickText|Construir uma fábrica de peças de máquinas.
+theLostShip.json/GetMinHappiness.text|A fábrica de peças de máquinas usa muita pedra, então certifique-se de que você tenha o suficiente! Se você precisa de pedra para algo mais, basta desligá-la por um tempo. [n]\nÉ sempre bom ver rostos felizes, não é? Vamos ter certeza de que a felicidade em sua cidade é de pelo menos 52. Apenas [nnonmobi]click[nmobi]tap[n] no botão Felicidade se você gostaria de ver quais áreas poderiam usar melhorias.[/n]
+theLostShip.json/GetMinHappiness.quickText|Traga a felicidade em sua cidade acima de 52.
+theLostShip.json/BuildStoneTeleporter.text|A quantidade de pedra neste planeta é bastante limitada. Felizmente, você acabou de pensar em uma maneira de resolver esse problema: um teletransportador de rochas poderia teletransportar rochas mineráveis de outros lugares. Vamos pesquisar e construir uma. Você pode querer construir alguns laboratórios para obter mais conhecimento.
+theLostShip.json/BuildStoneTeleporter.quickText|Construa um teletransportador de rochas.
+theLostShip.json/BuildObservatory.text|Muito bem feito! Você nunca vai ficar sem pedra agora.\nSua população está crescendo rapidamente, e este mundo é bem pequeno. É provavelmente uma boa idéia procurar por outros mundos para colonizar, então vamos construir um observatório.
+theLostShip.json/BuildObservatory.quickText|Construamos o observatório.
+theLostShip.json/Win.title|Cenário Completo!
+theLostShip.json/Win.text|Ótimo trabalho! Seus cientistas agora vão procurar por outros mundos para colonizar. Você pode jogar o próximo cenário para ver o que eles vão encontrar.\nSe você quiser continuar melhorando esta cidade, você pode sempre ir para o próximo cenário mais tarde a partir do menu.
+|
+multipleWorlds.json/Start.text|Logo após a construção do observatório, seus cientistas encontraram um mundo que parecia promissor. Você decidiu voar até lá e dar uma olhada. Aparentemente, seus cientistas não olharam muito de perto, porque o que eles pensavam ser um mundo são, na verdade, vários mundos minúsculos. Mesmo assim, este parece ser um local bastante adequado para construir uma cidade.\nPara começar, vamos construir um centro de corte de madeira, uma mina de pedra, uma fazenda coberta e uma casa.
+multipleWorlds.json/Start.quickText|Construa um centro de corte de madeira, uma mina de pedra, uma fazenda coberta e uma casa.
+multipleWorlds.json/MorePeople.text|Isso é um bom começo! Você convidou algumas pessoas de sua cidade anterior. Eles chegarão nos próximos dias.\nSeu cidadãos não parecem muito felizes agora. Vamos construir um pub para animá-los um pouco.
+multipleWorlds.json/MorePeople.quickText|Construa um pub.
+multipleWorlds.json/GoBuildMPF.text|O pub deve deixar seus cidadãos um pouco menos tristes! Para chegar aos outros mundos, você vai precisar de peças de máquinas, então vamos criar uma fábrica de peças de máquinas.
+multipleWorlds.json/GoBuildMPF.quickText|Construa uma fábrica de peças de máquinas.
+multipleWorlds.json/MachinePartsFactoryBuilt.text|A fábrica de peças de máquina é muito útil, mas atualmente não é muito eficiente. Vamos atualizá-la para reciclar sucata de metal. Isto irá reduzir a quantidade de pedra que ela usa.
+multipleWorlds.json/MachinePartsFactoryBuilt.quickText|Atualize sua fábrica de peças de máquina para que ela recicle sucata de metal.
+multipleWorlds.json/GoToOtherWorlds.text|[c]Você já construiu alguns patins de aterrissagem para conectar mundos. Bom trabalho![/][n]Bom trabalho! Agora, finalmente chegou a hora de chegar a outro mundo. A maneira mais fácil de fazer isso é construindo patins de pouso. Vamos construir duas delas: uma em seu mundo atual e outra em outro mundo que você gostaria de povoar[/].
+multipleWorlds.json/GoToOtherWorlds.quickText|Conecte o mundo atualmente povoado com outro através da construção de plataformas de pouso.
+multipleWorlds.json/GoToOtherWorldsDone.text|[c]Você já construiu uma fazenda experimental! Bem feito![/][n]Agora que sua cidade tem mais espaço, ela provavelmente vai crescer rapidamente. Em breve você terá muito mais bocas para alimentar. Para facilitar um pouco isso, vamos construir uma fazenda experimental[/].
+multipleWorlds.json/GoToOtherWorldsDone.quickText|Construir uma fazenda experimental.
+multipleWorlds.json/GoBuildRefinedMetalFactory.text|[c]Você já construiu uma fábrica de metais refinados! Bom trabalho![/][n]Para construir alguns tipos de construções, pedra bruta não é bom o suficiente. Você vai precisar refiná-la primeiro. Vamos construir uma fábrica de metais refinados para fazer exatamente isso.[/]
+multipleWorlds.json/GoBuildRefinedMetalFactory.quickText|Construir uma fábrica de metais refinados.
+multipleWorlds.json/GetHighHappiness.text|[c]Uau, estou impressionado! Você já tem a felicidade alta o suficiente para vencer este objetivo.[/][n]Metais refinados são legais, mas cidadãos felizes são certamente ainda mais simpáticos. Então vamos usar alguns desses metais refinados para melhorar a felicidade de seus cidadãos. Traga-o para pelo menos 80.[/]
+multipleWorlds.json/GetHighHappiness.quickText|Traga a felicidade acima de 80. Isto exclui os reforços temporários.
+multipleWorlds.json/Win.title|Cenário Completo!
+multipleWorlds.json/Win.text|Seus cidadãos estão realmente felizes agora, e eles não iriam querer viver em nenhum outro lugar. Ótimo trabalho!\n\nVocê agora pode jogar o próximo cenário, ou continuar melhorando sua cidade, se quiser. Obrigado por jogar!
+|
+hackersandaliens.json/Start.text|A humanidade está lentamente colonizando o espaço. Este é o mais novo posto avançado. Ainda é bem pequeno, mas novas pessoas estão chegando rapidamente.\nVocê não quer que eles fiquem desabrigados, é claro. Para evitar isso, construa casas até que você tenha pelo menos cinqüenta pessoas.
+hackersandaliens.json/Start.quickText|Construa casas até que você tenha um total de cinqüenta pessoas no total.
+|
+hackersandaliens.json/ExploreAlienRuins.quickText|Explore as ruínas alienígenas neste mundo.
+hackersandaliens.json/ExploreAlienRuins2.text|Muito bem!\nAs ruínas alienígenas aqui parecem diferentes daquelas que você viu antes. Vamos explorá-las para descobrir mais.\nbr\nTambém, alguns dos mundos aqui têm um brilho estranho. Vamos construir uma nave de pesquisa para investigar isto enquanto você está explorando as ruínas.
+hackersandaliens.json/ExploreAlienRuins2.quickText|Construa uma nave de pesquisa e explore as ruínas alienígenas neste mundo.
+hackersandaliens.json/InTheMeantime2.text|Agora que você construiu a espaçonave, é hora de fazer alguma pesquisa! Certifique-se de que um trabalhador seja designado para a nave espacial de pesquisa e espere até que eles explorem um pouco.
+hackersandaliens.json/InTheMeantime2.quickText|Designar um trabalhador para a espaçonave de pesquisa e esperar até que eles explorem um pouco.
+hackersandaliens.json/InTheMeantime3.text|O trabalhador da nave espacial de pesquisa notou um poder estranho que os impedia de se aproximar dos mundos brilhantes. Isto também significa que você não pode construir sobre eles. Talvez as ruínas alienígenas possam ajudar?
+hackersandaliens.json/InTheMeantime3.quickText|Explore as ruínas alienígenas neste mundo.
+hackersandaliens.json/BuildRefinedMetalsFactory.text|Enquanto investigavam as ruínas alienígenas, seus exploradores encontraram um pequeno dispositivo. Você acha que ele pode ter algo a ver com os mundos inacessíveis.\nNo entanto, nenhum de seus cidadãos foi capaz de dar sentido a ele. Talvez ter alguns computadores possa ajudar? Para construí-los, você precisará primeiro de alguns metais refinados. Construa uma Fábrica de Metais Refinados para produzi-los.
+hackersandaliens.json/BuildRefinedMetalsFactory.quickText|Construa uma Fábrica de Metais Refinados.
+hackersandaliens.json/BuildComputerResearchCenter.text|Sua nova fábrica de metais refinados está com bom aspecto!\nConstruir um computador é na verdade bastante complicado. Portanto, você precisará construir primeiro o Centro de Pesquisa Computacional.
+hackersandaliens.json/BuildComputerResearchCenter.quickText|Construir o Centro de Pesquisa de Computação.
+hackersandaliens.json/BuildComputerChipFactory.text|Ótimo trabalho! Agora, você só precisa de alguns chips para poder fazer um computador. Vamos construir uma Fábrica de Chip de Computador e fazer cinco chips de computador.
+hackersandaliens.json/BuildComputerChipFactory.quickText|Construa uma Fábrica de Chips de Computador e faça cinco chips de computador.
+hackersandaliens.json/BuildArcades.text|Você construiu um computador e conectou o dispositivo alienígena... mas há um pequeno problema. Todos os dados são criptografados!\nTalvez os Hackers do Parafuso possam ajudar. No entanto, antes que eles queiram se estabelecer aqui, eles solicitam que você construa três Arcades.
+hackersandaliens.json/BuildArcades.quickText|Construa três arcadas.
+hackersandaliens.json/BuildHackers.text|Os Hackers do Parafuso parecem satisfeitos com a sua cidade. Vamos construir o QG deles agora!
+hackersandaliens.json/BuildHackers.quickText|Construa os Hackers do QG do Parafuso.
+hackersandaliens.json/CompleteHackerMissions.text|Os Hackers do Parafuso deram uma olhada nos dados criptografados, mas eles precisam de um pouco mais de experiência para serem capazes de quebrá-los. Vamos completar algumas de suas missões para ajudá-los com isso!
+hackersandaliens.json/CompleteHackerMissions.quickText|Completar algumas missões dos Hackers do Bolt.
+hackersandaliens.json/BuildDecryptBuilding.text|Os Hackers do Bolt pensam que agora eles podem decifrar a criptografia, mas eles precisam de um computador especializado primeiro. Vamos construir o Decriptor Alienígena para eles!
+hackersandaliens.json/BuildDecryptBuilding.quickText|Construa o Decriptor Alienígena.
+hackersandaliens.json/Wait.text|Ótimo trabalho! Agora a única coisa que falta fazer é esperar enquanto o Decriptor faz o seu trabalho. Isto não deve levar mais do que um dia.
+hackersandaliens.json/Wait.quickText|Deixe o Decriptor fazer o seu trabalho.
+hackersandaliens.json/Win.title|Cenário Completo!
+hackersandaliens.json/Win.text|A decriptação foi bem sucedida, e os Hackers do Parafuso logo serão capazes de remover o brilho restritivo dos mundos trancados. Agora você pode continuar a construir uma cidade incrível aqui! Alternativamente, você pode jogar um cenário de Free Play. Muito obrigado por jogar!
+|
+priority|prioridade
+no_destroy_allowed|Seus cidadãos não querem destruir prédios agora mesmo!
+previous_city_arrived|Todas as pessoas de sua cidade anterior já chegaram. É claro, sua população ainda pode crescer através de seus descendentes.
+moved_here_arrived|As pessoas que queriam se mudar para cá já chegaram todas. É claro, sua população ainda pode crescer através de seus descendentes.
+|
+decorationsInfo.json/spr_decoration_keycity.name|Grama Seca
+decorationsInfo.json/spr_flowers_keycity.name|Capim Seco com Flores
+secret_society_forbidden|A chave não iria querer isso.
+citizens_unhappy_key|A Chave precisa que seus cidadãos sejam pelo menos moderadamente felizes, caso contrário eles são lentos e inúteis. Você é aconselhado a consertar os problemas deles, por mais comuns que sejam.
+slanted_roofs|Telhados inclinados
+buildinginfo.json/ColoredBlock.name|Bloco Pintado
+buildinginfo.json/ColoredBlock.description|Um edifício pintado em uma única cor para fins decorativos, ou como um espaço reservado.
+colored_blocks|Blocos Pintados
+stone_warning|Advertência! Não há mais rochas em um mundo alcançável! Tente construir um teletransportador de rochas. Se necessário, junte alguns chips de máquina com o Workshop primeiro.
+mines_warning|Atenção! Você parece ter muito mais teletransportadores de rochas do que minas de pedra. Teletransportadores de rochas só teletransportam rochas. Eles normalmente não produzem rochas. Você precisa de minas de pedra para realmente extrair os meteroides.
+buildinginfo.json/RooftopDecoration.name|Telhado inclinado
+buildinginfo.json/RooftopDecoration.description|Um belo telhado inclinado para fins decorativos.
+slanted_rooftops|Telhados inclinados
+buildinginfo.json/RooftopDecoration2.name|Telhado inclinado
+buildinginfo.json/RooftopDecoration2.description|A parte de cima de um telhado inclinado.
+buildableWorldResourcesInfo.json/BranchyForest.name|Floresta ramificada
+buildableWorldResourcesInfo.json/BranchyForest.description|Plante árvores jovens que crescerão até se tornarem uma floresta ramificada.
+invite_people|Convidar Cidadãos
+invite_people_description|Para convidar [0] mais pessoas para sua cidade, você deve ter casas suficientes para elas e pagar:
+invite_people_done|Você não pode mais encontrar ninguém que queira ser convidado para ir à sua cidade.
+invite_not_enough_houses|Não há mais casas suficientes para convidar mais pessoas.
+cant_afford|Você não pode pagar por isso!
+invite_people_success|Você convidou [0] pessoas! Elas chegarão em breve.
+|
+glory_of_the_key|Glória da Chave
+luxury_housing|Carcaça de Luxo
+high_end_restaurants|Restaurantes Upscale
+sculptures|Esculturas
+buildinginfo.json/LuxuryRestaurant.name|Restaurante Upscale
+buildinginfo.json/LuxuryRestaurant.description|Um restaurante altamente avaliado, com refeições exclusivas e uma atmosfera elegante.
+buildinginfo.json/HouseOfTheKeyFriends.name|Amigos da Chave
+buildinginfo.json/HouseOfTheKeyFriends.description|Uma casa para amigos da Sociedade Secreta da Chave. Enquanto A Máquina existir, as pessoas nesta casa viverão para sempre.
+get_premium_to_unlock|Obtenha Premium para desbloquear isto!
+|
+stories.json/cityofthekey.name|Cidade da Chave
+stories.json/cityofthekey.description|A Sociedade Secreta da Chave convida você generosamente a administrar a gloriosa cidade deles.
+cityofthekey.json/Start.text|Nós, a Sociedade Secreta da Chave, esperamos e esperamos que você seja grato por ter chegado à nossa bela cidade. Queremos construir uma cidade que prove a nossa grandeza, mas estamos cansados de lidar com os negócios do dia-a-dia - antecipamos que você possa ajudar.
+cityofthekey.json/Start.quickText|Espere pela sua primeira missão.
+cityofthekey.json/InvitePeople.text|Hoje em dia, há muita competição entre as cidades. As pessoas não se mudam apenas para uma nova colônia de graça, nem mesmo para a gloriosa Cidade da Chave. Elas querem comida como recompensa de realocação, e quem sabe o que mais elas vão querer no futuro. Nós achamos isso ridículo, mas é como é. Por favor, convide mais alguns cidadãos.
+cityofthekey.json/InvitePeople.quickText|Convide alguns cidadãos usando a opção de Gerenciamento.
+cityofthekey.json/ImproveEconomy.text|Você pode convidar novas pessoas sempre que desejar.\n\nSentimos que pode haver espaço para melhorias no departamento de produção. Nós gostaríamos que você produzisse pelo menos 100 alimentos, 100 pedras e 50 conhecimentos em um dia. Pode ser uma boa idéia desativar nossos teletransportadores de vez em quando, pois eles parecem exigir muito conhecimento.
+cityofthekey.json/ImproveEconomy.quickText|Produzir pelo menos 100 alimentos, 100 pedras e 50 conhecimentos em um dia.
+cityofthekey.json/BuildSculptures.text|As pessoas nesta cidade, por direito, se preocupam com a Glória da Chave. Construir cinco jardins escultóricos para melhorar nossa Glória e, assim, a felicidade de nossos cidadãos.
+cityofthekey.json/BuildSculptures.quickText|Construir cinco jardins de esculturas.
+cityofthekey.json/HaveEnoughPeople.text|[c]Estamos satisfeitos em ver nossa cidade crescer com sucesso para 300 cidadãos[/][n]Gostaríamos de ver nossa cidade crescer para pelo menos 300 cidadãos. Talvez você possa convidar algumas pessoas.
+cityofthekey.json/HaveEnoughPeople.quickText|Tenha pelo menos 300 cidadãos em sua cidade. Você pode usar o recurso de invitiation.
+cityofthekey.json/GatherKnowledge.text|Nossa cidade deve reunir todo o conhecimento do universo. Para começar, reúna pelo menos 150 em um dia.
+cityofthekey.json/GatherKnowledge.quickText|Reúna pelo menos 150 conhecimentos em um dia.
+cityofthekey.json/BuildLuxuryRestaurants.text|É hora de um pouco mais de glória e luxo. Por favor, construa um restaurante de luxo para que possamos melhorar a Glória da Chave.
+cityofthekey.json/BuildLuxuryRestaurants.quickText|Construa um restaurante de luxo.
+cityofthekey.json/BuildTeleporters.text|Ter um bom transporte é importante. [c]Estamos felizes em ver que você entende isso e já construiu alguns teleportadores.[/][n]Deveria haver pelo menos cinco teleportadores em nossa cidade.
+cityofthekey.json/BuildTeleporters.quickText|Tenha pelo menos cinco teletransportadores em sua cidade.
+cityofthekey.json/ImproveOurHousing.text|É bom cuidar de nossos cidadãos, mas no final nós somos obviamente os mais importantes. Nossa casa está bem, mas poderia ser melhor. Pesquisa Viver em segredo no Centro de Pesquisa Viva.
+cityofthekey.json/ImproveOurHousing.quickText|Pesquisa Viver em Segredo no Centro de Pesquisa Viva.
+cityofthekey.json/BuildLuxuryHousing.text|Agora que nossa casa está melhor, é hora de construir algumas grandes casas para pessoas que também gostamos. Construa três vilas. Isto aumenta a Glória da Chave.
+cityofthekey.json/BuildLuxuryHousing.quickText|Construa três vilas.
+cityofthekey.json/FinalGlory.text|A Chave deve ser sempre gloriosa. [c]Estamos satisfeitos em ver que de fato é.[/][n]Melhorar a Glória da Chave para 100.
+cityofthekey.json/FinalGlory.quickText|Melhore a Glória da Chave para 100. Você pode verificá-la na janela da Felicidade.
+cityofthekey.json/GatherKnowledge2.text|Já dissemos isso antes, mas queremos enfatizar que o conhecimento é realmente importante para nós. Portanto, junte pelo menos 750 conhecimentos em um dia.
+cityofthekey.json/GatherKnowledge2.quickText|Reúna pelo menos 750 conhecimentos em um dia.
+cityofthekey.json/BuildTheMachine.text|Agora que já reunimos conhecimento suficiente, é hora de construir nosso projeto secreto. Nós gostaríamos que você construísse a Máquina.
+cityofthekey.json/BuildTheMachine.quickText|Construa a Máquina.
+cityofthekey.json/Win.title|Cenário Completo!
+cityofthekey.json/Win.text|Estamos bastante satisfeitos com o seu trabalho. Portanto, agora você pode construir uma casa para os Amigos da Chave, que viverão para sempre assim como nós.
+
+gdpr_description_1|Obrigado por jogar The Final Earth 2! As empresas parceiras podem coletar alguns dados sobre você para melhorar o jogo, para lidar com suas compras e para mostrar anúncios. Eu sempre tento limitar isso o máximo possível.
+more_info|Mais informações
+gdpr_description_2|Para ajudar a apoiar o jogo, eu peço o seu consentimento opcional para mostrar anúncios personalizados. Isto usa alguns dados sobre sua atividade neste jogo e em outros aplicativos para mostrar anúncios melhores.
+gdpr_option_accept|Aceite
+gdpr_option_reject|Não Consentir
+changes_apply_on_reload|Esta mudança será aplicada na próxima vez que você começar o jogo.
+task_complete|Tarefa Completa!
+please_wait|Por favor, aguarde...
+tip|Conselho
+
+floating_platform|Plataforma flutuante
+floating_platform_cannot_destroy|Não se pode destruir uma plataforma flutuante que está suportando edifícios.
+floating_platform_description|Você pode colocar edifícios sobre esta plataforma forte.
+stories.json/FreePlayMiniWorld.name|Jogo livre - Mini Mundo
+stories.json/FreePlayMiniWorld.description|Este mundo é minúsculo, mas tem alguma tecnologia avançada.
+domeroofs|Telhados em cúpula
+buildinginfo.json/RooftopDecoration3.name|Telhado em cúpula
+buildinginfo.json/RooftopDecoration3.description|Uma cúpula que pode ser colocada sobre um telhado.
+buildinginfo.json/TreePlantationDome.name|Plantação de árvores em cúpula
+buildinginfo.json/TreePlantationDome.description|Devido às condições ideais de luz, estas árvores crescem ainda mais rápido do que as de uma plantação de árvores.
+
+resume|Continuar
+tap_anywhere|Toque em qualquer lugar
+|
+build_mode_destroyleavinghole_explanation|Destruir um edifício, depois deixar um buraco em vez de mover os edifícios acima para baixo.
+build_mode_destroyleavinghole|Destruir, Deixar um buraco
+invalid_structure_2|Não se pode destruir este edifício e deixar um buraco, pois isso resultaria em uma estrutura inválida.
+roof_bottoms|Bases de telhado inclinadas
+buildinginfo.json/RooftopDecoration4.name|Base de telhado inclinada
+buildinginfo.json/RooftopDecoration4.description|Uma peça inferior para dois telhados inclinados.
+save_screenshot_failed|Infelizmente, não pudemos salvar sua imagem de tela. Sua cidade provavelmente é grande demais para poder filmar.
+bridge_is_potential|Esta ponte não cabe aqui neste momento.
+|
+premium_advantage_6|Novo recurso: o grafeno!
+premium_advantage_1|Mais de 25 novas construções, incluindo a Estação de Trem e o Aquário!
+premium_advantage_7|Plataformas flutuantes e pontes para construir cidades ainda mais criativas
+|
+citizens_unhappy_food|Seus cidadãos não têm comida suficiente! Isto os torna muito infelizes e eles trabalharão mais lentamente. Tente construir mais fazendas, destinando mais trabalhadores a fazendas, ou construir fazendas mais próximas de casas para reduzir o tempo de viagem.
+limited_per_citizens|Limite: 1 por [0] cidadãos
+buildinginfo.json/SpecializedMedicalClinic.name|Clínica Médica Especializada
+buildinginfo.json/SpecializedMedicalClinic.description|Especializado no tratamento de doenças complicadas. Melhora a felicidade médica e faz com que os cidadãos vivam mais tempo.
+|
+build_mode_multi_replace_explanation|Arraste para construir ou substituir rapidamente edifícios.
+build_mode_multi_replace|Modo de construção: Multi-Substituição
+bridgesInfo.json/Bridge.name|Ponte
+bridgesInfo.json/Bridge.description|Esta passarela conecta dois edifícios no máximo com três espaços separados. As naves espaciais de Landing Pads podem viajar através dela.
+bridgesInfo.json/ReinforcedBridge.name|Ponte Reforçada
+bridgesInfo.json/ReinforcedBridge.description|Esta passarela conecta dois edifícios no máximo com sete espaços separados. As naves espaciais de Landing Pads podem viajar através dela.
+buildinginfo.json/TechMuseum.name|Museu da Ciência
+buildinginfo.json/TechMuseum.description|Um museu de ciência e tecnologia. Ele melhora a felicidade da arte e também educa os visitantes.
+
+decorationsInfo.json/spr_snowman.name|Boneco de neve
+decorationsInfo.json/spr_lanterns.name|Lanternas Decoradas
+buildingUpgradesInfo.json/MiniChristmasTree.name|Pequena árvore de Natal
+buildingUpgradesInfo.json/MiniChristmasTree.description|Esta árvore de Natal faz com que a casa se sinta mais acolhedora.
+buildinginfo.json/ChristmasTree.name|Árvore de Natal
+buildinginfo.json/ChristmasTree.description|Uma grande árvore de Natal para que toda a cidade possa desfrutar.
+buildinginfo.json/ChristmasMarket.name|O mercado de Natal
+buildinginfo.json/ChristmasMarket.description|Um mercado festivo com comidas e bebidas deliciosas e quentes.
+buildableWorldResourcesInfo.json/ForestSnow.name|Floresta nevada
+buildableWorldResourcesInfo.json/ForestSnow.description|Uma floresta coberta de neve.
+stories.json/snowWorld.name|Terra de inverno
+stories.json/snowWorld.description|Construir um paraíso de inverno sobre este mundo nevado.
+buildinginfo.json/ChristmasTree.showUnlockHint|Atingir pelo menos 60 felicidade para desbloquear.
+snowWorld.json/Start.text|Bem-vindo a este mundo nevado! Este é um ótimo lugar para celebrar as férias. Mas primeiro, vamos construir uma pequena base, com pelo menos três casas, duas fazendas internas, uma mina de pedra e um centro de corte de madeira.
+snowWorld.json/Start.quickText|Construamos três casas, duas fazendas internas, uma mina de pedra e um centro de corte de madeira.
+snowWorld.json/ChristmasTreesInHouses.text|Essa é definitivamente uma pequena base agradável, mas essas casas não parecem muito festivas. Vamos adicionar uma pequena árvore de Natal a cada uma para consertar isto.
+snowWorld.json/ChristmasTreesInHouses.quickText|Acrescentemos uma árvore de Natal para acrescentar pelo menos três casas.
+snowWorld.json/ChristmasMarket.text|Assim está melhor! Um mercado de Natal pode oferecer a seus cidadãos comidas e bebidas tradicionais deliciosas, como Lebkuchen e Glühwein. Vamos construir três delas.
+snowWorld.json/ChristmasMarket.quickText|Construamos três mercados de Natal.
+snowWorld.json/ChristmasTree.text|Você tem algumas árvores de Natal pequenas, mas seria bom ter uma grande como centro para as comemorações. Vamos primeiro alcançar 65 felicidade e depois construir uma árvore de Natal para toda a cidade.
+snowWorld.json/ChristmasTree.quickText|Alcançar 65 felicidade, depois construir uma árvore de Natal para a cidade inteira.
+snowWorld.json/Win.text|Você construiu um ótimo lugar para celebrar as festas e seus cidadãos estão se divertindo muito! Se você quiser, você pode continuar jogando e melhorar ainda mais esta cidade.\n\nObrigado por jogar, espero que você também tenha umas férias muito felizes, assim como seus cidadãos! - Florian
+
+buildinginfo.json/Loft.name|Apartamento Loft
+buildinginfo.json/Loft.description|Um telhado com um teto alto e muita luz, perfeito para artistas. Gera uma pequena quantidade de felicidade artística.
+buildingUpgradesInfo.json/SoundProofing.name|Insonorização
+buildingUpgradesInfo.json/SoundProofing.description|Melhora a qualidade da carcaça em 12.
+
+policiesInfo.json/FoodRationing.name|Racionamento de alimentos
+policiesInfo.json/FoodRationing.description|Seus cidadãos consomem a metade dos alimentos. No entanto, sua felicidade é reduzida em um terço se for acima de 10.
+policiesInfo.json/SmallerClasses.name|Tamanhos menores de classe
+policiesInfo.json/SmallerClasses.description|As escolas dão uma educação 15% melhor, mas sua capacidade é reduzida em um terço.
+policiesInfo.json/MandatoryOvertime.name|Horas extras obrigatórias
+policiesInfo.json/MandatoryOvertime.description|Seus cidadãos trabalham duas horas por dia a mais. Sua felicidade vai diminuindo gradualmente enquanto esta política é implementada. Depois de terminá-la, a felicidade começa a se recuperar lentamente após um dia.
+
+restore_purchases|Restaurar as compras
+restoring_purchases|Restauração de Compras...
+
+following_frog|Seguindo o Sapo Gigante
+cant_find_frog|O sapo gigante desapareceu.
+total_extra_years|Total de anos extras dados: [0]
+
+reduce_ui_size|Reduzir o tamanho da UI:
+
+buildinginfo.json/UnderwaterHouse.name|Casa subaquática
+buildinginfo.json/WizardHatCafe.name|Café Wizard Hat
+buildinginfo.json/WizardHatCafe.description|Um café possivelmente mágico no telhado. Parece que ocasionalmente desovam rãs gigantes.
+buildinginfo.json/LandingSiteTunnel.name|Coxim de pouso interno 
+buildinginfo.json/LandingSiteTunnel.description|Uma plataforma de aterrissagem que pode ser integrada em um edifício. Também pode ser conectada a túneis de naves espaciais.
+buildinginfo.json/SpaceShipTunnel.name|Túnel de naves espaciais
+buildinginfo.json/SpaceShipTunnel.description|As naves espaciais podem passar por este túnel.
+bridgesInfo.json/BotanicalBridge.name|Ponte do Parque
+bridgesInfo.json/BotanicalBridge.description|Uma ponte reforçada que pode conectar bem parques ou jardins botânicos. Pode ter até sete espaços de largura.
+buildinginfo.json/AlienFarm.name|Fazenda alienígena
+buildinginfo.json/AlienFarm.description|Uma fazenda que cultiva estranhas culturas roxas. Produz mais alimentos para cada casa alienígena adjacente. Não afetada pela tecnologia de laboratório.
+cityUpgradesInfo.json/EcoFarmUpgrade.name|Permacultura
+cityUpgradesInfo.json/EcoFarmUpgrade.description|As fazendas ecológicas produzem mais alimentos.
+buildinginfo.json/BotanicalGardensDome.name|Jardim Botânico Dome
+buildinginfo.json/BotanicalGardensDome.description|Um telhado elegante para seus jardins botânicos.
+
+build_rocket|Construa Foguete
+rocket_description|Foguetes podem ser usados apenas uma vez.
+rocket_launch_cant_destroy_while_executing|Não se pode destruir uma plataforma de lançamento de foguetes enquanto se executa uma missão.
+
+rocket_reward_nothing|Seu foguete voltou em segurança, mas não encontraram nada de especial durante sua missão.
+rocket_reward_fossils|Seus mineiros encontraram um fóssil! Eles também juntaram [0] pedra.
+rocket_reward_stone|Seus mineiros recolheram [0] pedra.
+rocket_reward_refinedmetals|Seus mineiros encontraram alguns cristais brilhantes que podem ser usados como [0] metais refinados.
+rocketFuel|Combustível de foguete
+rocketFuel_use|Usado para missões com foguetes.
+buildingUpgradesInfo.json/FactoryUsingWood.name|Usar madeira
+buildingUpgradesInfo.json/FactoryUsingWood.description|A fábrica usará madeira para fazer combustível para foguetes.
+buildingUpgradesInfo.json/FactoryUsingFood.name|Usar alimentos
+buildingUpgradesInfo.json/FactoryUsingFood.description|A fábrica usará alimentos para fazer combustível para foguetes.
+rocket_fuel_made|[0] alimentos/madeira usados para fabricar [1] combustível para foguetes.
+buildinginfo.json/RocketFuelFactory.name|Fábrica de combustível para foguetes
+buildinginfo.json/RocketFuelFactory.description|Produz combustível de foguete a partir de madeira ou alimentos. Um recurso é usado para fazer uma unidade de combustível para foguetes.
+buildinginfo.json/GlassPiece.name|Janela Decorativa
+buildinginfo.json/GlassPiece.description|Uma janela para fins decorativos, ou como um espaço reservado.
+fuel_cost|Utiliza [0] combustível de foguete.
+mission_warning_too_little_fuel|Você precisa de combustível de foguetão suficiente!
+mission_warning_too_small_crew|Você precisa escolher quatro tripulantes para iniciar uma missão!
+mission_warning_already_started|Você já está executando esta missão!
+mission_warning_no_crew_found|Não conseguimos encontrar os trabalhadores certos para esta tripulação, ou eles não conseguiram alcançar o foguete!
+mission_complete|Sua missão de foguetão voltou!
+rocket_unlock_AlienFarm|Seus exploradores encontraram um projeto para construir uma fazenda alienígena, junto com algumas sementes estranhas que talvez você possa cultivar lá.
+rocket_unlock_WizardHatCafe|Seus exploradores encontraram um planeta com um estranho edifício em forma de chapéu. Agora você pode construí-lo.
+rocket_unlock_RocketFuelFactoryEfficiency|Seus engenheiros pensaram em uma maneira de fazer combustível para foguetes mais eficientemente, que você pode agora pesquisar em fábricas de combustível para foguetes.
+rocket_unlock_UnderwaterHouse|Seus exploradores descobriram um planeta totalmente coberto por oceanos. Eles viram casas subaquáticas e descobriram como construí-las.
+buildinginfo.json/OldestTreeIntheUniverse.name|A árvore mais antiga do Universo
+buildinginfo.json/OldestTreeIntheUniverse.description|Faz com que os cidadãos que o visitam vivam mais tempo.
+rocket_unlock_OldestTreeIntheUniverse|Seus biólogos encontraram uma árvore que parece realmente velha. Eles acham que é provavelmente a árvore mais velha do universo.
+buildingUpgradesInfo.json/RocketFuelFactoryEfficiency.name|Engenharia Metabólica
+buildingUpgradesInfo.json/RocketFuelFactoryEfficiency.description|O combustível de foguete é produzido mais rapidamente e utiliza metade dos recursos.
+buildingUpgradesInfo.json/RefinedMetalFactoryEfficiency.name|Curva de temperatura otimizada
+buildingUpgradesInfo.json/RefinedMetalFactoryEfficiency.description|A fábrica trabalha mais rápido e utiliza menos uma pedra por unidade de metal refinado produzido.
+rocket_unlock_RefinedMetalFactoryEfficiency|Você encontrou um mundo coberto de máquinas. Seus engenheiros descobriram uma maneira de melhorar as fábricas de metais refinados.
+
+unlimited_resources_disables_achievements|Nota: As conquistas são desativadas em economias que já utilizaram recursos ilimitados.
+steam_workshop|Oficina da Steam
+get_mods|Obter Mods
+open_workshop|Abra o Workshop para obter os mods
+manage_mods|Gerenciar Modos Instalados
+manage_mods_explain|Os mods são ativados automaticamente. Você pode desativá-los aqui.
+create_mods|Carregue seus Mods
+new_mod_workshop|Criar Novo Mod
+load_more|Carregar mais
+manage_mod|Gerenciar Mod:
+untitled_mod|Sem título Mod
+open_workshop_for_mod|Abra o Workshop para personalizar sua página mod e alterar outras configurações
+upload_mod_content|Upload de conteúdo do Mod Mod
+upload_mod_content_explainer|Crie um diretório em <tt>%localappdata%\the-final-earth-2\User Data\Default\mods</tt> para desenvolver seu mod. Em seguida, escolha o diretório abaixo e clique em Upload para fazer o upload de seu mod.
+no_mods_found_refresh|Nenhum mods encontrado - clique para atualizar
+choose_subdirectory|Escolha Diretório
+upload|Upload
+please_choose_subdirectory|Por favor, escolha um diretório.
+
+buildinginfo.json/TrainRail.name|Trilho de alta velocidade
+buildinginfo.json/TrainRail.description|Os trens podem ir extra rápido aqui.
+buildinginfo.json/TrainRail.showUnlockHint|Construa dez estações de trem para desbloquear!
+change_dome_variant|Mude a Variante da Cúpula
+
+minimum_wait_between_trains|Mínima espera entre as partidas:
+reset_minimum_wait_between_trains|Reinicialização da espera mínima entre as partidas.
+find_homeless|Encontrar um sem-teto
+
+capacity|Capacidade [0]
+entertainment_window_explain|Isto mostra a capacidade de seu entretenimento por tipo.
+total|Total
+|
+rocket_unlock_OtherworldlyZoo|Você explorou um planeta exuberante. Seus exploradores levaram algumas plantas e criaturas com eles, de modo que agora você pode construir o Zoológico do Outro Mundo.
+mission_in_progress|Missão em progresso...
+prepare_mission|Agora você pode preparar uma missão.
+choose_destination|Escolha o destino
+nearby_space|Espaço nas proximidades
+nearby_space_explain|Menor custo de combustível e menor tempo de viagem.\n[0]% explorado
+distant_space|Espaço Distante
+distant_space_explain|Potencial para descobertas mais exóticas, mas leva mais tempo e um custo de combustível mais alto.\n[0]% explorado
+buildinginfo.json/OtherworldlyZoo.name|Outro zoológico mundial
+buildinginfo.json/OtherworldlyZoo.description|Um zoológico com plantas e animais de outras partes do mundo.
+everything_found|(Tudo encontrado)
+rocket_unlock_GrapheneFactoryImprovement|Seus engenheiros estudaram um mundo que era coberto por uma camada de grafeno. Com algumas pesquisas posteriores, eles puderam fazer com que as fábricas de grafeno trabalhassem mais rapidamente.
+rocket_unlock_RocketMissionSupercomputerUpgrade|Vocês viram um mundo que era um gigantesco supercomputador abandonado. Seus engenheiros levaram parte de sua tecnologia para que seu próprio supercomputador produzisse mais conhecimento.
+mission_completed_nothing_found|Sua missão voltou com sucesso, mas infelizmente você não encontrou nada de especial.
+rocket_unlock_RocketTeleporterCostReductionFromWorld|Você pousou em um mundo que se revelou um labirinto de teletransportadores. Depois de finalmente conseguir, seus engenheiros conseguiram que seus próprios teletransportadores funcionassem de forma mais eficiente.
+following_animal|Seguindo a criatura
+cant_find_animal|Você não consegue mais encontrar a criatura.
+buildinginfo.json/AlienNightClub.name|Boate alienígena
+buildinginfo.json/AlienNightClub.description|As pessoas adoram dançar com uma atmosfera alienígena.
+buildingUpgradesInfo.json/GrapheneFactoryImprovement.name|Precisão aprimorada
+buildingUpgradesInfo.json/GrapheneFactoryImprovement.description|A fábrica trabalha 50% mais rápido.
+rocket_unlock_RocketMissionRocketFuelFactoryUpgrade|Em um mundo de selva, você encontrou algumas bactérias que produzem combustível a partir de resíduos. Seus biólogos usaram este conhecimento para fazer suas fábricas de combustível de foguetes trabalharem mais rápido.
+choose_crew|Escolha a tripulação
+choose_crew_explain|Quatro membros da tripulação cabem no foguete. Você pode escolher trabalhadores de certos prédios. Escolha-os sabiamente para afetar o que você puder encontrar.
+rocket_explorer_explain|Encontre sinais de civilização
+rocket_engineer_explain|Encontrar tecnologia
+rocket_botanical_explain|Encontrar plantas ou animais
+rocket_navigator_explain|Reduzir a duração e o uso de combustível
+rocket_miner_explain|Ganhar recursos e fósseis
+start_mission|Iniciar Missão!
+|
+center_on_work|Visão central sobre o trabalho
+center_on_school|Vista central sobre a escola
+center_on_house|Vista do centro em casa
+|
+rocket_unlock_RocketMissionCheaperRockets|Seus exploradores encontraram um foguete naufragado. Eles o investigaram e encontraram uma maneira de construir foguetes utilizando menos materiais.
+|
+file_description_colony|[0] & [1] outros - [2] cidadãos
+stories.json/RocketExploreRockLand.name|Mundo das Pedras
+switch_city_menu|Mudar para uma cidade associada
+switch_city|Mudar de cidade
+rocket_other_planet_explain|Enviar recursos ou cidadãos.
+rocket_other_planet_explain_more|Uma tripulação de quatro exploradores acompanhará o navio nesta missão. Ele usará [0] combustível de foguete.
+rocket_other_planet_ask|O que você quer enviar?
+dont_have_materials|Você não tem materiais suficientes para isso.
+mission_warning_no_citizens_to_send_found|Não conseguimos encontrar cidadãos suficientes para enviar para a outra cidade!
+mission_gathering|Reunindo a tripulação...
+mission_gathering_2|Reunindo cidadãos...
+rocket_other_city_tutorial|Agora você pode mudar para sua cidade explorada! Depois de visitá-la uma vez, você pode enviar recursos e cidadãos com o foguete.
+rocket_unlock_RocketSubCityRockWorld|Seus exploradores encontraram um mundo novo e rochoso. Parece um pouco árido, mas também parece habitável. Agora você pode colonizá-lo.
+rocket_unlock_RocketSubCityStrangeForests|Seus exploradores encontraram um grupo de mundos arborizados habitáveis que agora você pode colonizar.
+citizen_left|[0] deixaram a cidade.
+stories.json/RocketExploreStrangeForests.name|Mundos arborizados
+buildableWorldResourcesInfo.json/RedForest.name|Floresta Vermelha
+buildableWorldResourcesInfo.json/RedForest.description|Plante árvores jovens que crescerão em uma floresta vermelha.
+buildableWorldResourcesInfo.json/PurpleForest.name|Floresta púrpura
+buildableWorldResourcesInfo.json/PurpleForest.description|Plante árvores jovens que crescerão em uma floresta púrpura em outro mundo.
+limitedBuilding|Limite: [0]
+|
+buildinginfo.json/RocketLaunchPlatform.description|Construir foguetes para explorar o espaço.
+allow_zooming_out_further|Permitir ampliar ainda mais o zoom
+rocket_unlock_AlienNightClub|Seus exploradores encontraram uma casa noturna abandonada. As luzes ainda estavam funcionando. Eles pegaram algumas partes dela, e a documentaram cuidadosamente, de modo que agora você pode reconstruí-la.
+|
+explorers|Exploradores
+engineers|Engenheiros
+biologists|Biólogos
+navigators|Navegadores
+miners|Mineiros
+buildinginfo.json/UnderwaterHouse.description|Viva entre os peixes!
+buildinginfo.json/Mansion.name|Mansão
+buildinginfo.json/Mansion.description|Uma casa grande e luxuosa com um teletransportador privado. Ela melhora a educação dos moradores e os faz viver um pouco mais. A qualidade da moradia é aumentada em 25 se conectada a outra mansão.
+buildinginfo.json/RooftopPark.name|Parque no telhado
+buildinginfo.json/RooftopPark.description|Os telhados verdes podem ficar muito bonitos e dar mais espaço a seus cidadãos para experimentar a natureza.
+buildinginfo.json/FeatherAlliance.name|Posto avançado da Feather Alliance
+buildinginfo.json/FeatherAlliance.description|A Feather Alliance tem um objetivo simples: descobrir tudo o que puder sobre o universo. Eles agradeceriam sua ajuda.
+|
+redwoodtree_credits|Textura e conceito por Luk XD 99
+build_redwood_wait|Você pode fazer esta madeira vermelha crescer em [0] horas.
+build_redwood_wait_1|Você pode fazer esta madeira vermelha crescer em [0] horas.
+buildinginfo.json/RedwoodTree.name|Árvore pau-brasil
+buildinginfo.json/RedwoodTree.description|Uma árvore que pode crescer muito alto. Ela só pode ser construída no chão. Você pode fazê-la crescer uma vez a cada 24 horas.
+buildinginfo.json/RedwoodTreeHouse.name|Casa da Árvore Redwood
+buildinginfo.json/RedwoodTree.showUnlockHint|Construa 40 Casas Comunitárias para desbloquear!
+build_redwood_house|Construa uma casa na árvore
+build_redwood_house_description|Construa aqui uma casa na árvore. Ela pode abrigar duas pessoas.
+build_redwood|Fazer crescer madeira vermelha
+build_redwood_description|Faça esta madeira vermelha crescer mais alto. Você pode fazer isto uma vez a cada 24 horas.
+redwoodtree_cannot_destroy_because_house_limits|Você não pode destruir esta árvore de pau-brasil, pois isso resultaria na colocação de uma casa na árvore em um local incorreto.
+add_grass|Adicionar grama
+remove_grass|Remover grama
+remove_redwood_house|Remover Casa da Árvore
+|
+buildingUpgradesInfo.json/TheMachineUpgrade.name|Afinação de máquinas
+buildingUpgradesInfo.json/TheMachineUpgrade.description|A Máquina produz 50% mais materiais e às vezes também produz grafeno e combustível para foguetes. Se alguma vez for destruída, os membros da Sociedade Secreta das Chaves permanecem vivos por mais tempo. Os membros da Feather Alliance vivem mais tempo.
+|
+jobs_filled_featheralliance|Reúna os pássaros: Certifique-se de que todos os 7 postos de trabalho estejam preenchidos.
+feather_alliance_mission_0|Rápido para o futuro: Produzir pelo menos 100 grafenos em um dia.
+feather_alliance_mission_1|Explorar o Bairro:\nUtilizar foguetes para explorar completamente o espaço próximo.
+feather_alliance_mission_2|Retornar para casa deve ser agradável:\nBuild dez parques no telhado.
+feather_alliance_mission_3|Ajude nossos aliados:\nPesquisa de afinação de máquinas.
+feather_alliance_mission_4|Olhe para além do fim do seu nariz:\nExplorar completamente o espaço distante.
+feather_alliance_mission_5|Nossa Própria Aventura:\nEnviar um foguete na Viagem Feather Alliance.
+feather_alliance_mission_6|Agora precisamos descansar um pouco:\nBuild duas mansões.
+feather_alliance_mission_7|Juntar nossos conhecimentos:\nBuild, a Biblioteca Intergaláctica.
+feather_alliance_mission|Missão da Feather Alliance
+feather_alliance_done|Vamos continuar explorando!
+|
+feather_mission|Viagem Feather Alliance
+feather_mission_explain|A Feather Alliance gostaria de fazer uma longa viagem para explorar o universo.
+feather_result|A Feather Alliance completou sua viagem com sucesso! Eles encontraram, entre outras descobertas, um novo grupo de mundos colonizáveis.
+|
+buildinginfo.json/IntergalacticLibrary.name|Biblioteca Intergaláctica
+buildinginfo.json/IntergalacticLibrary.description|Esta grande biblioteca educa muito os visitantes. Os trabalhadores produzem conhecimento com base no número total de cidadãos nas cidades associadas. Também permite pesquisar as atualizações das cidades.
+cityUpgradesInfo.json/LibraryAllowDuplicates.name|Metrópolis
+cityUpgradesInfo.json/LibraryAllowDuplicates.description|Permite construir os seguintes edifícios únicos uma segunda vez: Workshop, Fazenda Experimental, Observatório, Colônia de Arte, Centro de Pesquisa Computacional, Centro de Pesquisa Viva, Sala de Fuga do Laboratório e Supercomputador. As atualizações de sua cidade ainda estão disponíveis apenas uma vez.
+cityUpgradesInfo.json/ConnectedMachines.name|Máquinas Conectadas
+cityUpgradesInfo.json/ConnectedMachines.description|A produção de A Máquina é aumentada em 50% para cada Máquina em uma cidade associada.
+cityUpgradesInfo.json/GeneEditing.name|Edição de Gene
+cityUpgradesInfo.json/GeneEditing.description|Permite plantar as florestas roxas e vermelhas e a grama de Wooded Worlds, e as flores azuis de Bridge Worlds.
+decorationsInfo.json/spr_purplegrass.name|Erva roxa
+decorationsInfo.json/spr_redgrass.name|Capim vermelho
+decorationsInfo.json/spr_flowers_blue.name|Relva alta com flores azuis
+|
+stories.json/RocketExploreFeather.name|Mundos Ponte
+bridgesInfo.json/WoodenBridge.name|Ponte de madeira
+bridgesInfo.json/WoodenBridge.description|Esta passarela de madeira conecta dois edifícios no máximo com três espaços separados. As naves espaciais de Landing Pads podem viajar através dela.
+|
+stories.json/rocketLaunch.name|O espaçoporto
+stories.json/rocketLaunch.description|Parece haver muito espaço a explorar, então você se propôs a construir um foguete.
+rocketLaunch.json/Start.text|Ainda há muito espaço para explorar. A construção de um foguete tornaria isso muito mais fácil. Este mundo de pedra cinza parece ser o lugar perfeito para ser usado como local de lançamento.\n\nJá existe uma pequena colônia aqui, mas você vai querer expandi-la. Você pode convidar cidadãos extras, como desejar. Além disso, vamos fazer essas pessoas um pouco mais felizes. Aumente sua felicidade para 75.
+rocketLaunch.json/Start.quickText|Traga a felicidade acima de 75. Isto exclui os reforços temporários.
+rocketLaunch.json/BuildBridges.text|Seus cidadãos se sentem muito mais felizes agora! [c]Você já construiu algumas pontes, ótimo![/][n]Seria útil se as pessoas pudessem caminhar mais facilmente entre torres ou mesmo mundos. Construa três pontes para que isso aconteça.[/]
+rocketLaunch.json/BuildBridges.quickText|Construir três pontes.
+rocketLaunch.json/MakeComputerChips1.text|Construir e navegar em um foguete seria realmente difícil sem computadores. Portanto, você precisará de alguns chips de computador. Vamos construir um centro de pesquisa informática e depois uma fábrica de chips de computador.
+rocketLaunch.json/MakeComputerChips1.quickText|Construir um centro de pesquisa de computação e depois uma fábrica de chips de computador.
+rocketLaunch.json/MakeComputerChips.text|Apenas alguns chips de computador não serão suficientes. Você precisará de um suprimento constante. Vamos produzir pelo menos 30 por dia.
+rocketLaunch.json/MakeComputerChips.quickText|Produzir pelo menos 30 chips de computador em um dia.
+rocketLaunch.json/BuildSuperComputer.text|Fazer um foguete não é uma tarefa fácil, então você vai precisar de muito conhecimento. Um supercomputador pode ajudar a reunir conhecimentos, então vamos construir um. Mas não é barato, então assegure-se de convidar cidadãos suficientes, e que eles tenham um bom transporte para que não passem muito tempo viajando para o trabalho.
+rocketLaunch.json/BuildSuperComputer.quickText|Construa o Supercomputador.
+rocketLaunch.json/MakeGraphene.text|Agora você está reunindo conhecimento rapidamente, é hora de procurar um novo material. O Graphene é um material incrivelmente fino e leve, porém forte. Isso faz dele um ótimo material para ser usado na construção de um foguete. No entanto, você precisará experimentar um pouco antes de poder usar o material adequadamente. Vamos construir um laboratório de grafeno para fazer isso e começar a fazer suas primeiras folhas de grafeno.
+rocketLaunch.json/MakeGraphene.quickText|Construa um laboratório de grafeno.
+rocketLaunch.json/MakeGrapheneBuilding.text|O grafeno tem mais usos do que apenas a construção de foguetes. Por exemplo, plataformas flutuantes podem ser usadas para expandir sua cidade ou para construir pontes. Vamos construir uma.
+rocketLaunch.json/MakeGrapheneBuilding.quickText|Construa uma plataforma flutuante.
+rocketLaunch.json/MakeGraphene2.text|O laboratório de grafeno é uma boa maneira de fazer grafeno, mas é bastante lento. A fábrica de grafeno usa o conhecimento para operar, mas funciona muito mais rápido. Vamos construir uma.
+rocketLaunch.json/MakeGraphene2.quickText|Construa uma fábrica de grafeno.
+rocketLaunch.json/MakeRocketLaunch.text|Você vai precisar de um lugar para lançar seu foguete, então vamos construir uma plataforma de lançamento de foguetes.
+rocketLaunch.json/MakeRocketLaunch.quickText|Construa uma plataforma de lançamento de foguetões.
+rocketLaunch.json/MakeFuelFactories.text|O foguetão precisará de combustível, ou ficará no chão. Você pode usar alimentos ou madeira para fazer biocombustível. Construa pelo menos três fábricas de combustível de foguetes para começar a produzir alguns.
+rocketLaunch.json/MakeFuelFactories.quickText|Construa três fábricas de combustível para foguetes.
+rocketLaunch.json/MakeRocket.text|Agora que seu combustível para foguetes está sendo produzido constantemente, você pode realmente construir seu primeiro foguete! 
+rocketLaunch.json/MakeRocket.quickText|Construa um foguetão.
+rocketLaunch.json/LaunchRocket.text|Agora, finalmente, é hora de lançar! Lance um foguete para o espaço próximo com alguns exploradores dentro dele.
+rocketLaunch.json/LaunchRocket.quickText|Lance um foguete para o espaço próximo com pelo menos um explorador dentro dele.
+rocketLaunch.json/Win.text|Sua missão de foguetão foi um sucesso, e você encontrou outro mundo para construir! Ótimo trabalho! Agora você pode continuar construindo uma sociedade intergaláctica através de várias cidades. Você também pode lançar mais missões de foguetões para descobrir ainda mais!
+
+entertainment_information_multiple_wg_with_citizens|Nem todos os cidadãos podem chegar a todos os edifícios de entretenimento no momento! Isto pode afetar sua felicidade de entretenimento.
+|
+choose_color|Escolha a cor
+delete_save|Excluir Salvar
+cant_delete_curr|Você não pode apagar o arquivo salvo no qual você está jogando no momento!
+deleted_save|Você excluiu este arquivo de gravação.
+duplicate_building|Edifício Duplicado
+color_code|Código de cores...
+color_code_enter|Digite um código de cor
+color_not_parsed|Não podíamos analisar essa cor.
+|
+buildingUpgradesInfo.json/CensusData.name|Dados do Censo
+buildingUpgradesInfo.json/CensusData.description|Os trabalhadores produzem uma pequena quantidade de conhecimento com base no número de cidadãos.
+buildingUpgradesInfo.json/NightMayor.name|Prefeito noturno
+buildingUpgradesInfo.json/NightMayor.description|As casas noturnas têm aqui mais 2 capacidades por trabalhador.
+
+really_delete|Realmente apagar ranhura [0]?
+|
+sidequest_complete|Concluído:
+citizen_gratefulness_bonus|Agradecimento do Cidadão
+| 
+school_sidequest_title|Os Pais Exigem Escolas
+school_sidequest_description|Os pais em sua cidade estão preocupados porque seus filhos não podem ir à escola. Eles apreciariam se você construísse mais algumas escolas ou se assegurasse de que há professores suficientes.
+school_sidequest_finish_description|Todas as crianças da cidade agora podem ir à escola! Seus cidadãos estão gratos, então a felicidade deles é temporariamente aumentada.
+school_sidequest_quickDescription|Certifique-se de que todas as crianças possam ir à escola.
+|
+carrotjuice_sidequests_title|Os Juicers de Cenoura
+carrotjuice_sidequests_description|Um grupo de seus cidadãos sonha em dirigir uma barra de suco de cenoura. Eles precisariam apenas de um bar e de alguns materiais. Atualize qualquer pub se você quiser conceder o desejo deles.
+carrotjuice_sidequests_finish_description|Seus cidadãos estão entusiasmados com a nova barra de suco de cenoura! A felicidade deles é temporariamente aumentada.
+carrotjuice_sidequests_quickDescription|Atualize um pub para uma barra de suco de cenoura.
+buildinginfo.json/CarrotJuiceBar.name|Barra de suco de cenoura
+build_CarrotJuiceBar|Atualize este pub para uma barra de suco de cenoura e faça seus cidadãos felizes!
+|
+buildinginfo.json/ThievesDen.name|Covil dos Ladrões
+thievesden_sidequest_info|Parece que esses ladrões têm roubado alguns de seus recursos! Eles têm [0] comida e [1] pedra. Você quer fazer alguma coisa a respeito disso?
+|
+waldo_found|Você encontrou o Waldo! Você ganhou [0] conhecimento.
+only_show_unupgraded|Esconder Upgrades Completos
+|
+credits_additional_sprites|Sprites adicionais: LukXD99
+disable_clouds_background|Esconder nuvens
+disable_planets_background|Ocultar Planetas de Fundo
+|
+buildinginfo.json/GhostlyPark.name|Jardim Fantasmagórico
+buildinginfo.json/GhostlyPark.description|Assustador, mas também bastante decorativo.
+buildinginfo.json/HorrorGameHall.name|Salão do Jogo do Horror
+buildinginfo.json/HorrorGameHall.description|Um possível fliperama assombrado que só oferece jogos de terror.
+buildingUpgradesInfo.json/Pumpkin.name|Abóbora
+buildingUpgradesInfo.json/Pumpkin.description|Uma abóbora esculpida traz os residentes para o espírito do Halloween.
+change_decoration|Mude a Decoração
+buildinginfo.json/HauntedLaboratory.name|Laboratório Assombrado
+buildinginfo.json/HauntedLaboratory.description|Um laboratório estranho e misterioso. Quanto mais Laboratórios Assombrados houver, mais conhecimento cada um produz. Entretanto, cada um também aumenta a chance de que todos eles funcionem mal e tenham um efeito negativo em sua cidade.
+malfunctioned_haunted_labs|Laboratórios Assombrados que não funcionam bem
+current_haunt_boost|Velocidade atual de coleta de conhecimento: [0]%
+current_haunt_risk|Risco de mau funcionamento atual: [0]x
+haunted_effect_education|todos os cidadãos perderam alguma educação.
+haunted_effect_unhappy|seus cidadãos estão menos felizes por um tempo.
+haunted_effect_unhappy_extreme|seus cidadãos estão muito menos felizes por um curto período de tempo.
+haunted_effect_knowledge|você perdeu [0] conhecimento.
+haunted_effect_dieage|seus cidadãos atuais vivem até um ano a menos.
+haunted_effect_rot|[0] os alimentos apodrecem.
+currently_working_properly|Seus laboratórios assombrados estão funcionando corretamente no momento.
+currently_malfunctioning_hl|Seus laboratórios mal-assombrados têm funcionado mal! Isto vai levar algum tempo para ser consertado. Ele também tem o seguinte efeito negativo:
+halloween|Dia das Bruxas
+|
+favorite_citizen|Tornar favorito
+unfavorite_citizen|Remover favorito
+favorite_citizen_limit_50|Você pode ter até 50 cidadãos favoritos.
+favorite_citizens|Cidadãos favoritos
+no_favorite_citizens|No momento, você não tem nenhum cidadão favorito.
+favorite_citizens_passed|Os seguintes cidadãos favoritos faleceram:
+secret_code_4|Agora você pode ter um limite de população ilimitado.
+|
+buildinginfo.json/SportPark.name|Parque de condicionamento físico
+buildinginfo.json/SportPark.description|Seus cidadãos podem fazer alguns exercícios aqui, o que faz com que vivam mais. Esse efeito é aumentado se houver parques próximos a ele.
+buildinginfo.json/OtherworldlyGardens.name|Jardins de outro mundo
+buildinginfo.json/OtherworldlyGardens.description|Um zoológico de outro mundo com plantas que podem crescer tão alto quanto você desejar.
+change_equipment|Alterar equipamento
+|
+buildinginfo.json/OtherworldlyGardensDome.name|Cúpula de jardins de outro mundo
+buildinginfo.json/OtherworldlyGardensDome.description|Um telhado elegante para seus jardins sobrenaturais.
+rocket_unlock_OtherworldlyGardens|Seus exploradores voltaram ao planeta exuberante que visitaram antes. Eles levaram mais plantas e criaturas com eles, então agora você pode construir os Jardins do Outro Mundo.
+|
+get_premium_for_unlimited|Obtenha o Premium para desbloquear recursos ilimitados!
+|
+homes_sidequest_title|Seus cidadãos querem casas!
+homes_sidequest_description|Não há casas suficientes para todos os seus cidadãos. Isso os deixa infelizes e, portanto, trabalham mais devagar. Seria uma boa ideia você construir mais casas.
+homes_sidequest_finish_description|Agora todos têm uma casa! Seus cidadãos estão agradecidos e, por isso, a felicidade deles aumentou temporariamente.
+homes_sidequest_quickDescription|Certifique-se de que todos os cidadãos tenham uma casa.
+|
+or_watch_ad_limited|Ou assista a um anúncio para experimentar esse edifício premium gratuitamente e construir até [0] nessa cidade.
+watch_ad|Assista ao anúncio para construir até [0]
+ad_watch_limited_exceeded|Você construiu o número máximo atual desse edifício premium. Obtenha o Premium para remover completamente esse limite ou assista a um anúncio para construir um pouco mais.
+watch_ad_more|Assista ao anúncio para construir até [0] mais
+premium_trial|Teste Premium
+get_premium_or_ad_to_unlock|Obtenha o Premium para desbloquear isso! Eu realmente aprecio o apoio de vocês! Como alternativa, assista a um anúncio para experimentar gratuitamente.
+|
+alien_ruins_exploration_update|Atualização da exploração das ruínas alienígenas
+|
+buildinginfo.json/CustomHouse.name|Casa personalizada
+exterior|Exterior
+merge_horizontally|Mesclar horizontalmente
+color|Cor
+windows_color|Cor das janelas
+interior_top|Interior superior
+interior_bottom|Parte inferior do interior
+basic_properties|Propriedades básicas
+residents_no|Residentes
+bonuses|Bônus
+bonus|Bônus
+unlock_later|Você desbloqueará essa opção mais tarde.
+choose_bonuses|Escolha até dois bônus:
+choose_bonus_one|Opcionalmente, escolha um bônus:
+choose_bonus_n|Escolha até [0] bônus:
+bonus_residents_longer|Os residentes vivem mais tempo
+bonus_residents_edu|Os residentes recebem educação
+bonus_residents_healthcare|Os residentes recebem assistência médica
+bonus_private_teleporter|Tem teletransportador particular
+bonus_nature_happiness|Gera felicidade com a natureza
+bonus_art_happiness|Gera felicidade com a arte
+bonus_gaming_happiness|Gera felicidade com jogos
+material_use|Uso de recursos
+material_use_mods|Escolha até dois modificadores:
+material_use_food|Prefere usar alimentos
+material_use_wood|Prefere usar madeira
+material_use_stone|Prefere usar pedra
+material_use_machineparts|Preferir usar peças de máquinas
+material_use_refinedmetals|Prefere usar metais refinados
+material_use_computerchips|Preferir usar chips de computador
+get_premium_to_unlock_material_use|Obtenha o Premium para personalizar o uso de recursos.
+get_premium_to_unlock_more_bonuses|Obtenha Premium e pesquise grafeno para desbloquear mais bônus e a opção de escolher vários bônus.
+unlock_later_quality|Você desbloqueará qualidades acima de [0] mais tarde.
+unlock_later_residents|Você desbloqueará mais de [0] residentes mais tarde.
+renovate|Renovar
+upgrade_custom_houses|Atualize as casas personalizadas
+upgrade_custom_houses_to_100|Você pode atualizar facilmente todas as suas casas personalizadas para a qualidade 100.
+upgrade_custom_houses_already_100|Todas as suas casas personalizadas já têm qualidade 100.
+upgrade_confirm_text|Você pode fazer upgrade de [0] casas para:
+|
+buildinginfo.json/PioneersHut.name|Cabana dos Pioneiros
+buildinginfo.json/PioneersHut.description|Abriga quatro cidadãos e dá a você bônus que ajudam no desenvolvimento inicial da sua cidade.
+pioneershut_morebonuses|Você desbloqueará mais bônus mais tarde!
+pioneershut_inspirationalMeeting.name|Reunião inspiradora
+pioneershut_inspirationalMeeting.description|Você ganha 3 conhecimentos.
+pioneershut_motivationalMeeting.name|Reunião motivacional
+pioneershut_motivationalMeeting.description|Aumente a felicidade de seus cidadãos por um dia, para que eles trabalhem mais rápido.
+movivational_meeting_bonus|Bônus da Motivational Meeting
+pioneershut_quicklyBuiltHouses.name|Casas de construção rápida
+pioneershut_quicklyBuiltHouses.description|As casas básicas custam 1 a menos de madeira e pedra.
+pioneershut_comfortableHouses.name|Casas confortáveis
+pioneershut_comfortableHouses.description|As casas básicas recebem +5 de qualidade.
+pioneers_upgrade_applied|Bônus aplicado!
+pioneers_upgrade_later|Outro bônus estará disponível em breve.
+pioneershut_efficientExploration.name|Exploração eficiente
+pioneershut_efficientExploration.description|A exploração de ruínas alienígenas é um pouco mais rápida.
+pioneershut_carefulExploration.name|Exploração cuidadosa
+pioneershut_carefulExploration.description|A exploração de ruínas alienígenas é um pouco mais lenta. Você ganha 1 madeira ou pedra sempre que um por cento das ruínas for explorado.
+careful_ruins_stone_wood|Exploração cuidadosa: seus exploradores encontraram [0] pedra e [1] madeira durante a exploração.
+pioneershut_emergencySupplies.name|Suprimentos de emergência
+pioneershut_emergencySupplies.description|Se a comida acabar, seus cidadãos ficarão infelizes menos rapidamente.
+pioneershut_schoolRedesign.name|Reformulação da escola
+pioneershut_schoolRedesign.description|A construção de escolas custa 10 vezes menos madeira.
+permanent_bonus_effects|Efeitos de bônus permanentes
+pioneershut_meditation.name|Meditação
+pioneershut_meditation.description|Você ganha 1 conhecimento por dia.
+pioneershut_overwork.name|Excesso de trabalho
+pioneershut_overwork.description|Você ganha instantaneamente 1 pedra por trabalhador da mina de pedra.
+pioneershut_knowledgeSharing.name|Compartilhamento de conhecimento
+pioneershut_knowledgeSharing.description|A Fazenda Experimental também reúne algum conhecimento.
+pioneershut_recyclingDrive.name|Unidade de reciclagem
+pioneershut_recyclingDrive.description|Os aprimoramentos da oficina são 25% mais baratos.
+pioneershut_shadowDay.name|Dia da sombra
+pioneershut_shadowDay.description|Sempre que seguir um cidadão fazendo um trabalho que você não tenha seguido antes, você ganha um pequeno bônus de conhecimento.
+pioneershut_collectBranches.name|Coleta de galhos
+pioneershut_collectBranches.description|Ganhe madeira lentamente sempre que você tiver menos de 20 de madeira.
+pioneers_bonus_citizenfollow|Você está seguindo um cidadão que está fazendo um trabalho que você nunca seguiu antes! Você ganha [0] de conhecimento.
+pioneershut_forestry.name|Silvicultura
+pioneershut_forestry.description|As florestas crescem mais rapidamente.
+pioneershut_standardization.name|Padronização
+pioneershut_standardization.description|Você pode fazer o upgrade Better Pickaxes gratuitamente e pesquisá-lo automaticamente para cada mina de pedra.
+pioneershut_sportyCity.name|Cidade esportiva
+pioneershut_sportyCity.description|Desbloqueie o Fitness Park.
+pioneershut_naturalCity.name|Cidade natural
+pioneershut_naturalCity.description|Desbloqueie o Pond Park.
+pioneershut_productiveCity.name|Cidade produtiva
+pioneershut_productiveCity.description|Desbloqueie a Refinaria Superaquecida.
+pioneershut_partyCity.name|Cidade das festas
+pioneershut_partyCity.description|Desbloqueie a Casa de Festas.
+final_bonus|Escolha um bônus final:
+choose_bonus|Escolha um bônus:
+buildinginfo.json/PondPark.name|Pond Park
+buildinginfo.json/PondPark.description|Um lago raso com plantas.
+buildingUpgradesInfo.json/PioneersHutUpgrade.name|Autenticidade moderna
+buildingUpgradesInfo.json/PioneersHutUpgrade.description|Melhora a qualidade das moradias em 40.
+buildinginfo.json/SuperheatedRefinery.tooltipBottomIconInfo_0|Impulso das fábricas de peças de máquinas
+pioneershut_inspirationalMeeting2.name|Reunião realmente inspiradora
+pioneershut_inspirationalMeeting2.description|Você obtém 500 conhecimentos.
+pioneershut_motivationalMeeting2.name|Reunião realmente motivacional
+pioneershut_motivationalMeeting2.description|Aumente a felicidade de seus cidadãos por uma semana, para que eles trabalhem mais rápido.
+|
+theLostShip.json/PioneersHut.text|Você tirou alguns de seus melhores e mais brilhantes amigos da nave primeiro. Com as ferramentas certas, eles podem ser de grande ajuda no desenvolvimento deste mundo. Para conseguir a ajuda deles, construa a cabana dos pioneiros.
+theLostShip.json/PioneersHut.quickText|Construa a cabana dos pioneiros.
+buildinginfo.json/SuperheatedRefinery.name|Refinaria superaquecida
+buildinginfo.json/SuperheatedRefinery.description|Produz metais refinados a partir da pedra. Se você estiver cercado por fábricas de peças de máquinas, essa produção será mais rápida do que a de uma fábrica de metais refinados. Caso contrário, será mais lenta.
+buildinginfo.json/PartyHouse.name|Casa de festas
+buildinginfo.json/PartyHouse.description|Esta casa, com sua boate integrada, nunca dorme.
+buildingUpgradesInfo.json/BetterCouches.name|Better Couches (Sofás melhores)
+buildingUpgradesInfo.json/BetterCouches.description|Melhora a qualidade do alojamento em 20.
+buildingUpgradesInfo.json/EnhancedAudio.name|Áudio aprimorado
+buildingUpgradesInfo.json/EnhancedAudio.description|Melhora a qualidade da casa em 15 e aumenta a capacidade de entretenimento.
+|
+unlock_more_bonuses_later|Mais tarde, você desbloqueará mais bônus e a opção de escolher vários bônus.
+low_quality_more_residents|Limite aumentado porque a qualidade é baixa.
+|
+mission_warning_no_crew_found_doesnt_exist|Você não tem trabalhadores suficientes do(s) tipo(s) de tripulação selecionado(s)! Troque sua tripulação, construa mais edifícios desses tipos ou reatribua alguns de seus trabalhadores.
+building_prevented_would_block_world|Você não pode colocar isso aqui, pois isso tornaria o mundo inacessível!
+|
+explain_increase_happiness|Explicar como melhorar a felicidade
+explain_increase_happiness_short|Dicas para melhorar a felicidade
+explainer_home_happiness_enough|Para melhorar a felicidade de sua Casa, certifique-se de que todos tenham uma casa. Você também pode tentar construir casas de melhor qualidade ou atualizá-las.
+explainer_home_happiness|A felicidade do lar é determinada pela qualidade das casas em que as pessoas vivem. Para melhorar isso, você pode construir casas de melhor qualidade e melhorá-las.
+explainer_home_happiness_basic|As casas básicas não podem ser aprimoradas. Em vez disso, você pode transformá-las todas no Living Research Center.
+explainer_sense_of_purpose|Para melhorar o senso de propósito das pessoas, certifique-se de construir trabalho e escolas suficientes para todos e de que cada escola tenha um professor.
+explainer_entertainment_happiness|Para melhorar a felicidade do entretenimento, construa edifícios de entretenimento suficientes de cada tipo e certifique-se de que os edifícios de entretenimento com empregos tenham trabalhadores.
+explainer_education_happiness|Para melhorar a felicidade na educação, certifique-se de construir escolas suficientes para seus filhos e de que cada escola tenha um professor.
+explainer_medical_happiness|Para melhorar a felicidade médica, construa mais hospitais e certifique-se de que seus empregos sejam preenchidos ou aprimore seus hospitais.
+explainer_medical_happiness_2|Para melhorar a felicidade médica, aprimore seus hospitais para aumentar a qualidade.
+explainer_food_happiness|No momento, você não tem comida suficiente! Isso deixa seus cidadãos muito infelizes. Certifique-se de que sua cidade tenha fazendas suficientes e que cada fazenda tenha trabalhadores suficientes.
+explainer_food_happiness_2|Você pode atribuir mais trabalhadores às suas fazendas na janela Assign Workers (Atribuir trabalhadores)!
+explainer_policy_unhappiness|No momento, a felicidade de seus cidadãos está reduzida devido à política de horas extras obrigatórias da prefeitura. Revogue essa política para melhorar lentamente a felicidade novamente.
+explainer_no_happiness_explainer|No momento, não temos nenhuma dica para melhorar a felicidade de seus cidadãos. Volte mais tarde!
+explainer_happiness_multiple_grous|Aviso: alguns cidadãos podem ficar presos em um mundo inacessível ou em uma plataforma flutuante. Isso significa que eles podem não ter acesso a todos os seus edifícios, o que pode reduzir a felicidade deles.
+entertainment_information_no_citizens|Aviso: no momento, alguns cidadãos não podem acessar todos os seus entretenimentos. Certifique-se de que os cidadãos não estejam presos em um mundo inacessível ou em uma plataforma flutuante.
+|
+buildinginfo.json/BlossomDome.name|Restaurante Dome Blossom
+buildinginfo.json/BlossomDome.description|A coroa florida em seus edifícios floridos!
+buildinginfo.json/BlossomDome.showUnlockHint|Construa 25 restaurantes de flores ou cabanas de flores para desbloquear!
+build_secret_society_library|Construa uma biblioteca secreta
+build_secret_society_library_description|Transforme esta biblioteca em uma biblioteca secreta. Ela será usada somente pela Sociedade Secreta da Chave. Ela aumentará a produção de recursos da Máquina lentamente ao longo do tempo.
+buildinginfo.json/LibraryOfTheKey.name|Biblioteca secreta
+secret_library_title|A biblioteca secreta
+secret_library_description|A Sociedade Secreta da Chave ainda é grata por você ter construído a Máquina. Eles gostariam de aprimorar ainda mais seus conhecimentos. Eles acham que você teria a honra de transformar uma biblioteca em uma biblioteca secreta para eles.
+secret_library_finish_description|A Chave está satisfeita por você ter construído a biblioteca deles. A produção da Máquina aumentará lentamente com o tempo.
+secret_library_quickDescription|Transforme uma biblioteca em uma biblioteca secreta.
+hacker_school_title|Escola de hackers
+machine_resource_output_mult|Aumento da máquina: [0]%
+pub_claimed_secret_society|Este pub foi reivindicado pela Sociedade Secreta da Chave.
+hacker_school_description|Os Hackers of the Bolt gostariam de educar mais alguns hackers. Construa uma Escola de Hackers se você quiser tornar isso possível.
+hacker_school_finish_description|Os Hackers of the Bolt estão felizes com sua nova escola! Depois que alguns cidadãos tiverem sido educados por ela, você poderá notar o surgimento de algumas invenções menores em sua cidade.
+hacker_school_quickDescription|Construa uma Hacker School.
+buildinginfo.json/HackerSchool.name|Escola de Hackers
+buildinginfo.json/HackerSchool.description|Essa escola oferece uma ótima educação. Os graduados ocasionalmente criarão pequenas invenções.
+hacker|Hacker
+hacker_school_invention|Invenção Hacker
+invention_no_longer_exists|Esta invenção está quebrada.
+mining_robot|Robô de mineração
+stone_mined_amount|[0] pedra minerada
+durability|Durabilidade: [0] mais horas
+mech_dancer|Dançarino mecânico
+mech_animal|Animal Mecânico
+inventions_currently_in_city|[0] invenções de hackers atualmente nesta cidade
+graduates|[0] graduados
+woodcutting_robot|Robô de corte de madeira
+wood_cut_amount|[0] madeira coletada
+policiesInfo.json/HippieLifestyle.name|Um com a natureza
+policiesInfo.json/HippieLifestyle.description|Seus cidadãos não precisam de um emprego ou de uma escola para ter um senso de felicidade. Em vez disso, o entretenimento na natureza é muito mais importante para eles, e eles precisam de três vezes a capacidade normal.
+one_with_nature_happiness|Um com a felicidade da natureza
+explainer_happiness_key|Para melhorar a Glory of the Key, construa mais vilas, coberturas, jardins de esculturas e restaurantes de luxo.
+explainer_one_with_nature_happiness|Para melhorar a felicidade do One With Nature, construa um grande número de edifícios de entretenimento na natureza.
+|
+hippie_mission_rocket|Viagem dos Blossom Hippies
+hippie_mission_rocket_explain|Os Blossom Hippies gostariam de fazer uma viagem para encontrar algumas flores alienígenas raras.
+hippierocketmission_sidequest_title|Coleta de flores raras
+hippierocketmission_sidequest_description|Os Blossom Hippies há muito tempo ouviram histórias sobre algumas flores alienígenas raras que eles adorariam ter em sua cidade. Eles gostariam de usar o foguete para tentar encontrá-las.
+hippierocketmission_sidequest_quickDescription|Envie um foguete na viagem dos Blossom Hippies.
+hippierareplants_sidequest_title|Plantando flores raras
+hippierareplants_sidequest_description|Os Blossom Hippies concluíram a viagem e encontraram com sucesso as flores alienígenas que estavam procurando! Eles adorariam se você pudesse plantá-las para eles em um zoológico de outro mundo.
+hippierareplants_sidequest_finish_description|Os Blossom Hippies querem agradecê-lo por plantar suas flores. Como recompensa, eles podem ensinar seus cidadãos a se unirem à natureza na Prefeitura.
+hippierareplants_sidequest_quickDescription|Faça upgrade de um Otherworldly Zoo para um Alien Flowers Zoo.
+buildinginfo.json/RarePlantsPark.name|Zoo de flores alienígenas
+build_RarePlantsPark|Deixe que os Blossom Hippies plantem suas raras flores alienígenas aqui.
+
+encourage_creativity|Incentive a Inventividade
+find_invention|Encontre Qualquer Invenção
+knowledge_gathering_robot|Robô Coletor de Conhecimento
+game_load_save_error|Desculpe, houve um erro ao tentar carregar esse arquivo salvo!
+
+pick_color|Seletor de Cor
+tap_in_city_to_pick_color|[Tap] na sua cidade para escolher uma cor
+all_time_total_production|Produção Total de Todos os Tempos:
+screenshot_size_limit|Infelizmente, sua cidade é grande demais para caber completamente em uma captura de tela. Parte dela pode ter sido cortada.
+tip_full_city_screenshot|Crie e compartilhe facilmente uma captura de tela de toda a sua cidade.
+
+buildinginfo.json/PondPod.name|Cabana de Lagoa 
+buildinginfo.json/PondPod.description|Uma casa acima de um lago raso.
+buildinginfo.json/HauntedHovel.name|Cabana Assombrada
+
+stories.json/hippiecommune.name|Comunidade Hippie
+stories.json/hippiecommune.description|Os Blossom Hippies querem construir uma comunidade cheia de paz e amor, mas precisam da sua ajuda para gerenciá-la.
+hippie_forbidden|Os hippies achariam isso uma chatice.
+hippie_forest_nocut|Os hippies não gostam de derrubar florestas.
+hippie_forest_move|[Tap] em um espaço vazio em um mundo para mover esta floresta.
+hippie_forest_nocut_exception|Como há muitas florestas nesta cidade, você pode subornar os hippies para arrancar essa floresta.
+hippie_forest_nocut_exception_button|Arranque esta floresta por 1000 alimentos
+hippie_try_disable_onewithnature|Os hippies estão sempre em sintonia com a natureza.
+hippiecommune.json/Start.text|[faction=hippies]Nós somos os Blossom Hippies e queremos construir uma comunidade nestes belos mundos. Adoraríamos sua ajuda para garantir que a comunidade funcione bem e que todos fiquem felizes.\n\nNão gostaríamos de derrubar as lindas florestas daqui, então vamos construir uma plantação de árvores para coletar madeira. Vamos também construir uma fazenda ecológica e uma mina de pedras.
+hippiecommune.json/Start.quickText|Construa uma plantação de árvores, uma fazenda ecológica e uma mina de pedras.
+hippiecommune.json/EcoFarmUpgrade.text|[faction=hippies]Vai levar um tempo para produzir a primeira madeira na plantação de árvores. Por enquanto, podemos podar as árvores nas fazendas ecológicas para produzir uma pequena quantidade de madeira. Vamos pesquisar isso em uma Fazenda Ecológica.
+hippiecommune.json/EcoFarmUpgrade.quickText|Pesquise "Produzir Alimentos e um Pouco de Madeira" em uma fazenda ecológica.
+hippiecommune.json/Pioneers.text|[faction=hippies]Pioneiros espertos poderiam ajudar essa comunidade a florescer. Vamos construir uma Cabana dos Pioneiros.
+hippiecommune.json/Pioneers.quickText|Construa uma Cabana dos Pioneiros.
+hippiecommune.json/Houses.text|[faction=hippies][c]Obrigado por já construir casas suficientes para todos os comunitaristas.[/][n]O que seria uma boa comunidade sem espaço suficiente para morar? Vamos construir casas para todos.[/]
+hippiecommune.json/Houses.quickText|Construa casas suficientes para todos os cidadãos.
+hippiecommune.json/HippieSchool.text|[faction=hippies]Adoraríamos educar nossas crianças com estilo. Uma Escola das Flores seria o lugar perfeito para isso, então vamos construir uma.
+hippiecommune.json/HippieSchool.quickText|Construa uma Escola das Flores.
+hippiecommune.json/GrowTheCity.text|[faction=hippies]Como estamos construindo uma comunidade maravilhosa, as pessoas certamente continuarão a chegar de outras cidades. Você também pode convidar mais cidadãos.[n] Vamos crescer a comunidade até ter 100 moradores.[/]
+hippiecommune.json/GrowTheCity.quickText|Chegue a pelo menos 100 cidadãos.
+hippiecommune.json/Volunteers.text|[faction=hippies]Nem todo mundo gosta de fazer o mesmo trabalho todos os dias. Em vez disso, vamos construir três Centros de Voluntários para que essas pessoas tenham a liberdade que merecem.
+hippiecommune.json/Volunteers.quickText|Construa três Centros de Voluntários.
+hippiecommune.json/LabsNextToEcoFarms.text|[faction=hippies]Fazendas Ecológicas são bem lentas na produção de alimentos, a menos que estejam cercadas por Laboratórios atualizados.[c]Felizmente, você já construiu alguns![/][n] Vamos construir três Laboratórios próximos a Fazendas Ecológicas e pesquisar Engenharia Genética de Cultivos neles.[/]
+hippiecommune.json/LabsNextToEcoFarms.quickText|Construa três Laboratórios próximos a Fazendas Ecológicas e pesquise Engenharia Genética de Cultivos neles.
+hippiecommune.json/RefinedMetals.text|[faction=hippies]A comunidade está se desenvolvendo muito bem![c] Já existe até uma fábrica de metais refinados.[/][n] Vamos construir uma fábrica de metais refinados para avançar ainda mais.[/]
+hippiecommune.json/RefinedMetals.quickText|Construa uma Fábrica de Metais Refinados.
+hippiecommune.json/OneWithNature.text|[faction=hippies]Nós amamos a natureza, então precisa haver muita dela na comunidade.[c] Felizmente, já há bastante![/][n] Vamos atingir 100 de felicidade de Um com a Natureza construindo três vezes a capacidade normal de edifícios de entretenimento natural.[/]
+hippiecommune.json/OneWithNature.quickText|Atingir 100 de felicidade de Um com a Natureza construindo três vezes a capacidade normal de edifícios de entretenimento natural.
+hippiecommune.json/BuildCommunityHouses.text|[faction=hippies]Estamos projetando uma casa especial que é perfeita para esta comunidade. Vamos pesquisar a Casa Comunitária e construir sete delas.
+hippiecommune.json/BuildCommunityHouses.quickText|Construa sete Casas Comunitárias.
+hippiecommune.json/BuildBlossomRestaurants.text|[faction=hippies]Esta cidade poderia usar ainda mais florescimento. Vamos construir um Restaurante Blossom.
+hippiecommune.json/BuildBlossomRestaurants.quickText|Construa um Restaurante Blossom.
+hippiecommune.json/ChooseYourFaction.text|Escolha com cuidado: [faction=key]Você está construindo uma cidade linda aqui, mas achamos que está um pouco utópica demais. Poderíamos ajudar a trazê-la de volta ao mundo real. Achamos que seria uma ótima ideia você construir a Sociedade Secreta da Chave. [faction=hippies]Achamos que entregar esta comunidade maravilhosa para a sociedade secreta é uma péssima ideia. Isso trairia todos os nossos ideais. Vamos garantir nosso controle sobre a comunidade construindo um Salão da Comunidade.
+hippiecommune.json/ChooseYourFaction.quickText|Construa a Sociedade Secreta da Chave (trai os hippies) ou o Salão da Comunidade.
+hippiecommune.json/BuildFarmByProductProcessors.text|[faction=hippies]Obrigado! Agora garantimos que a Sociedade Secreta da Chave não poderá tomar o controle desta cidade, mesmo que se estabeleçam aqui no futuro. No momento, estamos coletando madeira cortando árvores em plantações. Encontramos uma maneira melhor. Vamos construir três Processadores de Subprodutos de Fazendas.
+hippiecommune.json/BuildFarmByProductProcessors.quickText|Construa três Processadores de Subprodutos de Fazendas.
+hippiecommune.json/SuperSpaciousLiving.text|[faction=hippies]Esta comunidade poderia receber ainda mais pessoas. Vamos Pesquisar Vida Comunitária no Centro de Pesquisa de Vida.
+hippiecommune.json/SuperSpaciousLiving.quickText|Pesquise Vida Comunitária no Centro de Pesquisa de Vida.
+hippiecommune.json/BuildFestivalHQ.text|[faction=hippies]Achamos que as pessoas deveriam se reunir mais. Vamos construir uma Sede do Festival para realizar isso.
+hippiecommune.json/BuildFestivalHQ.quickText|Construa a Sede do Festival.
+hippiecommune.json/OrganizeAFestival.text|[faction=hippies]Agora vamos organizar um festival na nova Sede do Festival!
+hippiecommune.json/OrganizeAFestival.quickText|Organize um festival.
+hippiecommune.json/Win.title|Cenário Completo!
+hippiecommune.json/Win.text|Queremos te agradecer por construir uma comunidade linda onde nós hippies nos sentimos em casa! Claro, você pode continuar tornando-a ainda mais bonita.
+hippiecommune.json/UpscaleRestaurants.text|[faction=key]Estamos felizes por você ter decidido fazer a escolha certa e nos dar o controle desta cidade. Já desfizemos algumas das políticas hippies impraticáveis. Além disso, nossa glória agora será importante para a felicidade nesta cidade.\n\nAgora, gostaríamos de relaxar e aproveitar algum luxo de verdade. Construa três restaurantes de luxo para nós.
+hippiecommune.json/UpscaleRestaurants.quickText|Construa três restaurantes de luxo.
+hippiecommune.json/CompleteSecretSocietyTasks.text|[faction=key]Agora, temos algumas missões para tornar isso uma base adequada da Chave. É uma honra para você completá-las.
+hippiecommune.json/CompleteSecretSocietyTasks.quickText|Complete todas as missões da Sociedade Secreta da Chave.
+hippiecommune.json/KeyGlory.text|[faction=key]Agradecemos por você ter construído a Máquina. [c]Estamos felizes em ver que a Chave é gloriosa nesta cidade.[/][u]Agora, vamos fazer esta cidade o mais gloriosa possível, para que possamos viver para sempre com estilo. Melhore a Glória da Chave para 100.[/]
+hippiecommune.json/KeyGlory.quickText|Melhore a Glória da Chave para 100.
+hippiecommune.json/WinKey.title|Cenário Completo!
+hippiecommune.json/WinKey.text|[faction=key]Queremos te agradecer por construir uma cidade gloriosa. Foi uma ideia esplêndida nos dar o controle dela. Agora você pode construir uma casa para os Amigos da Chave, que viverão para sempre, assim como nós.
+
+buildinginfo.json/HippieSchool.name|Escola das Flores
+buildinginfo.json/HippieSchool.description|Educa crianças e gera algum entretenimento natural.
+alien_ruins_description_1a_h|Seus exploradores encontraram algumas raízes estranhas. Eles estudaram seus padrões intrincados e ganharam 20 de conhecimento.
+buildinginfo.json/VolunteersCenter.name|Centro de Voluntários
+buildinginfo.json/VolunteersCenter.description|Voluntários ajudam a cortar madeira, minerar, cultivar ou coletar conhecimento, dependendo do que estão com vontade de fazer. Eles costumam estar bastante motivados, então podem trabalhar mais rápido.
+volunteers_center_explain_extra|Voluntários podem trabalhar em pedras, teleportadores de rochas, plantações de árvores, fazendas ecológicas, parques e jardins botânicos.
+food_gathered|[0] alimentos coletados
+buildingUpgradesInfo.json/BetterVolunteersTools.name|Ferramentas de Alta Qualidade
+buildingUpgradesInfo.json/BetterVolunteersTools.description|Melhora a velocidade de mineração e corte de madeira em 20%.
+buildingUpgradesInfo.json/EcoFarmNormal.name|Foco na Produção de Alimentos
+buildingUpgradesInfo.json/EcoFarmNormal.description|Produza a quantidade normal de alimentos.
+buildingUpgradesInfo.json/EcoFarmPruning.name|Produzir Alimentos e um Pouco de Madeira
+buildingUpgradesInfo.json/EcoFarmPruning.description|Produza um pouco menos de alimentos, mas também produza uma pequena quantidade de madeira ao podar as árvores.
+buildingUpgradesInfo.json/CozyFlowers.name|Flores Aconchegantes
+buildingUpgradesInfo.json/CozyFlowers.description|Melhora a qualidade das moradias em 10.
+buildingUpgradesInfo.json/MoodLighting.name|Iluminação Aconchegante
+buildingUpgradesInfo.json/MoodLighting.description|Melhora a qualidade das moradias em 20.
+cityUpgradesInfo.json/CozyLiving.name|Vida Aconchegante
+cityUpgradesInfo.json/CozyLiving.description|Melhora a qualidade das casas aconchegantes em 10 e desbloqueia uma nova atualização para elas.
+buildinginfo.json/CozyHouse.name|Casa Aconchegante
+buildinginfo.json/CozyHouse.description|Uma casa de pedra simples com interior aconchegante.
+buildinginfo.json/CommuneHall.name|Salão da Comunidade
+buildinginfo.json/CommuneHall.description|Um lugar para as pessoas socializarem, comerem e discutirem assuntos relacionados a essa comunidade. Fornece entretenimento de Pub e gera conhecimento.
+food_consumed_knowledge_generated|[0] conhecimento gerado e [1] alimento consumido.
+buildingUpgradesInfo.json/FreeThinkers.name|Pensadores Livres
+buildingUpgradesInfo.json/FreeThinkers.description|Produzem conhecimento.
+buildingUpgradesInfo.json/WellFedThinkers.name|Pensadores Bem Alimentados
+buildingUpgradesInfo.json/WellFedThinkers.description|Produzem mais conhecimento e consomem um pouco de alimento.
+
+pioneershut_hippieSchoolRedesign.name|Redesign da Escola Hippie
+pioneershut_hippieSchoolRedesign.description|Construir escolas de flores custa 10 menos madeira.
+pioneershut_communalHousing.name|Habitação Comunitária
+pioneershut_communalHousing.description|Casas Personalizadas com pelo menos cinco moradores custam 10% menos para construir.
+
+faction_hippies|Blossom Hippies
+faction_key|Sociedade Secreta da Chave
+
+hippies_betrayed|Você nos traiu pela Sociedade Secreta da Chave. Nunca vamos te perdoar, nem por um milhão de alimentos!
+hippies_bribe_betrayed|Subornar os Hippies
+hippies_bribe_betrayed_explain|Permite que você construa a Sede do Festival, pesquise Vida Comunitária, use a política Um com a Natureza e construa a Sede dos Hippies em cidades associadas.
+hippie_betrayed_try_enable_onewithnature|Você traiu os hippies, então não pode ficar um com a natureza! Talvez consiga subornar os hippies na Sede deles.
+cant_build_rocket|Você não pode construir um foguete agora. 
+
+feather_result_begin|A Aliança das Penas voltou da viagem!
+feather_result_secondary|Eles encontraram algumas plantas novas para o seu zoológico sobrenatural.
+feather_result_tertiary|Eles gostaram de visitar alguns planetas coloridos. Isso os inspirou a pintar suas plataformas flutuantes com novas cores.
+feather_result_none|Eles realmente gostaram de ver um pouco mais do universo.
+feather_result_statue|Eles projetaram uma estátua para celebrar todas as suas viagens pelo universo.
+buildinginfo.json/StatueOfTheFeather.name|Estátua da Aliança das Penas
+buildinginfo.json/StatueOfTheFeather.description|A Aliança das Penas projetou esta estátua para celebrar todas as suas viagens pelo universo! 
+|
+subscribe_youtube|Inscreva-se no meu canal do YouTube e receba vídeos divertidos e as últimas notícias sobre meus jogos!
+|
+education|Educação
+children|Crianças
+adults|Adultos
+education_children_and_adults|[0] adultos e [1] crianças
+|
+boosted_by_one_lab|Impulsionado por um laboratório.
+boosted_by_n_labs|Impulsionado por [0] laboratórios.
+boosted_by_one_alien_house|Impulsionado por uma casa alienígena.
+boosted_by_n_alien_houses|Impulsionado por [0] casas alienígenas.
+boosted_by_one_experimentation_lab|Impulsionado por um laboratório de experimentação.
+boosted_by_n_experimentation_labs|Impulsionado por [0] laboratórios de experimentação.
+boosted_by_one_machine_parts_factory|Impulsionado por uma fábrica de peças de máquinas.
+boosted_by_n_machine_parts_factories|Impulsionado por [0] fábricas de peças de máquinas.
+connected_to_rock_teleporter|Teleportador de rochas usado.
+not_connected_to_rock_teleporter|Nenhum teleportador de rochas usado.
+|
+spread_color_to_connected_buildings|Espalhe a cor para os edifícios conectados.
+spread_color_to_connected_floating_platforms|Espalhe a cor para as plataformas flutuantes conectadas.
+randomize_all|Randomizar tudo
+tuned_by_hackers|Este arcade foi ajustado pelos Hackers do Bolt.
+get_premium_for_more_scenarios|Obtenha o Premium para mais cenários!
+rocket_unlock_nearspacespeedboost|Seus navegadores trabalharam em seus mapas, então futuras missões ao espaço próximo serão um pouco mais rápidas e usarão menos combustível.
+rocket_unlock_distantspacespeedboost|Seus navegadores melhoraram seus mapas, então futuras missões ao espaço distante serão um pouco mais rápidas e usarão menos combustível.
+rocket_navigator_gain_knowledge|Seus navegadores melhoraram sua compreensão do espaço, então você ganhou [0] conhecimento.
+|
+stories.json/FreePlayNanoWorld.name|Jogo Livre - Mundo Nano
+stories.json/FreePlayNanoWorld.description|Você consegue criar uma cidade próspera neste mundo extremamente pequeno?
+alien_ruins_find_4f|Cornucópia Alienígena
+alien_ruins_description_4f|Seus exploradores encontraram uma cornucópia alienígena fundida em uma parede. Ela está transbordando com uma planta de crescimento rápido com frutas suculentas. Parece impossível cultivar essa planta fora da cornucópia, mas um explorador pode obter alguns alimentos, madeira e conhecimento dela todos os dias.
+cornocopia_retrieved_times|A cornucópia foi colhida [0] vezes, rendendo [1] alimento, [2] madeira e [3] conhecimento no total.
+stories.json/RocketExploreRockLandNano.name|Mundo Nano Rock
+stories.json/RocketExploreStrangeForestsNano.name|Mundos Nano Wooded
+stories.json/RocketExploreFeather.name|Mundos Nano Bridge
+|
+buildinginfo.json/HauntedHovel.description|Esta casa é assombrada e faz com que seus cidadãos vivam menos.
+buildingUpgradesInfo.json/ParanormalKnowledge.name|Conhecimento Paranormal
+buildingUpgradesInfo.json/ParanormalKnowledge.description|Os residentes ganham educação extra. Melhora a qualidade da habitação em 15. Como cada Haunted Hovel é assombrada de uma maneira ligeiramente diferente, o custo do conhecimento se aplica por edifício.
+cityUpgradesInfo.json/HorrorGamesTraining.name|Treinamento em Jogos de Terror
+cityUpgradesInfo.json/HorrorGamesTraining.description|Melhora a qualidade da habitação de todas as Haunted Hovels em 15.
+buildingUpgradesInfo.json/HauntedHovelUpgrade.name|Detector de Fantasmas
+buildingUpgradesInfo.json/HauntedHovelUpgrade.description|Melhora a qualidade da habitação em 20.
+cityUpgradesInfo.json/EcoFarmUpgrade2.name|Análise Inteligente do Solo
+cityUpgradesInfo.json/EcoFarmUpgrade2.description|As fazendas ecológicas produzem mais alimentos e cultivam um pouco mais rápido.
+|
+graphene_production|Produção de Grafeno:
+materials_produced_consumed|[0] produzido e [1] usado
+materials_produced|[0] produzido
+|
+secret_code_acquire_new|Junte-se ao meu Discord para conversar sobre este jogo e meus outros jogos! Além disso, você pode encontrar códigos secretos no canal #faq.
+cityUpgradesInfo.json/BuildingRecycling3.namefinish|Construção Sustentável
+cityUpgradesInfo.json/BuildingRecycling3.descriptionfinish|Quando você destrói um edifício, você recupera 90% do seu custo.
+
+premium_notifier_1|Espero que você esteja gostando de The Final Earth 2! Quer ainda mais?
+premium_notifier_2|Explore novos mundos com o foguete!
+premium_notifier_3|Construa trens, plataformas flutuantes e pistas de pouso internas!
+premium_notifier_4|Descubra mais edifícios e missões!
+premium_notifier_5|Desbloqueie o modo sandbox para recursos ilimitados!
+premium_advantage_8|Novas histórias e cenários de jogo livre
+premium_notifier_header|Confira a versão estendida!
+not_right_now|Agora não

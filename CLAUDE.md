@@ -21,6 +21,15 @@ public repo liamwade21-lab/wadeball-mod-collection; pushing to `main` publishes 
   (the build prints it). Its pictures are screenshots of the rebuilt game: Liam decided on 2026-11-10
   that the original game's art, sounds and music are fine to use for this entry (the game was free and
   was shut down), which is the one exception to the "no official art" rule below.
+- The Final Earth 2 (`games/final-earth-2/`, since 2026-11-11): the second entry that plays in the
+  browser. `media/` holds the cover and pictures (screenshots of the rebuilt game; Liam decided on
+  2026-11-11 that the game's art, sounds and music are used for this entry, with the unofficial note).
+  `play/` is the game itself (about 19 MB, 22 files) and is MADE by `Build Web Version.bat` in
+  `Documents\Work\TheFinalEarth2Rust` - never edit files in `play/` by hand, rebuild instead (the page
+  files live in that project's `web\` folder). After a rebuild, update `play.size` in data/mods.js if
+  the start-up download changed (the build prints it). Page options for testing are in that
+  project's CLAUDE.md ("Browser version"). Its entry uses `titleTail: 2`, which puts the name's last
+  TWO words on the big title's coloured line ("The Final" / "Earth 2"; `js/site.js`).
 - Sandbox Engine's repo is source only. New versions: zip `target\release\spaceengine-rs.exe`
   into `Sandbox Engine/`, publish it as a GitHub Release on liamwade21-lab/Sandbox-Engine (ask first),
   then update version, download url/size and changelog in data/mods.js.
@@ -35,7 +44,8 @@ Launch config `wadeball-site` in `Desktop\.claude\launch.json` (port 8642; a cop
 `Documents\Work\.claude\launch.json` for sessions started from that folder). The browser caches
 `data/mods.js`, so reload without the cache after edits.
 
-`.gitattributes` keeps git from changing line endings inside `games/blocksworld/play/` (leave it).
+`.gitattributes` keeps git from changing line endings inside `games/blocksworld/play/` and
+`games/final-earth-2/play/` (leave it).
 The web build shortens this PC's folder paths inside the game program (`C:\Users\<name>` becomes `~`),
 so the public file does not carry them.
 
@@ -46,7 +56,9 @@ testing are listed in `Downloads\blocksworld-rust\CLAUDE.md` ("Browser version")
 - Ask Liam before every push: the repo and site are public.
 - Size: GitHub Pages allows 1 GB per published site, GitHub refuses single files over 100 MB, and there is
   a soft limit of 100 GB of traffic a month (GitHub's "GitHub Pages limits" page, read 2026-11-10). The site
-  is about 390 MB with Blocksworld and its community worlds, its biggest file 13 MB. One first visit to the
+  is about 410 MB with Blocksworld, its community worlds and The Final Earth 2, its biggest file 13 MB.
+  A first visit to The Final Earth 2 downloads about 11 MB; each pushed rebuild of it adds about 10 MB
+  (its game program) to the repository's history. One first visit to the
   game downloads about 26 MB (24 MB + the 1.5 MB community list), so the traffic limit is roughly 4,000
   first-time players a month. Every rebuild of the game that gets pushed adds its changed files
   (about 13 MB for the game program) to the repository's history, so don't push every small rebuild.

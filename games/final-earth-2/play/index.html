@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Final Earth 2">
+<meta name="theme-color" content="#160b3a">
+<!-- Started from a phone's Home Screen the game runs as its own full-screen app (no browser bars). -->
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="icon" href="../../../favicon.svg" type="image/svg+xml">
+<title>The Final Earth 2 (unofficial fan rebuild)</title>
+<style>
+  html, body {
+    margin: 0; height: 100%; overflow: hidden; background: #000; color: #fff;
+    font: 16px/1.4 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    touch-action: none; overscroll-behavior: none;
+    -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; -webkit-tap-highlight-color: transparent;
+  }
+  /* The game's picture. Always wider than tall; turned a quarter on a phone held upright (tfe-loader.js). */
+  #stage { position: fixed; left: 0; top: 0; width: 100vw; height: 100vh; transform-origin: 0 0; background: #281460; touch-action: none; }
+  #tfe-canvas { display: block; width: 100%; height: 100%; outline: none; touch-action: none; }
+
+  #loader {
+    position: fixed; inset: 0; z-index: 10; display: flex; align-items: center; justify-content: center;
+    background: linear-gradient(180deg, #160b3a 0%, #281460 55%, #3d2a7c 100%);
+    transition: opacity .35s ease; box-sizing: border-box; text-align: center; overflow: auto;
+    /* clear of a phone's camera island, rounded corners and home bar */
+    padding: max(24px, env(safe-area-inset-top, 0px)) max(24px, env(safe-area-inset-right, 0px)) max(24px, env(safe-area-inset-bottom, 0px)) max(24px, env(safe-area-inset-left, 0px));
+  }
+  #loader.gone { opacity: 0; pointer-events: none; }
+  .card { width: min(440px, 100%); }
+  /* three small floating islands: a green strip on a brown body */
+  .isles { display: flex; justify-content: center; align-items: flex-start; gap: 16px; margin-bottom: 18px; padding-top: 6px; }
+  .isles i { position: relative; display: block; width: 34px; height: 8px; margin-bottom: 14px; background: #58b84a; border-radius: 3px 3px 0 0; animation: bob 1.6s ease-in-out infinite; }
+  .isles i::after { content: ""; position: absolute; left: 0; top: 8px; width: 34px; height: 14px; background: #6b4a2a; border-radius: 0 0 12px 12px; }
+  .isles i:nth-child(2) { animation-delay: .25s; }
+  .isles i:nth-child(3) { animation-delay: .5s; }
+  @keyframes bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+  #loader.failed .isles i { animation: none; }
+  h1 { margin: 0; font-size: 34px; letter-spacing: .5px; font-weight: 800; }
+  .sub { margin: 4px 0 22px; opacity: .75; font-size: 14px; }
+  .bar { height: 12px; border-radius: 6px; background: rgba(255,255,255,.16); overflow: hidden; }
+  #bar-fill { height: 100%; width: 0; border-radius: 6px; background: linear-gradient(90deg, #58b84a, #b6e36a); transition: width .15s linear; }
+  #status { margin: 10px 0 0; font-size: 14px; opacity: .9; min-height: 20px; }
+  #note { margin: 8px 0 0; font-size: 13px; opacity: .7; min-height: 18px; }
+  #play {
+    margin-top: 18px; padding: 14px 46px; font: inherit; font-size: 20px; font-weight: 800; color: #2a1a00; cursor: pointer;
+    background: #e2a21f; border: 0; border-radius: 12px; box-shadow: 0 5px 0 #9a6a0e;
+  }
+  #play:active { transform: translateY(3px); box-shadow: 0 2px 0 #9a6a0e; }
+  #play:disabled { opacity: .7; cursor: default; }
+  .turn { display: none; margin-top: 14px; font-size: 14px; opacity: .85; }
+  body.upright .turn { display: block; }
+  /* Safari on an iPhone or iPad cannot hide its bars for a page: say how to get the whole screen. */
+  .fulltip { display: none; margin: 14px auto 0; padding: 9px 12px; font-size: 13px; line-height: 1.4; border-radius: 10px; background: rgba(255,255,255,.12); }
+  body.ios-tip .fulltip { display: block; }
+  /* a phone on its side is not very tall: keep the card short */
+  @media (max-height: 420px) {
+    .isles { margin-bottom: 8px; gap: 12px; padding-top: 4px; }
+    .isles i { width: 24px; height: 6px; margin-bottom: 10px; }
+    .isles i::after { width: 24px; top: 6px; height: 10px; border-radius: 0 0 9px 9px; }
+    h1 { font-size: 24px; } .sub { margin: 2px 0 10px; }
+    #play { margin-top: 10px; padding: 9px 38px; font-size: 18px; }
+    .fulltip { margin-top: 8px; padding: 6px 10px; font-size: 12px; }
+    .legal { margin-top: 10px; font-size: 10.5px; }
+    .card { width: min(560px, 100%); }
+  }
+  .legal { margin-top: 26px; font-size: 11.5px; opacity: .55; line-height: 1.45; }
+  #toast {
+    position: fixed; left: 50%; bottom: 18px; transform: translate(-50%, 20px); z-index: 20; max-width: 86vw;
+    background: rgba(20,24,32,.92); color: #fff; padding: 10px 16px; border-radius: 10px; font-size: 14px;
+    opacity: 0; pointer-events: none; transition: opacity .25s, transform .25s;
+  }
+  #toast.show { opacity: 1; transform: translate(-50%, 0); }
+</style>
+</head>
+<body>
+<div id="stage"><canvas id="tfe-canvas" tabindex="0"></canvas></div>
+
+<div id="loader">
+  <div class="card">
+    <div class="isles"><i></i><i></i><i></i></div>
+    <h1>The Final Earth 2</h1>
+    <p class="sub">Unofficial fan rebuild, running in your browser</p>
+    <div class="bar"><div id="bar-fill"></div></div>
+    <p id="status">Loading...</p>
+    <button id="play" style="display:none">Play</button>
+    <p class="turn">Turn your phone sideways to play.</p>
+    <p class="fulltip"><b>For full screen:</b> tap Safari's Share button, choose "Add to Home Screen", then start The Final Earth 2 from its new icon. Cities you build there are saved there, separately from Safari.</p>
+    <p id="note"></p>
+    <p class="legal">A free, unofficial fan rebuild. Not affiliated with or endorsed by Florian van Strien. The Final Earth 2 is a game by Florian van Strien with music by Stijn Cappetijn; its art, sounds and music belong to their owners. Your cities are saved in this browser only.</p>
+  </div>
+</div>
+<div id="toast"></div>
+
+<script src="tfe-loader.js"></script>
+</body>
+</html>

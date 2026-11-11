@@ -1,3 +1,5 @@
 # The Blocksworld web build is made by a script and must be published byte for byte:
 # no line-ending changes in any of its files.
 games/blocksworld/play/** -text
+# The same for The Final Earth 2's web build.
+games/final-earth-2/play/** -text

@@ -118,9 +118,12 @@
     function num() { n += 1; return '<span class="num">' + (n < 10 ? "0" + n : n) + '</span>'; }
     var nav = [];
 
+    // The big title: the name's last word on its own coloured line. An entry can say how many
+    // words go on that line with `titleTail` (e.g. 2 for "The Final / Earth 2").
     var words = m.name.split(" ");
+    var tail = Math.max(1, Math.min(words.length - 1, m.titleTail || 1));
     var title = words.length > 1
-      ? esc(words.slice(0, -1).join(" ")) + "<br><span>" + esc(words[words.length - 1]) + "</span>"
+      ? esc(words.slice(0, -tail).join(" ")) + "<br><span>" + esc(words.slice(-tail).join(" ")) + "</span>"
       : "<span>" + esc(m.name) + "</span>";
 
     // A download is a file (on this site or a .zip elsewhere, e.g. a GitHub Release),
