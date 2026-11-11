@@ -30,6 +30,10 @@ public repo liamwade21-lab/wadeball-mod-collection; pushing to `main` publishes 
   the start-up download changed (the build prints it). Page options for testing are in that
   project's CLAUDE.md ("Browser version"). Its entry uses `titleTail: 2`, which puts the name's last
   TWO words on the big title's coloured line ("The Final" / "Earth 2"; `js/site.js`).
+  It also uses `nameTag: "Expanded"` + `nameTagNote` (Liam's request 2026-11-11): a small gold tag
+  beside the name on the home card and on the entry's big title (`nameTag()` in `js/site.js`,
+  `.name-tag` in `css/style.css`); the note is the text shown when the pointer rests on it. Any entry
+  may use them. The game's own title screen and loading page carry the same tag.
 - Sandbox Engine's repo is source only. New versions: zip `target\release\spaceengine-rs.exe`
   into `Sandbox Engine/`, publish it as a GitHub Release on liamwade21-lab/Sandbox-Engine (ask first),
   then update version, download url/size and changelog in data/mods.js.

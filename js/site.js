@@ -15,6 +15,12 @@
     });
   }
   function url(path) { return esc(encodeURI(path)); }
+  // A small tag beside an entry's name (`nameTag` in data/mods.js, e.g. "Expanded"); `nameTagNote`
+  // is the text shown when the pointer rests on it.
+  function nameTag(m) {
+    if (!m.nameTag) return "";
+    return ' <small class="name-tag"' + (m.nameTagNote ? ' title="' + esc(m.nameTagNote) + '"' : "") + '>' + esc(m.nameTag) + '</small>';
+  }
   function fmtDate(iso) {
     if (!iso) return "";
     var d = new Date(iso + "T12:00:00");
@@ -67,7 +73,7 @@
       '</div>' +
       '<div class="card-body">' +
         '<div class="card-meta"><span class="tag tag-accent">' + esc(m.label || m.game) + '</span><span class="tag">v' + esc(m.version) + '</span></div>' +
-        '<h3>' + esc(m.name) + '</h3>' +
+        '<h3>' + esc(m.name) + nameTag(m) + '</h3>' +
         '<p>' + esc(m.pitch) + '</p>' +
         '<span class="card-cta">View ' + esc(c.noun) + ' &rarr;</span>' +
       '</div></a>';
@@ -148,7 +154,7 @@
         '<div class="wrap">' +
           '<div class="card-meta"><span class="tag tag-accent">' + esc(m.label || m.game + " mod") + '</span><span class="tag">Version ' + esc(m.version) + '</span>' +
             (m.released ? '<span class="tag">' + esc(fmtDate(m.released)) + '</span>' : "") + '</div>' +
-          '<h1>' + title + '</h1>' +
+          '<h1>' + title + nameTag(m) + '</h1>' +
           '<p class="pitch">' + esc(m.pitch) + '</p>' +
           '<div class="hero-actions">' + dlBtn +
             (m.trailer ? '<a class="btn btn-ghost" href="#trailer">' + ICON_PLAY_SM + 'Watch the trailer</a>' : "") +

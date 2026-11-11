@@ -346,9 +346,11 @@ window.MODS = [
     category: "games",
     name: "The Final Earth 2",
     titleTail: 2,                         // big title: "The Final" / "Earth 2"
+    nameTag: "Expanded",                  // the small tag beside the name (the game's title screen has it too)
+    nameTagNote: "Comes with the Expansion: optional extra features on top of the original game",
     game: "The Final Earth 2",
     label: "Plays in your browser",
-    version: "1.0.0",
+    version: "1.0.1",
     released: "2026-11-11",
     pitch: "The vertical city builder, rebuilt from scratch. Grow a colony on a tiny floating island, stack it sky-high and spread to other worlds, right in your browser on a PC, phone or tablet.",
     accent: "#7a5cff",
@@ -369,14 +371,14 @@ window.MODS = [
 
     features: [
       { title: "The whole game", text: "The scenarios and Free Play maps of The Final Earth 2 with its buildings, upgrades, policies, rockets, trains and festivals, rebuilt in Rust from the original game's own data." },
+      { title: "Expanded", text: "Comes with the Expansion, an optional layer of 24 extra features on top of the original game: research, trade, districts, disasters, challenges and more. It is off until you switch it on in Advanced Settings, and its big windows want a PC or tablet screen." },
       { title: "Nothing to install", text: "Press Play and it opens in a new tab. A short loading bar, then the title screen; the music comes in while you play." },
       { title: "Build upward", text: "Stack houses, farms, labs and factories on a small floating island, then reach other worlds with landing pads, teleporters and bridges." },
       { title: "A living city", text: "Every citizen has a home, a job, school years, favourite places and a mood. Follow one around or read the whole city's numbers." },
       { title: "Your cities are kept", text: "Save slots like the original, with an autosave every two seconds. Cities stay in your browser and are there when you come back." },
       { title: "Take a city with you", text: "Export saves a city as a file and Import loads it again, also between the browser and the Windows version of this rebuild." },
       { title: "Phones and tablets", text: "One finger moves the view, two fingers pinch to zoom, a tap builds. Phones get the game's own phone layout with a Build button and bigger close buttons." },
-      { title: "Original sounds and music", text: "The original sound effects and the four music tracks, shrunk for the web." },
-      { title: "Seven languages", text: "English, German, Spanish, French, Portuguese, Russian and Vietnamese, picked from your browser's language and changeable in the settings." }
+      { title: "Original sounds, music and languages", text: "The original sound effects and the four music tracks, shrunk for the web, and all seven languages, picked from your browser's language and changeable in the settings." }
     ],
 
     controls: [
@@ -401,6 +403,7 @@ window.MODS = [
     ],
 
     changelog: [
+      { version: "1.0.1", date: "2026-11-11", notes: [ "The title screen now carries a small \"Expanded\" tag: this rebuild comes with the optional Expansion." ] },
       { version: "1.0.0", date: "2026-11-11", notes: [ "First browser version." ] }
     ],
 

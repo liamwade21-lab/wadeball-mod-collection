@@ -1,6 +1,13 @@
 # Progress
 
 ## Now (2026-11-11)
+- Pushed 2026-11-11 (Liam said "Publish this now"): The Final Earth 2 1.0.1 = a small gold "Expanded"
+  tag beside the game's name (Liam's request). Changed: `js/site.js` (new optional `nameTag` /
+  `nameTagNote`), `css/style.css` (`.name-tag`), the entry in `data/mods.js` (version 1.0.1,
+  changelog line, an "Expanded" feature card, still 9 cards) and the rebuilt
+  `games/final-earth-2/play/` (the tag is on the game's title screen and loading page too).
+  Checked in the local preview: home card (tag beside the name on wide screens, under it on narrow
+  cards), the entry page at PC and phone width, the game's loading page and title screen.
 - NEW, pushed 2026-11-11 (Liam said "Publish it"): The Final Earth 2 1.0.0 in the Games section
   (`mod.html?id=final-earth-2`), the second entry that plays in the browser. "Play now" opens
   `games/final-earth-2/play/` in a new tab.

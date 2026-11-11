@@ -100,6 +100,16 @@ a { color: inherit; }
 }
 .tag-accent { background: var(--accent); color: #fff; }
 .card h3 { font-family: var(--display); font-weight: 400; text-transform: uppercase; font-size: 30px; line-height: 1; margin: 4px 0 0; }
+/* A small tag beside an entry's name (`nameTag` in data/mods.js), e.g. "Expanded". */
+.name-tag {
+  display: inline-block; vertical-align: middle; position: relative; top: -.2em;
+  font: 700 11px/1 var(--body); letter-spacing: .08em; text-transform: uppercase; text-shadow: none;
+  padding: 5px 8px; border-radius: 6px; margin-left: 6px; background: #ffd24a; color: #281460;
+}
+.mod-hero h1 .name-tag { font-size: clamp(12px, 1.5vw, 18px); padding: .5em .7em; border-radius: .5em; margin-left: .8em; top: -.35em; }
+/* On a card the tag sits beside the name, or neatly under it when the card is too narrow. */
+.card h3:has(.name-tag) { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; }
+.card h3 .name-tag { margin-left: 0; top: 0; }
 .card p { margin: 0; color: var(--muted); font-size: 15px; }
 .card-cta { margin-top: auto; padding-top: 6px; font-weight: 700; font-size: 14px; color: var(--accent); }
 .card-soon {
