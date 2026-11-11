@@ -350,7 +350,7 @@ window.MODS = [
     nameTagNote: "Comes with the Expansion: optional extra features on top of the original game",
     game: "The Final Earth 2",
     label: "Plays in your browser",
-    version: "1.0.2",
+    version: "1.0.3",
     released: "2026-11-11",
     pitch: "The vertical city builder, rebuilt from scratch. Grow a colony on a tiny floating island, stack it sky-high and spread to other worlds, right in your browser on a PC, phone or tablet.",
     accent: "#7a5cff",
@@ -403,6 +403,7 @@ window.MODS = [
     ],
 
     changelog: [
+      { version: "1.0.3", date: "2026-11-11", notes: [ "Phones: Expansion windows that are wider than the screen (Diplomacy, Research, Trade and others) are now drawn smaller so the whole window fits, instead of being cut off at both sides." ] },
       { version: "1.0.2", date: "2026-11-11", notes: [ "Phones: the Expansion's warning icons no longer sit on top of the materials list. They now stay in the top-right corner, clear of the game's own panels, at every screen size." ] },
       { version: "1.0.1", date: "2026-11-11", notes: [ "The title screen now carries a small \"Expanded\" tag: this rebuild comes with the optional Expansion." ] },
       { version: "1.0.0", date: "2026-11-11", notes: [ "First browser version." ] }

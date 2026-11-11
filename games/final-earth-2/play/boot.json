@@ -1,10 +1,10 @@
 {
- "build": "54eeeb494e",
+ "build": "9c0dbb5981",
  "assets": "50ad5464e3",
  "js": "finalearth2.js",
  "wasm": {
   "url": "game.wasm.bin",
-  "size": 10657517
+  "size": 10659519
  },
  "packs": [
   {

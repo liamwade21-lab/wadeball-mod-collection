@@ -1,6 +1,11 @@
 # Progress
 
 ## Now (2026-11-11)
+- Pushed 2026-11-11 (Liam said "Publish"): The Final Earth 2 1.0.3 = his second iPhone report.
+  Expansion windows wider than the phone's screen (Diplomacy, Research, Trade...) were cut off at
+  both sides; they are now drawn smaller so the whole window fits. Changed: the rebuilt
+  `games/final-earth-2/play/` and the entry in `data/mods.js` (version 1.0.3, changelog line).
+  Details: `Documents\Work\TheFinalEarth2Rust\PROGRESS.md`.
 - Pushed 2026-11-11 (Liam: "Fix this and you already have my approval to publish"): The Final
   Earth 2 1.0.2 = his first iPhone report fixed. With the Expansion on, its warning icons sat on
   top of the materials list on a phone; they now stay in the top-right corner, clear of the game's
