@@ -1,6 +1,14 @@
 # Progress
 
-## Now (2026-11-11)
+## Now (2026-11-12)
+- Pushed 2026-11-12 (Liam gave the OK to push it together with the report): The Final Earth 2 1.0.4 =
+  his third iPhone report. Tapping an Expansion warning icon opened its window and the same tap
+  pressed the window's X (same corner), so it closed at once. Now the window stays open and a
+  tap on an Expansion window always goes to the window. Changed: the rebuilt
+  `games/final-earth-2/play/` (boot.json, finalearth2.js, game.wasm.bin) and the entry in
+  `data/mods.js` (version 1.0.4, changelog line; start-up size unchanged). Details:
+  `Documents\Work\TheFinalEarth2Rust\PROGRESS.md`. Not checked on the live site or a real
+  iPhone (Liam tests that himself).
 - Pushed 2026-11-11 (Liam said "Publish"): The Final Earth 2 1.0.3 = his second iPhone report.
   Expansion windows wider than the phone's screen (Diplomacy, Research, Trade...) were cut off at
   both sides; they are now drawn smaller so the whole window fits. Changed: the rebuilt

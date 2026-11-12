@@ -350,8 +350,8 @@ window.MODS = [
     nameTagNote: "Comes with the Expansion: optional extra features on top of the original game",
     game: "The Final Earth 2",
     label: "Plays in your browser",
-    version: "1.0.3",
-    released: "2026-11-11",
+    version: "1.0.4",
+    released: "2026-11-12",
     pitch: "The vertical city builder, rebuilt from scratch. Grow a colony on a tiny floating island, stack it sky-high and spread to other worlds, right in your browser on a PC, phone or tablet.",
     accent: "#7a5cff",
     unofficial: "Unofficial fan rebuild. Not affiliated with or endorsed by Florian van Strien. The Final Earth 2 is a game by Florian van Strien with music by Stijn Cappetijn; its art, sounds and music belong to their owners. The original game is sold on Steam.",
@@ -403,6 +403,7 @@ window.MODS = [
     ],
 
     changelog: [
+      { version: "1.0.4", date: "2026-11-12", notes: [ "Phones: tapping one of the Expansion's warning icons now opens its window and keeps it open. Before, the same tap also pressed the window's close button, which sits in the same corner, so the window closed straight away. A tap on an open Expansion window now always goes to that window, not to buttons underneath it." ] },
       { version: "1.0.3", date: "2026-11-11", notes: [ "Phones: Expansion windows that are wider than the screen (Diplomacy, Research, Trade and others) are now drawn smaller so the whole window fits, instead of being cut off at both sides." ] },
       { version: "1.0.2", date: "2026-11-11", notes: [ "Phones: the Expansion's warning icons no longer sit on top of the materials list. They now stay in the top-right corner, clear of the game's own panels, at every screen size." ] },
       { version: "1.0.1", date: "2026-11-11", notes: [ "The title screen now carries a small \"Expanded\" tag: this rebuild comes with the optional Expansion." ] },
