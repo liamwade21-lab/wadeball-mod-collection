@@ -1,6 +1,9 @@
 # Progress
 
 ## Now (2026-11-12)
+- Pushed 2026-11-12 (commit b4ef0488; Liam asked for it; live site checked): a screenshot of Sandbox Engine 1.1.0's sandbox
+  (`games/sandbox-engine/media/sandbox.jpg`: the gravity gun holding a barrel among props in the Canterbury Plains) is first in
+  its gallery. Taken in a test run of the game at 1680x1202, shrunk to 1280x916 like the others.
 - Pushed 2026-11-12 (commit ccbce703; Liam asked for the release and the site update): Sandbox Engine 1.1.0. The entry in
   `data/mods.js` points at the GitHub Release v1.1.0 zip (592.4 MB: the exe plus its `assets` folder), with a feature card
   for the new Garry's Mod-style sandbox on Earth, the changelog, an extra requirement (unzip the whole thing), Valve in
