@@ -39,7 +39,9 @@ public repo liamwade21-lab/wadeball-mod-collection; pushing to `main` publishes 
   `bash .audit/tools/package_release.sh VERSION release` (the zip holds the exe and its `assets` folder), publish the zip
   as a GitHub Release on liamwade21-lab/Sandbox-Engine (ask first), then update version, download url/size (MiB, as
   the other sizes) and changelog in data/mods.js. Its credits name Valve (Garry's Mod and Half-Life 2 content ships with
-  it since 1.1.0, Liam's decision of 2026-11-12) and Megaton Rainfall.
+  it since 1.1.0, Liam's decision of 2026-11-12) and Megaton Rainfall,
+  and since 1.2.0 Electronic Arts (Skate 3's skater, animations, data and sounds) and the Skate 3 Rust Engine (SK8-ENGINE,
+  GPL-3.0, whose code made Sandbox Engine GPL-3.0).
 
 - `games/blocksworld/play/community/` (about 145 MB, 22,400 small files) is the game's community worlds
   and models: every one players published on the fan server, copied from the archive on this PC by the same

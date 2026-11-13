@@ -1,6 +1,11 @@
 # Progress
 
-## Now (2026-11-12)
+## Now (2026-11-13)
+- Pushed 2026-11-13 (Liam gave the go: "push to github and release on the wadeball collection website"): Sandbox Engine
+  1.2.0. The entry in `data/mods.js` points at the GitHub Release v1.2.0 zip (610.2 MB), with a feature card for the new
+  Skate 3 physics mod, its screenshot second in the gallery (`games/sandbox-engine/media/skate3.jpg`, from a test run,
+  1280x720), the changelog, Electronic Arts in the unofficial note, EA and the Skate 3 Rust Engine (GPL-3.0) in the
+  credits, and the GPL v3.0 in the open-source card (Sandbox Engine is GPL since 1.2.0).
 - Pushed 2026-11-12 (commit b4ef0488; Liam asked for it; live site checked): a screenshot of Sandbox Engine 1.1.0's sandbox
   (`games/sandbox-engine/media/sandbox.jpg`: the gravity gun holding a barrel among props in the Canterbury Plains) is first in
   its gallery. Taken in a test run of the game at 1680x1202, shrunk to 1280x916 like the others.

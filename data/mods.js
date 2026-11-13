@@ -151,15 +151,15 @@ window.MODS = [
     name: "Sandbox Engine",
     game: "SpaceEngine",                  // the game it's built on (you need to own it)
     label: "Open-source game",            // optional: replaces the "<game> mod" tag
-    version: "1.1.0",
-    released: "2026-11-12",
-    pitch: "SpaceEngine rewritten from the ground up in Rust: start on Earth's ground with Garry's Mod-style props, physics and weapons, then fly off to the whole universe.",
+    version: "1.2.0",
+    released: "2026-11-13",
+    pitch: "SpaceEngine rewritten from the ground up in Rust: start on Earth's ground with Garry's Mod-style props, physics and weapons, skate it as a Skate 3 skater, then fly off to the whole universe.",
     accent: "#8b6cff",
-    unofficial: "Unofficial fan project. Not affiliated with or endorsed by SpaceEngine or Cosmographic Software, or by Valve. You need your own copy of SpaceEngine to play.",
+    unofficial: "Unofficial fan project. Not affiliated with or endorsed by SpaceEngine or Cosmographic Software, Valve or Electronic Arts. You need your own copy of SpaceEngine to play.",
     cover: "games/sandbox-engine/media/cover.jpg",
 
     // The playable build is a GitHub Release zip (the exe plus its assets folder)
-    download: { url: "https://github.com/liamwade21-lab/Sandbox-Engine/releases/download/v1.1.0/Sandbox-Engine-1.1.0-windows.zip", label: "Sandbox-Engine-1.1.0-windows.zip", size: "592.4 MB" },
+    download: { url: "https://github.com/liamwade21-lab/Sandbox-Engine/releases/download/v1.2.0/Sandbox-Engine-1.2.0-windows.zip", label: "Sandbox-Engine-1.2.0-windows.zip", size: "610.2 MB" },
     source: "https://github.com/liamwade21-lab/Sandbox-Engine",   // optional: "Source code" button
 
     requirements: [
@@ -171,16 +171,18 @@ window.MODS = [
 
     features: [
       { title: "A sandbox on Earth", text: "Start on foot on Earth's real ground, with Garry's Mod's movement, spawn menu, props, physics, weapons and sounds. Press V to fly." },
+      { title: "Skate 3 physics mod", text: "Play as Skate 3's skater anywhere on the planet: the Skate 3 Rust Engine's own physics, flick-it tricks, camera and scoring, with Skate 3's sounds. Gamepad or keyboard and mouse." },
       { title: "Rewritten in Rust", text: "A ground-up rewrite of SpaceEngine in the Rust programming language." },
       { title: "The whole universe", text: "Fly from a planet's surface out past moons, stars and nebulae to whole galaxies." },
       { title: "Volumetric clouds", text: "Real 3D clouds and nebulae you can fly into, through and above." },
       { title: "Alien civilizations", text: "Inhabited worlds: city lights from orbit and alien megacities down on the surface." },
       { title: "Mods built in", text: "Comes with mods added on top of the original SpaceEngine experience." },
-      { title: "Open source", text: "The full source code is free to read, learn from, change and build on." }
+      { title: "Open source", text: "Free software under the GNU GPL v3.0: the full source code is free to read, learn from, change and build on." }
     ],
 
     gallery: [
       { image: "games/sandbox-engine/media/sandbox.jpg",           caption: "The sandbox: a gravity gun and props on Earth's ground" },
+      { image: "games/sandbox-engine/media/skate3.jpg",            caption: "The Skate 3 physics mod: a clean ollie in New Zealand" },
       { image: "games/sandbox-engine/media/eclipse.jpg",           caption: "Eclipse over a nebula" },
       { image: "games/sandbox-engine/media/civilized-world.jpg",   caption: "A civilized world from orbit" },
       { image: "games/sandbox-engine/media/megacity.jpg",          caption: "Alien megacity under a gas giant" },
@@ -192,9 +194,14 @@ window.MODS = [
       { image: "games/sandbox-engine/media/city-lights.jpg",       caption: "City lights on the night side" }
     ],
 
-    credits: "Props, weapons and sounds from Garry's Mod and Half-Life 2 by Valve. Trees, cars and street props from Megaton Rainfall by Pentadimensional Games. Flying, punching and landing sounds and animations for the Omni-Man mod from the GTA V mod \"Superman V2.2\" by JulioNIB (NIB Mods).",
+    credits: "Props, weapons and sounds from Garry's Mod and Half-Life 2 by Valve. Trees, cars and street props from Megaton Rainfall by Pentadimensional Games. Flying, punching and landing sounds and animations for the Omni-Man mod from the GTA V mod \"Superman V2.2\" by JulioNIB (NIB Mods). The Skate 3 skater, animations, data and sounds from Skate 3 by Electronic Arts; the Skate 3 physics mod is built on the Skate 3 Rust Engine (SK8-ENGINE, GPL-3.0), building on dumbad's and Chasm's Skate 3 research.",
 
     changelog: [
+      { version: "1.2.0", date: "2026-11-13", notes: [
+        "New: the Skate 3 physics mod. Play as Skate 3's skater on his board anywhere on the planet: it runs the Skate 3 Rust Engine's own simulation, copied in unchanged, with Skate 3's pushing, carving, powerslides, flick-it tricks, manuals, bails, walking off the board, camera and scoring, and Skate 3's own sounds. Turn it on from the Mods menu or the Q menu.",
+        "Skate 3 controls: a gamepad works the way Skate 3 does; on keyboard and mouse W pushes, A/D steer, S brakes, F gets off, the mouse flicks tricks, Space is an ollie and 1-8 play eight flip tricks.",
+        "Sandbox Engine is now free software under the GNU GPL v3.0, because the Skate 3 mod includes the Skate 3 Rust Engine's code."
+      ]},
       { version: "1.1.0", date: "2026-11-12", notes: [
         "New: the game starts on Earth's ground in first person, a sandbox in the style of Garry's Mod: walk, jump and crouch with its movement, hold Q for the spawn menu, spawn any of its 4,963 props with real physics, and use the crowbar, gravity gun, physics gun, pistol, SMG and shotgun. Press V to switch to free flight and back.",
         "New: a main menu after the loading screen (Play, Mods, Options, Quit), over your own screenshots. Esc brings it back.",
