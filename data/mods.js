@@ -180,6 +180,7 @@ window.MODS = [
     ],
 
     gallery: [
+      { image: "games/sandbox-engine/media/sandbox.jpg",           caption: "The sandbox: a gravity gun and props on Earth's ground" },
       { image: "games/sandbox-engine/media/eclipse.jpg",           caption: "Eclipse over a nebula" },
       { image: "games/sandbox-engine/media/civilized-world.jpg",   caption: "A civilized world from orbit" },
       { image: "games/sandbox-engine/media/megacity.jpg",          caption: "Alien megacity under a gas giant" },
