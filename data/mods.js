@@ -265,7 +265,7 @@ window.MODS = [
     name: "Blocksworld",
     game: "Blocksworld",
     label: "Plays in your browser",
-    version: "1.3.0",
+    version: "1.3.1",
     released: "2026-11-12",
     pitch: "The original Blocksworld building game, rebuilt from scratch. Build, script and play your own worlds right in your browser, on a PC, phone or tablet.",
     accent: "#2f8fff",
@@ -326,6 +326,10 @@ window.MODS = [
     ],
 
     changelog: [
+      { version: "1.3.1", date: "2026-11-12", notes: [
+        "More community levels can be finished: character Collapse, Recover and Jump tiles and the Jukebox music tile now work when used as conditions.",
+        "First-person look modes: drag a finger or the mouse to look around, as in the original."
+      ] },
       { version: "1.3.0", date: "2026-11-12", notes: [
         "Drag things in play mode like the original: grab any loose object with the mouse or a finger and pull it around.",
         "The free camera flies again: hold the right mouse button and use W A S D, E and Q.",
