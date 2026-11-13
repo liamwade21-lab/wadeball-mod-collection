@@ -1,6 +1,12 @@
 # Progress
 
 ## Now (2026-11-12)
+- Pushed 2026-11-12 (Liam gave the go beforehand for this task): Blocksworld 1.3.0 = his report "can't move the
+  free camera with WASD, can't drag anything like the OG game, most community levels are buggy and softlocked".
+  Dragging objects in play mode is new, WASD flies again (right mouse button held, as in the original), and taps in
+  first-person community levels reach the buttons now. Changed: the rebuilt `games/blocksworld/play/` (game program,
+  `blocksworld.js`, `boot.json`; start-up size unchanged, 24 MB) and the entry in `data/mods.js` (version 1.3.0,
+  changelog, two control lines). Details: `Downloads\blocksworld-rust\PROGRESS.md`, "Round 4".
 - Pushed 2026-11-12 (Liam gave the OK to push it together with the report): The Final Earth 2 1.0.4 =
   his third iPhone report. Tapping an Expansion warning icon opened its window and the same tap
   pressed the window's X (same corner), so it closed at once. Now the window stays open and a

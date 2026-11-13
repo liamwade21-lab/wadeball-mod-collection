@@ -18,7 +18,7 @@ public repo liamwade21-lab/wadeball-mod-collection; pushing to `main` publishes 
   (about 357 MB, 26,800 files) and is MADE by `Build Web Version.bat` in `Downloads\blocksworld-rust` -
   never edit files in `play/` by hand, rebuild instead (the page files live in that project's `web\`
   folder). After a rebuild, update `play.size` in data/mods.js if the start-up download changed
-  (the build prints it). Its pictures are screenshots of the rebuilt game: Liam decided on 2026-11-10
+  (the build prints it; still 24 MB at 1.3.0, 2026-11-12). Its pictures are screenshots of the rebuilt game: Liam decided on 2026-11-10
   that the original game's art, sounds and music are fine to use for this entry (the game was free and
   was shut down), which is the one exception to the "no official art" rule below.
 - The Final Earth 2 (`games/final-earth-2/`, since 2026-11-11): the second entry that plays in the

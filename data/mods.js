@@ -265,8 +265,8 @@ window.MODS = [
     name: "Blocksworld",
     game: "Blocksworld",
     label: "Plays in your browser",
-    version: "1.2.0",
-    released: "2026-11-10",
+    version: "1.3.0",
+    released: "2026-11-12",
     pitch: "The original Blocksworld building game, rebuilt from scratch. Build, script and play your own worlds right in your browser, on a PC, phone or tablet.",
     accent: "#2f8fff",
     unofficial: "Unofficial fan rebuild. Not affiliated with or endorsed by Linden Lab or Boldai. Blocksworld and its art, sounds and music belong to their owners. The original game was free and has been shut down.",
@@ -307,11 +307,12 @@ window.MODS = [
       ["Drag empty space / one finger", "Turn the camera"],
       ["Mouse wheel / pinch", "Zoom"],
       ["Ctrl + drag / two fingers", "Slide the camera"],
-      ["W A S D, E, Q", "Fly the camera (keyboard)"],
+      ["Hold right mouse + W A S D, E, Q", "Fly the camera (keyboard, as in the original)"],
       ["R, T", "Rotate and tilt the selected block (keyboard)"],
       ["Ctrl + Z / Ctrl + Y", "Undo / redo (also the round arrows bottom left)"],
       ["Triangle button / P", "Play the world"],
       ["W A S D or arrows, Space, Shift", "In play: the D-pad and the R and L buttons"],
+      ["Drag a loose object / one finger on it", "In play: grab it and pull it around"],
       ["F1", "Show every key (build mode)"]
     ],
 
@@ -325,6 +326,12 @@ window.MODS = [
     ],
 
     changelog: [
+      { version: "1.3.0", date: "2026-11-12", notes: [
+        "Drag things in play mode like the original: grab any loose object with the mouse or a finger and pull it around.",
+        "The free camera flies again: hold the right mouse button and use W A S D, E and Q.",
+        "Community levels: taps now reach buttons in first-person worlds (before, every tap hit your own character), invisible phantom blocks no longer swallow taps, and holding a button keeps it pressed.",
+        "\"Explode Local\" and steering-wheel \"Brake\" tiles used as conditions now work, so levels waiting on them can carry on."
+      ] },
       { version: "1.2.0", date: "2026-11-10", notes: [
         "Big community worlds run many times faster.",
         "Hats, hair, glasses, beards and backpacks now stay on animated characters while they move.",
