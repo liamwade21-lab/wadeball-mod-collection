@@ -1,7 +1,7 @@
 # Progress
 
 ## Now (2026-11-12)
-- Pushed 2026-11-12 (Liam said "Yes, publish it"): Blocksworld 1.3.1 = his "fix the things that are still not fixed":
+- Pushed 2026-11-12 (commit 4fb27e56; Liam said "Yes, publish it"; live site checked): Blocksworld 1.3.1 = his "fix the things that are still not fixed":
   four more tile conditions and the first-person look stick. `data/mods.js` (1.3.1, changelog) and a rebuilt
   `games/blocksworld/play/`. Block.Clone (a fan-mod tile) could not be rebuilt: no definition exists anywhere.
 - Pushed 2026-11-12 (commit 691f02ec; Liam gave the go beforehand for this task; live site checked): Blocksworld 1.3.0 = his report "can't move the
