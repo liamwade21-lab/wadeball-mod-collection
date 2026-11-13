@@ -34,9 +34,12 @@ public repo liamwade21-lab/wadeball-mod-collection; pushing to `main` publishes 
   beside the name on the home card and on the entry's big title (`nameTag()` in `js/site.js`,
   `.name-tag` in `css/style.css`); the note is the text shown when the pointer rests on it. Any entry
   may use them. The game's own title screen and loading page carry the same tag.
-- Sandbox Engine's repo is source only. New versions: zip `target\release\spaceengine-rs.exe`
-  into `Sandbox Engine/`, publish it as a GitHub Release on liamwade21-lab/Sandbox-Engine (ask first),
-  then update version, download url/size and changelog in data/mods.js.
+- Sandbox Engine (the project is `Desktop\Sandbox Engine` since 2026-11-12): its repo holds the source and the game's
+  files (Garry's Mod's packs in pieces under 100 MB), never the exe. New versions: in that project run
+  `bash .audit/tools/package_release.sh VERSION release` (the zip holds the exe and its `assets` folder), publish the zip
+  as a GitHub Release on liamwade21-lab/Sandbox-Engine (ask first), then update version, download url/size (MiB, as
+  the other sizes) and changelog in data/mods.js. Its credits name Valve (Garry's Mod and Half-Life 2 content ships with
+  it since 1.1.0, Liam's decision of 2026-11-12) and Megaton Rainfall.
 
 - `games/blocksworld/play/community/` (about 145 MB, 22,400 small files) is the game's community worlds
   and models: every one players published on the fan server, copied from the archive on this PC by the same
