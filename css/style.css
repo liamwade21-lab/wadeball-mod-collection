@@ -49,6 +49,21 @@ a { color: inherit; }
   padding: 8px 12px; border-radius: 999px; color: var(--muted);
 }
 .nav a:hover, .nav a[aria-current="page"] { color: var(--text); background: var(--panel); }
+.contact { position: relative; }
+.contact-btn {
+  font-family: var(--body); font-weight: 600; font-size: 14px; line-height: inherit; padding: 8px 12px; border-radius: 999px; cursor: pointer;
+  color: var(--text); background: transparent; border: 1px solid var(--line);
+}
+.contact-btn:hover, .contact-btn[aria-expanded="true"] { background: var(--panel); }
+.contact-pop {
+  position: absolute; right: 0; top: calc(100% + 10px); z-index: 30;
+  display: grid; gap: 10px; min-width: 250px; padding: 16px;
+  background: var(--panel); border: 1px solid var(--line); border-radius: 14px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, .5);
+}
+.contact-pop[hidden] { display: none; }
+.contact-pop span { font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+.nav .contact-pop a { padding: 0; border-radius: 0; background: none; color: var(--text); font-size: 16px; text-decoration: underline; word-break: break-all; }
 
 /* Buttons */
 .btn {
@@ -265,13 +280,22 @@ kbd {
 @media (max-width: 560px) {
   .brand-name { font-size: 18px; }
   .brand-name small { display: none; }
-  .nav a { padding: 8px 9px; }
+  .nav { gap: 2px; }
+  .nav a, .contact-btn { padding: 7px 6px; font-size: 13px; }
+  .site-header .wrap { gap: 8px; }
+  .brand { gap: 7px; }
+  .brand-mark { width: 26px; height: 26px; }
+  .brand-name { font-size: 17px; }
   .mod-grid, .gallery { grid-template-columns: 1fr; }
   .hero-actions .btn { flex: 1 1 100%; }
   .controls td { display: block; width: auto; border-bottom: 0; padding: 4px 16px; }
   .controls td:first-child { padding-top: 14px; }
   .controls td:last-child { padding-bottom: 14px; border-bottom: 1px solid var(--line); }
   .steps li { padding-left: 58px; }
+}
+@media (max-width: 400px) {
+  .nav a, .contact-btn { padding: 7px 5px; font-size: 12px; }
+  .brand-name { font-size: 15px; }
 }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; scroll-behavior: auto !important; }

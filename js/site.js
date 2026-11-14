@@ -44,8 +44,36 @@
         '<nav class="nav" aria-label="Main">' +
           CATS.map(function (c) { return '<a href="index.html#' + esc(c.id) + '">' + esc(c.title) + '</a>'; }).join("") +
           '<a href="support.html"' + (page === "support" ? ' aria-current="page"' : "") + '>Support</a>' +
+          (SITE.contactEmail ?
+            '<div class="contact">' +
+              '<button type="button" class="contact-btn" aria-expanded="false" aria-controls="contact-pop">Contact</button>' +
+              '<div class="contact-pop" id="contact-pop" hidden>' +
+                '<span>Email me at</span>' +
+                '<a href="mailto:' + esc(SITE.contactEmail) + '">' + esc(SITE.contactEmail) + '</a>' +
+                '<button type="button" class="btn copy-btn contact-copy">Copy address</button>' +
+              '</div>' +
+            '</div>' : "") +
         '</nav>' +
       '</div>';
+    contactMenu(el);
+  }
+
+  // The Contact button opens a small box with the email address (a mail link plus a Copy button,
+  // for PCs that have no mail app set up). Clicking elsewhere or pressing Escape closes it.
+  function contactMenu(root) {
+    var btn = root.querySelector(".contact-btn");
+    if (!btn) return;
+    var pop = root.querySelector(".contact-pop");
+    var copy = root.querySelector(".contact-copy");
+    function show(open) { pop.hidden = !open; btn.setAttribute("aria-expanded", open ? "true" : "false"); }
+    btn.addEventListener("click", function (e) { e.stopPropagation(); show(pop.hidden); });
+    pop.addEventListener("click", function (e) { e.stopPropagation(); });
+    document.addEventListener("click", function () { show(false); });
+    document.addEventListener("keydown", function (e) { if (e.key === "Escape" && !pop.hidden) { show(false); btn.focus(); } });
+    copy.addEventListener("click", function () {
+      var done = function () { copy.textContent = "Copied"; setTimeout(function () { copy.textContent = "Copy address"; }, 2000); };
+      if (navigator.clipboard) navigator.clipboard.writeText(SITE.contactEmail).then(done, done); else done();
+    });
   }
 
   function footer() {

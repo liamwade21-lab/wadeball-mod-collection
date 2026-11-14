@@ -5,7 +5,7 @@ Live at https://liamwade21-lab.github.io/wadeball-mod-collection/ (GitHub Pages,
 public repo liamwade21-lab/wadeball-mod-collection; pushing to `main` publishes it).
 
 ## How it's put together
-- `data/mods.js` is the only file you normally edit: site name, Venmo details,
+- `data/mods.js` is the only file you normally edit: site name, contact email (the header's Contact button), Venmo details,
   `CATEGORIES` (home page sections: Mods, Games) and every entry in `MODS`.
 - Each entry's `category` picks its section. Files live in `mods/<id>/` or `games/<id>/`.
 - `js/site.js` builds the home page, each entry's page (`mod.html?id=<id>`) and the support page.

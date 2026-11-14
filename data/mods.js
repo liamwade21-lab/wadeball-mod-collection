@@ -9,6 +9,7 @@
 window.SITE = {
   name: "Wadeball's Mod Collection",
   tagline: "Free mods I make for the games I love.",
+  contactEmail: "liamwade21@icloud.com",   // shown by the Contact button at the top right
   support: {
     venmoName: "Liam Wade",
     venmoUser: "@l_w21",

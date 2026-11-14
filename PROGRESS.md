@@ -1,6 +1,11 @@
 # Progress
 
 ## Now (2026-11-13)
+- Pushed 2026-11-13 (Liam said "Yes, push it"): a "Contact" button at the top right, beside Support (Liam's request). It
+  opens a small box with his email (`SITE.contactEmail` in `data/mods.js`) as a mail link plus a "Copy address"
+  button; clicking elsewhere or Escape closes it. Changed: `data/mods.js`, `js/site.js` (`header()` +
+  `contactMenu()`), `css/style.css` (`.contact*`, and a tighter header on phones so it still fits at 360 px).
+  Checked in the local preview at PC width, 375 px and 360 px (no sideways scrolling).
 - Pushed 2026-11-13 (Liam gave the go: "push to github and release on the wadeball collection website"): Sandbox Engine
   1.2.0. The entry in `data/mods.js` points at the GitHub Release v1.2.0 zip (610.2 MB), with a feature card for the new
   Skate 3 physics mod, its screenshot second in the gallery (`games/sandbox-engine/media/skate3.jpg`, from a test run,
