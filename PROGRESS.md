@@ -1,6 +1,15 @@
 # Progress
 
-## Now (2026-11-13)
+## Now (2026-11-15)
+- Pushed 2026-11-15 (commit f3580c06; Liam asked for it in the task itself: "implement it into the game then post that
+  version on my wadeball mod collection website"; live files checked): Blocksworld 1.4.0 = a player's report with five
+  bugs and two wishes. Resized blocks keep their shape, a face texture shows once on a big block, an arm or leg dragged
+  onto an animated Blockster changes it (plus a character editor for hats and gear), hats sit on animated Blocksters'
+  heads, classic Blocksters stand on their feet, 20 classic worlds on the New World page, a sky / colour / weather
+  texture can be dropped onto the sky, and a community world that froze on Play now runs. `data/mods.js` (1.4.0,
+  changelog, three feature cards) and a rebuilt `games/blocksworld/play/` (new: `templates.pack.bin`,
+  `assets/data/templates/` with the 20 template worlds, 20 pictures in `assets/ui/templates/`). Whole web version
+  362 MB in 26,826 files, site 415 MB; a visitor still downloads 24.1 MB before the menu.
 - Pushed 2026-11-13 (Liam said "Yes, push it"): a "Contact" button at the top right, beside Support (Liam's request). It
   opens a small box with his email (`SITE.contactEmail` in `data/mods.js`) as a mail link plus a "Copy address"
   button; clicking elsewhere or Escape closes it. Changed: `data/mods.js`, `js/site.js` (`header()` +
