@@ -286,8 +286,8 @@ window.MODS = [
     name: "Blocksworld",
     game: "Blocksworld",
     label: "Plays in your browser",
-    version: "1.3.1",
-    released: "2026-11-12",
+    version: "1.4.0",
+    released: "2026-11-15",
     pitch: "The original Blocksworld building game, rebuilt from scratch. Build, script and play your own worlds right in your browser, on a PC, phone or tablet.",
     accent: "#2f8fff",
     unofficial: "Unofficial fan rebuild. Not affiliated with or endorsed by Linden Lab or Boldai. Blocksworld and its art, sounds and music belong to their owners. The original game was free and has been shut down.",
@@ -314,7 +314,9 @@ window.MODS = [
       { title: "Your worlds are kept", text: "Worlds, their pictures and your saved models stay in your browser and are there when you come back." },
       { title: "Phones and tablets", text: "Touch controls like the original: one finger turns the camera, two fingers zoom and slide, and the game always shows in landscape." },
       { title: "Original sounds and music", text: "The original sound effects and music tracks, shrunk for the web." },
-      { title: "Ready-made starts", text: "Begin on empty land, sky or water, on the Starter Island, or in the Classic Demo with its monorail." },
+      { title: "Ready-made starts", text: "Begin on empty land, sky or water, on the Starter Island, in the Classic Demo with its monorail, or in one of 20 classic worlds such as Blocktropolis, Kingdom of Blockshire and Legend of Oz." },
+      { title: "Dress up your Blocksters", text: "Drag new arms and legs onto an animated Blockster, and use the character editor to put hats, glasses, backpacks and hand-held gear exactly in place." },
+      { title: "Skies and weather", text: "Drop a sky, a colour or a weather texture onto the sky: ten skies, plus rain, snow, sandstorms, falling leaves, ash, meteors and space dust." },
       { title: "Community worlds", text: "Play the worlds players published before the servers closed: over 15,000 of them, with What's Hot, categories and search." },
       { title: "Community models", text: "Browse over 6,000 models players shared and add them to your own collection for free." },
       { title: "Full screen on phones", text: "Add the game to your phone's Home Screen and it opens like an app, without the browser's bars." }
@@ -347,6 +349,16 @@ window.MODS = [
     ],
 
     changelog: [
+      { version: "1.4.0", date: "2026-11-15", notes: [
+        "Thanks to a player's detailed report. Resized blocks keep their shape: edges stay thin and round blocks stay round instead of stretching.",
+        "Textures on big blocks: a face or other one-side texture shows once over the whole side instead of repeating, and bricks and similar textures repeat with the block's size, on round blocks too.",
+        "Animated Blocksters: an arm or leg dragged onto a selected Blockster now changes it instead of landing in its script. A new character editor (the small person icon above a selected Blockster) puts hats, glasses, backpacks, swords and shields in place.",
+        "Hats, glasses and beards sit on animated Blocksters' heads and faces instead of floating above them.",
+        "Classic Blocksters stand on their feet on uneven ground instead of sinking into it.",
+        "20 classic worlds to start from on the New World page: Blocktropolis, Block Streets, Kingdom of Blockshire, Legend of Oz, Havoc Island, Arctic Circle, Red Planet and more.",
+        "Sky: drop a sky, a colour or a weather texture onto the sky to change it, and a second pick now works. Weather set on a world's sky now shows, with rain, sandstorm and wind sounds.",
+        "A community world that froze the game when Play started now runs."
+      ] },
       { version: "1.3.1", date: "2026-11-12", notes: [
         "More community levels can be finished: character Collapse, Recover and Jump tiles and the Jukebox music tile now work when used as conditions.",
         "First-person look modes: drag a finger or the mouse to look around, as in the original."

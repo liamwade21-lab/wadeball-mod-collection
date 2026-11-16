@@ -372,7 +372,8 @@
     return entries.length;
   }
 
-  // Packs that are not needed for the menu (the small block textures) come in quietly afterwards.
+  // Packs that are not needed for the menu come in quietly afterwards, one after the other in the
+  // order boot.json lists them (the New World pictures first, then the small block textures).
   // A file the game needs before its pack has arrived is simply fetched by itself.
   async function loadLaterPacks() {
     for (const p of laterPacks) {
