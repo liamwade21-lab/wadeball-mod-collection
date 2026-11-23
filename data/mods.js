@@ -286,8 +286,8 @@ window.MODS = [
     name: "Blocksworld",
     game: "Blocksworld",
     label: "Plays in your browser",
-    version: "1.4.0",
-    released: "2026-11-15",
+    version: "1.4.1",
+    released: "2026-11-22",
     pitch: "The original Blocksworld building game, rebuilt from scratch. Build, script and play your own worlds right in your browser, on a PC, phone or tablet.",
     accent: "#2f8fff",
     unofficial: "Unofficial fan rebuild. Not affiliated with or endorsed by Linden Lab or Boldai. Blocksworld and its art, sounds and music belong to their owners. The original game was free and has been shut down.",
@@ -295,12 +295,12 @@ window.MODS = [
 
     // Runs in the browser: the button opens games/blocksworld/play/ in a new tab.
     // That folder is made by "Build Web Version.bat" in the game's project (Downloads\blocksworld-rust).
-    play: { url: "games/blocksworld/play/", label: "Plays in your browser", size: "24 MB to start" },
+    play: { url: "games/blocksworld/play/", label: "Plays in your browser", size: "25 MB to start" },
 
     requirements: [
       "A current browser: Chrome, Edge, Firefox or Safari",
       "A PC, or a phone or tablet from the last few years",
-      "About 24 MB to load before the menu shows. Sounds, music and pictures load as you play",
+      "About 25 MB to load before the menu shows. Sounds, music and pictures load as you play",
       "Your worlds are saved in that browser, on that device. Clearing the browser's site data deletes them",
       "iPhone and iPad: for full screen, use Share > Add to Home Screen and start the game from its icon"
     ],
@@ -315,7 +315,8 @@ window.MODS = [
       { title: "Phones and tablets", text: "Touch controls like the original: one finger turns the camera, two fingers zoom and slide, and the game always shows in landscape." },
       { title: "Original sounds and music", text: "The original sound effects and music tracks, shrunk for the web." },
       { title: "Ready-made starts", text: "Begin on empty land, sky or water, on the Starter Island, in the Classic Demo with its monorail, or in one of 20 classic worlds such as Blocktropolis, Kingdom of Blockshire and Legend of Oz." },
-      { title: "Dress up your Blocksters", text: "Drag new arms and legs onto an animated Blockster, and use the character editor to put hats, glasses, backpacks and hand-held gear exactly in place." },
+      { title: "Dress up your Blocksters", text: "Drag new arms and legs onto an animated Blockster, colour each part, and use the character editor to put hats, glasses, backpacks and hand-held gear exactly in place." },
+      { title: "Grab and pull", text: "In play mode, grab a loose object with the mouse or a finger and pull it around, as in the original." },
       { title: "Skies and weather", text: "Drop a sky, a colour or a weather texture onto the sky: ten skies, plus rain, snow, sandstorms, falling leaves, ash, meteors and space dust." },
       { title: "Community worlds", text: "Play the worlds players published before the servers closed: over 15,000 of them, with What's Hot, categories and search." },
       { title: "Community models", text: "Browse over 6,000 models players shared and add them to your own collection for free." },
@@ -349,6 +350,14 @@ window.MODS = [
     ],
 
     changelog: [
+      { version: "1.4.1", date: "2026-11-22", notes: [
+        "Thanks again to the player who sends these reports. Animated Blocksters: a colour dragged onto an arm, leg, hand or foot now colours it. A colour spreads over the matching parts, so one trouser leg colours both legs and the face colours all bare skin.",
+        "Classic Blocksters wearing a hat or other gear can be scripted again: one click selects the Blockster alone and shows its script. A second click selects it together with its gear.",
+        "Classic Blocksters wearing a wig or big hair no longer walk with their feet up inside their head.",
+        "Wide hats and hair land on the head instead of half a block beside it.",
+        "Textures in the classic worlds: each road tile shows one whole road piece instead of chopped-up repeats, flat ground is no longer smeared into streaks, and the Blocktropolis clock has its face.",
+        "Five textures showed the wrong picture and are corrected: Dust (the ground of Willow Forest, Terratude and Ice Moon Alpha), Arrow, Face, Nose and Three."
+      ] },
       { version: "1.4.0", date: "2026-11-15", notes: [
         "Thanks to a player's detailed report. Resized blocks keep their shape: edges stay thin and round blocks stay round instead of stretching.",
         "Textures on big blocks: a face or other one-side texture shows once over the whole side instead of repeating, and bricks and similar textures repeat with the block's size, on round blocks too.",

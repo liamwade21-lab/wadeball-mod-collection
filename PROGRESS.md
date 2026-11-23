@@ -1,6 +1,18 @@
 # Progress
 
-## Now (2026-11-15)
+## Now (2026-11-22)
+- Pushed 2026-11-22 (Liam asked for it in the task itself: "got another DM after your update ... fix and publish"):
+  Blocksworld 1.4.1 = the same player's second report. Limbs of animated Blocksters can be coloured; a classic
+  Blockster wearing gear can be scripted (one click selects it alone, a second click selects it with its gear);
+  walkers wearing a wig no longer have their feet in their head; wide hats land on the head; in the 20 classic
+  worlds the roads, the dusty ground and the Blocktropolis clock show properly; five textures had the wrong
+  picture. `data/mods.js` (1.4.1, changelog, a 15th feature card "Grab and pull" so the grid is full again, start-up
+  size 25 MB) and a rebuilt `games/blocksworld/play/` (game program, packs, five texture pictures, 19 retaken New
+  World card pictures). Whole web version 363 MB in 26,826 files, site 416 MB; a visitor downloads 24.8 MB before
+  the menu. Checked in the local preview: the entry's data, the game loads, the New World page, Block Streets
+  opens with whole roads, Play runs, no errors. Details: `Downloads\blocksworld-rust\PROGRESS.md`, "Round 7".
+
+## Earlier (2026-11-15)
 - Pushed 2026-11-15 (commit f3580c06; Liam asked for it in the task itself: "implement it into the game then post that
   version on my wadeball mod collection website"; live files checked): Blocksworld 1.4.0 = a player's report with five
   bugs and two wishes. Resized blocks keep their shape, a face texture shows once on a big block, an arm or leg dragged

@@ -15,10 +15,10 @@ public repo liamwade21-lab/wadeball-mod-collection; pushing to `main` publishes 
 - An entry with `play: { url, label, size }` runs in the browser instead of being downloaded: its
   button says "Play now" and opens `url` in a new tab (Blocksworld is the first one).
 - Blocksworld (`games/blocksworld/`): `media/` holds the cover and pictures. `play/` is the game itself
-  (about 362 MB, 26,800 files) and is MADE by `Build Web Version.bat` in `Downloads\blocksworld-rust` -
+  (about 363 MB, 26,800 files) and is MADE by `Build Web Version.bat` in `Downloads\blocksworld-rust` -
   never edit files in `play/` by hand, rebuild instead (the page files live in that project's `web\`
   folder). After a rebuild, update `play.size` in data/mods.js if the start-up download changed
-  (the build prints it; still 24 MB at 1.3.0, 2026-11-12). Its pictures are screenshots of the rebuilt game: Liam decided on 2026-11-10
+  (the build prints it; 25 MB since 1.4.1, 2026-11-22). Its pictures are screenshots of the rebuilt game: Liam decided on 2026-11-10
   that the original game's art, sounds and music are fine to use for this entry (the game was free and
   was shut down), which is the one exception to the "no official art" rule below.
 - The Final Earth 2 (`games/final-earth-2/`, since 2026-11-11): the second entry that plays in the
@@ -65,10 +65,10 @@ testing are listed in `Downloads\blocksworld-rust\CLAUDE.md` ("Browser version")
 - Ask Liam before every push: the repo and site are public.
 - Size: GitHub Pages allows 1 GB per published site, GitHub refuses single files over 100 MB, and there is
   a soft limit of 100 GB of traffic a month (GitHub's "GitHub Pages limits" page, read 2026-11-10). The site
-  is about 415 MB with Blocksworld, its community worlds and The Final Earth 2, its biggest file 13 MB.
+  is about 416 MB with Blocksworld, its community worlds and The Final Earth 2, its biggest file 13 MB.
   A first visit to The Final Earth 2 downloads about 11 MB; each pushed rebuild of it adds about 10 MB
   (its game program) to the repository's history. One first visit to the
-  game downloads about 26 MB (24 MB + the 1.5 MB community list), so the traffic limit is roughly 4,000
+  game downloads about 26 MB (25 MB + the 1.5 MB community list), so the traffic limit is roughly 4,000
   first-time players a month. Every rebuild of the game that gets pushed adds its changed files
   (about 13 MB for the game program) to the repository's history, so don't push every small rebuild.
 - Don't open or read anything in `Desktop\SpaceEngine Rust Port Version 2` (Liam's rule).
