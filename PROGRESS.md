@@ -1,6 +1,14 @@
 # Progress
 
-## Now (2026-11-22)
+## Now (2026-11-23)
+- Pushed 2026-11-23 (Liam: "yes fix it and publish"): Blocksworld 1.4.2 = walkers standing in shallow water take
+  steps again (liquid water is on its own layer now, as in the original; their feet go to the bottom). Also: taps
+  and pulls reach objects under water, phantom blocks rest on ice. `data/mods.js` (1.4.2, changelog) and a rebuilt
+  `games/blocksworld/play/` (game program, `blocksworld.js`, `boot.json`, packs; sizes unchanged: 363 MB, 24.8 MB
+  before the menu). Checked in the local preview: the entry's data, the game loads, Blockster Bay opens and
+  plays, no errors. Details: `Downloads\blocksworld-rust\PROGRESS.md`, "Round 7b".
+
+## Earlier (2026-11-22)
 - Pushed 2026-11-22 (commit 1ec13378; Liam asked for it in the task itself: "got another DM after your update ... fix and publish"):
   Blocksworld 1.4.1 = the same player's second report. Limbs of animated Blocksters can be coloured; a classic
   Blockster wearing gear can be scripted (one click selects it alone, a second click selects it with its gear);

@@ -286,8 +286,8 @@ window.MODS = [
     name: "Blocksworld",
     game: "Blocksworld",
     label: "Plays in your browser",
-    version: "1.4.1",
-    released: "2026-11-22",
+    version: "1.4.2",
+    released: "2026-11-23",
     pitch: "The original Blocksworld building game, rebuilt from scratch. Build, script and play your own worlds right in your browser, on a PC, phone or tablet.",
     accent: "#2f8fff",
     unofficial: "Unofficial fan rebuild. Not affiliated with or endorsed by Linden Lab or Boldai. Blocksworld and its art, sounds and music belong to their owners. The original game was free and has been shut down.",
@@ -350,6 +350,11 @@ window.MODS = [
     ],
 
     changelog: [
+      { version: "1.4.2", date: "2026-11-23", notes: [
+        "Walkers standing in shallow water take steps again. Legs, classic Blocksters and other walkers put their feet on the bottom, as in the original, instead of standing frozen in the water.",
+        "In play mode, taps and pulls reach objects under the water's surface.",
+        "Phantom blocks rest on ice instead of falling through it."
+      ] },
       { version: "1.4.1", date: "2026-11-22", notes: [
         "Thanks again to the player who sends these reports. Animated Blocksters: a colour dragged onto an arm, leg, hand or foot now colours it. A colour spreads over the matching parts, so one trouser leg colours both legs and the face colours all bare skin.",
         "Classic Blocksters wearing a hat or other gear can be scripted again: one click selects the Blockster alone and shows its script. A second click selects it together with its gear.",
