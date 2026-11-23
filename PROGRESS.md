@@ -1,7 +1,7 @@
 # Progress
 
 ## Now (2026-11-22)
-- Pushed 2026-11-22 (Liam asked for it in the task itself: "got another DM after your update ... fix and publish"):
+- Pushed 2026-11-22 (commit 1ec13378; Liam asked for it in the task itself: "got another DM after your update ... fix and publish"):
   Blocksworld 1.4.1 = the same player's second report. Limbs of animated Blocksters can be coloured; a classic
   Blockster wearing gear can be scripted (one click selects it alone, a second click selects it with its gear);
   walkers wearing a wig no longer have their feet in their head; wide hats land on the head; in the 20 classic
