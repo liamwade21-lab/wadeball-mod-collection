@@ -1,7 +1,7 @@
 # Progress
 
 ## Now (2026-11-23)
-- Pushed 2026-11-23 (Liam: "yes fix it and publish"): Blocksworld 1.4.2 = walkers standing in shallow water take
+- Pushed 2026-11-23 (commit e110b1a4; Liam: "yes fix it and publish"; live files checked): Blocksworld 1.4.2 = walkers standing in shallow water take
   steps again (liquid water is on its own layer now, as in the original; their feet go to the bottom). Also: taps
   and pulls reach objects under water, phantom blocks rest on ice. `data/mods.js` (1.4.2, changelog) and a rebuilt
   `games/blocksworld/play/` (game program, `blocksworld.js`, `boot.json`, packs; sizes unchanged: 363 MB, 24.8 MB
