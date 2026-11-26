@@ -41,7 +41,9 @@ public repo liamwade21-lab/wadeball-mod-collection; pushing to `main` publishes 
   the other sizes) and changelog in data/mods.js. Its credits name Valve (Garry's Mod and Half-Life 2 content ships with
   it since 1.1.0, Liam's decision of 2026-11-12) and Megaton Rainfall,
   and since 1.2.0 Electronic Arts (Skate 3's skater, animations, data and sounds) and the Skate 3 Rust Engine (SK8-ENGINE,
-  GPL-3.0, whose code made Sandbox Engine GPL-3.0).
+  GPL-3.0, whose code made Sandbox Engine GPL-3.0), and since 1.3.0 Frontier Developments (Elite Dangerous: the Sidewinder
+  mod's model, cockpit, animations, screens and sounds; Liam's decision, with the takedown risk stated) and Ruffle (the
+  open-source Flash player that runs Elite's cockpit screens).
 
 - `games/blocksworld/play/community/` (about 145 MB, 22,400 small files) is the game's community worlds
   and models: every one players published on the fan server, copied from the archive on this PC by the same

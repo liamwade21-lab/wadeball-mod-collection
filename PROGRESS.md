@@ -1,6 +1,14 @@
 # Progress
 
-## Now (2026-11-23)
+## Now (2026-11-26)
+- Pushed 2026-11-26 (Liam asked for it in the task itself: "clean workspace and carry on with uploading to website"):
+  Sandbox Engine 1.3.0. The entry in `data/mods.js` points at the GitHub Release v1.3.0 zip (823.7 MB), with a ninth
+  feature card (Elite's Sidewinder mod, so the grid is full), two new gallery pictures from a test run of the released
+  zip (`games/sandbox-engine/media/sidewinder.jpg`, `sidewinder-cockpit.jpg`, 115 KB each), the changelog (the
+  Sidewinder mod; the sound cut-off fix), Frontier Developments in the unofficial note and the credits, Ruffle in the
+  credits. Checked in the local preview: version, download link, 9 features, no broken pictures, no errors.
+
+## Earlier (2026-11-23)
 - Pushed 2026-11-23 (commit e110b1a4; Liam: "yes fix it and publish"; live files checked): Blocksworld 1.4.2 = walkers standing in shallow water take
   steps again (liquid water is on its own layer now, as in the original; their feet go to the bottom). Also: taps
   and pulls reach objects under water, phantom blocks rest on ice. `data/mods.js` (1.4.2, changelog) and a rebuilt

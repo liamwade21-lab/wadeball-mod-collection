@@ -152,15 +152,15 @@ window.MODS = [
     name: "Sandbox Engine",
     game: "SpaceEngine",                  // the game it's built on (you need to own it)
     label: "Open-source game",            // optional: replaces the "<game> mod" tag
-    version: "1.2.0",
-    released: "2026-11-13",
-    pitch: "SpaceEngine rewritten from the ground up in Rust: start on Earth's ground with Garry's Mod-style props, physics and weapons, skate it as a Skate 3 skater, then fly off to the whole universe.",
+    version: "1.3.0",
+    released: "2026-11-26",
+    pitch: "SpaceEngine rewritten from the ground up in Rust: start on Earth's ground with Garry's Mod-style props, physics and weapons, skate it as a Skate 3 skater, board Elite Dangerous's Sidewinder, then fly off to the whole universe.",
     accent: "#8b6cff",
-    unofficial: "Unofficial fan project. Not affiliated with or endorsed by SpaceEngine or Cosmographic Software, Valve or Electronic Arts. You need your own copy of SpaceEngine to play.",
+    unofficial: "Unofficial fan project. Not affiliated with or endorsed by SpaceEngine or Cosmographic Software, Valve, Electronic Arts or Frontier Developments. You need your own copy of SpaceEngine to play.",
     cover: "games/sandbox-engine/media/cover.jpg",
 
     // The playable build is a GitHub Release zip (the exe plus its assets folder)
-    download: { url: "https://github.com/liamwade21-lab/Sandbox-Engine/releases/download/v1.2.0/Sandbox-Engine-1.2.0-windows.zip", label: "Sandbox-Engine-1.2.0-windows.zip", size: "610.2 MB" },
+    download: { url: "https://github.com/liamwade21-lab/Sandbox-Engine/releases/download/v1.3.0/Sandbox-Engine-1.3.0-windows.zip", label: "Sandbox-Engine-1.3.0-windows.zip", size: "823.7 MB" },
     source: "https://github.com/liamwade21-lab/Sandbox-Engine",   // optional: "Source code" button
 
     requirements: [
@@ -173,6 +173,7 @@ window.MODS = [
     features: [
       { title: "A sandbox on Earth", text: "Start on foot on Earth's real ground, with Garry's Mod's movement, spawn menu, props, physics, weapons and sounds. Press V to fly." },
       { title: "Skate 3 physics mod", text: "Play as Skate 3's skater anywhere on the planet: the Skate 3 Rust Engine's own physics, flick-it tricks, camera and scoring, with Skate 3's sounds. Gamepad or keyboard and mouse." },
+      { title: "Elite's Sidewinder mod", text: "Spawn Elite Dangerous's starter ship, climb in and fly it by Elite's own rules: flight assist, boost, supercruise and hyperspace jumps between stars, with Elite's cockpit, screens and sounds." },
       { title: "Rewritten in Rust", text: "A ground-up rewrite of SpaceEngine in the Rust programming language." },
       { title: "The whole universe", text: "Fly from a planet's surface out past moons, stars and nebulae to whole galaxies." },
       { title: "Volumetric clouds", text: "Real 3D clouds and nebulae you can fly into, through and above." },
@@ -184,6 +185,8 @@ window.MODS = [
     gallery: [
       { image: "games/sandbox-engine/media/sandbox.jpg",           caption: "The sandbox: a gravity gun and props on Earth's ground" },
       { image: "games/sandbox-engine/media/skate3.jpg",            caption: "The Skate 3 physics mod: a clean ollie in New Zealand" },
+      { image: "games/sandbox-engine/media/sidewinder.jpg",        caption: "The Sidewinder mod: Elite Dangerous's starter ship parked in a field" },
+      { image: "games/sandbox-engine/media/sidewinder-cockpit.jpg", caption: "In the Sidewinder's seat, with Elite's own cockpit screens" },
       { image: "games/sandbox-engine/media/eclipse.jpg",           caption: "Eclipse over a nebula" },
       { image: "games/sandbox-engine/media/civilized-world.jpg",   caption: "A civilized world from orbit" },
       { image: "games/sandbox-engine/media/megacity.jpg",          caption: "Alien megacity under a gas giant" },
@@ -195,9 +198,15 @@ window.MODS = [
       { image: "games/sandbox-engine/media/city-lights.jpg",       caption: "City lights on the night side" }
     ],
 
-    credits: "Props, weapons and sounds from Garry's Mod and Half-Life 2 by Valve. Trees, cars and street props from Megaton Rainfall by Pentadimensional Games. Flying, punching and landing sounds and animations for the Omni-Man mod from the GTA V mod \"Superman V2.2\" by JulioNIB (NIB Mods). The Skate 3 skater, animations, data and sounds from Skate 3 by Electronic Arts; the Skate 3 physics mod is built on the Skate 3 Rust Engine (SK8-ENGINE, GPL-3.0), building on dumbad's and Chasm's Skate 3 research.",
+    credits: "Props, weapons and sounds from Garry's Mod and Half-Life 2 by Valve. Trees, cars and street props from Megaton Rainfall by Pentadimensional Games. Flying, punching and landing sounds and animations for the Omni-Man mod from the GTA V mod \"Superman V2.2\" by JulioNIB (NIB Mods). The Skate 3 skater, animations, data and sounds from Skate 3 by Electronic Arts; the Skate 3 physics mod is built on the Skate 3 Rust Engine (SK8-ENGINE, GPL-3.0), building on dumbad's and Chasm's Skate 3 research. The Sidewinder's model, cockpit, animations, screens and sounds from Elite Dangerous by Frontier Developments; its cockpit screens are run by Ruffle, the open-source Flash player.",
 
     changelog: [
+      { version: "1.3.0", date: "2026-11-26", notes: [
+        "New: the Faulcon DeLacy Sidewinder mod. Spawn Elite Dangerous's starter ship from the Mods tab of the Q menu, walk up to it and press E to climb in, then fly it by Elite's own rules with Elite's default keys: thrusters and flight assist, boost, power pips, heat, shields, lasers, supercruise, the glide down to a planet and hyperspace jumps to other stars.",
+        "The ship is Elite's own: its hull, cockpit, landing gear, lights, pilot's chair and sounds, and Elite's cockpit screens (the flight HUD, the four panels, the scanner and the FSS screen).",
+        "It is a prop like the others: Z undoes it and the physics gun picks it up and throws it. B gets you out anywhere: on or near the ground you step out beside it; higher up or in space the ship disappears and you carry on in free flight.",
+        "Fixed: on PCs whose Windows sound output is set to 176.4 or 192 kHz, all sound could cut off for good while hitting things with the crowbar or playing with props."
+      ]},
       { version: "1.2.0", date: "2026-11-13", notes: [
         "New: the Skate 3 physics mod. Play as Skate 3's skater on his board anywhere on the planet: it runs the Skate 3 Rust Engine's own simulation, copied in unchanged, with Skate 3's pushing, carving, powerslides, flick-it tricks, manuals, bails, walking off the board, camera and scoring, and Skate 3's own sounds. Turn it on from the Mods menu or the Q menu.",
         "Skate 3 controls: a gamepad works the way Skate 3 does; on keyboard and mouse W pushes, A/D steer, S brakes, F gets off, the mouse flicks tricks, Space is an ollie and 1-8 play eight flip tricks.",
